@@ -278,15 +278,7 @@ def parse_porto():
         )
     )
 
-    structured_html = re.sub(
-        r"</(?:article|li|section)>",
-        " JOMIVO_BREAK ",
-        html,
-        flags=re.I,
-    )
-
     raw = text(html)
-    structured_raw = text(structured_html)
 
     months = {
         "jan": 1,
@@ -353,25 +345,7 @@ def parse_porto():
 
     while index < len(matches):
         first = matches[index]
-        previous_date_end = (
-            matches[index - 1].end()
-            if index > 0
-            else 0
-        )
 
-        before_date = clean(
-            structured_raw[
-                previous_date_end:first.start()
-            ],
-            900,
-        )
-        
-        before_parts = [
-            part.strip()
-            for part in before_date.split("JOMIVO_BREAK")
-            if part.strip()
-         ]
-        
         day1 = int(first.group(1))
         month1 = months[first.group(2).lower()]
         year1_raw = first.group(3)
@@ -417,7 +391,7 @@ def parse_porto():
             second = matches[index + 1]
 
             between = clean(
-             structured_raw[first.end():second.start()],
+             raw[first.end():second.start()],
              120,
             )
 
@@ -592,11 +566,10 @@ def parse_porto():
         # O que sobra depois de categoria/tipo é,
         # normalmente, o local do evento.
         
-        venue = (
-            clean(before_parts[-1], 100)
-            if before_parts
-            else ""
-        )
+        venue = clean(
+            after_category,
+            100,
+                )
 
         # Evita locais claramente inválidos.
         if venue.casefold() in {
@@ -1078,7 +1051,133 @@ def extract_aveiro_venue(html):
 
     return ""
 
+def curate_tourist_events(events):
+    exclude_terms = (
+        "aula",
+        "aulas",
+        "curso",
+        "clube de leitura",
+        "clube de poesia",
+        "yoga",
+        "tricot",
+        "serigrafia",
+        "workshop regular",
+        "sessão de cinema",
+        "sessao de cinema",
+    )
 
+    strong_terms = (
+        "festival",
+        "festas",
+        "festa",
+        "feira",
+        "mercado",
+        "concerto",
+        "fado",
+        "gastronomia",
+        "vinho",
+        "prova",
+        "degustação",
+        "degustacao",
+        "são joão",
+        "sao joao",
+        "natal",
+        "passagem de ano",
+        "romaria",
+        "procissão",
+        "procissao",
+        "desfile",
+        "maratona",
+        "corrida",
+        "campeonato",
+        "exposição",
+        "exposicao",
+    )
+
+    curated = []
+
+    for event in events:
+        search_text = " ".join(
+            str(event.get(key, ""))
+            for key in (
+                "name",
+                "type",
+                "desc",
+                "venue",
+            )
+        ).casefold()
+
+        if any(
+            term in search_text
+            for term in exclude_terms
+        ):
+            continue
+
+        if not any(
+            term in search_text
+            for term in strong_terms
+        ):
+            continue
+
+        if any(
+            term in search_text
+            for term in (
+                "gastronomia",
+                "vinho",
+                "prova",
+                "degustação",
+                "degustacao",
+            )
+        ):
+            event["type"] = "Gastronomia"
+
+        elif any(
+            term in search_text
+            for term in (
+                "concerto",
+                "festival de música",
+                "festival de musica",
+                "fado",
+            )
+        ):
+            event["type"] = "Música"
+
+        elif any(
+            term in search_text
+            for term in (
+                "maratona",
+                "corrida",
+                "campeonato",
+                "desporto",
+            )
+        ):
+            event["type"] = "Desporto"
+
+        elif any(
+            term in search_text
+            for term in (
+                "festa",
+                "feira",
+                "mercado",
+                "romaria",
+                "procissão",
+                "procissao",
+                "desfile",
+                "são joão",
+                "sao joao",
+                "natal",
+                "passagem de ano",
+            )
+        ):
+            event["type"] = "Festas & Cultura"
+
+        else:
+            event["type"] = "Outros"
+
+        curated.append(event)
+
+    return curated
+    
 def dedupe(events):
     grouped = {}
 
@@ -1221,6 +1320,7 @@ def main():
                 future.append(event)
 
             future = dedupe(future)
+            future = curate_tourist_events(future)
 
             print(
                 f"{area}: {len(future)} eventos futuros encontrados."
