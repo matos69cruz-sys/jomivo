@@ -280,10 +280,10 @@ def parse_porto():
 
     structured_html = re.sub(
         r"</(?:a|article|div|li|section)>",
-        "\n",
+        " JOMIVO_BREAK ",
         html,
         flags=re.I,
-     )
+    )
 
     raw = text(html)
     structured_raw = text(structured_html)
@@ -353,7 +353,23 @@ def parse_porto():
 
     while index < len(matches):
         first = matches[index]
+        previous_date_end = (
+            matches[index - 1].end()
+            if index > 0
+            else 0
+        )
 
+        before_date = clean(
+            structured_raw[
+                previous_date_end:first.start()
+            ],
+            900,
+        )
+                before_parts = [
+            part.strip()
+            for part in before_date.split("JOMIVO_BREAK")
+            if part.strip()
+                ]
         day1 = int(first.group(1))
         month1 = months[first.group(2).lower()]
         year1_raw = first.group(3)
@@ -573,9 +589,11 @@ def parse_porto():
 
         # O que sobra depois de categoria/tipo é,
         # normalmente, o local do evento.
-        venue = clean(
-            after_category,
-            100,
+        
+        venue = (
+            clean(before_parts[-1], 100)
+            if before_parts
+            else ""
         )
 
         # Evita locais claramente inválidos.
