@@ -350,7 +350,7 @@ def parse_porto():
             match.end():end_pos
         ].strip()
 
-                lines = [
+        lines = [
             clean(line, 180)
             for line in block.splitlines()
             if clean(line, 180)
