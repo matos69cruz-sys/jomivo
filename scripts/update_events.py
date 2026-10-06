@@ -1052,7 +1052,9 @@ def extract_aveiro_venue(html):
     return ""
 
 def curate_tourist_events(events):
-    exclude_terms = (
+    curated = []
+
+    hard_exclude = (
         "aula",
         "aulas",
         "curso",
@@ -1060,41 +1062,63 @@ def curate_tourist_events(events):
         "clube de poesia",
         "yoga",
         "tricot",
-        "serigrafia",
-        "workshop regular",
+        "encadernação",
+        "encadernacao",
+        "oficina",
+        "workshop",
+        "visita orientada",
+        "sessão de escuta",
+        "sessao de escuta",
         "sessão de cinema",
         "sessao de cinema",
     )
 
-    strong_terms = (
+    high_interest = (
         "festival",
-        "festas",
-        "festa",
-        "feira",
-        "mercado",
+        "fimp",
         "concerto",
         "fado",
-        "gastronomia",
-        "vinho",
-        "prova",
-        "degustação",
-        "degustacao",
+        "feira",
+        "romaria",
         "são joão",
         "sao joao",
-        "natal",
         "passagem de ano",
-        "romaria",
-        "procissão",
-        "procissao",
-        "desfile",
+        "gastronomia",
+        "degustação",
+        "degustacao",
+        "prova de vinhos",
+        "vinhos à prova",
+        "vinhos a prova",
         "maratona",
-        "corrida",
-        "campeonato",
-        "exposição",
-        "exposicao",
+        "city race",
     )
 
-    curated = []
+    tourist_venues = (
+        "casa da música",
+        "casa da musica",
+        "coliseu",
+        "super bock arena",
+        "mercado do bolhão",
+        "mercado do bolhao",
+        "serralves",
+        "palácio de cristal",
+        "palacio de cristal",
+        "alfândega",
+        "alfandega",
+        "ribeira",
+    )
+
+    low_interest = (
+        "inauguração",
+        "inauguracao",
+        "mostra de livros",
+        "jam session",
+        "solidário",
+        "solidario",
+        "bingo",
+        "palestra",
+        "conversa",
+    )
 
     for event in events:
         search_text = " ".join(
@@ -1107,24 +1131,34 @@ def curate_tourist_events(events):
             )
         ).casefold()
 
-        if any(
-            term in search_text
-            for term in exclude_terms
-        ):
+        if any(term in search_text for term in hard_exclude):
             continue
 
-        if not any(
-            term in search_text
-            for term in strong_terms
-        ):
+        score = 0
+
+        if any(term in search_text for term in high_interest):
+            score += 3
+
+        if any(term in search_text for term in tourist_venues):
+            score += 2
+
+        if any(term in search_text for term in low_interest):
+            score -= 2
+
+        if "exposição" in search_text or "exposicao" in search_text:
+            score += 1
+
+        if "filme" in search_text or "cinema" in search_text:
+            score -= 2
+
+        if score < 3:
             continue
 
         if any(
             term in search_text
             for term in (
-                "gastronomia",
                 "vinho",
-                "prova",
+                "gastronomia",
                 "degustação",
                 "degustacao",
             )
@@ -1135,9 +1169,9 @@ def curate_tourist_events(events):
             term in search_text
             for term in (
                 "concerto",
-                "festival de música",
-                "festival de musica",
                 "fado",
+                "música",
+                "musica",
             )
         ):
             event["type"] = "Música"
@@ -1146,9 +1180,10 @@ def curate_tourist_events(events):
             term in search_text
             for term in (
                 "maratona",
+                "city race",
                 "corrida",
+                "triatlo",
                 "campeonato",
-                "desporto",
             )
         ):
             event["type"] = "Desporto"
@@ -1156,16 +1191,12 @@ def curate_tourist_events(events):
         elif any(
             term in search_text
             for term in (
-                "festa",
+                "festival",
+                "fimp",
                 "feira",
-                "mercado",
                 "romaria",
-                "procissão",
-                "procissao",
-                "desfile",
                 "são joão",
                 "sao joao",
-                "natal",
                 "passagem de ano",
             )
         ):
@@ -1173,6 +1204,11 @@ def curate_tourist_events(events):
 
         else:
             event["type"] = "Outros"
+
+        # Os locais do parser do Porto ainda não são
+        # suficientemente fiáveis para serem mostrados.
+        if event.get("area") == "Porto":
+            event["venue"] = ""
 
         curated.append(event)
 
