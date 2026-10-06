@@ -1,0 +1,49 @@
+{
+  "updated": "2026-10-06",
+  "events": [
+    {
+      "name": "PRISMA / Art Light Tech",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "type": "Festival",
+      "start": "2026-10-07",
+      "end": "2026-10-10",
+      "date": "7–10 Out",
+      "desc": "Festival dedicado à luz, arte e tecnologia.",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
+    },
+    {
+      "name": "Artes no Canal",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "type": "Feira / Mercado",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "Artesanato, artes plásticas, ourivesaria e outros criadores no centro de Aveiro.",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
+    },
+    {
+      "name": "José Pinhal Post-Mortem Experience",
+      "area": "Porto",
+      "city": "Porto",
+      "type": "Música",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "date": "9 Out",
+      "desc": "Concerto de despedida no Coliseu Porto Ageas, em destaque na Agenda Porto de outubro.",
+      "url": "https://www.agoraporto.pt/noticias/edicao-de-outubro-da-agenda-porto-com-planos-e-propostas-para-todos"
+    },
+    {
+      "name": "Blues Juke Joint Weekend",
+      "area": "Porto",
+      "city": "Porto",
+      "type": "Festival / Dança",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "date": "9–11 Out",
+      "desc": "Fim de semana dedicado à dança blues, destacado na Agenda Porto.",
+      "url": "https://www.agoraporto.pt/noticias/edicao-de-outubro-da-agenda-porto-com-planos-e-propostas-para-todos"
+    }
+  ]
+}
