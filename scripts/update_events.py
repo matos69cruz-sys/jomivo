@@ -279,7 +279,7 @@ def parse_porto():
     )
 
     structured_html = re.sub(
-        r"</(?:a|article|div|li|section)>",
+        r"</(?:article|li|section)>",
         " JOMIVO_BREAK ",
         html,
         flags=re.I,
