@@ -880,7 +880,7 @@ def extract_aveiro_venue(html):
 
 
 def dedupe(events):
-    unique = {}
+    grouped = {}
 
     for event in events:
         if (
@@ -890,33 +890,87 @@ def dedupe(events):
         ):
             continue
 
-        key = (
+        # Normaliza o nome para conseguir reconhecer
+        # o mesmo evento em dias diferentes.
+        normalized_name = re.sub(
+            r"\s+",
+            " ",
             event["name"].casefold(),
-            event["start"],
-            event["area"],
+        ).strip()
+
+        normalized_venue = re.sub(
+            r"\s+",
+            " ",
+            (event.get("venue") or "").casefold(),
+        ).strip()
+
+        key = (
+            normalized_name,
+            event.get("area", ""),
+            normalized_venue,
         )
 
-        old = unique.get(key)
+        old = grouped.get(key)
 
         if old is None:
-            unique[key] = event
+            grouped[key] = event.copy()
             continue
 
-        # Preferimos o registo com mais informação.
-        old_score = sum(
-            bool(old.get(field))
-            for field in ("venue", "desc", "url")
-        )
+        try:
+            old_start = date.fromisoformat(old["start"])
+            old_end = date.fromisoformat(old["end"])
+            new_start = date.fromisoformat(event["start"])
+            new_end = date.fromisoformat(event["end"])
+        except (ValueError, TypeError):
+            continue
 
-        new_score = sum(
-            bool(event.get(field))
-            for field in ("venue", "desc", "url")
-        )
+        # Só juntamos ocorrências suficientemente próximas.
+        # Isto evita unir, por exemplo, duas edições do mesmo
+        # evento separadas por vários meses.
+        earliest = min(old_start, new_start)
+        latest = max(old_end, new_end)
 
-        if new_score > old_score:
-            unique[key] = event
+        if (latest - earliest).days > 31:
+            separate_key = (
+                normalized_name,
+                event.get("area", ""),
+                normalized_venue,
+                event["start"],
+            )
 
-    return list(unique.values())
+            grouped[separate_key] = event.copy()
+            continue
+
+        old["start"] = earliest.isoformat()
+        old["end"] = latest.isoformat()
+
+        # Mantém o registo que tiver a informação mais útil.
+        for field in (
+            "venue",
+            "type",
+            "desc",
+            "url",
+            "source",
+        ):
+            if (
+                not old.get(field)
+                and event.get(field)
+            ):
+                old[field] = event[field]
+
+        # Atualiza também a etiqueta de data.
+        if earliest == latest:
+            old["date"] = date_label(
+                earliest.isoformat(),
+                latest.isoformat(),
+            )
+        else:
+            old["date"] = date_label(
+                earliest.isoformat(),
+                latest.isoformat(),
+            )
+
+    return list(grouped.values())
 
 
 def load_existing():
