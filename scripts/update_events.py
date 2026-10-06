@@ -440,7 +440,7 @@ def parse_porto():
             body_end = matches[next_index].start()
         else:
             body_end = min(
-                len(structured_raw)
+                len(structured_raw), 
                 body_start + 900,
             )
 
