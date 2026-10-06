@@ -266,8 +266,19 @@ def parse_porto():
         attempts=1,
     )
 
-    raw = text(html)
     events = []
+
+    # Mantém suporte a eventos estruturados.
+    events.extend(
+        jsonld_events(
+            area,
+            city,
+            source,
+            html,
+        )
+    )
+
+    raw = text(html)
 
     months = {
         "jan": 1,
@@ -286,181 +297,227 @@ def parse_porto():
 
     today = date.today()
 
-    # Um cartão da Agenda Porto começa pelo local,
-    # seguido da data inicial e, quando existe,
-    # da data final + ano.
-    card_pattern = re.compile(
-        r"(?P<venue>[^\n]{2,120})\n+"
-        r"(?P<day1>\d{1,2})\n+"
-        r"(?P<month1>Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)"
-        r"(?:\n+"
-        r"(?P<day2>\d{1,2})\n+"
-        r"(?P<month2>Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)"
-        r"\n+(?P<year2>20\d{2}))?"
-        r"\n+(?P<body>.*?)(?="
-        r"\n+[^\n]{2,120}\n+"
-        r"\d{1,2}\n+"
-        r"(?:Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)"
-        r"|\Z)",
-        re.I | re.S,
+    # Este é o formato que já provámos que a página
+    # entrega corretamente ao coletor: "06 Out".
+    date_pattern = re.compile(
+        r"\b(0?[1-9]|[12]\d|3[01])\s+"
+        r"(Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)"
+        r"(?:\s+(20\d{2}))?\b",
+        re.I,
     )
 
-    matches = list(card_pattern.finditer(raw))
+    matches = list(date_pattern.finditer(raw))
 
     print(
-        f"Porto: {len(matches)} cartões encontrados na agenda."
+        f"Porto: {len(matches)} datas encontradas na agenda."
     )
 
     category_map = [
-        ("Cinema", ("cinema",)),
-        ("Teatro", ("palcos",)),
-        ("Exposição", ("arte e exposições",)),
-        ("Conversas", ("conversas",)),
-        ("Desporto", ("desporto e movimento",)),
-        ("Família", ("famílias",)),
-        ("Música", ("música e clubbing",)),
+        ("Cinema", ("cinema", "filme")),
+        ("Teatro", ("palcos", "teatro", "performance")),
+        ("Exposição", ("artes visuais", "exposição")),
+        ("Dança", ("dança", "danca")),
+        ("Literatura", ("literatura",)),
+        ("Família", ("famílias", "familia")),
+        ("Desporto", ("desporto", "movimento")),
+        ("Conversas", ("conversas", "palestra")),
+        ("Música", ("música", "musica", "clubbing", "concerto")),
     ]
 
-    ignored = {
-        "gratuito",
-        "pago",
+    category_terms = (
+        "música e clubbing",
+        "artes visuais",
+        "desporto e movimento",
+        "cinema",
+        "palcos",
+        "literatura",
+        "famílias",
+        "conversas",
         "concerto",
         "filme",
         "exposição",
-        "oficina",
-        "aula",
-        "dança",
+        "performance",
         "teatro",
-        "leitura",
-        "festa",
-        "palestra",
-        "conversa",
-        "provas",
-        "escuta",
-        "ar livre",
-    }
+        "dança",
+    )
 
-    for match in matches:
-        venue = clean(
-            match.group("venue"),
-            100,
+    index = 0
+
+    while index < len(matches):
+        first = matches[index]
+
+        day1 = int(first.group(1))
+        month1 = months[first.group(2).lower()]
+        year1_raw = first.group(3)
+
+        year1 = (
+            int(year1_raw)
+            if year1_raw
+            else today.year
         )
-
-        day1 = int(match.group("day1"))
-        month1 = months[
-            match.group("month1").lower()
-        ]
-
-        day2_raw = match.group("day2")
-        month2_raw = match.group("month2")
-        year2_raw = match.group("year2")
-
-        if year2_raw:
-            year = int(year2_raw)
-        else:
-            year = today.year
-
-            try:
-                probe = date(
-                    year,
-                    month1,
-                    day1,
-                )
-
-                if probe < today - timedelta(days=30):
-                    year += 1
-            except ValueError:
-                continue
 
         try:
             start_date = date(
-                year,
+                year1,
                 month1,
                 day1,
             )
         except ValueError:
+            index += 1
             continue
 
-        end_date = start_date
-
         if (
-            day2_raw
-            and month2_raw
+            not year1_raw
+            and start_date < today - timedelta(days=30)
         ):
             try:
-                end_date = date(
-                    int(year2_raw or year),
-                    months[month2_raw.lower()],
-                    int(day2_raw),
+                start_date = date(
+                    year1 + 1,
+                    month1,
+                    day1,
                 )
             except ValueError:
-                end_date = start_date
+                index += 1
+                continue
 
-        body = match.group("body")
+        end_date = start_date
+        body_start = first.end()
+        consumed = 1
+
+        # Se a data seguinte estiver imediatamente junto
+        # da primeira, tratamo-la como a data FINAL do
+        # mesmo cartão, e não como outro evento.
+        if index + 1 < len(matches):
+            second = matches[index + 1]
+
+            between = clean(
+                raw[first.end():second.start()],
+                120,
+            )
+
+            if len(between) <= 8:
+                day2 = int(second.group(1))
+                month2 = months[
+                    second.group(2).lower()
+                ]
+                year2_raw = second.group(3)
+
+                year2 = (
+                    int(year2_raw)
+                    if year2_raw
+                    else start_date.year
+                )
+
+                try:
+                    possible_end = date(
+                        year2,
+                        month2,
+                        day2,
+                    )
+
+                    gap = (
+                        possible_end - start_date
+                    ).days
+
+                    if 0 <= gap <= 31:
+                        end_date = possible_end
+                        body_start = second.end()
+                        consumed = 2
+                except ValueError:
+                    pass
+
+        next_index = index + consumed
+
+        if next_index < len(matches):
+            body_end = matches[next_index].start()
+        else:
+            body_end = min(
+                len(raw),
+                body_start + 900,
+            )
+
+        block = raw[
+            body_start:body_end
+        ].strip()
 
         lines = [
             clean(line, 180)
-            for line in body.splitlines()
+            for line in block.splitlines()
             if clean(line, 180)
         ]
 
         if not lines:
+            index += consumed
             continue
 
-        category = "Evento"
-
-        body_lower = body.casefold()
-
-        for category_name, words in category_map:
-            if any(
-                word.casefold() in body_lower
-                for word in words
-            ):
-                category = category_name
-                break
-
-        useful = []
+        cleaned_lines = []
 
         for line in lines:
-            low = line.casefold()
+            value = line.strip()
 
-            if low in ignored:
+            if value.casefold() in {
+                "gratuito",
+                "pago",
+                "evento",
+                "hoje",
+                "próximos eventos",
+                "saber mais",
+                "ver evento",
+            }:
                 continue
 
-            if any(
-                word.casefold() == low
-                for _, words in category_map
-                for word in words
-            ):
-                continue
+            for term in category_terms:
+                value = re.sub(
+                    r"\s+" + re.escape(term) + r"\s*$",
+                    "",
+                    value,
+                    flags=re.I,
+                ).strip()
 
-            if low.startswith("image:"):
-                continue
+            if value:
+                cleaned_lines.append(value)
 
-            useful.append(line)
-
-        if not useful:
+        if not cleaned_lines:
+            index += consumed
             continue
 
-        title = useful[0]
+        title = cleaned_lines[0]
 
         if (
             len(title) < 3
             or len(title) > 160
         ):
+            index += consumed
             continue
 
         description = ""
 
-        if len(useful) > 1:
-            description = useful[1]
+        for candidate in cleaned_lines[1:]:
+            if (
+                candidate.casefold()
+                != title.casefold()
+                and len(candidate) >= 15
+            ):
+                description = candidate
+                break
+
+        category = "Evento"
+        block_lower = block.casefold()
+
+        for category_name, words in category_map:
+            if any(
+                word.casefold() in block_lower
+                for word in words
+            ):
+                category = category_name
+                break
 
         events.append(
             make_event(
                 name=title,
                 area=area,
                 city=city,
-                venue=venue,
+                venue="",
                 event_type=category,
                 start=start_date.isoformat(),
                 end=end_date.isoformat(),
@@ -469,6 +526,8 @@ def parse_porto():
                 source=source,
             )
         )
+
+        index += consumed
 
     events = dedupe(events)
 
