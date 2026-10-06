@@ -41,11 +41,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Mike Stern Band com Dennis Chambers, Leni Stern, Chris Minh Doky e Bob Franceschi... Música e clubbing Concerto Bamu Zun",
+      "name": "Mike Stern Band com Dennis Chambers, Leni Stern, Chris Minh Doky e Bob Franceschi... Música e clubbing Concerto Cinema T",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Cinema",
       "start": "2026-10-06",
       "end": "2026-10-06",
       "date": "6 Out",
@@ -54,11 +54,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "O Laço Branco, de Michael Haneke Palma de Ouro no Festival de Cannes 2009 Cinema Filme Casa da Música",
+      "name": "O Laço Branco, de Michael Haneke Palma de Ouro no Festival de Cannes 2009 Cinema Filme Bamu Zunta Mon",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Cinema",
       "start": "2026-10-06",
       "end": "2026-10-06",
       "date": "6 Out",
@@ -67,7 +67,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Porta Jazz apresenta: Nuno Trocado + Den... Jazz à Mesa Música e clubbing Concerto Cinema Trindade",
+      "name": "Porta Jazz apresenta: Nuno Trocado + Den... Jazz à Mesa Música e clubbing Concerto Casa da Música",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -98,6 +98,19 @@
       "city": "Porto",
       "venue": "",
       "type": "Exposição",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "date": "6 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Um Livro... uma Pessoa... uma Mensagem, ... Conversa em torno do livro Notícia do Paraíso, de David Lodge Conversas Grat",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Literatura",
       "start": "2026-10-06",
       "end": "2026-10-06",
       "date": "6 Out",
@@ -145,7 +158,7 @@
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
-      "name": "A Lemonade Stand-up Comedy Noite de comédia em inglês Palcos Gratuito Comédia Coliseu Porto Ageas",
+      "name": "A Lemonade Stand-up Comedy Noite de comédia em inglês Palcos Gratuito Comédia Teatro Sá da Bandeira",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -158,11 +171,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Amor, de Michael Haneke Drama Cinema Filme Casa da Música",
+      "name": "Amor, de Michael Haneke Drama Cinema Filme Passos Manuel",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Cinema",
       "start": "2026-10-07",
       "end": "2026-10-07",
       "date": "7 Out",
@@ -171,11 +184,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Conversas Filosóficas — Horizontalidade ... O Comum no Século XXI Conversas Gratuito Ar livre Casa da Música",
+      "name": "Conversas Filosóficas — Horizontalidade ... O Comum no Século XXI Conversas Gratuito Ar livre Look Sharp Café",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Conversas",
       "start": "2026-10-07",
       "end": "2026-10-07",
       "date": "7 Out",
@@ -197,11 +210,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Flippeur Garage e synth-punk Música e clubbing Concerto Look Sharp Café",
+      "name": "Flippeur Garage e synth-punk Música e clubbing Concerto Cinema Trindade",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Cinema",
       "start": "2026-10-07",
       "end": "2026-10-07",
       "date": "7 Out",
@@ -214,7 +227,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Cinema",
       "start": "2026-10-07",
       "end": "2026-10-07",
       "date": "7 Out",
@@ -223,11 +236,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Hora de Ponta Tema: Séries Conversas Gratuito Escuta Clube de Desenho",
+      "name": "Hora de Ponta Tema: Séries Conversas Gratuito Escuta Cinema Trindade",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Conversas",
+      "type": "Cinema",
       "start": "2026-10-07",
       "end": "2026-10-07",
       "date": "7 Out",
@@ -249,7 +262,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Je Tu Il Elle, de Chantal Akerman Drama Cinema Filme Fonoteca Municipal do Porto",
+      "name": "Je Tu Il Elle, de Chantal Akerman Drama Cinema Filme Clube de Desenho",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -275,7 +288,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Meninos do Coro Concerto Solidário – Associação Vida Norte Música e clubbing Concerto Bamu Zunta Mon",
+      "name": "Meninos do Coro Concerto Solidário – Associação Vida Norte Música e clubbing Concerto Casa da Música",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -288,7 +301,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Natal Amargo, de Pedro Almodóvar Comédia / Drama Cinema Filme Passos Manuel",
+      "name": "Natal Amargo, de Pedro Almodóvar Comédia / Drama Cinema Filme Casa da Música",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -379,11 +392,11 @@
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
-      "name": "Café-Europa Exposição coletiva de AraújoMota___, José Taborda, Mariana Vilano... Arte e exposições Gratuito Exposição Po",
+      "name": "Café-Europa Exposição coletiva de AraújoMota___, José Taborda, Mariana Vilano... Arte e exposições Gratuito Exposição TN",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Teatro",
       "start": "2026-10-08",
       "end": "2026-10-08",
       "date": "8 Out",
@@ -392,11 +405,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Criptozoologia: Pinta o Yeti, Unicórnios... Oficina de pintura Arte e exposições Oficina TNSJ — Teatro Nacional de São J",
+      "name": "Criptozoologia: Pinta o Yeti, Unicórnios... Oficina de pintura Arte e exposições Oficina The Alchemist",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Evento",
       "start": "2026-10-08",
       "end": "2026-10-08",
       "date": "8 Out",
@@ -405,7 +418,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Heat, de Michael Mann Era uma vez no Passos Era uma vez no Passos Cinema Filme Maus Hábitos",
+      "name": "Heat, de Michael Mann Era uma vez no Passos Era uma vez no Passos Cinema Filme Era uma vez no Porto",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -457,7 +470,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Primetime, de Lance Oppenheim Sessão de estreia Cinema Filme Era uma vez no Porto",
+      "name": "Primetime, de Lance Oppenheim Sessão de estreia Cinema Filme Passos Manuel",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -487,7 +500,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Cinema",
       "start": "2026-10-08",
       "end": "2026-10-08",
       "date": "8 Out",
@@ -496,7 +509,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Wasp + Fish Tank de Andrea Arnold Andrea Arnold Cinema Filme Passos Manuel",
+      "name": "Wasp + Fish Tank de Andrea Arnold Andrea Arnold Cinema Filme Maus Hábitos",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -526,7 +539,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Evento",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "date": "9 Out",
@@ -535,7 +548,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Batidão Baile Funk com Pyrats e Kebraku Música e clubbing Festa Filmesdamente",
+      "name": "Batidão Baile Funk com Pyrats e Kebraku Música e clubbing Festa Oficina Mescla",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -548,7 +561,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "before I died, de Danai Anastasopoulou Festival Décimas Festival Décimas Palcos Gratuito Performance Spazio Harmónico",
+      "name": "before I died, de Danai Anastasopoulou Festival Décimas Festival Décimas Palcos Gratuito Performance Sonoscopia Associaç",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -587,11 +600,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Greg Malcolm & Jenny Ward Microvolumes 4.89 Música e clubbing Famílias Concerto Escola Utopia",
+      "name": "Greg Malcolm & Jenny Ward Microvolumes 4.89 Música e clubbing Famílias Concerto FISGA Warehouse",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Família",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "date": "9 Out",
@@ -600,7 +613,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Histoires d’Amérique, de Chantal Akerman Comédia dramática Cinema Filme Núcleo da Alfândega do Museu do Porto",
+      "name": "Histoires d’Amérique, de Chantal Akerman Comédia dramática Cinema Filme Museu Nacional Soares dos Reis",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -626,7 +639,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Jam Session Porta-Jazz Anfitrião: João Almeida Música e clubbing Concerto Era uma vez em Paris",
+      "name": "Jam Session Porta-Jazz Anfitrião: João Almeida Música e clubbing Concerto Coliseu Porto Ageas",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -639,7 +652,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "José Pinhal Post-Mortem Experience Concerto de despedida Música e clubbing Concerto TeCA — Teatro Carlos Alberto",
+      "name": "José Pinhal Post-Mortem Experience Concerto de despedida Música e clubbing Concerto Era uma vez em Paris",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -652,7 +665,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Quiz Night com Mara Melão e pop-up de André Cabrita Conversas Jogos Sonoscopia Associação",
+      "name": "Quiz Night com Mara Melão e pop-up de André Cabrita Conversas Jogos Spazio Harmónico",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -691,11 +704,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Rui Veloso Trio Formato intimista Música e clubbing Concerto TeCA — Teatro Carlos Alberto",
+      "name": "Rui Veloso Trio Formato intimista Música e clubbing Concerto Batalha Centro de",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Cinema",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "date": "9 Out",
@@ -704,7 +717,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Serenata de Mozart Orquestra Sinfónica do Porto Casa da Música Música e clubbing Concerto Maus Hábitos",
+      "name": "Serenata de Mozart Orquestra Sinfónica do Porto Casa da Música Música e clubbing Concerto Super Bock Arena — Pavilhão Ro",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -743,11 +756,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Teatro do Labirinto Sensorial Festival Décimas Palcos Performance Cinema Trindade",
+      "name": "Teatro do Labirinto Sensorial Festival Décimas Palcos Performance Térmita",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Cinema",
+      "type": "Teatro",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "date": "9 Out",
@@ -760,7 +773,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Evento",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "date": "9 Out",
@@ -782,7 +795,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Trem Bão Forró Oficina e baile Música e clubbing Oficina Super Bock Arena — Pavilhão Rosa Mota",
+      "name": "Trem Bão Forró Oficina e baile Música e clubbing Oficina Maus Hábitos",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -795,11 +808,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Vargas + Budapest Fight Club Live music e DJ set Música e clubbing Festa Coliseu Porto Ageas",
+      "name": "Vargas + Budapest Fight Club Live music e DJ set Música e clubbing Festa TeCA — Teatro Carlos Alberto",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Teatro",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "date": "9 Out",
@@ -808,11 +821,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Xico Gaiato Projeto musical e performativo de Francisco Barata Música e clubbing Concerto Batalha Centro de Cinema",
+      "name": "Xico Gaiato Projeto musical e performativo de Francisco Barata Música e clubbing Concerto TeCA — Teatro Carlos Alberto",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Teatro",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "date": "9 Out",
@@ -877,7 +890,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Família",
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
@@ -916,7 +929,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Evento",
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
@@ -925,7 +938,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Biodanza Aula com Constança Carvalho Homem Desporto e movimento Aula Biblioteca Municipal Almeida Garrett",
+      "name": "Biodanza Aula com Constança Carvalho Homem Desporto e movimento Aula Sociedade de Tiro do Porto",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -977,7 +990,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Cerâmica em Família Oficina criativa Famílias Oficina Fonoteca Municipal do Porto",
+      "name": "Cerâmica em Família Oficina criativa Famílias Oficina Biblioteca Municipal Almeida Garrett",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -990,11 +1003,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Encadernação Japonesa Oficina com Alfaiate do Livro Arte e exposições Oficina Vários locais",
+      "name": "Encadernação Japonesa Oficina com Alfaiate do Livro Arte e exposições Oficina Filmesdamente",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Cinema",
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
@@ -1016,7 +1029,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Fimpalitos Oficina para crianças fimp'26 — Festival Internacional de Marionetas do Porto Famílias Gratuito Oficina Serra",
+      "name": "Fimpalitos Oficina para crianças fimp'26 — Festival Internacional de Marionetas do Porto Famílias Gratuito Oficina Ofici",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1042,7 +1055,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "O Saber do Cinema — Sessão 1 Cinema e conversas com programação e moderação de Regina Guimarãe... Cinema Filme Oficina M",
+      "name": "O Saber do Cinema — Sessão 1 Cinema e conversas com programação e moderação de Regina Guimarãe... Cinema Filme TeCA — Te",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1068,11 +1081,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Ondas e Confissões Monólogos com sotaque Festival Décimas Palcos Performance Galeria PLATO",
+      "name": "Ondas e Confissões Monólogos com sotaque Festival Décimas Palcos Performance Batalha Centro de",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Teatro",
+      "type": "Cinema",
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
@@ -1098,19 +1111,6 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Prazer Mais Oficina com A Rapariga que Lia o Kamasutra Conversas Oficina TMP — Rivoli",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
       "type": "Conversas",
       "start": "2026-10-10",
       "end": "2026-10-10",
@@ -1120,11 +1120,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Prazeres Mutáveis, de Teresa TAF e Tiago... Exposição Arte e exposições Gratuito Exposição Batalha Centro de Cinema",
+      "name": "Prazeres Mutáveis, de Teresa TAF e Tiago... Exposição Arte e exposições Gratuito Exposição Amparo 99",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Cinema",
+      "type": "Exposição",
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
@@ -1133,7 +1133,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Sábados a Contar Hora do Conto com Helena Vieira, Cláudia Neves e Verónica Magalhã... Famílias Gratuito Leitura PAZ — Pe",
+      "name": "Sábados a Contar Hora do Conto com Helena Vieira, Cláudia Neves e Verónica Magalhã... Famílias Gratuito Leitura Fonoteca",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1146,7 +1146,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "The Cradle + Larie + Sofi Naufal Tarde de concertos Música e clubbing Concerto Galeria PLATO",
+      "name": "The Cradle + Larie + Sofi Naufal Tarde de concertos Música e clubbing Concerto Serralves",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1163,7 +1163,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Teatro",
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
@@ -1189,7 +1189,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Dança",
       "start": "2026-10-11",
       "end": "2026-10-11",
       "date": "11 Out",
@@ -1211,11 +1211,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Porto City Race Prova de orientação Desporto e movimento Provas Balleteatro",
+      "name": "2026 Porto City Race Prova de orientação Desporto e movimento Provas Serralves",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Teatro",
+      "type": "Desporto",
       "start": "2026-10-11",
       "end": "2026-10-11",
       "date": "11 Out",
@@ -1224,7 +1224,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Realização de Cinema Aprende a realizar em equipa, da linguagem audiovisual à direção ... Cinema Oficina Oficina Me",
+      "name": "2026 Realização de Cinema Aprende a realizar em equipa, da linguagem audiovisual à direção ... Cinema Oficina Balleteatr",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1289,7 +1289,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 O Pai, de August Strindberg com encenação de Gonçalo Waddington Palcos Teatro The Alchemist",
+      "name": "2026 O Pai, de August Strindberg com encenação de Gonçalo Waddington Palcos Teatro Portal",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1302,7 +1302,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Afro Jazz Aulas com Edmilson Botelho Desporto e movimento Aula Oficina Mescla",
+      "name": "2026 Afro Jazz Aulas com Edmilson Botelho Desporto e movimento Aula INSTITUTO",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1328,7 +1328,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Yin Yoga Uma pausa no ritmo acelerado do dia a dia Desporto e movimento Aula FISGA Warehouse",
+      "name": "2026 Yin Yoga Uma pausa no ritmo acelerado do dia a dia Desporto e movimento Aula Escola Utopia",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1345,7 +1345,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Desporto",
       "start": "2026-10-27",
       "end": "2026-10-27",
       "date": "27 Out",
@@ -1380,11 +1380,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 SeriTerças Curso de serigrafia (nível I) Arte e exposições Oficina PAZ — Performance Arts Zone",
+      "name": "2026 SeriTerças Curso de serigrafia (nível I) Arte e exposições Oficina Biblioteca de Autores Portuenses",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Exposição",
+      "type": "Evento",
       "start": "2026-10-27",
       "end": "2026-10-27",
       "date": "27 Out",
@@ -1397,7 +1397,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Desporto",
+      "type": "Dança",
       "start": "2026-10-27",
       "end": "2026-10-27",
       "date": "27 Out",
@@ -1423,7 +1423,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Desporto",
+      "type": "Dança",
       "start": "2026-10-28",
       "end": "2026-10-28",
       "date": "28 Out",
@@ -1445,11 +1445,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Blues a Pares Aulas para iniciados, com Edmilson Botelho e Maria Vasquez Desporto e movimento Aula Teatro Sá da Ban",
+      "name": "2026 Blues a Pares Aulas para iniciados, com Edmilson Botelho e Maria Vasquez Desporto e movimento Aula Coliseu Porto Ag",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Teatro",
+      "type": "Desporto",
       "start": "2026-10-28",
       "end": "2026-10-28",
       "date": "28 Out",
@@ -1458,7 +1458,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Solo Blues Aulas de nível Intermédio, com Edmilson Botelho Desporto e movimento Aula Batalha Centro de Cinema",
+      "name": "2026 Solo Blues Aulas de nível Intermédio, com Edmilson Botelho Desporto e movimento Aula Batalha Centro de",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1471,11 +1471,11 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Solo Blues Aulas para iniciados, com Edmilson Botelho Desporto e movimento Aula Cinema Trindade",
+      "name": "2026 Solo Blues Aulas para iniciados, com Edmilson Botelho Desporto e movimento Aula Fonoteca Municipal do Porto",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Cinema",
+      "type": "Desporto",
       "start": "2026-10-28",
       "end": "2026-10-28",
       "date": "28 Out",
@@ -1562,6 +1562,19 @@
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
+      "name": "2026 Contra-Escarpa, de Paulo Brighenti e Dav... Exposição com curadoria de Óscar Faria Arte e exposições Exposição Cine",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Cinema",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "2024 \"Escutar\" Edição #",
       "area": "Porto",
       "city": "Porto",
@@ -1575,7 +1588,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Prazeres Mutáveis, de Teresa TAF e Tiago... Exposição Arte e exposições Gratuito Exposição Serralves",
+      "name": "2026 Prazeres Mutáveis, de Teresa TAF e Tiago... Exposição Arte e exposições Gratuito Exposição O LUGAR da Palmilha Dent",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1718,7 +1731,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 Travessia Mostra de livros de artista criados por pessoas com experiência d... Arte e exposições Exposição Museu Na",
+      "name": "2026 Travessia Mostra de livros de artista criados por pessoas com experiência d... Arte e exposições Exposição Núcleo d",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -1731,7 +1744,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "2026 From Page To The Stage Curso de criação artística para crianças dos 6 aos 12 anos Famílias Oficina INSTITUTO",
+      "name": "2026 From Page To The Stage Curso de criação artística para crianças dos 6 aos 12 anos Famílias Oficina Bamu Zunta Mon",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
