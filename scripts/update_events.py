@@ -278,7 +278,15 @@ def parse_porto():
         )
     )
 
+    structured_html = re.sub(
+        r"</(?:a|article|div|li|section)>",
+        "\n",
+        html,
+        flags=re.I,
+     )
+
     raw = text(html)
+    structured_raw = text(structured_html)
 
     months = {
         "jan": 1,
@@ -306,7 +314,7 @@ def parse_porto():
         re.I,
     )
 
-    matches = list(date_pattern.finditer(raw))
+    matches = list(date_pattern.finditer(structured_raw))
 
     print(
         f"Porto: {len(matches)} datas encontradas na agenda."
@@ -391,8 +399,8 @@ def parse_porto():
             second = matches[index + 1]
 
             between = clean(
-                raw[first.end():second.start()],
-                120,
+             structured_raw[first.end():second.start()],
+             120,
             )
 
             if len(between) <= 8:
@@ -432,11 +440,11 @@ def parse_porto():
             body_end = matches[next_index].start()
         else:
             body_end = min(
-                len(raw),
+                len(structured_raw)
                 body_start + 900,
             )
 
-        block = raw[
+        block = structured_raw[
             body_start:body_end
         ].strip()
 
