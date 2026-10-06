@@ -2,7 +2,20 @@
   "updated": "2026-10-06",
   "events": [
     {
-      "name": "Porta Jazz apresenta: Nuno Trocado + Den... Jazz à Mesa",
+      "name": "Gastronomia | Conversas d’Alguidar",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-10-06",
+      "end": "2026-11-05",
+      "date": "6 Out – 5 Nov",
+      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-97",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
+    },
+    {
+      "name": "Kodu Percussion Group We Are Still on the Move",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -15,30 +28,30 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Reconfigurar o Arquivo, de Patrícia Barb... Fotografia e tropicalidade no Arquivo Científico Tropical Digital",
+      "name": "Mike Stern Band com Dennis Chambers, Leni Stern, Chris Minh Doky e Bob Franceschi...",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Outros",
+      "type": "Música",
       "start": "2026-10-06",
       "end": "2026-10-06",
       "date": "6 Out",
-      "desc": "Exposição",
+      "desc": "Concerto",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "PRISMA / Art Light Tech",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "Teatro Aveirense 7323 Património Edificado 8786 Museus de Aveiro 3709 Museu de Aveiro / Santa Jo",
-      "type": "Festas & Cultura",
-      "start": "2026-10-07",
-      "end": "2026-10-10",
-      "date": "7–10 Out",
-      "desc": "O Prisma / Art Light Tech decorre entre os dias 7 e 10 de outubro em Aveiro, sendo um festival que assume a luz como seu elemento central, ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/prisma-art-light-tech",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
+      "name": "Porta Jazz apresenta: Nuno Trocado + Den... Jazz à Mesa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "date": "6 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
     },
     {
       "name": "Flippeur Garage e synth-punk",
@@ -54,7 +67,33 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Grant-Lee Philips apresenta In the Hour of Dust",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "date": "7 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Há Fado no Mercado com João Robalinho",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "date": "7 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Meninos do Coro Concerto Solidário – Associação Vida Norte",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -94,6 +133,32 @@
     },
     {
       "name": "Hate Moss apresentam A Hot Mess",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "date": "8 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Quintas-feiras com Ciência Da tecnologia à aprendizagem — Construir organizações de saúde ap...",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "date": "8 Out",
+      "desc": "Palestra",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Salma Jô Concerto a solo",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -149,7 +214,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "",
-      "type": "Música",
+      "type": "Festas & Cultura",
       "start": "2026-10-09",
       "end": "2026-10-10",
       "date": "9–10 Out",
@@ -167,19 +232,6 @@
       "end": "2026-10-18",
       "date": "9–18 Out",
       "desc": "Teatro",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Greg Malcolm & Jenny Ward Microvolumes 4.89",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-09",
-      "end": "2026-10-09",
-      "date": "9 Out",
-      "desc": "Concerto",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
     },
@@ -262,29 +314,16 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Xico Gaiato Projeto musical e performativo de Francisco Barata",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-09",
-      "end": "2026-10-09",
-      "date": "9 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Artes no Canal",
+      "name": "Triatlo de São Jacinto",
       "area": "Aveiro",
       "city": "Aveiro",
-      "venue": "Teatro Aveirense 7323 Património Edificado 8786 Museus de Aveiro 3709 Museu de Aveiro / Santa Jo",
-      "type": "Festas & Cultura",
+      "venue": "",
+      "type": "Desporto",
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
-      "desc": "Destina-se à venda de produtos de artesanato tradicional e urbano, artes plásticas, ourivesaria e bijuteria diversa, vestuário, calçado, têxteis e ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/artes-no-canal",
+      "desc": "Campeonato Nacional de Clubes de Triatlo 7º Campeonato Nacional Militar de Triatlo A freguesia de São Jacinto vai acolher uma prova de triatlo, ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/triatlo-de-sao-jacinto",
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
@@ -340,19 +379,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Prazeres Mutáveis, de Teresa TAF e Tiago... Exposição",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Outros",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Exposição",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Vinhos à Prova no Ervilha DJ set e prova de vinhos Ao Fresco Ar livre FUJIFILM House of Photography",
       "area": "Porto",
       "city": "Porto",
@@ -364,19 +390,6 @@
       "desc": "",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Artes no Canal | Extra Natal",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "Teatro Aveirense 7323 Património Edificado 8786 Museus de Aveiro 3709 Museu de Aveiro / Santa Jo",
-      "type": "Festas & Cultura",
-      "start": "2026-12-05",
-      "end": "2026-12-05",
-      "date": "5 Dez",
-      "desc": "Destina-se à venda de produtos de artesanato tradicional e urbano, artes plásticas, ourivesaria e bijuteria diversa, vestuário, calçado, têxteis e ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/artes-no-canal-extra-natal",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     }
   ]
 }
