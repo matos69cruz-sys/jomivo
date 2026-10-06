@@ -259,52 +259,48 @@ def parse_porto():
     area = "Porto"
     city = "Porto"
     source = SOURCES[area]["url"]
+
     html = fetch(source)
+    events = []
 
-    events = jsonld_events(area, city, source, html)
+    events.extend(
+        jsonld_events(
+            area,
+            city,
+            source,
+            html,
+        )
+    )
 
-    candidate_links = []
+    event_links = {}
 
     for url, label in links_from_html(html, source):
-        host = urlparse(url).netloc.lower()
+        parsed = urlparse(url)
 
-        if "agenda-porto.pt" not in host:
+        if "agenda-porto.pt" not in parsed.netloc.lower():
             continue
 
-        low = url.lower()
-
-        if any(
-            word in low
-            for word in (
-                "/evento",
-                "/event",
-                "/agenda/",
-                "/o-que-fazer/",
-            )
-        ):
-            candidate_links.append((url, label))
-
-    # Alguns layouts não usam uma rota óbvia.
-    # Mantemos links internos com texto suficiente.
-    if not candidate_links:
-        for url, label in links_from_html(html, source):
-            if (
-                "agenda-porto.pt" in urlparse(url).netloc.lower()
-                and len(label) >= 4
-            ):
-                candidate_links.append((url, label))
-
-    seen_urls = set()
-
-    for url, link_name in candidate_links[:80]:
-        if url in seen_urls:
+        if "/evento/" not in parsed.path.lower():
             continue
 
-        seen_urls.add(url)
+        event_links[url] = label
 
+    print(
+        f"Porto: {len(event_links)} páginas de eventos encontradas."
+    )
+
+    for url, link_name in list(event_links.items())[:120]:
         try:
-            page = fetch(url, timeout=15, attempts=1)
-        except Exception:
+            page = fetch(
+                url,
+                timeout=15,
+                attempts=1,
+            )
+        except Exception as error:
+            print(
+                f"AVISO Porto página: {url}: {error}",
+                file=sys.stderr,
+            )
             continue
 
         structured = jsonld_events(
@@ -319,17 +315,15 @@ def parse_porto():
             continue
 
         plain = text(page)
-
         dates = extract_dates(plain)
 
         if not dates:
             continue
 
         start, end = dates
-
         title = extract_title(page) or link_name
 
-        if len(title) < 3:
+        if not title or len(title) < 3:
             continue
 
         venue = extract_meta(
@@ -349,24 +343,52 @@ def parse_porto():
             ),
         )
 
-        description = extract_description(page)
+        if not category:
+            lower = plain.casefold()
+
+            categories = [
+                ("Música", ("concerto", "música", "musica")),
+                ("Teatro", ("teatro", "performance")),
+                ("Cinema", ("cinema", "filme")),
+                ("Exposição", ("exposição", "exposicao")),
+                ("Dança", ("dança", "danca")),
+                ("Festival", ("festival",)),
+                ("Literatura", ("literatura", "livro")),
+                ("Família", ("família", "familia", "crianças")),
+            ]
+
+            category = "Evento"
+
+            for category_name, words in categories:
+                if any(
+                    word.casefold() in lower
+                    for word in words
+                ):
+                    category = category_name
+                    break
 
         events.append(
             make_event(
-                title,
-                area,
-                city,
-                venue,
-                category or "Evento",
-                start,
-                end,
-                description,
-                url,
-                source,
+                name=title,
+                area=area,
+                city=city,
+                venue=venue,
+                event_type=category,
+                start=start,
+                end=end,
+                desc=extract_description(page),
+                url=url,
+                source=source,
             )
         )
 
-    return dedupe(events)
+    events = dedupe(events)
+
+    print(
+        f"Porto: {len(events)} eventos extraídos das páginas."
+    )
+
+    return events
 
 
 def parse_aveiro():
