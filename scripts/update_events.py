@@ -350,7 +350,7 @@ def parse_porto():
             match.end():end_pos
         ].strip()
 
-        lines = [
+                lines = [
             clean(line, 180)
             for line in block.splitlines()
             if clean(line, 180)
@@ -359,13 +359,16 @@ def parse_porto():
         if not lines:
             continue
 
-        # Ignora fragmentos de navegação.
+        # Remove elementos de interface e etiquetas que
+        # não fazem parte do nome do evento.
         ignored = {
             "gratuito",
             "pago",
             "evento",
             "hoje",
             "próximos eventos",
+            "saber mais",
+            "ver evento",
         }
 
         useful = [
@@ -377,9 +380,47 @@ def parse_porto():
         if not useful:
             continue
 
-        # Normalmente o primeiro texto útil depois da
-        # data é o título do evento.
-        title = useful[0]
+        # Categorias/tipos usados pela Agenda Porto.
+        category_terms = (
+            "música e clubbing",
+            "cinema",
+            "artes visuais",
+            "palcos",
+            "literatura",
+            "famílias",
+            "desporto",
+            "conversas",
+            "dança",
+            "exposições",
+            "concerto",
+            "filme",
+            "exposição",
+            "performance",
+            "teatro",
+        )
+
+        # Remove categoria/tipo do final do texto para
+        # impedir que entre no título.
+        cleaned_lines = []
+
+        for line in useful:
+            value = line.strip()
+
+            for term in category_terms:
+                value = re.sub(
+                    r"\s+" + re.escape(term) + r"\s*$",
+                    "",
+                    value,
+                    flags=re.I,
+                ).strip()
+
+            if value:
+                cleaned_lines.append(value)
+
+        if not cleaned_lines:
+            continue
+
+        title = cleaned_lines[0]
 
         if (
             len(title) < 3
@@ -387,26 +428,33 @@ def parse_porto():
         ):
             continue
 
-        description = (
-            useful[1]
-            if len(useful) > 1
-            else ""
-        )
+        # Evita usar novamente o título como descrição.
+        description = ""
 
+        for candidate in cleaned_lines[1:]:
+            if (
+                candidate.casefold() != title.casefold()
+                and len(candidate) >= 15
+            ):
+                description = candidate
+                break
+
+        # Determina a categoria usando primeiro as
+        # etiquetas originais do cartão.
         category = "Evento"
+        block_lower = block.casefold()
 
         category_map = [
-            ("Música", ("música", "clubbing", "concerto")),
             ("Cinema", ("cinema", "filme")),
-            ("Exposição", ("arte", "exposição")),
-            ("Teatro", ("palcos", "teatro")),
-            ("Família", ("famílias", "familia")),
+            ("Teatro", ("palcos", "teatro", "performance")),
+            ("Exposição", ("artes visuais", "exposição")),
+            ("Dança", ("dança", "danca")),
+            ("Literatura", ("literatura", "livro")),
+            ("Família", ("famílias", "familia", "crianças")),
             ("Desporto", ("desporto", "movimento")),
             ("Conversas", ("conversas", "palestra")),
-            ("Dança", ("dança", "danca")),
+            ("Música", ("música", "musica", "clubbing", "concerto")),
         ]
-
-        block_lower = block.casefold()
 
         for category_name, words in category_map:
             if any(
