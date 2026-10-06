@@ -306,7 +306,7 @@ def parse_porto():
         re.I,
     )
 
-    matches = list(date_pattern.finditer(structured_raw))
+    matches = list(date_pattern.finditer(raw))
 
     print(
         f"Porto: {len(matches)} datas encontradas na agenda."
@@ -432,11 +432,11 @@ def parse_porto():
             body_end = matches[next_index].start()
         else:
             body_end = min(
-                len(structured_raw), 
+                len(raw), 
                 body_start + 900,
             )
 
-        block = structured_raw[
+        block = raw[
             body_start:body_end
         ].strip()
 
