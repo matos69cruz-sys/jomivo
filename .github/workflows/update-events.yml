@@ -1,0 +1,62 @@
+name: Atualizar eventos JOMIVO
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Obter JOMIVO
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Atualizar agenda
+        run: python scripts/update_events.py
+
+      - name: Validar events.json
+        run: python -m json.tool events.json > /dev/null
+
+      - name: Guardar nova agenda no repositório
+        run: |
+          if git diff --quiet -- events.json; then
+            echo "Agenda sem alterações."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add events.json
+            git commit -m "Atualizar agenda JOMIVO"
+            git push
+          fi
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar site para publicação
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Publicar JOMIVO
+        id: deployment
+        uses: actions/deploy-pages@v4
