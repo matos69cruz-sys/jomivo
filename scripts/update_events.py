@@ -436,88 +436,162 @@ def parse_porto():
                 body_start + 900,
             )
 
-        block = raw[
+                block = raw[
             body_start:body_end
         ].strip()
 
-        lines = [
-            clean(line, 180)
-            for line in block.splitlines()
-            if clean(line, 180)
+        # O text() transforma o cartão numa frase corrida.
+        # Em vez de depender de quebras de linha, usamos
+        # as etiquetas da Agenda Porto como separadores.
+        value = clean(block, 900)
+
+        if not value:
+            index += consumed
+            continue
+
+        category = "Evento"
+        event_kind = ""
+
+        category_markers = [
+            ("Cinema", ("Cinema",)),
+            ("Teatro", ("Palcos",)),
+            ("Exposição", ("Arte e exposições",)),
+            ("Dança", ("Dança",)),
+            ("Literatura", ("Literatura",)),
+            ("Família", ("Famílias",)),
+            ("Desporto", ("Desporto e movimento",)),
+            ("Conversas", ("Conversas",)),
+            ("Música", ("Música e clubbing",)),
         ]
 
-        if not lines:
-            index += consumed
-            continue
+        # Tipos que aparecem depois da categoria.
+        kind_markers = (
+            "Concerto",
+            "Filme",
+            "Exposição",
+            "Oficina",
+            "Aula",
+            "Dança",
+            "Teatro",
+            "Performance",
+            "Leitura",
+            "Festa",
+            "Palestra",
+            "Conversa",
+            "Provas",
+            "Escuta",
+            "Comédia",
+            "Ar livre",
+        )
 
-        cleaned_lines = []
+        category_pos = None
+        category_marker = ""
 
-        for line in lines:
-            value = line.strip()
-
-            if value.casefold() in {
-                "gratuito",
-                "pago",
-                "evento",
-                "hoje",
-                "próximos eventos",
-                "saber mais",
-                "ver evento",
-            }:
-                continue
-
-            for term in category_terms:
-                value = re.sub(
-                    r"\s+" + re.escape(term) + r"\s*$",
-                    "",
+        for category_name, markers in category_markers:
+            for marker in markers:
+                match_category = re.search(
+                    r"\b" + re.escape(marker) + r"\b",
                     value,
-                    flags=re.I,
-                ).strip()
+                    re.I,
+                )
 
-            if value:
-                cleaned_lines.append(value)
+                if (
+                    match_category
+                    and (
+                        category_pos is None
+                        or match_category.start() < category_pos
+                    )
+                ):
+                    category_pos = match_category.start()
+                    category_marker = match_category.group(0)
+                    category = category_name
 
-        if not cleaned_lines:
-            index += consumed
-            continue
+        # Tudo antes da categoria contém título +
+        # eventualmente uma pequena descrição.
+        if category_pos is not None:
+            before_category = value[:category_pos].strip()
+            after_category = value[
+                category_pos + len(category_marker):
+            ].strip()
+        else:
+            before_category = value
+            after_category = ""
 
-        title = cleaned_lines[0]
+        # O título é a primeira parte relevante.
+        # A Agenda Porto usa frequentemente "..." quando
+        # o título apresentado no cartão é truncado.
+        title = before_category.strip()
+
+        # Remove etiquetas ocasionais do início/fim.
+        title = re.sub(
+            r"^(?:Gratuito|Pago)\s+",
+            "",
+            title,
+            flags=re.I,
+        ).strip()
 
         if (
-            len(title) < 3
-            or len(title) > 160
+            not title
+            or len(title) < 3
+            or len(title) > 180
         ):
             index += consumed
             continue
 
+        # Depois da categoria procuramos o tipo.
+        for kind in kind_markers:
+            match_kind = re.search(
+                r"\b" + re.escape(kind) + r"\b",
+                after_category,
+                re.I,
+            )
+
+            if match_kind:
+                event_kind = match_kind.group(0)
+
+                after_category = after_category[
+                    match_kind.end():
+                ].strip()
+
+                break
+
+        # Remove indicação de preço antes do local.
+        after_category = re.sub(
+            r"^(?:Gratuito|Pago)\s+",
+            "",
+            after_category,
+            flags=re.I,
+        ).strip()
+
+        # O que sobra depois de categoria/tipo é,
+        # normalmente, o local do evento.
+        venue = clean(
+            after_category,
+            100,
+        )
+
+        # Evita locais claramente inválidos.
+        if venue.casefold() in {
+            "gratuito",
+            "pago",
+            "evento",
+        }:
+            venue="",
+
         description = ""
 
-        for candidate in cleaned_lines[1:]:
-            if (
-                candidate.casefold()
-                != title.casefold()
-                and len(candidate) >= 15
-            ):
-                description = candidate
-                break
+        # Mantemos o tipo específico junto da categoria
+        # quando ele acrescenta informação útil.
+        if event_kind:
+            description = event_kind
 
-        category = "Evento"
-        block_lower = block.casefold()
-
-        for category_name, words in category_map:
-            if any(
-                word.casefold() in block_lower
-                for word in words
-            ):
-                category = category_name
-                break
-
+        
         events.append(
             make_event(
                 name=title,
                 area=area,
                 city=city,
-                venue="",
+                venue=venue,
                 event_type=category,
                 start=start_date.isoformat(),
                 end=end_date.isoformat(),
