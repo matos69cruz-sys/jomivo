@@ -365,11 +365,13 @@ def parse_porto():
             ],
             900,
         )
-                before_parts = [
+        
+        before_parts = [
             part.strip()
             for part in before_date.split("JOMIVO_BREAK")
             if part.strip()
-                ]
+         ]
+        
         day1 = int(first.group(1))
         month1 = months[first.group(2).lower()]
         year1_raw = first.group(3)
