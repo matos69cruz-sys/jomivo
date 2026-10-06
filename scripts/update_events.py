@@ -260,9 +260,15 @@ def parse_porto():
     city = "Porto"
     source = SOURCES[area]["url"]
 
-    html = fetch(source)
+    html = fetch(
+        source,
+        timeout=15,
+        attempts=1,
+    )
+
     events = []
 
+    # Primeiro aproveitamos qualquer Event em JSON-LD.
     events.extend(
         jsonld_events(
             area,
@@ -272,112 +278,155 @@ def parse_porto():
         )
     )
 
-    event_links = {}
+    # A Agenda Porto apresenta os eventos diretamente
+    # na página principal. Cada cartão começa pelo local
+    # e contém data, título, descrição e categoria.
+    raw = text(html)
 
-    for url, label in links_from_html(html, source):
-        parsed = urlparse(url)
+    months = {
+        "jan": 1,
+        "fev": 2,
+        "mar": 3,
+        "abr": 4,
+        "mai": 5,
+        "jun": 6,
+        "jul": 7,
+        "ago": 8,
+        "set": 9,
+        "out": 10,
+        "nov": 11,
+        "dez": 12,
+    }
 
-        if "agenda-porto.pt" not in parsed.netloc.lower():
-            continue
+    today = date.today()
 
-        if "/evento/" not in parsed.path.lower():
-            continue
-
-        event_links[url] = label
-
-    print(
-        f"Porto: {len(event_links)} páginas de eventos encontradas."
+    # Divide o texto usando datas do tipo "06 Out".
+    pattern = re.compile(
+        r"\b(0?[1-9]|[12]\d|3[01])\s+"
+        r"(Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)\b",
+        re.I,
     )
 
-    for url, link_name in list(event_links.items())[:120]:
+    matches = list(pattern.finditer(raw))
+
+    print(
+        f"Porto: {len(matches)} datas encontradas na agenda."
+    )
+
+    for index, match in enumerate(matches):
+        day = int(match.group(1))
+        month = months[match.group(2).lower()]
+
+        year = today.year
+
         try:
-            page = fetch(
-                url,
-                timeout=15,
-                attempts=1,
+            start_date = date(
+                year,
+                month,
+                day,
             )
-        except Exception as error:
-            print(
-                f"AVISO Porto página: {url}: {error}",
-                file=sys.stderr,
-            )
+        except ValueError:
             continue
 
-        structured = jsonld_events(
-            area,
-            city,
-            source,
-            page,
+        # Se a data já ficou muito para trás,
+        # assume que pertence ao ano seguinte.
+        if start_date < today - timedelta(days=30):
+            try:
+                start_date = date(
+                    year + 1,
+                    month,
+                    day,
+                )
+            except ValueError:
+                continue
+
+        end_pos = (
+            matches[index + 1].start()
+            if index + 1 < len(matches)
+            else min(len(raw), match.end() + 700)
         )
 
-        if structured:
-            events.extend(structured)
+        block = raw[
+            match.end():end_pos
+        ].strip()
+
+        lines = [
+            clean(line, 180)
+            for line in block.splitlines()
+            if clean(line, 180)
+        ]
+
+        if not lines:
             continue
 
-        plain = text(page)
-        dates = extract_dates(plain)
+        # Ignora fragmentos de navegação.
+        ignored = {
+            "gratuito",
+            "pago",
+            "evento",
+            "hoje",
+            "próximos eventos",
+        }
 
-        if not dates:
+        useful = [
+            line
+            for line in lines
+            if line.casefold() not in ignored
+        ]
+
+        if not useful:
             continue
 
-        start, end = dates
-        title = extract_title(page) or link_name
+        # Normalmente o primeiro texto útil depois da
+        # data é o título do evento.
+        title = useful[0]
 
-        if not title or len(title) < 3:
+        if (
+            len(title) < 3
+            or len(title) > 160
+        ):
             continue
 
-        venue = extract_meta(
-            page,
-            (
-                "location",
-                "venue",
-                "local",
-            ),
+        description = (
+            useful[1]
+            if len(useful) > 1
+            else ""
         )
 
-        category = extract_meta(
-            page,
-            (
-                "category",
-                "categoria",
-            ),
-        )
+        category = "Evento"
 
-        if not category:
-            lower = plain.casefold()
+        category_map = [
+            ("Música", ("música", "clubbing", "concerto")),
+            ("Cinema", ("cinema", "filme")),
+            ("Exposição", ("arte", "exposição")),
+            ("Teatro", ("palcos", "teatro")),
+            ("Família", ("famílias", "familia")),
+            ("Desporto", ("desporto", "movimento")),
+            ("Conversas", ("conversas", "palestra")),
+            ("Dança", ("dança", "danca")),
+        ]
 
-            categories = [
-                ("Música", ("concerto", "música", "musica")),
-                ("Teatro", ("teatro", "performance")),
-                ("Cinema", ("cinema", "filme")),
-                ("Exposição", ("exposição", "exposicao")),
-                ("Dança", ("dança", "danca")),
-                ("Festival", ("festival",)),
-                ("Literatura", ("literatura", "livro")),
-                ("Família", ("família", "familia", "crianças")),
-            ]
+        block_lower = block.casefold()
 
-            category = "Evento"
-
-            for category_name, words in categories:
-                if any(
-                    word.casefold() in lower
-                    for word in words
-                ):
-                    category = category_name
-                    break
+        for category_name, words in category_map:
+            if any(
+                word.casefold() in block_lower
+                for word in words
+            ):
+                category = category_name
+                break
 
         events.append(
             make_event(
                 name=title,
                 area=area,
                 city=city,
-                venue=venue,
+                venue="",
                 event_type=category,
-                start=start,
-                end=end,
-                desc=extract_description(page),
-                url=url,
+                start=start_date.isoformat(),
+                end=start_date.isoformat(),
+                desc=description,
+                url=source,
                 source=source,
             )
         )
@@ -385,7 +434,7 @@ def parse_porto():
     events = dedupe(events)
 
     print(
-        f"Porto: {len(events)} eventos extraídos das páginas."
+        f"Porto: {len(events)} eventos extraídos da agenda."
     )
 
     return events
