@@ -266,22 +266,8 @@ def parse_porto():
         attempts=1,
     )
 
-    events = []
-
-    # Primeiro aproveitamos qualquer Event em JSON-LD.
-    events.extend(
-        jsonld_events(
-            area,
-            city,
-            source,
-            html,
-        )
-    )
-
-    # A Agenda Porto apresenta os eventos diretamente
-    # na página principal. Cada cartão começa pelo local
-    # e contém data, título, descrição e categoria.
     raw = text(html)
+    events = []
 
     months = {
         "jan": 1,
@@ -300,127 +286,163 @@ def parse_porto():
 
     today = date.today()
 
-    # Divide o texto usando datas do tipo "06 Out".
-    pattern = re.compile(
-        r"\b(0?[1-9]|[12]\d|3[01])\s+"
-        r"(Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)\b",
-        re.I,
+    # Um cartão da Agenda Porto começa pelo local,
+    # seguido da data inicial e, quando existe,
+    # da data final + ano.
+    card_pattern = re.compile(
+        r"(?P<venue>[^\n]{2,120})\n+"
+        r"(?P<day1>\d{1,2})\n+"
+        r"(?P<month1>Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)"
+        r"(?:\n+"
+        r"(?P<day2>\d{1,2})\n+"
+        r"(?P<month2>Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)"
+        r"\n+(?P<year2>20\d{2}))?"
+        r"\n+(?P<body>.*?)(?="
+        r"\n+[^\n]{2,120}\n+"
+        r"\d{1,2}\n+"
+        r"(?:Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)"
+        r"|\Z)",
+        re.I | re.S,
     )
 
-    matches = list(pattern.finditer(raw))
+    matches = list(card_pattern.finditer(raw))
 
     print(
-        f"Porto: {len(matches)} datas encontradas na agenda."
+        f"Porto: {len(matches)} cartões encontrados na agenda."
     )
 
-    for index, match in enumerate(matches):
-        day = int(match.group(1))
-        month = months[match.group(2).lower()]
+    category_map = [
+        ("Cinema", ("cinema",)),
+        ("Teatro", ("palcos",)),
+        ("Exposição", ("arte e exposições",)),
+        ("Conversas", ("conversas",)),
+        ("Desporto", ("desporto e movimento",)),
+        ("Família", ("famílias",)),
+        ("Música", ("música e clubbing",)),
+    ]
 
-        year = today.year
+    ignored = {
+        "gratuito",
+        "pago",
+        "concerto",
+        "filme",
+        "exposição",
+        "oficina",
+        "aula",
+        "dança",
+        "teatro",
+        "leitura",
+        "festa",
+        "palestra",
+        "conversa",
+        "provas",
+        "escuta",
+        "ar livre",
+    }
+
+    for match in matches:
+        venue = clean(
+            match.group("venue"),
+            100,
+        )
+
+        day1 = int(match.group("day1"))
+        month1 = months[
+            match.group("month1").lower()
+        ]
+
+        day2_raw = match.group("day2")
+        month2_raw = match.group("month2")
+        year2_raw = match.group("year2")
+
+        if year2_raw:
+            year = int(year2_raw)
+        else:
+            year = today.year
+
+            try:
+                probe = date(
+                    year,
+                    month1,
+                    day1,
+                )
+
+                if probe < today - timedelta(days=30):
+                    year += 1
+            except ValueError:
+                continue
 
         try:
             start_date = date(
                 year,
-                month,
-                day,
+                month1,
+                day1,
             )
         except ValueError:
             continue
 
-        # Se a data já ficou muito para trás,
-        # assume que pertence ao ano seguinte.
-        if start_date < today - timedelta(days=30):
+        end_date = start_date
+
+        if (
+            day2_raw
+            and month2_raw
+        ):
             try:
-                start_date = date(
-                    year + 1,
-                    month,
-                    day,
+                end_date = date(
+                    int(year2_raw or year),
+                    months[month2_raw.lower()],
+                    int(day2_raw),
                 )
             except ValueError:
-                continue
+                end_date = start_date
 
-        end_pos = (
-            matches[index + 1].start()
-            if index + 1 < len(matches)
-            else min(len(raw), match.end() + 700)
-        )
-
-        block = raw[
-            match.end():end_pos
-        ].strip()
+        body = match.group("body")
 
         lines = [
             clean(line, 180)
-            for line in block.splitlines()
+            for line in body.splitlines()
             if clean(line, 180)
         ]
 
         if not lines:
             continue
 
-        # Remove elementos de interface e etiquetas que
-        # não fazem parte do nome do evento.
-        ignored = {
-            "gratuito",
-            "pago",
-            "evento",
-            "hoje",
-            "próximos eventos",
-            "saber mais",
-            "ver evento",
-        }
+        category = "Evento"
 
-        useful = [
-            line
-            for line in lines
-            if line.casefold() not in ignored
-        ]
+        body_lower = body.casefold()
+
+        for category_name, words in category_map:
+            if any(
+                word.casefold() in body_lower
+                for word in words
+            ):
+                category = category_name
+                break
+
+        useful = []
+
+        for line in lines:
+            low = line.casefold()
+
+            if low in ignored:
+                continue
+
+            if any(
+                word.casefold() == low
+                for _, words in category_map
+                for word in words
+            ):
+                continue
+
+            if low.startswith("image:"):
+                continue
+
+            useful.append(line)
 
         if not useful:
             continue
 
-        # Categorias/tipos usados pela Agenda Porto.
-        category_terms = (
-            "música e clubbing",
-            "cinema",
-            "artes visuais",
-            "palcos",
-            "literatura",
-            "famílias",
-            "desporto",
-            "conversas",
-            "dança",
-            "exposições",
-            "concerto",
-            "filme",
-            "exposição",
-            "performance",
-            "teatro",
-        )
-
-        # Remove categoria/tipo do final do texto para
-        # impedir que entre no título.
-        cleaned_lines = []
-
-        for line in useful:
-            value = line.strip()
-
-            for term in category_terms:
-                value = re.sub(
-                    r"\s+" + re.escape(term) + r"\s*$",
-                    "",
-                    value,
-                    flags=re.I,
-                ).strip()
-
-            if value:
-                cleaned_lines.append(value)
-
-        if not cleaned_lines:
-            continue
-
-        title = cleaned_lines[0]
+        title = useful[0]
 
         if (
             len(title) < 3
@@ -428,51 +450,20 @@ def parse_porto():
         ):
             continue
 
-        # Evita usar novamente o título como descrição.
         description = ""
 
-        for candidate in cleaned_lines[1:]:
-            if (
-                candidate.casefold() != title.casefold()
-                and len(candidate) >= 15
-            ):
-                description = candidate
-                break
-
-        # Determina a categoria usando primeiro as
-        # etiquetas originais do cartão.
-        category = "Evento"
-        block_lower = block.casefold()
-
-        category_map = [
-            ("Cinema", ("cinema", "filme")),
-            ("Teatro", ("palcos", "teatro", "performance")),
-            ("Exposição", ("artes visuais", "exposição")),
-            ("Dança", ("dança", "danca")),
-            ("Literatura", ("literatura", "livro")),
-            ("Família", ("famílias", "familia", "crianças")),
-            ("Desporto", ("desporto", "movimento")),
-            ("Conversas", ("conversas", "palestra")),
-            ("Música", ("música", "musica", "clubbing", "concerto")),
-        ]
-
-        for category_name, words in category_map:
-            if any(
-                word.casefold() in block_lower
-                for word in words
-            ):
-                category = category_name
-                break
+        if len(useful) > 1:
+            description = useful[1]
 
         events.append(
             make_event(
                 name=title,
                 area=area,
                 city=city,
-                venue="",
+                venue=venue,
                 event_type=category,
                 start=start_date.isoformat(),
-                end=start_date.isoformat(),
+                end=end_date.isoformat(),
                 desc=description,
                 url=source,
                 source=source,
