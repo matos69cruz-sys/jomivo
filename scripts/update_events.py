@@ -436,7 +436,7 @@ def parse_porto():
                 body_start + 900,
             )
 
-                block = raw[
+        block = raw[
             body_start:body_end
         ].strip()
 
@@ -576,7 +576,7 @@ def parse_porto():
             "pago",
             "evento",
         }:
-            venue="",
+            venue = ""
 
         description = ""
 
