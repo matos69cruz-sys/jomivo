@@ -1071,96 +1071,117 @@ def curate_tourist_events(events):
         "sessao de escuta",
         "sessão de cinema",
         "sessao de cinema",
-    )
-
-    high_interest = (
-        "festival",
-        "fimp",
-        "concerto",
-        "fado",
-        "feira",
-        "romaria",
-        "são joão",
-        "sao joao",
-        "passagem de ano",
-        "gastronomia",
-        "degustação",
-        "degustacao",
-        "prova de vinhos",
-        "vinhos à prova",
-        "vinhos a prova",
-        "maratona",
-        "city race",
-    )
-
-    tourist_venues = (
-        "casa da música",
-        "casa da musica",
-        "coliseu",
-        "super bock arena",
-        "mercado do bolhão",
-        "mercado do bolhao",
-        "serralves",
-        "palácio de cristal",
-        "palacio de cristal",
-        "alfândega",
-        "alfandega",
-        "ribeira",
-    )
-
-    low_interest = (
-        "inauguração",
-        "inauguracao",
-        "mostra de livros",
         "jam session",
-        "solidário",
-        "solidario",
-        "bingo",
-        "palestra",
-        "conversa",
     )
 
     for event in events:
-        search_text = " ".join(
-            str(event.get(key, ""))
-            for key in (
-                "name",
-                "type",
-                "desc",
-                "venue",
-            )
-        ).casefold()
+        name = str(event.get("name", "")).casefold()
+        event_type = str(event.get("type", "")).casefold()
+        desc = str(event.get("desc", "")).casefold()
+
+        # Não usamos venue na seleção:
+        # os locais recolhidos ainda não são suficientemente fiáveis.
+        search_text = f"{name} {event_type} {desc}"
 
         if any(term in search_text for term in hard_exclude):
             continue
 
         score = 0
 
-        if any(term in search_text for term in high_interest):
+        # Eventos com interesse turístico forte
+        if any(
+            term in name
+            for term in (
+                "festival",
+                "fimp",
+                "feira",
+                "romaria",
+                "são joão",
+                "sao joao",
+                "passagem de ano",
+                "city race",
+                "vinhos à prova",
+                "vinhos a prova",
+            )
+        ):
+            score += 4
+
+        # Música ao vivo
+        if event_type == "concerto" or desc == "concerto":
             score += 3
 
-        if any(term in search_text for term in tourist_venues):
-            score += 2
+        if any(
+            term in name
+            for term in (
+                "concerto",
+                "fado",
+                "orquestra",
+                "rui veloso",
+            )
+        ):
+            score += 3
 
-        if any(term in search_text for term in low_interest):
-            score -= 2
+        # Gastronomia e vinho
+        if any(
+            term in search_text
+            for term in (
+                "prova de vinhos",
+                "vinhos à prova",
+                "vinhos a prova",
+                "degustação",
+                "degustacao",
+                "gastronomia",
+            )
+        ):
+            score += 4
 
+        # Desporto com potencial para visitante
+        if any(
+            term in search_text
+            for term in (
+                "city race",
+                "maratona",
+                "triatlo",
+                "corrida",
+            )
+        ):
+            score += 4
+
+        # Exposições têm algum interesse,
+        # mas não entram apenas por serem exposições.
         if "exposição" in search_text or "exposicao" in search_text:
             score += 1
 
-        if "filme" in search_text or "cinema" in search_text:
+        # Eventos muito locais/específicos perdem prioridade
+        if any(
+            term in search_text
+            for term in (
+                "coro",
+                "microvolumes",
+                "projeto musical",
+                "projecto musical",
+                "fotografia e tropicalidade",
+            )
+        ):
             score -= 2
+
+        # Cinema normal não é prioridade turística.
+        if "cinema" in search_text or "filme" in search_text:
+            score -= 3
 
         if score < 3:
             continue
 
+        # Classificação final
         if any(
             term in search_text
             for term in (
-                "vinho",
-                "gastronomia",
+                "prova de vinhos",
+                "vinhos à prova",
+                "vinhos a prova",
                 "degustação",
                 "degustacao",
+                "gastronomia",
             )
         ):
             event["type"] = "Gastronomia"
@@ -1168,28 +1189,31 @@ def curate_tourist_events(events):
         elif any(
             term in search_text
             for term in (
-                "concerto",
-                "fado",
-                "música",
-                "musica",
+                "city race",
+                "maratona",
+                "triatlo",
+                "corrida",
+            )
+        ):
+            event["type"] = "Desporto"
+
+        elif (
+            event_type == "concerto"
+            or desc == "concerto"
+            or any(
+                term in name
+                for term in (
+                    "concerto",
+                    "fado",
+                    "orquestra",
+                    "rui veloso",
+                )
             )
         ):
             event["type"] = "Música"
 
         elif any(
-            term in search_text
-            for term in (
-                "maratona",
-                "city race",
-                "corrida",
-                "triatlo",
-                "campeonato",
-            )
-        ):
-            event["type"] = "Desporto"
-
-        elif any(
-            term in search_text
+            term in name
             for term in (
                 "festival",
                 "fimp",
@@ -1205,10 +1229,9 @@ def curate_tourist_events(events):
         else:
             event["type"] = "Outros"
 
-        # Os locais do parser do Porto ainda não são
-        # suficientemente fiáveis para serem mostrados.
-        if event.get("area") == "Porto":
-            event["venue"] = ""
+        # Enquanto os locais não forem fiáveis,
+        # é preferível não mostrar informação errada.
+        event["venue"] = ""
 
         curated.append(event)
 
