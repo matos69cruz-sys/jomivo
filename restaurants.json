@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "name": "Taberna Santo António",
+    "city": "Porto",
+    "category": "tradicional",
+    "price": "~15 €",
+    "pt": "A cabidela foi divinal.",
+    "en": "The cabidela was incredible."
+  },
+  {
+    "name": "Casa Presunto “Xico”",
+    "city": "Porto",
+    "category": "petiscos",
+    "price": "10–15 €",
+    "pt": "Sandes de presunto e uma ótima variedade de petiscos.",
+    "en": "Ham sandwiches and a great selection of small plates."
+  },
+  {
+    "name": "O Astro Cervejaria Petisqueira",
+    "city": "Porto",
+    "category": "bifanas",
+    "price": "10–15 €",
+    "pt": "Para mim, as melhores bifanas do Porto.",
+    "en": "For me, the best bifanas in Porto."
+  },
+  {
+    "name": "Rei das Bifanas",
+    "city": "Valongo",
+    "category": "bifanas",
+    "price": "10–15 €",
+    "pt": "Boas bifanas e codornizes.",
+    "en": "Great bifanas and quail."
+  },
+  {
+    "name": "Adega Vigário",
+    "city": "Gondomar",
+    "category": "tradicional",
+    "price": "20–30 €",
+    "pt": "Cabidela, bacalhau ou posta: excelentes escolhas.",
+    "en": "Great cabidela, cod and steak."
+  },
+  {
+    "name": "Adega Braga",
+    "city": "Maia",
+    "category": "carne",
+    "price": "20–30 €",
+    "pt": "O costeletão é muito bom e tenro.",
+    "en": "The large steak is delicious and tender."
+  },
+  {
+    "name": "Casa Rocha Melres",
+    "city": "Melres",
+    "category": "vista",
+    "price": "~20 €",
+    "pt": "Vista incrível sobre o Douro. As iscas de bacalhau nunca desiludem.",
+    "en": "Incredible Douro views. The cod fritters never disappoint."
+  },
+  {
+    "name": "Moinho do Moleiro",
+    "city": "Paço de Sousa",
+    "category": "petiscos",
+    "price": "15–20 €",
+    "pt": "Bons petiscos e um espaço exterior muito agradável.",
+    "en": "Great small plates and a lovely outdoor area."
+  },
+  {
+    "name": "Tasca da Carroça",
+    "city": "Guimarães",
+    "category": "tradicional",
+    "price": "—",
+    "pt": "Das entradas à sobremesa, tudo foi de qualidade superior.",
+    "en": "From starters to dessert, everything was excellent."
+  },
+  {
+    "name": "Taberna Belga",
+    "city": "Braga",
+    "category": "francesinhas",
+    "price": "20–25 €",
+    "pt": "A minha francesinha favorita à moda de Braga.",
+    "en": "My favorite Braga-style francesinha."
+  },
+  {
+    "name": "Café Caçana",
+    "city": "Viana do Castelo",
+    "category": "petiscos",
+    "price": "~20 €",
+    "pt": "Champarrion acompanhado de bons petiscos.",
+    "en": "Champarrion served with tasty small plates."
+  },
+  {
+    "name": "Adega São Gonçalo",
+    "city": "Candal",
+    "category": "petiscos",
+    "price": "10–15 €",
+    "pt": "Uma variedade de petiscos de excelente qualidade.",
+    "en": "An excellent selection of small plates."
+  },
+  {
+    "name": "Mini Coffe das Francesinhas",
+    "city": "Valadares",
+    "category": "francesinhas",
+    "price": "15–20 €",
+    "pt": "Para mim, a melhor francesinha do Porto.",
+    "en": "For me, the best francesinha in Porto."
+  },
+  {
+    "name": "JumaCaffe",
+    "city": "Valadares",
+    "category": "francesinhas",
+    "price": "15–20 €",
+    "pt": "Francesinhas de excelente qualidade.",
+    "en": "Excellent francesinhas."
+  },
+  {
+    "name": "Cufra Bilhares",
+    "city": "Porto",
+    "category": "francesinhas",
+    "price": "15–20 €",
+    "pt": "Uma francesinha de qualidade superior.",
+    "en": "A top-quality francesinha."
+    },
+  {
+    "name": "Taverna D’Avó",
+    "city": "Porto",
+    "category": "tradicional",
+    "price": "20–25 €",
+    "pt": "O bacalhau com broa é uma excelente escolha.",
+    "en": "The cod with cornbread crust is an excellent choice."
+  },
+  {
+    "name": "O Castigo",
+    "city": "Évora de Alcobaça",
+    "category": "carne",
+    "price": "~25 €",
+    "pt": "A tábua de três carnes é uma excelente escolha.",
+    "en": "The three-meat platter is an excellent choice."
+  }
+]
