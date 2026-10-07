@@ -29,7 +29,7 @@ function openDetail(p){
  const title=document.createElement('h2');title.className='detail-title';title.textContent=p.name;
  const location=document.createElement('p');location.className='muted';location.textContent='📍 '+p.city+' · '+p.category;
  const gallery=document.createElement('div');gallery.className='gallery';
- const images=photoMap[p.name]||[];
+ const images=p.image?[p.image]:(photoMap[p.name]||[]);
  if(images.length){
  const main=document.createElement('img');main.className='gallery-main';main.src=images[0];main.alt=(language==='pt'?'Fotografia em destaque de ':'Featured photo of ')+p.name;
  gallery.append(main);
