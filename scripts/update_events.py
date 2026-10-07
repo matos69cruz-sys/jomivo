@@ -274,7 +274,8 @@ def parse_porto():
     )
     event_links = porto_event_links(html, source)
     print(f"Porto: {len(event_links)} links individuais encontrados.")
-
+    print("PORTO LINKS:", event_links[:20])
+   
     events = []
 
     # Mantém suporte a eventos estruturados.
