@@ -196,10 +196,10 @@ async function loadJomivoEvents(){
 function renderEvents(){
  const cards=$('cards');cards.replaceChildren();
  const intro=document.createElement('div');intro.className='eventIntro';intro.innerHTML=language==='pt'?'<h3>🎭 O que está a acontecer?</h3><p>Concertos, festivais, exposições, feiras e outros eventos para aproveitar durante a tua estadia.</p>':'<h3>🎭 What’s happening?</h3><p>Concerts, festivals, exhibitions, fairs and other events to enjoy during your stay.</p>';cards.append(intro);
- const periods=document.createElement('div');periods.className='eventFilters';[['Hoje','Today'],['Semana','This week'],['Mês','This month']].forEach(x=>{const b=document.createElement('button');b.textContent=language==='pt'?x[0]:x[1];b.className=eventPeriod===x[0]?'active':'';b.onclick=()=>{eventPeriod=x[0];renderEvents()};periods.append(b)});cards.append(periods);cards.append(categories);
+ const periods=document.createElement('div');periods.className='eventFilters';[['Hoje','Today'],['Semana','This week'],['Mês','This month']].forEach(x=>{const b=document.createElement('button');b.textContent=language==='pt'?x[0]:x[1];b.className=eventPeriod===x[0]?'active':'';b.onclick=()=>{eventPeriod=x[0];renderEvents()};periods.append(b)});cards.append(periods);
  const areas=document.createElement('div');areas.className='eventFilters';['Todos','Porto','Braga','Aveiro'].forEach(a=>{const b=document.createElement('button');b.textContent=(language==='en'&&a==='Todos')?'All':a;b.className=eventArea===a?'active':'';b.onclick=()=>{eventArea=a;renderEvents()};areas.append(b)});cards.append(areas);
  const categories=document.createElement('div');
- categories.className='eventFilters';['Todos','Música','Festas & Cultura','Gastronomia','Desporto','Outros'].forEach(x=>{const b=document.createElement('button');b.className='tab'+(eventCategory===x?' active':'');b.textContent=x;b.onclick=()=>{eventCategory=x;renderEvents()};categories.append(b)});
+ categories.className='eventFilters';['Todos','Música','Festas & Cultura','Gastronomia','Desporto','Outros'].forEach(x=>{const b=document.createElement('button');b.className='tab'+(eventCategory===x?' active':'');b.textContent=x;b.onclick=()=>{eventCategory=x;renderEvents()};categories.append(b)});cards.append(categories);
  const today=new Date();
  const dayStart=new Date(today.getFullYear(),today.getMonth(),today.getDate());
  const weekEnd=new Date(dayStart);weekEnd.setDate(weekEnd.getDate()+6);
