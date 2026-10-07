@@ -1179,8 +1179,8 @@ def curate_tourist_events(events):
         # os locais recolhidos ainda não são suficientemente fiáveis.
         search_text = f"{name} {event_type} {desc}"
 
-        if any(term in search_text for term in hard_exclude):
-            continue
+        if not is_braga and any(term in search_text for term in hard_exclude):
+          continue
 
         score = 0
 
@@ -1300,6 +1300,9 @@ def curate_tourist_events(events):
             and not name.startswith("fimp")
         ):
             score -= 2
+
+        if is_braga:
+            print(f"  BRAGA SCORE: {score} | {event.get('name', '')}")
         
         if score < 3:
             continue
