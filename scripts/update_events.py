@@ -994,6 +994,43 @@ def extract_dates(value):
             except ValueError:
                 pass
 
+    # Formato Visit Braga: "9 OUT. | 17h00"
+    no_year_match = re.search(
+        r"\b(\d{1,2})\s+([A-Za-zÀ-ÿ]+)\.?",
+        value,
+        re.I,
+    )
+
+    if no_year_match:
+        day, month_name = no_year_match.groups()
+        month = MONTHS.get(
+            month_name.lower().rstrip(".")
+        )
+
+        if month:
+            try:
+                today = date.today()
+                parsed = date(
+                    today.year,
+                    month,
+                    int(day),
+                )
+
+                # Se a data já passou claramente, assume o ano seguinte.
+                if parsed < today:
+                    parsed = date(
+                        today.year + 1,
+                        month,
+                        int(day),
+                    )
+
+                return (
+                    parsed.isoformat(),
+                    parsed.isoformat(),
+                )
+            except ValueError:
+                pass
+    
     return None
 
 
