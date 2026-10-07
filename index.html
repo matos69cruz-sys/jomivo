@@ -202,7 +202,7 @@ function renderEvents(){
  const areas=document.createElement('div');areas.className='eventFilters';['Todos','Porto','Braga','Aveiro'].forEach(a=>{const b=document.createElement('button');b.textContent=(language==='en'&&a==='Todos')?'All':a;b.className=eventArea===a?'active':'';b.onclick=()=>{eventArea=a;renderEvents()};areas.append(b)});cards.append(areas);
  const typeLabel=document.createElement('div');typeLabel.className='filterLabel';typeLabel.textContent=language==='pt'?'TIPO DE EVENTO':'EVENT TYPE';cards.append(typeLabel);
  const categories=document.createElement('div');
- categories.className='eventFilters categoryFilters';['Todos','Música','Festas & Cultura','Gastronomia','Desporto','Outros'].forEach(x=>{const b=document.createElement('button');b.className='tab'+(eventCategory===x?' active':'');b.textContent=x;b.onclick=()=>{eventCategory=x;renderEvents()};categories.append(b)});cards.append(categories);
+ categories.className='eventFilters categoryFilters';['Todos','Música','Festas & Cultura','Gastronomia','Desporto','Outros'].forEach(x=>{const b=document.createElement('button');b.className='tab'+(eventCategory===x?' active':'');b.textContent={'Todos':'Todos','Música':'🎵 Música','Festas & Cultura':'🎉 Festas & Cultura','Gastronomia':'🍷 Gastronomia','Desporto':'⚽ Desporto','Outros':'✨ Outros'}[x];b.onclick=()=>{eventCategory=x;renderEvents()};categories.append(b)});cards.append(categories);
  const today=new Date();
  const dayStart=new Date(today.getFullYear(),today.getMonth(),today.getDate());
  const weekEnd=new Date(dayStart);weekEnd.setDate(weekEnd.getDate()+6);
