@@ -118,27 +118,6 @@ def porto_event_links(html, source):
 
     return list(dict.fromkeys(event_links))
 
-def porto_event_contexts(html, source):
-    contexts = []
-
-    for match in re.finditer(
-        r'href\s*=\s*["\']([^"\']+)["\']',
-        html,
-        flags=re.I,
-    ):
-        link = urljoin(source, unescape(match.group(1)))
-
-        if "/evento/" not in link:
-            continue
-        
-        start = max(0, match.start() - 2500)
-        end = min(len(html), match.end() + 2500)
-        context = text(html[start:end])
-
-        contexts.append((link, context))
-
-    return contexts
-
 def porto_link_for_title(html, title, source):
     title_text = clean(title, 180)
 
@@ -334,8 +313,6 @@ def parse_porto():
         attempts=1,
     )
     event_links = porto_event_links(html, source)
-    event_contexts = porto_event_contexts(html, source)
-    print(f"Porto: {len(event_contexts)} contextos de eventos encontrados.")
     print(f"Porto: {len(event_links)} links individuais encontrados.")
    
     events = []
@@ -603,11 +580,6 @@ def parse_porto():
             flags=re.I,
         ).strip()
 
-        for link, context in event_contexts:
-          if porto_slug(title) and porto_slug(title) in porto_slug(context):
-             event_url = link
-             break
-
         if (
             not title
             or len(title) < 3
@@ -681,8 +653,6 @@ def parse_porto():
         )
 
         index += consumed
-
-    context_matches = 0
 
     matched_links = sum(1 for event in events if event.get("url") != source)
     print(f"Porto: {matched_links} eventos com link individual.")
