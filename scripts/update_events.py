@@ -549,7 +549,7 @@ def parse_porto():
         # o título apresentado no cartão é truncado.
         title = before_category.strip()
         event_url = source
-         title_slug = porto_slug(title)
+        title_slug = porto_slug(title)
 
         for link in event_links:
          link_slug = link.split("/evento/", 1)[-1].strip("/").split("?")[0]
