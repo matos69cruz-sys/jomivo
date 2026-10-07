@@ -684,12 +684,12 @@ def parse_porto():
 
     context_matches = 0
 
-        matched_links = sum(1 for event in events if event.get("url") != source)
-        print(f"Porto: {matched_links} eventos com link individual.")
+    matched_links = sum(1 for event in events if event.get("url") != source)
+    print(f"Porto: {matched_links} eventos com link individual.")
 
-        events = dedupe(events)
+    events = dedupe(events)
 
-        print(
+    print(
         f"Porto: {len(events)} eventos extraídos da agenda."
         )
 
