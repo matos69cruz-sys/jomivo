@@ -231,7 +231,7 @@
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
-      "desc": "Adicionar aos favoritos A comunidade de Merelim (São Paio), Panóias e Parada de Tibães junta-se à Orquestra do Distrito de Braga num concerto de criação coletiva.",
+      "desc": "A comunidade de Merelim (São Paio), Panóias e Parada de Tibães junta-se à Orquestra do Distrito de Braga num concerto de criação coletiva.",
       "url": "https://visitbraga.travel/event/1188-musica-em-comunidade-orquestra-do-distrito-de-braga-descentrar",
       "source": "https://visitbraga.travel/agenda-braga/"
     },
@@ -244,7 +244,7 @@
       "start": "2026-10-10",
       "end": "2026-10-10",
       "date": "10 Out",
-      "desc": "Adicionar aos favoritos Masterclass de Olga Kisseleva sobre arte, tecnologia e sustentabilidade, explorando novas formas de conhecimento e ação perante desafios ambientais.",
+      "desc": "Masterclass de Olga Kisseleva sobre arte, tecnologia e sustentabilidade, explorando novas formas de conhecimento e ação perante desafios ambientais.",
       "url": "https://visitbraga.travel/event/1202-bma-lab-eden-etica-e-durabilidade-para-uma-ecologia-da-natureza",
       "source": "https://visitbraga.travel/agenda-braga/"
     },
@@ -396,12 +396,25 @@
       "area": "Braga",
       "city": "Braga",
       "venue": "",
+      "type": "Música",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "date": "17 Out",
+      "desc": "A comunidade de Vilaça e Fradelos junta-se à ODB num concerto de criação coletiva que cruza canto, instrumentos e experimentação sonora.",
+      "url": "https://visitbraga.travel/event/1191-musica-em-comunidade-odb-descentrar",
+      "source": "https://visitbraga.travel/agenda-braga/"
+    },
+    {
+      "name": "Exposições - Encontro de Imagens",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
       "type": "Outros",
       "start": "2026-10-17",
       "end": "2026-10-17",
       "date": "17 Out",
-      "desc": "Adicionar aos favoritos A comunidade de Vilaça e Fradelos junta-se à ODB num concerto de criação coletiva que cruza canto, instrumentos e experimentação sonora.",
-      "url": "https://visitbraga.travel/event/1191-musica-em-comunidade-odb-descentrar",
+      "desc": "Festival Internacional de Fotografia e Artes Visuais",
+      "url": "https://visitbraga.travel/event/1198-exposicao-tashiya-de-mel-imagined-territories-to-taste-a-bittersweet-history",
       "source": "https://visitbraga.travel/agenda-braga/"
     },
     {
@@ -413,7 +426,7 @@
       "start": "2026-10-24",
       "end": "2026-10-24",
       "date": "24 Out",
-      "desc": "Adicionar aos favoritos A Orquestra Filarmónica de Braga apresenta um concerto que percorre vários estilos, do clássico ao pop e jazz, sob direção do maestro Filipe Cunha.",
+      "desc": "A Orquestra Filarmónica de Braga apresenta um concerto que percorre vários estilos, do clássico ao pop e jazz, sob direção do maestro Filipe Cunha.",
       "url": "https://visitbraga.travel/event/1194-viva-a-musica-orquestra-filarmonica-de-braga",
       "source": "https://visitbraga.travel/agenda-braga/"
     },
@@ -426,7 +439,7 @@
       "start": "2026-10-31",
       "end": "2026-10-31",
       "date": "31 Out",
-      "desc": "Adicionar aos favoritos Exposição de Mariza sobre o Rio de Janeiro, que cruza fotografia, memória e cultura num diálogo entre Brasil e Portugal.",
+      "desc": "Exposição de Mariza sobre o Rio de Janeiro, que cruza fotografia, memória e cultura num diálogo entre Brasil e Portugal.",
       "url": "https://visitbraga.travel/event/1197-exposicao-as-cores-do-rio-de-mariza-lima",
       "source": "https://visitbraga.travel/agenda-braga/"
     }
