@@ -119,25 +119,40 @@ def porto_event_links(html, source):
     return list(dict.fromkeys(event_links))
 
 def porto_link_for_title(html, title, source):
-    title_text = clean(title, 180)
+    title_slug = porto_slug(title)
 
-    if not title_text:
+    if not title_slug:
         return source
 
-    for match in re.finditer(
-        r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',
-        html,
-        flags=re.I | re.S,
-    ):
-        link = urljoin(source, unescape(match.group(1)))
+    title_words = {
+        word
+        for word in title_slug.split("-")
+        if len(word) >= 4
+    }
 
-        if "/evento/" not in link:
-            continue
+    if not title_words:
+        return source
 
-        link_text = clean(match.group(2), 500)
+    best_link = source
+    best_score = 0
 
-        if title_text.casefold() in link_text.casefold():
-            return link
+    for link in porto_event_links(html, source):
+        link_slug = porto_slug(
+            link.split("/evento/", 1)[-1]
+        )
+
+        link_words = set(link_slug.split("-"))
+
+        score = len(
+            title_words & link_words
+        )
+
+        if score > best_score:
+            best_score = score
+            best_link = link
+
+    if best_score >= 2:
+        return best_link
 
     return source
 
@@ -580,6 +595,8 @@ def parse_porto():
             flags=re.I,
         ).strip()
 
+        event_url = porto_link_for_title(html, title, source)
+        
         if (
             not title
             or len(title) < 3
