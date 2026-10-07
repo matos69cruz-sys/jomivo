@@ -24,11 +24,7 @@ SOURCES = {
     },
     "Braga": {
         "city": "Braga",
-        "url": (
-            "https://www.cm-braga.pt/pt/0502/viver/"
-            "cultura-e-patrimonio/dinamizacao-cultural/"
-            "agenda-cultural-de-braga"
-        ),
+        "url": "https://visitbraga.travel/agenda-braga/",
     },
 }
 
@@ -750,8 +746,8 @@ def parse_braga():
         host = urlparse(url).netloc.lower()
         low = url.lower()
 
-        if "cm-braga.pt" not in host:
-            continue
+        if "visitbraga.travel" not in host:
+           continue
 
         if any(
             word in low
