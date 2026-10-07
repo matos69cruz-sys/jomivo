@@ -1300,9 +1300,6 @@ def curate_tourist_events(events):
             and not name.startswith("fimp")
         ):
             score -= 2
-
-        if is_braga:
-            print(f"  BRAGA SCORE: {score} | {event.get('name', '')}")
         
         if score < 3:
             continue
@@ -1318,7 +1315,29 @@ def curate_tourist_events(events):
             )
         ):
             event["type"] = "Música"
-            
+
+        elif is_braga and any(
+            term in search_text
+            for term in (
+                "trilho",
+                "caminhada",
+                "percurso",
+                "pedestre",
+            )
+        ):
+            event["type"] = "Festas & Cultura"
+
+        elif is_braga and any(
+            term in search_text
+            for term in (
+                "exposição",
+                "exposicao",
+                "exposições",
+                "exposicoes",
+            )
+        ):
+            event["type"] = "Festas & Cultura"
+        
         elif any(
             term in search_text
             for term in (
