@@ -682,8 +682,8 @@ def parse_porto():
 
     context_matches = 0
 
-for event in events:
-    event_slug = porto_slug(event.get("name", ""))
+    for event in events:
+      event_slug = porto_slug(event.get("name", ""))
 
     if event_slug and any(
         event_slug in porto_slug(context)
@@ -699,7 +699,7 @@ for event in events:
         f"Porto: {len(events)} eventos extraídos da agenda."
         )
 
-        return events
+    return events
 
 
 def parse_aveiro():
