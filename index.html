@@ -98,7 +98,7 @@ $('zeTab').textContent=language==='pt'?'⭐ Escolhas do Zé (17)':'⭐ Zé’s p
 $('popularTab').textContent=language==='pt'?'🍴 Populares':'🍴 Popular';
 $('zeTab').className=eatView==='ze'?'active':'';
 $('popularTab').className=eatView==='popular'?'active':'';
-$('search').hidden=section!==0||eatView!=='ze';$('city').hidden=section!==0||eatView!=='ze';$('chips').hidden=section!==0||eatView!=='ze';
+$('city').hidden=eatView==='ze';$('search').hidden=section!==0||eatView!=='ze';$('city').hidden=section!==0||eatView!=='ze';$('chips').hidden=section!==0||eatView!=='ze';
 let cities=[...new Set(places.map(p=>p.city))].sort((a,b)=>a.localeCompare(b,'pt'));let selectedCity=$('city').value;$('city').replaceChildren(...['',...cities].map(c=>new Option(c||t.allCities,c)));$('city').value=selectedCity;
 $('chips').replaceChildren(...cats.map((v,i)=>{let b=document.createElement('button');b.className='chip'+(category===i?' on':'');b.textContent=language==='pt'?v:catsEn[i];b.onclick=()=>{category=i;render()};return b}));
 if(section===null){$('cards').replaceChildren();return}
