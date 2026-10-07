@@ -89,6 +89,17 @@ def text(value):
 def clean(value, limit=180):
     return text(value)[:limit].rstrip()
 
+def porto_event_links(html, source):
+    links = re.findall(
+        r'href=["\']([^"\']*/evento/[^"\']+)["\']',
+        html,
+        flags=re.I,
+    )
+    return list(dict.fromkeys(
+        urljoin(source, unescape(link))
+        for link in links
+    ))
+
 
 def iso(value):
     if not value:
@@ -261,6 +272,8 @@ def parse_porto():
         timeout=15,
         attempts=1,
     )
+    event_links = porto_event_links(html, source)
+    print(f"Porto: {len(event_links)} links individuais encontrados.")
 
     events = []
 
