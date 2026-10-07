@@ -122,12 +122,15 @@ def porto_event_contexts(html, source):
     contexts = []
 
     for match in re.finditer(
-        r'href\s*=\s*["\']([^"\']*/evento/[^"\']*)["\']',
+        r'href\s*=\s*["\']([^"\']+)["\']',
         html,
         flags=re.I,
     ):
         link = urljoin(source, unescape(match.group(1)))
 
+        if "/evento/" not in link:
+            continue
+        
         start = max(0, match.start() - 2500)
         end = min(len(html), match.end() + 2500)
         context = text(html[start:end])
