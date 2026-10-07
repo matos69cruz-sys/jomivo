@@ -820,6 +820,7 @@ def parse_braga():
             )
         )
 
+    print(f"Braga: {len(events)} eventos extraídos antes da curadoria.")
     return dedupe(events)
 
 
