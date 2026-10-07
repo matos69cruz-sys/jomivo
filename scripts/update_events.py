@@ -1159,12 +1159,15 @@ def curate_tourist_events(events):
         "sessão de cinema",
         "sessao de cinema",
         "jam session",
+        "agenda braga",
     )
 
     for event in events:
         name = str(event.get("name", "")).casefold()
         event_type = str(event.get("type", "")).casefold()
         desc = str(event.get("desc", "")).casefold()
+        area = str(event.get("area", "")).casefold()
+        is_braga = area == "braga"
 
         # Não usamos venue na seleção:
         # os locais recolhidos ainda não são suficientemente fiáveis.
@@ -1174,6 +1177,29 @@ def curate_tourist_events(events):
             continue
 
         score = 0
+
+        # Braga: a agenda oficial usa categorias pouco específicas,
+        # por isso damos prioridade a eventos reais com interesse turístico.
+        if is_braga:
+            if any(
+                term in search_text
+                for term in (
+                    "música",
+                    "musica",
+                    "concerto",
+                    "orquestra",
+                    "festival",
+                    "trilho",
+                    "natureza",
+                    "exposição",
+                    "exposicao",
+                    "teatro",
+                    "performance",
+                    "dança",
+                    "danca",
+                )
+            ):
+                score += 3
 
         # Eventos com interesse turístico forte
         if any(
