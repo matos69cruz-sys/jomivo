@@ -89,6 +89,18 @@ def text(value):
 def clean(value, limit=180):
     return text(value)[:limit].rstrip()
 
+def porto_slug(value):
+    value = unescape(str(value or "")).casefold()
+    value = (
+        value.replace("á", "a").replace("à", "a")
+        .replace("ã", "a").replace("â", "a")
+        .replace("é", "e").replace("ê", "e")
+        .replace("í", "i")
+        .replace("ó", "o").replace("õ", "o").replace("ô", "o")
+        .replace("ú", "u").replace("ç", "c")
+    )
+    return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+
 def porto_event_links(html, source):
     links = re.findall(
         r'href\s*=\s*["\']([^"\']+)["\']',
@@ -536,6 +548,18 @@ def parse_porto():
         # A Agenda Porto usa frequentemente "..." quando
         # o título apresentado no cartão é truncado.
         title = before_category.strip()
+        event_url = source
+         title_slug = porto_slug(title)
+
+        for link in event_links:
+         link_slug = link.split("/evento/", 1)[-1].strip("/").split("?")[0]
+
+         if title_slug and (
+          title_slug in link_slug
+          or link_slug.startswith(title_slug)
+         ):
+          event_url = link
+          break
 
         # Remove etiquetas ocasionais do início/fim.
         title = re.sub(
@@ -612,13 +636,16 @@ def parse_porto():
                 start=start_date.isoformat(),
                 end=end_date.isoformat(),
                 desc=description,
-                url=source,
+                url=event_url,
                 source=source,
             )
         )
 
         index += consumed
 
+    matched_links = sum(1 for event in events if event.get("url") != source)
+    print(f"Porto: {matched_links} eventos com link individual.")
+    
     events = dedupe(events)
 
     print(
