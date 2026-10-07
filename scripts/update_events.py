@@ -755,6 +755,7 @@ def parse_braga():
                 "agenda",
                 "evento",
                 "cultura",
+                "event/",
             )
         ):
             event_links.append((url, label))
