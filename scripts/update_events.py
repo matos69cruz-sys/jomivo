@@ -1058,6 +1058,8 @@ def curate_tourist_events(events):
         "aula",
         "aulas",
         "curso",
+        "palestra",
+        "conferência",
         "clube de leitura",
         "clube de poesia",
         "yoga",
@@ -1169,6 +1171,14 @@ def curate_tourist_events(events):
         if "cinema" in search_text or "filme" in search_text:
             score -= 3
 
+        # Evita encher a agenda com vários espetáculos
+        # individuais do FIMP. Mantemos o festival principal.
+        if (
+            ("fimp'26" in name or "festival internacional de marionetas" in name)
+            and not name.startswith("fimp")
+        ):
+            score -= 2
+        
         if score < 3:
             continue
 
