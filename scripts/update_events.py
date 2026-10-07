@@ -679,6 +679,19 @@ def parse_porto():
 
     matched_links = sum(1 for event in events if event.get("url") != source)
     print(f"Porto: {matched_links} eventos com link individual.")
+
+    context_matches = 0
+
+for event in events:
+    event_slug = porto_slug(event.get("name", ""))
+
+    if event_slug and any(
+        event_slug in porto_slug(context)
+        for _, context in event_contexts
+    ):
+        context_matches += 1
+
+print(f"Porto: {context_matches} títulos encontrados nos contextos.")
     
     events = dedupe(events)
 
