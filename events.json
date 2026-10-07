@@ -1,58 +1,6 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "events": [
-    {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-10-06",
-      "end": "2026-11-05",
-      "date": "6 Out – 5 Nov",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-97",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
-    },
-    {
-      "name": "Kodu Percussion Group We Are Still on the Move",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-06",
-      "end": "2026-10-06",
-      "date": "6 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Mike Stern Band com Dennis Chambers, Leni Stern, Chris Minh Doky e Bob Franceschi...",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-06",
-      "end": "2026-10-06",
-      "date": "6 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Porta Jazz apresenta: Nuno Trocado + Den... Jazz à Mesa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-06",
-      "end": "2026-10-06",
-      "date": "6 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
     {
       "name": "Flippeur Garage e synth-punk",
       "area": "Porto",
@@ -117,6 +65,19 @@
       "desc": "Concerto",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Gastronomia | Conversas d’Alguidar",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-10-08",
+      "end": "2026-11-05",
+      "date": "8 Out – 5 Nov",
+      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-94",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
       "name": "Eu Quero a Lua! · Partículas Elementares Teatro de marionetas pela companhia Partículas Elementares fimp'26 — Festival I",
@@ -203,8 +164,8 @@
       "venue": "",
       "type": "Festas & Cultura",
       "start": "2026-10-09",
-      "end": "2026-10-10",
-      "date": "9–10 Out",
+      "end": "2026-10-11",
+      "date": "9–11 Out",
       "desc": "Teatro",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
@@ -340,6 +301,32 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Agnes Nunes Digressão europeia",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Criatura-",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Eça Agora! Espetáculo produzido por O Moinho – Histórias com papel Nano Mini Micro — Festival para a Infância do Porto",
       "area": "Porto",
       "city": "Porto",
@@ -349,6 +336,19 @@
       "end": "2026-10-10",
       "date": "10 Out",
       "desc": "",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Fireflies Performance de teatro físico Festival Décimas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "Teatro",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
     },
@@ -366,6 +366,32 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Ondas e Confissões Monólogos com sotaque Festival Décimas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "Performance",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Pedro Jerónimo Quinteto Concerto Porta-Jazz [Jazz Presente]",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Porto City Race Prova de orientação",
       "area": "Porto",
       "city": "Porto",
@@ -379,7 +405,33 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Vinhos à Prova no Ervilha DJ set e prova de vinhos Ao Fresco Ar livre FUJIFILM House of Photography",
+      "name": "The Cradle + Larie + Sofi Naufal Tarde de concertos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Transport: Fasten Your Seat Belts!, do T... Estreia nacional fimp'26 — Festival Internacional de Marionetas do Porto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "date": "10–11 Out",
+      "desc": "Teatro",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Vinhos à Prova no Ervilha DJ set e prova de vinhos Ao Fresco Ar livre Rua das Antas",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -388,6 +440,19 @@
       "end": "2026-10-10",
       "date": "10 Out",
       "desc": "",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "ars ad hoc Obras de György Kurtág, Jonathan Harvey, Salvatore Sciarrin, Helm...",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "date": "11 Out",
+      "desc": "Concerto",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
     }
