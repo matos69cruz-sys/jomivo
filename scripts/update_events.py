@@ -91,7 +91,7 @@ def clean(value, limit=180):
 
 def porto_event_links(html, source):
     links = re.findall(
-        r'href\s*=\s*["\']([^"\']+)["\']',
+        r'href\s*=\s*["\']([^"\']*(?:/evento/)[^"\']*)["\']',
         html,
         flags=re.I,
     )
