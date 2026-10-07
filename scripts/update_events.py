@@ -603,6 +603,11 @@ def parse_porto():
             flags=re.I,
         ).strip()
 
+        for link, context in event_contexts:
+          if porto_slug(title) and porto_slug(title) in porto_slug(context):
+             event_url = link
+             break
+
         if (
             not title
             or len(title) < 3
@@ -677,22 +682,11 @@ def parse_porto():
 
         index += consumed
 
-    matched_links = sum(1 for event in events if event.get("url") != source)
-    print(f"Porto: {matched_links} eventos com link individual.")
-
     context_matches = 0
 
-    for event in events:
-      event_slug = porto_slug(event.get("name", ""))
+        matched_links = sum(1 for event in events if event.get("url") != source)
+        print(f"Porto: {matched_links} eventos com link individual.")
 
-    if event_slug and any(
-        event_slug in porto_slug(context)
-        for _, context in event_contexts
-    ):
-        context_matches += 1
-
-        print(f"Porto: {context_matches} títulos encontrados nos contextos.")
-    
         events = dedupe(events)
 
         print(
