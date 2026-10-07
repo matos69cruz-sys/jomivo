@@ -814,7 +814,7 @@ def parse_braga():
                 ) or "Evento",
                 start,
                 end,
-                extract_description(page),
+                extract_braga_description(page),
                 url,
                 source,
             )
@@ -853,6 +853,54 @@ def extract_title(html):
 
     return ""
 
+def extract_braga_description(html):
+    # Primeiro tenta a descrição Open Graph,
+    # que no Visit Braga tende a ser a mais limpa.
+    match = re.search(
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+        html,
+        re.I | re.S,
+    )
+
+    if match:
+        value = clean(match.group(1), 180)
+        if value:
+            return value
+
+    # Se não existir, procura parágrafos e ignora
+    # elementos típicos da navegação do Visit Braga.
+    paragraphs = re.findall(
+        r"<p[^>]*>(.*?)</p>",
+        html,
+        re.I | re.S,
+    )
+
+    ignore = (
+        "o que visitar",
+        "o que fazer",
+        "o que comer",
+        "visit braga",
+        "meet braga",
+        "monumentos",
+        "espaços culturais",
+        "arte urbana",
+        "praias fluviais",
+    )
+
+    for paragraph in paragraphs:
+        value = clean(paragraph, 180)
+
+        if len(value) < 35:
+            continue
+
+        low = value.casefold()
+
+        if any(term in low for term in ignore):
+            continue
+
+        return value
+
+    return ""
 
 def extract_description(html):
     patterns = [
