@@ -892,6 +892,12 @@ def extract_braga_description(html):
 
     for paragraph in paragraphs:
         value = clean(paragraph, 180)
+        value = re.sub(
+            r"^Adicionar aos favoritos\s*",
+            "",
+            value,
+            flags=re.I,
+        ).strip()
 
         if len(value) < 35:
             continue
@@ -1197,6 +1203,11 @@ def curate_tourist_events(events):
                     "performance",
                     "dança",
                     "danca",
+                    "caminhada",
+                    "percurso",
+                    "pedestre",
+                    "sobreposta",
+                    "verde",
                 )
             ):
                 score += 3
@@ -1294,7 +1305,18 @@ def curate_tourist_events(events):
             continue
 
         # Classificação final
-        if any(
+        if is_braga and any(
+            term in search_text
+            for term in (
+                "música",
+                "musica",
+                "concerto",
+                "orquestra",
+            )
+        ):
+            event["type"] = "Música"
+            
+        elif any(
             term in search_text
             for term in (
                 "prova de vinhos",
