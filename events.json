@@ -223,6 +223,19 @@
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
+      "name": "\"Música Em Comunidade\", Orquestra Do Distrito de Braga (Descentrar)",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "date": "10 Out",
+      "desc": "O Que Visitar O Que Fazer O Que Comer Visit Braga Meet Braga O Que Visitar Monumentos Espaços Culturais Arte Urbana Natureza Praias Fluviais A Região O Que Fazer Experiências Cultu",
+      "url": "https://visitbraga.travel/event/1188-musica-em-comunidade-orquestra-do-distrito-de-braga-descentrar",
+      "source": "https://visitbraga.travel/agenda-braga/"
+    },
+    {
       "name": "10 Anos Coro Crescendi Concerto comemorativo",
       "area": "Porto",
       "city": "Porto",
@@ -364,6 +377,19 @@
       "desc": "Concerto",
       "url": "https://www.agenda-porto.pt/",
       "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "\"Viva a Música\", Orquestra Filarmónica de Braga",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "O Que Visitar O Que Fazer O Que Comer Visit Braga Meet Braga O Que Visitar Monumentos Espaços Culturais Arte Urbana Natureza Praias Fluviais A Região O Que Fazer Experiências Cultu",
+      "url": "https://visitbraga.travel/event/1194-viva-a-musica-orquestra-filarmonica-de-braga",
+      "source": "https://visitbraga.travel/agenda-braga/"
     }
   ]
 }
