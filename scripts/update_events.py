@@ -821,8 +821,10 @@ def parse_braga():
         )
 
     print(f"Braga: {len(events)} eventos extraídos antes da curadoria.")
-    return dedupe(events)
+    for event in events:
+        print(f"  BRAGA RAW: {event.get('start', '')} | {event.get('name', '')} | {event.get('type', '')}")
 
+    return dedupe(events)
 
 def extract_title(html):
     patterns = [
