@@ -91,15 +91,20 @@ def clean(value, limit=180):
 
 def porto_event_links(html, source):
     links = re.findall(
-        r'href\s*=\s*["\']([^"\']*(?:/evento/)[^"\']*)["\']',
+        r'href\s*=\s*["\']([^"\']+)["\']',
         html,
         flags=re.I,
     )
-    return list(dict.fromkeys(
-        urljoin(source, unescape(link))
-        for link in links
-    ))
 
+    event_links = []
+
+    for link in links:
+        full_url = urljoin(source, unescape(link))
+
+        if "/evento/" in full_url:
+            event_links.append(full_url)
+
+    return list(dict.fromkeys(event_links))
 
 def iso(value):
     if not value:
