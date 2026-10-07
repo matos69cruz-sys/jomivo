@@ -691,7 +691,7 @@ for event in events:
     ):
         context_matches += 1
 
-print(f"Porto: {context_matches} títulos encontrados nos contextos.")
+    print(f"Porto: {context_matches} títulos encontrados nos contextos.")
     
     events = dedupe(events)
 
