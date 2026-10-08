@@ -1696,6 +1696,19 @@ def main():
                     "book club", "quiz night",
                     "treffpunkt", "phda:",
                     "encadernação", "linogravura",
+                    "quintas-feiras com ciência",
+                    "book quiz",
+                    "roda de oleiro",
+                    "gravura em tetrapak",
+                    "feltragem com agulha",
+                    "aguarelar",
+                    "trabalho em couro",
+                    "introdução ao self-tie",
+                    "arneses de perna",
+                    "men's circles",
+                    "sabedoria estoica",
+                    "real women’s talk",
+                    "phot oexperience".replace(" ", ""),
                 )
 
                 candidates = []
