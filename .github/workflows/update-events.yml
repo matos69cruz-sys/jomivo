@@ -58,6 +58,25 @@ jobs:
           ))
 
           print("Referências a meses:", dict(months))
+          from html.parser import HTMLParser
+
+          class EventLinkInspector(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.count = 0
+
+              def handle_starttag(self, tag, attrs):
+                  if tag != "a":
+                      return
+                  data = dict(attrs)
+                  href = data.get("href", "")
+                  if "evento/" in href and self.count < 3:
+                      print("EVENTO LINK:", href)
+                      print("EVENTO ATRIBUTOS:", data)
+                      self.count += 1
+
+          inspector = EventLinkInspector()
+          inspector.feed(html)
           print("Moonspell encontrado:", "moonspell-nov26" in html)
           pos = html.find("moonspell-nov26")
           if pos >= 0:
