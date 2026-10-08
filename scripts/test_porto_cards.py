@@ -1,69 +1,66 @@
 
-from html.parser import HTMLParser
-from urllib.parse import urljoin
+import re
+from html import unescape
 from urllib.request import Request, urlopen
 
-BASE = "https://www.agenda-porto.pt"
-URL = BASE + "/pesquisa/"
-
-
-class EventParser(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.stack = []
-        self.events = []
-        self.seen = set()
-
-    def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        cid = attrs.get("data-content-id")
-
-        inherited = self.stack[-1] if self.stack else None
-        current = cid or inherited
-        self.stack.append(current)
-
-        href = attrs.get("href", "")
-        if "/evento/" in href:
-            link = urljoin(BASE, href)
-
-            if link not in self.seen:
-                self.seen.add(link)
-                self.events.append({
-                    "id": current,
-                    "url": link
-                })
-
-    def handle_startendtag(self, tag, attrs):
-        self.handle_starttag(tag, attrs)
-        self.handle_endtag(tag)
-
-    def handle_endtag(self, tag):
-        if self.stack:
-            self.stack.pop()
-
-
-req = Request(
-    URL,
-    headers={"User-Agent": "Mozilla/5.0"}
-)
+URL = "https://www.agenda-porto.pt/pesquisa/"
+req = Request(URL, headers={"User-Agent": "Mozilla/5.0"})
 
 with urlopen(req, timeout=30) as response:
-    html = response.read().decode(
-        "utf-8", "replace"
+    html = response.read().decode("utf-8", "replace")
+
+print("HTML recebido:", len(html), "caracteres")
+
+for slug in ("heat", "moonspell-nov26"):
+    pattern = (
+        r'<a\b[^>]*href=["\']'
+        r'(?:https?://[^"\']+)?/?evento/'
+        + re.escape(slug)
+        + r'/["\'][^>]*>'
     )
 
-parser = EventParser()
-parser.feed(html)
+    match = re.search(pattern, html, re.I)
 
-print("TOTAL DE LINKS:", len(parser.events))
+    print("\n" + "=" * 50)
+    print("EVENTO:", slug)
 
-with_id = sum(
-    bool(event["id"])
-    for event in parser.events
-)
+    if not match:
+        print("Link não encontrado")
+        continue
 
-print("LINKS COM ID:", with_id)
+    tag = match.group(0)
+    cid_match = re.search(
+        r'data-content-id=["\']([^"\']+)',
+        tag
+    )
 
-for event in parser.events[:10]:
-    print("\nID:", event["id"])
-    print("LINK:", event["url"])
+    print("TAG DO LINK:", tag[:1200])
+
+    if cid_match:
+        cid = cid_match.group(1)
+        print("CONTENT ID:", cid)
+
+        occurrences = list(re.finditer(
+            re.escape(cid), html
+        ))
+
+        print("OCORRÊNCIAS DO ID:", len(occurrences))
+
+        for i, occurrence in enumerate(occurrences[:5], 1):
+            start = max(0, occurrence.start() - 350)
+            end = min(len(html), occurrence.end() + 350)
+            fragment = html[start:end]
+
+            print("\nELEMENTO", i)
+            print(fragment[:800])
+
+    start = max(0, match.start() - 1800)
+    end = min(len(html), match.end() + 500)
+
+    fragment = html[start:end]
+    plain = unescape(re.sub(r"<[^>]+>", " ", fragment))
+    plain = re.sub(r"\s+", " ", plain).strip()
+
+    print("\nTEXTO PRÓXIMO:", plain[:1000])
+
+print("\nDIAGNÓSTICO CONCLUÍDO")
