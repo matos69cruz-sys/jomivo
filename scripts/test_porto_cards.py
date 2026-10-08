@@ -1,66 +1,118 @@
 
-import re
-from html import unescape
+#!/usr/bin/env python3
+"""Diagnóstico dos cartões da Agenda Porto. Não altera events.json."""
+
+from collections import defaultdict
+from html.parser import HTMLParser
+from urllib.parse import urljoin
 from urllib.request import Request, urlopen
+import re
 
-URL = "https://www.agenda-porto.pt/pesquisa/"
-req = Request(URL, headers={"User-Agent": "Mozilla/5.0"})
+BASE = "https://www.agenda-porto.pt/"
+URL = urljoin(BASE, "pesquisa/")
 
-with urlopen(req, timeout=30) as response:
+
+class Cards(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.stack = []
+        self.cards = defaultdict(
+            lambda: {"fields": defaultdict(list), "url": ""}
+        )
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        parent = self.stack[-1]["cid"] if self.stack else None
+        cid = a.get("data-content-id") or parent
+        name = a.get("data-bl-name", "")
+        href = a.get("href", "")
+
+        self.stack.append({
+            "cid": cid,
+            "name": name,
+            "text": []
+        })
+
+        if cid and "evento/" in href:
+            self.cards[cid]["url"] = urljoin(BASE, href)
+
+    def handle_data(self, data):
+        if self.stack:
+            self.stack[-1]["text"].append(data)
+
+    def handle_endtag(self, tag):
+        if not self.stack:
+            return
+
+        node = self.stack.pop()
+        value = re.sub(
+            r"\s+", " ", "".join(node["text"])
+        ).strip()
+
+        if node["cid"] and node["name"] and value:
+            fields = self.cards[node["cid"]]["fields"][node["name"]]
+            if value not in fields:
+                fields.append(value)
+
+        if self.stack:
+            self.stack[-1]["text"].append(value + " ")
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        self.handle_endtag(tag)
+
+
+request = Request(
+    URL,
+    headers={"User-Agent": "Mozilla/5.0"}
+)
+
+with urlopen(request, timeout=30) as response:
     html = response.read().decode("utf-8", "replace")
 
-print("HTML recebido:", len(html), "caracteres")
+parser = Cards()
+parser.feed(html)
 
-for slug in ("heat", "moonspell-nov26"):
-    pattern = (
-        r'<a\b[^>]*href=["\']'
-        r'(?:https?://[^"\']+)?/?evento/'
-        + re.escape(slug)
-        + r'/["\'][^>]*>'
-    )
+linked = [
+    (cid, card)
+    for cid, card in parser.cards.items()
+    if card["url"]
+]
 
-    match = re.search(pattern, html, re.I)
+print("CARTOES COM LINK:", len(linked))
 
-    print("\n" + "=" * 50)
-    print("EVENTO:", slug)
-
-    if not match:
-        print("Link não encontrado")
+for cid, card in linked:
+    if not any(
+        slug in card["url"]
+        for slug in ("moonspell-nov26", "heat")
+    ):
         continue
 
-    tag = match.group(0)
-    cid_match = re.search(
-        r'data-content-id=["\']([^"\']+)',
-        tag
-    )
+    print("\nEVENTO:", card["url"])
+    print("ID:", cid)
 
-    print("TAG DO LINK:", tag[:1200])
+    for name, values in card["fields"].items():
+        if name in (
+            "Text", "Date", "Title", "Heading",
+            "Local", "Card. Card Event",
+            "Top row", "Row"
+        ):
+            print(
+                name, ":", repr(values[:5])[:500]
+            )
 
-    if cid_match:
-        cid = cid_match.group(1)
-        print("CONTENT ID:", cid)
+print("\nAMOSTRA DOS PRIMEIROS 3 CARTOES")
 
-        occurrences = list(re.finditer(
-            re.escape(cid), html
-        ))
+for cid, card in linked[:3]:
+    print("URL:", card["url"])
 
-        print("OCORRÊNCIAS DO ID:", len(occurrences))
+    for name, values in card["fields"].items():
+        if name in (
+            "Text", "Date", "Title",
+            "Heading", "Local"
+        ):
+            print(
+                " ", name, ":", repr(values[:3])[:200]
+            )
 
-        for i, occurrence in enumerate(occurrences[:5], 1):
-            start = max(0, occurrence.start() - 350)
-            end = min(len(html), occurrence.end() + 350)
-            fragment = html[start:end]
-
-            print("\nELEMENTO", i)
-            print(fragment[:800])
-
-    start = max(0, match.start() - 1800)
-    end = min(len(html), match.end() + 500)
-
-    fragment = html[start:end]
-    plain = unescape(re.sub(r"<[^>]+>", " ", fragment))
-    plain = re.sub(r"\s+", " ", plain).strip()
-
-    print("\nTEXTO PRÓXIMO:", plain[:1000])
-
-print("\nDIAGNÓSTICO CONCLUÍDO")
+print("\nDIAGNOSTICO CONCLUIDO")
