@@ -431,6 +431,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Authentic Jazz",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bamu Zunta Mon",
+      "type": "Desporto",
+      "start": "2026-10-06",
+      "end": "2026-10-27",
+      "date": "6–27 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/bzm-authentic-jazz-com-gabriela-manfredini-out/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Lindy Hop",
       "area": "Porto",
       "city": "Porto",
@@ -515,8 +528,8 @@
       "venue": "",
       "type": "Gastronomia",
       "start": "2026-10-08",
-      "end": "2026-11-05",
-      "date": "8 Out – 5 Nov",
+      "end": "2026-10-08",
+      "date": "8 Out",
       "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
       "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-94",
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
@@ -788,8 +801,8 @@
       "venue": "Espaço Porta-Jazz",
       "type": "Música",
       "start": "2026-10-09",
-      "end": "2026-10-30",
-      "date": "9–30 Out",
+      "end": "2026-10-09",
+      "date": "9 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/jam-session-porta-jazz-joao-almeida/",
       "source": "https://www.agenda-porto.pt/"
@@ -1126,8 +1139,8 @@
       "venue": "PAZ — Performance Arts Zone",
       "type": "Desporto",
       "start": "2026-10-10",
-      "end": "2026-10-31",
-      "date": "10–31 Out",
+      "end": "2026-10-10",
+      "date": "10 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/biodanza-1110/",
       "source": "https://www.agenda-porto.pt/"
@@ -1178,8 +1191,8 @@
       "venue": "Oficina Matérica",
       "type": "Família",
       "start": "2026-10-10",
-      "end": "2026-11-01",
-      "date": "10 Out – 1 Nov",
+      "end": "2026-10-10",
+      "date": "10 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1010/",
       "source": "https://www.agenda-porto.pt/"
@@ -1529,8 +1542,8 @@
       "venue": "Biblioteca Municipal Almeida Garrett",
       "type": "Família",
       "start": "2026-10-10",
-      "end": "2026-10-17",
-      "date": "10–17 Out",
+      "end": "2026-10-10",
+      "date": "10 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/bibliotecas-do-porto-sabados-a-contar-1010/",
       "source": "https://www.agenda-porto.pt/"
@@ -1585,6 +1598,19 @@
       "date": "11 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/1110-ars-ad-hoc/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Cerâmica em Família",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "date": "11 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1110/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -1997,8 +2023,8 @@
       "venue": "Fonoteca Municipal do Porto",
       "type": "Evento",
       "start": "2026-10-14",
-      "end": "2026-10-28",
-      "date": "14–28 Out",
+      "end": "2026-10-14",
+      "date": "14 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-1410/",
       "source": "https://www.agenda-porto.pt/"
@@ -2010,8 +2036,8 @@
       "venue": "Mercado do Bolhão",
       "type": "Música",
       "start": "2026-10-14",
-      "end": "2026-11-04",
-      "date": "14 Out – 4 Nov",
+      "end": "2026-10-14",
+      "date": "14 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-1410/",
       "source": "https://www.agenda-porto.pt/"
@@ -2264,6 +2290,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Jam Session Porta-Jazz",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Porta-Jazz",
+      "type": "Música",
+      "start": "2026-10-16",
+      "end": "2026-10-16",
+      "date": "16 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/jam-session-porta-jazz-luis-castro/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Jazz Sinfónico",
       "area": "Porto",
       "city": "Porto",
@@ -2485,6 +2524,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Cerâmica em Família",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "date": "17 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1710/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Corrida e Caminhada do Dragão",
       "area": "Porto",
       "city": "Porto",
@@ -2634,8 +2686,8 @@
       "venue": "Onze Onze",
       "type": "Exposição",
       "start": "2026-10-17",
-      "end": "2026-10-25",
-      "date": "17–25 Out",
+      "end": "2026-10-18",
+      "date": "17–18 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/laboratorio-de-biografias-impossiveis-17-e-18-out/",
       "source": "https://www.agenda-porto.pt/"
@@ -2784,6 +2836,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Sábados a Contar",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Família",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "date": "17 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/bibliotecas-do-porto-sabados-a-contar-1710/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Teatro Dom Roberto, com Valdevinos",
       "area": "Porto",
       "city": "Porto",
@@ -2859,6 +2924,19 @@
       "date": "17 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/1710-visita-guiada-arvores-do-parque/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Cerâmica em Família",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "date": "18 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1810/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -2959,8 +3037,8 @@
       "venue": "Oficina Vidra",
       "type": "Exposição",
       "start": "2026-10-18",
-      "end": "2026-10-31",
-      "date": "18–31 Out",
+      "end": "2026-10-18",
+      "date": "18 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/roda-de-oleiro-1810/",
       "source": "https://www.agenda-porto.pt/"
@@ -3132,6 +3210,19 @@
       "date": "21 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/261021-fado/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Hora de Ponta",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Fonoteca Municipal do Porto",
+      "type": "Evento",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "date": "21 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-2110/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -3330,6 +3421,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Jam Session Porta-Jazz",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Porta-Jazz",
+      "type": "Música",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/jam-session-porta-jazz-anton-quintela/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Masterpiece",
       "area": "Porto",
       "city": "Porto",
@@ -3486,6 +3590,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Cerâmica em Família",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-2410/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Cluster Formation",
       "area": "Porto",
       "city": "Porto",
@@ -3626,6 +3743,19 @@
       "date": "24 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/ikebana/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Laboratório de Biografias Impossíveis",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Onze Onze",
+      "type": "Exposição",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "date": "24–25 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/laboratorio-de-biografias-impossiveis-24-e-25-out/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -3863,6 +3993,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Biodanza",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "PAZ — Performance Arts Zone",
+      "type": "Desporto",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/biodanza-2510/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Cerimónia — Convidar ao Cuidado",
       "area": "Porto",
       "city": "Porto",
@@ -3873,6 +4016,19 @@
       "date": "25 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/cao-cerimonia-convidar-ao-cuidado/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Cerâmica em Família",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-2510/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4123,6 +4279,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Hora de Ponta",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Fonoteca Municipal do Porto",
+      "type": "Evento",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "date": "28 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-2810/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Memories",
       "area": "Porto",
       "city": "Porto",
@@ -4357,6 +4526,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Jam Session Porta-Jazz",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Porta-Jazz",
+      "type": "Música",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/jam-session-porta-jazz-joao-alves/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "James Malikey",
       "area": "Porto",
       "city": "Porto",
@@ -4487,6 +4669,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Biodanza",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "PAZ — Performance Arts Zone",
+      "type": "Desporto",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/biodanza-3110/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Cabaret: New Xperience",
       "area": "Porto",
       "city": "Porto",
@@ -4510,6 +4705,19 @@
       "date": "31 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/cadaveres-muito-esquisitos-oficina-criativa/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Cerâmica em Família",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-3110/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4656,6 +4864,19 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
+      "name": "Roda de Oleiro",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Vidra",
+      "type": "Exposição",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/roda-de-oleiro-3110/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
       "name": "Scary Groove Quest",
       "area": "Porto",
       "city": "Porto",
@@ -4692,6 +4913,19 @@
       "date": "31 Out – 1 Nov",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/tsb-vamos-obi/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Cerâmica em Família",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "date": "1 Nov",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-0111/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4797,6 +5031,32 @@
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/geologist-animal-collective/",
       "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Há Fado no Mercado",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado do Bolhão",
+      "type": "Música",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "date": "4 Nov",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-0411/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Gastronomia | Conversas d’Alguidar",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "date": "5 Nov",
+      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-77",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
       "name": "Black Bombaim & Isaiah Mitchell",
