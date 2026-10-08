@@ -1,71 +1,6 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "events": [
-    {
-      "name": "Flippeur Garage e synth-punk",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-07",
-      "end": "2026-10-07",
-      "date": "7 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Grant-Lee Philips apresenta In the Hour of Dust",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-07",
-      "end": "2026-10-07",
-      "date": "7 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/evento/cdm-grant-lee-philips/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Há Fado no Mercado com João Robalinho",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-07",
-      "end": "2026-10-07",
-      "date": "7 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-0710/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Meninos do Coro Concerto Solidário – Associação Vida Norte",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-07",
-      "end": "2026-10-07",
-      "date": "7 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/evento/meninos-do-coro/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Os Dias Levantados, de António Pinho Var... Obra dedicada ao 25 de Abril de 1974",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-07",
-      "end": "2026-10-07",
-      "date": "7 Out",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/evento/coliseu-antonio-pinho-vargas/",
-      "source": "https://www.agenda-porto.pt/"
-    },
     {
       "name": "Gastronomia | Conversas d’Alguidar",
       "area": "Aveiro",
@@ -366,7 +301,7 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Vinhos à Prova no Ervilha DJ set e prova de vinhos Ao Fresco Ar livre TMP — Campo Alegre",
+      "name": "Vinhos à Prova no Ervilha DJ set e prova de vinhos Ao Fresco Ar livre FUJIFILM House of Photography",
       "area": "Porto",
       "city": "Porto",
       "venue": "",
@@ -390,6 +325,32 @@
       "desc": "Percurso pela Serra dos Picos, em Sobreposta, entre trilhos naturais, paisagens amplas e vestígios históricos nas imediações do Pico do Crasto.",
       "url": "https://visitbraga.travel/event/1189-trilho-braga-verdejante-altaneira-pelos-prados-de-sobreposta-descentrar",
       "source": "https://visitbraga.travel/agenda-braga/"
+    },
+    {
+      "name": "ars ad hoc Obras de György Kurtág, Jonathan Harvey, Salvatore Sciarrin, Helm...",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "date": "11 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/",
+      "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Concerto Secreto Festival Décimas Festival Décimas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "date": "11 Out",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/evento/decimas-concerto-secreto/",
+      "source": "https://www.agenda-porto.pt/"
     },
     {
       "name": "\"Música Em Comunidade\", ODB (Descentrar)",
