@@ -197,32 +197,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Aulas de Skate",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Skate Park de Ramalde",
-      "type": "Desporto",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "date": "1–31 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/aulas-de-skate-out-26/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Authentic Jazz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-01",
-      "end": "2026-10-29",
-      "date": "1–29 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/bzm-authentic-jazz-com-edmilson-botelho-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Mercado da Alegria (Batalha)",
       "area": "Porto",
       "city": "Porto",
@@ -249,19 +223,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Movimento Suave (ioga)",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-01",
-      "end": "2026-10-29",
-      "date": "1–29 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/movimento-suave-bzm-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "CommedIA a La Carte",
       "area": "Porto",
       "city": "Porto",
@@ -285,19 +246,6 @@
       "date": "3–31 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/arriscar-ciclo-de-ilustracao-cientifica-oficinas-de-ilustracao-cientifica-1788257483278/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Dias com Energia",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Pavilhões Municipais do Porto",
-      "type": "Desporto",
-      "start": "2026-10-03",
-      "end": "2026-10-31",
-      "date": "3–31 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/dias-com-energia-out-26/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -392,71 +340,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Afro House",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-05",
-      "end": "2026-10-26",
-      "date": "5–26 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/afro-house-bzm-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Semba",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-05",
-      "end": "2026-10-26",
-      "date": "5–26 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/semba-bzm-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Afro Jazz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-06",
-      "end": "2026-10-20",
-      "date": "6–20 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/bzm-afro-jazz-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Authentic Jazz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-06",
-      "end": "2026-10-27",
-      "date": "6–27 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/bzm-authentic-jazz-com-gabriela-manfredini-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Lindy Hop",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-06",
-      "end": "2026-10-27",
-      "date": "6–27 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/bzm-lindy-hop-iniciados-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "SeriTerças",
       "area": "Porto",
       "city": "Porto",
@@ -493,32 +376,6 @@
       "date": "7–28 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/balfolk-nivel-aberto-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Blues a Pares",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-07",
-      "end": "2026-10-28",
-      "date": "7–28 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/blues-a-pares-iniciados-bzm-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Solo Blues",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-07",
-      "end": "2026-10-28",
-      "date": "7–28 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/solo-blues-bamu-zunta-out/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -561,32 +418,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Heat, de Michael Mann",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Passos Manuel",
-      "type": "Cinema",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/heat/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Meditação & Budismo Moderno",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "The Alchemist",
-      "type": "Evento",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/meditacao-andamp-budismo-moderno-1790949511786/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "O Pai, de August Strindberg",
       "area": "Porto",
       "city": "Porto",
@@ -597,19 +428,6 @@
       "date": "8–18 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/tnsj-o-pai/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Primetime, de Lance Oppenheim",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/primetime-de-lance-oppenheim/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -636,19 +454,6 @@
       "date": "8 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/261008-salma-jo-br/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Wasp + Fish Tank",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/wasp-fish-tank-1783529915131/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -964,19 +769,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Yin Yoga",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Spazio Harmónico",
-      "type": "Desporto",
-      "start": "2026-10-09",
-      "end": "2026-10-23",
-      "date": "9–23 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/yin-yoga/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Triatlo de São Jacinto",
       "area": "Aveiro",
       "city": "Aveiro",
@@ -1042,32 +834,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "A Corda, de Alfred Hitchcock",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/1010-a-corda/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Adeus, Mundo Cruel, de Félix de Givry",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Passos Manuel",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/fcf-adeus-mundo-cruel-de-felix-de-givry/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Agnes Nunes",
       "area": "Porto",
       "city": "Porto",
@@ -1120,32 +886,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Biodanza",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "PAZ — Performance Arts Zone",
-      "type": "Desporto",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/biodanza-1110/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "BitCommit",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Founders Founders",
-      "type": "Evento",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/bitcommit/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Campeonato Distrital de Tiro do Porto",
       "area": "Porto",
       "city": "Porto",
@@ -1169,19 +909,6 @@
       "date": "10 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/casas-de-brasileiros-ou-torna-viagens/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1010/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -1289,19 +1016,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Luas Novas: Carla Andrade + Joana Patrão",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/luas-novas-carla-andrade-joana-patrao-1784383027660/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Massimiliano Pagliara",
       "area": "Porto",
       "city": "Porto",
@@ -1312,45 +1026,6 @@
       "date": "10 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/massimiliano-pagliari/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "O Canto das Florestas, de Vincent Munier",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Passos Manuel",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/fcf-o-canto-das-florestas-de-vincent-munier/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "O Convite, de Olivia Wilde",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/o-convite-1010/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "O Saber do Cinema — Sessão 1",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/1010-o-saber-do-cinema-sessao-1/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -1377,19 +1052,6 @@
       "date": "10 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/decimas-ondas-e-confissoes/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Paprika, de Satoshi Kon",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/paprika-satoshi-1783702404681/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -1484,19 +1146,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Realização de Cinema",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Filmesdamente",
-      "type": "Cinema",
-      "start": "2026-10-10",
-      "end": "2026-10-11",
-      "date": "10–11 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/realizacao-de-cinema/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Ride for Kids",
       "area": "Porto",
       "city": "Porto",
@@ -1588,19 +1237,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1110/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Concerto Secreto",
       "area": "Porto",
       "city": "Porto",
@@ -1611,19 +1247,6 @@
       "date": "11 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/decimas-concerto-secreto/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Costura Criativa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Amparo 99",
-      "type": "Família",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/costura-creativa/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -1650,32 +1273,6 @@
       "date": "11 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/1110-oficina-de-familias-or-do-fio-ao-novelo/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Kuroneko, de Kaneto Shindo",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/kuroneko-rep/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Naza, de Yuval Abraham e Rachel Szor",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/naza-1110/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -1715,45 +1312,6 @@
       "date": "11 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/sabedoria-estoica-para-uma-vida-plena/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Taking Off, de Miloš Forman",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/taking-off-1784046039384/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Danças Tradicionais Moçambicanas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Desporto",
-      "start": "2026-10-12",
-      "end": "2026-10-26",
-      "date": "12–26 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/dancas-tradicionais-mocambicanas-out/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "D’Est, de Chantal Akerman",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-12",
-      "end": "2026-10-12",
-      "date": "12 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/dest-de-chantal-akerman/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -1848,19 +1406,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Family Film Project",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-13",
-      "end": "2026-10-17",
-      "date": "13–17 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/family-film-project-1784634078299/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "O Capote, de Alma d’Arame e O Teatrão",
       "area": "Porto",
       "city": "Porto",
@@ -1884,19 +1429,6 @@
       "date": "13 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/clube-da-saude-phda-sinais-de-alerta/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Truly Naked, de Muriel d’Ansembourg",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/truly-naked-1310/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -2004,19 +1536,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Frances Ha, de Noah Baumbach",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-14",
-      "end": "2026-10-14",
-      "date": "14 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/frances-ha/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Hora de Ponta",
       "area": "Porto",
       "city": "Porto",
@@ -2053,19 +1572,6 @@
       "date": "14 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/luis-de-camoes-uma-voz-escrita-espetaculo/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "O Jacaré, de Basil da Cunha",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-14",
-      "end": "2026-10-14",
-      "date": "14 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/o-jacare-1410/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -2118,19 +1624,6 @@
       "date": "15 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/confluencias-1791468946725/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Edição de Vídeo e Color Grading",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Instituto Superior de Tecnologias Avançadas do Porto",
-      "type": "Cinema",
-      "start": "2026-10-15",
-      "end": "2026-10-16",
-      "date": "15–16 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/edicao-de-video-e-color-grading/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -2524,19 +2017,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-10-17",
-      "end": "2026-10-17",
-      "date": "17 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1710/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Corrida e Caminhada do Dragão",
       "area": "Porto",
       "city": "Porto",
@@ -2560,19 +2040,6 @@
       "date": "17 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/capsula-melodica-4o-aniversario/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Duel in the Sun, de King Vidor",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Passos Manuel",
-      "type": "Cinema",
-      "start": "2026-10-17",
-      "end": "2026-10-17",
-      "date": "17 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/duel-in-the-sun/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -2732,19 +2199,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Oficina de Gaffer",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Filmesdamente",
-      "type": "Cinema",
-      "start": "2026-10-17",
-      "end": "2026-10-18",
-      "date": "17–18 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/gaffer/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Open House, de Tomé Capa",
       "area": "Porto",
       "city": "Porto",
@@ -2768,19 +2222,6 @@
       "date": "17 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/hindu-synergy/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Rest Evolution",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Healing House",
-      "type": "Desporto",
-      "start": "2026-10-17",
-      "end": "2026-10-17",
-      "date": "17 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/rest-evolution/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -2927,19 +2368,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-1810/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Community Kirtan",
       "area": "Porto",
       "city": "Porto",
@@ -2950,45 +2378,6 @@
       "date": "18 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/community-kirtan/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Le voyageur sans bagage, de Jean Anouilh",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/le-voyageur-sans-bagage-1784222591377/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Milk + Red Road",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/milk-red-road-1783524006893/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "O Gebo e a Sombra, de Manoel de Oliveira",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Cinema",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/1810-o-gebo-e-a-sombra/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -3161,19 +2550,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "50 anos de Trás-os-Montes, fora dele",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/50-anos-de-tras-os-montes-fora-dele-1783953357926/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Ana Cristina",
       "area": "Porto",
       "city": "Porto",
@@ -3223,45 +2599,6 @@
       "date": "21 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-2110/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Taking Off",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/taking-off-rep/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Black Joy, de Kẹ́mi Fátọba + Quiz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/micar-black-joy/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Bullitt, de Peter Yates",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Passos Manuel",
-      "type": "Cinema",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/bullitt/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -3382,19 +2719,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Fotografia de Casamento",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "FUJIFILM House of Photography",
-      "type": "Evento",
-      "start": "2026-10-23",
-      "end": "2026-10-23",
-      "date": "23 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/fujfilm-fotografia-de-casamento/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "husbands. + Semivitae",
       "area": "Porto",
       "city": "Porto",
@@ -3499,19 +2823,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "The Watermelon Woman, de Cheryl Dunye",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-23",
-      "end": "2026-10-23",
-      "date": "23 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/micar-the-watermelon-woman/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "\"Viva a Música\", Orquestra Filarmónica de Braga",
       "area": "Braga",
       "city": "Braga",
@@ -3587,19 +2898,6 @@
       "date": "24 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/can-you-draw-me-a-horse/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "date": "24 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-2410/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -3720,19 +3018,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Hit the Road, de Panah Panahi",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "date": "24 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/micar-hit-the-road/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Ikebana",
       "area": "Porto",
       "city": "Porto",
@@ -3837,19 +3122,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "O Saber do Cinema — Sessão 2",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Cinema",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "date": "24 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/2410-o-saber-do-cinema-sessao-2/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Para Voz",
       "area": "Porto",
       "city": "Porto",
@@ -3912,19 +3184,6 @@
       "date": "24–25 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/sao-bloc-26/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Tongues Untied, de Marlon Riggs",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "date": "24 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/micar-tongues-untied/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -3993,19 +3252,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Biodanza",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "PAZ — Performance Arts Zone",
-      "type": "Desporto",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "date": "25 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/biodanza-2510/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Cerimónia — Convidar ao Cuidado",
       "area": "Porto",
       "city": "Porto",
@@ -4016,19 +3262,6 @@
       "date": "25 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/cao-cerimonia-convidar-ao-cuidado/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "date": "25 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-2510/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4110,45 +3343,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Memórias do Cárcere, de Sérgio Graciano",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "date": "25 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/memorias-do-carcere-1791361288508/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Pongo Calling, de Tomáš Kratochvíl",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "date": "25 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/micar-pongo-calling/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Umberto D., de Vittorio De Sica",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-26",
-      "end": "2026-10-26",
-      "date": "26 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/umberto-d/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Adriana Calcanhotto",
       "area": "Porto",
       "city": "Porto",
@@ -4201,19 +3395,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Nosso Segredo, de Grace Passô",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-27",
-      "end": "2026-10-27",
-      "date": "27 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/nosso-segredo-de-grace-passo/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "A Lemonade Stand-up Comedy",
       "area": "Porto",
       "city": "Porto",
@@ -4227,19 +3408,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Anatomia de Uma Queda, de Justine Triet",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cinema Trindade",
-      "type": "Cinema",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/anatomia-de-uma-queda-1791276812035/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Antes da Palavra, de Viriato Morais",
       "area": "Porto",
       "city": "Porto",
@@ -4250,19 +3418,6 @@
       "date": "28 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/antes-da-palavra-2810/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Femme Sessions #102",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Cinema",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/261028-femme-sessions-102/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4289,19 +3444,6 @@
       "date": "28 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-2810/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Memories",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/memories-1783704374449/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4422,19 +3564,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Reservoir Dogs, de Quentin Tarantino",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Passos Manuel",
-      "type": "Cinema",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/reservoir-dogs/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Rigoletto, de Giuseppe Verdi",
       "area": "Porto",
       "city": "Porto",
@@ -4448,19 +3577,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Todos mienten, de Matías Piñeiro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/todos-mienten-1784103189605/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Trivial",
       "area": "Porto",
       "city": "Porto",
@@ -4471,19 +3587,6 @@
       "date": "29 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/trivial-look-sharp-1790069431905/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Writing Tools",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/masterclass-de-matias-pineiro-writing-tools-1784051228572/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4549,19 +3652,6 @@
       "date": "30 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/james-malikey/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Lançamento de livro + Tú me abrasas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/lancamento-de-livro-tu-me-abrasas-1784104273484/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4669,19 +3759,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Biodanza",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "PAZ — Performance Arts Zone",
-      "type": "Desporto",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "date": "31 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/biodanza-3110/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Cabaret: New Xperience",
       "area": "Porto",
       "city": "Porto",
@@ -4708,19 +3785,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "date": "31 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-3110/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Dentro da Pele, de Ana Si",
       "area": "Porto",
       "city": "Porto",
@@ -4731,19 +3795,6 @@
       "date": "31 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/dentro-da-pele-inauguracao/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Hair",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "date": "31 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/hair-1784023265442/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
@@ -4838,19 +3889,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Palestra: Viver na Cidade sem Ansiedade",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "The Alchemist",
-      "type": "Evento",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "date": "31 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/palestra-viver-na-cidade-sem-ansiedade/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Pequenos Jardins Secretos #2",
       "area": "Porto",
       "city": "Porto",
@@ -4916,19 +3954,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Cerâmica em Família",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-11-01",
-      "end": "2026-11-01",
-      "date": "1 Nov",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-em-familia-0111/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "De Profundis",
       "area": "Porto",
       "city": "Porto",
@@ -4939,32 +3964,6 @@
       "date": "1 Nov",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/cdm-de-profundis/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Dog + Wuthering Heights",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-11-01",
-      "end": "2026-11-01",
-      "date": "1 Nov",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/dog-wuthering-heights-1783611619803/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Last Movies, de Stanley Schtinter",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-11-01",
-      "end": "2026-11-01",
-      "date": "1 Nov",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/last-movies-1784368752550/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
