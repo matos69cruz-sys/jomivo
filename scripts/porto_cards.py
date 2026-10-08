@@ -114,6 +114,38 @@ def parse_event_date(value, today):
 
     return result
 
+def parse_date_range(value, today):
+    pattern = (
+        r"\b([0-3]?\d)\s+"
+        r"(Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)\b"
+    )
+    matches = list(re.finditer(pattern, value, re.I))
+
+    if not matches:
+        return None, None
+
+    years = re.findall(r"\b20\d{2}\b", value)
+    year = int(years[-1]) if years else today.year
+
+    try:
+        dates = [
+            date(year, MONTHS[m.group(2).lower()], int(m.group(1)))
+            for m in matches[:2]
+        ]
+    except ValueError:
+        return None, None
+
+    start = dates[0]
+    end = dates[-1]
+
+    if len(dates) > 1 and end < start:
+        end = date(year + 1, end.month, end.day)
+
+    if not years and end < today - timedelta(days=30):
+        start = date(start.year + 1, start.month, start.day)
+        end = date(end.year + 1, end.month, end.day)
+
+    return start, end
 
 def fetch_porto_cards(today=None, days=90):
     """Devolve eventos futuros com os campos associados."""
@@ -157,14 +189,14 @@ def fetch_porto_cards(today=None, days=90):
                 repr(fields.get("Row", [])),
             )
         
-        start = parse_event_date(date_text, today)
+        start, end = parse_date_range(date_text, today)
 
-        if not title or not start:
+        if not title or not start or not end:
             continue
 
-        if start < today or start > cutoff:
+        if end < today or start > cutoff:
             continue
-
+        
         # Evitar títulos visivelmente truncados.
         if title.endswith(("...", "…")):
             continue
