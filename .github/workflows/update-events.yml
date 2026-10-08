@@ -99,6 +99,18 @@ jobs:
                       flags=re.I
                   )
                   print("TESTE DATA", slug, ":", datas[-5:])
+          for slug in ("heat", "moonspell-nov26"):
+              match = re.search(
+                  r'<a\b[^>]*href=["\']evento/' + re.escape(slug) + r'/["\'][^>]*>',
+                  html
+              )
+              if match:
+                  tag = match.group(0)
+                  content_id = re.search(r'data-content-id=["\']([^"\']+)', tag)
+                  if content_id:
+                      cid = content_id.group(1)
+                      print("CARTÃO ID:", slug, cid)
+                      print("ELEMENTOS COM ID:", html.count('data-content-id="' + cid + '"'))
           PY
 
       - name: Atualizar agenda
