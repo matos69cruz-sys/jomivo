@@ -1660,6 +1660,41 @@ def main():
                 future.append(event)
 
             future = dedupe(future)
+
+            if area == "Porto":
+                excluded_terms = (
+                    "aulas de ",
+                    "aula de ",
+                    "curso de ",
+                    "formação em ",
+                    "formação de ",
+                    "workshop técnico",
+                    "meditação & budismo moderno",
+                    "quintas-feiras com ciência",
+                    "bitcommit",
+                )
+
+                candidates = [
+                    event for event in future
+                    if any(
+                        term in event["name"].casefold()
+                        for term in excluded_terms
+                    )
+                ]
+
+                print(
+                    f"FILTRO TESTE: {len(candidates)} "
+                    "eventos candidatos a exclusão."
+                )
+
+                for event in candidates:
+                    print(
+                        "FILTRO TESTE:",
+                        event["start"],
+                        event["type"],
+                        event["name"],
+                    )
+
             
             if area != "Porto":
                 future = curate_tourist_events(future)
