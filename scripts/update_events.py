@@ -118,43 +118,49 @@ def porto_event_links(html, source):
 
     return list(dict.fromkeys(event_links))
 
+
 def porto_link_for_title(html, title, source):
     title_slug = porto_slug(title)
-
-    if not title_slug:
-        return source
-
     title_words = {
-        word
-        for word in title_slug.split("-")
+        word for word in title_slug.split("-")
         if len(word) >= 4
     }
 
     if not title_words:
-        return source
+        return ""
 
-    best_link = source
-    best_score = 0
+    candidates = []
 
     for link in porto_event_links(html, source):
         link_slug = porto_slug(
             link.split("/evento/", 1)[-1]
         )
+        link_words = {
+            word for word in link_slug.split("-")
+            if len(word) >= 4
+        }
 
-        link_words = set(link_slug.split("-"))
+        if not link_words:
+            continue
 
-        score = len(
-            title_words & link_words
-        )
+        shared = len(title_words & link_words)
+        coverage = shared / len(title_words)
+        precision = shared / len(link_words)
 
-        if score > best_score:
-            best_score = score
-            best_link = link
+        if shared >= 2 and coverage >= 0.75 and precision >= 0.60:
+            candidates.append((coverage + precision, link))
 
-    if best_score >= 2:
-        return best_link
+    candidates.sort(reverse=True)
 
-    return source
+    if not candidates:
+        return ""
+
+    if len(candidates) > 1:
+        if candidates[0][0] - candidates[1][0] < 0.15:
+            return ""
+
+    return candidates[0][1]
+
 
 def iso(value):
     if not value:
