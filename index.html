@@ -135,7 +135,7 @@ function renderDiscover(){
 }
 function openDiscover(p){
  const cards=$('cards');cards.replaceChildren();
- const back=document.createElement('button');back.textContent='← '+(language==='pt'?'Voltar':'Back');back.style.marginBottom='12px';back.onclick=()=>renderDiscover();cards.append(back);
+ const back=document.createElement('button');back.className='back';back.textContent='← '+(language==='pt'?'Voltar':'Back');back.style.marginBottom='12px';back.onclick=()=>renderDiscover();cards.append(back);
  const box=document.createElement('article');box.className='card';
  const title=document.createElement('h2');title.textContent=p.name;box.append(title);
  const photo=document.createElement('a');photo.className='discoverPhoto';photo.target='_blank';photo.rel='noopener noreferrer';photo.href='https://www.google.com/search?tbm=isch&q='+encodeURIComponent(p.q);photo.innerHTML='<div><b>📷 Ver fotografias</b><span>'+(language==='pt'?'Toca aqui para ver imagens online':'Tap to view photos online')+'</span></div>';box.append(photo);
