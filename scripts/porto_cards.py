@@ -149,6 +149,14 @@ def fetch_porto_cards(today=None, days=90):
         venue = first(fields, "Local").strip()
         date_text = first(fields, "Date")
 
+        if any(word in title.casefold() for word in ("exposição", "museu", "festival")):
+            print(
+                "DIAGNOSTICO DATAS:",
+                repr(title),
+                repr(fields.get("Date", [])),
+                repr(fields.get("Row", [])),
+            )
+        
         start = parse_event_date(date_text, today)
 
         if not title or not start:
