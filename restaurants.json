@@ -45,7 +45,10 @@
     "category": "carne",
     "price": "20–30 €",
     "pt": "O costeletão é muito bom e tenro.",
-    "en": "The large steak is delicious and tender."
+    "en": "The large steak is delicious and tender.",
+    "images": [
+     "images/restaurants/adega-braga.jpg"
+  ]
   },
   {
     "name": "Casa Rocha Melres",
@@ -61,7 +64,10 @@
     "category": "petiscos",
     "price": "15–20 €",
     "pt": "Bons petiscos e um espaço exterior muito agradável.",
-    "en": "Great small plates and a lovely outdoor area."
+    "en": "Great small plates and a lovely outdoor area.",
+    "images": [
+     "images/restaurants/moinho-moleiro.jpg"
+  ]
   },
   {
     "name": "Tasca da Carroça",
@@ -87,7 +93,8 @@
     "pt": "Champarrion acompanhado de bons petiscos.",
     "en": "Champarrion served with tasty small plates.",
     "images": [
-     "images/restaurants/Cafe-cacana.jpg"
+     "images/restaurants/Cafe-cacana.jpg",
+     "images/restaurants/cafe-cacana2.jpg"
     ]
   },
   {
@@ -137,5 +144,8 @@
     "price": "~25 €",
     "pt": "A tábua de três carnes é uma excelente escolha.",
     "en": "The three-meat platter is an excellent choice."
+    "images": [
+     "images/restaurants/o-castigo.jpg"
+    ]
   }
 ]
