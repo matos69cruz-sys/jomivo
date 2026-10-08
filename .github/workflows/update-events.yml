@@ -49,6 +49,15 @@ jobs:
           ))
 
           print("Links individuais encontrados:", len(links))
+          from collections import Counter
+
+          months = Counter(re.findall(
+            r'\b(?:Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)\b',
+            re.sub(r'<[^>]+>', ' ', html),
+            flags=re.I
+          ))
+
+          print("Referências a meses:", dict(months))
           print("Moonspell encontrado:", "moonspell-nov26" in html)
           pos = html.find("moonspell-nov26")
           if pos >= 0:
