@@ -44,7 +44,7 @@ jobs:
               html = response.read().decode("utf-8", "replace")
 
           links = set(re.findall(
-              r'href=["\']([^"\']*/evento/[^"\']+)',
+              r'href=["\']([^"\']*evento/[^"\']+)',
               html
           ))
 
