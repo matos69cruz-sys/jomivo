@@ -1674,6 +1674,9 @@ def main():
                     "concerto", "espetáculo", "festa",
                     "visita guiada", "rota ",
                     "corrida", "campeonato",
+                    "city race", "expo", "bloc 26",
+                    "torneio", "maratona",
+                    "competição", "prova desportiva",
                     "halloween", "gastronomia",
                     "vinhos", "prova de ",
                 )
