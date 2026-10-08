@@ -147,8 +147,8 @@ def porto_link_for_title(html, title, source):
         coverage = shared / len(title_words)
         precision = shared / len(link_words)
 
-        if shared >= 2 and coverage >= 0.75 and precision >= 0.60:
-            candidates.append((coverage + precision, link))
+        if shared >= 2 and coverage >= 0.60 and precision >= 0.50:
+        candidates.append((coverage + precision, link))
 
     candidates.sort(reverse=True)
 
