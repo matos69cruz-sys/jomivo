@@ -232,7 +232,7 @@ def fetch_porto_cards(today=None, days=90):
             "venue": venue,
             "type": category,
             "start": start.isoformat(),
-            "end": start.isoformat(),
+            "end": end.isoformat(),
             "desc": "",
             "url": url,
             "source": BASE,
