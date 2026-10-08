@@ -1717,7 +1717,20 @@ def main():
                         keep = False
 
                     if not keep:
-                        candidates.append(event)
+                        if (
+                            category == "Evento"
+                            and not routine
+                            and not special
+                        ):
+                            print(
+                                "REVER CULTURA:",
+                                event["start"],
+                                category,
+                                event["name"],
+                                event.get("url", ""),
+                            )
+                        else:
+                            candidates.append(event)
 
                 print(
                     f"FILTRO TURISTICO TESTE: "
