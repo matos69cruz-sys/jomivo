@@ -1545,6 +1545,8 @@ def dedupe(events):
             normalized_name,
             event.get("area", ""),
             normalized_venue,
+            event["start"],
+            event["end"],
         )
 
         old = grouped.get(key)
