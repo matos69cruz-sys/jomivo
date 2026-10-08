@@ -522,19 +522,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-94",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
-    },
-    {
       "name": "Café-Europa",
       "area": "Porto",
       "city": "Porto",
@@ -1833,6 +1820,19 @@
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/primeira-box-1210/",
       "source": "https://www.agenda-porto.pt/"
+    },
+    {
+      "name": "Gastronomia | Conversas d’Alguidar",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "date": "13 Out",
+      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-52",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro"
     },
     {
       "name": "Constituição, Política e Direito",
