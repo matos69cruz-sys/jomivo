@@ -590,8 +590,16 @@ def parse_porto():
         # O título é a primeira parte relevante.
         # A Agenda Porto usa frequentemente "..." quando
         # o título apresentado no cartão é truncado.
+        
         title = before_category.strip()
+
+        # Evita publicar títulos incompletos.
+        if "..." in title or "…" in title:
+           index += consumed
+           continue
+
         event_url = source
+
 
         # Remove etiquetas ocasionais do início/fim.
         title = re.sub(
