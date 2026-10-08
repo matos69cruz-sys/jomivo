@@ -31,9 +31,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Diagnosticar pesquisa Porto
-        run: python scripts/test_porto_cards.py
-
+      - name: Testar novo extrator Porto
+        run: python scripts/porto_cards.py
+        
       - name: Atualizar agenda
         run: python scripts/update_events.py
 
