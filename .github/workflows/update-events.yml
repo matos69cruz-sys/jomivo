@@ -31,6 +31,27 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Diagnosticar pesquisa Porto
+        run: |
+          python - <<'PY'
+          import re
+          from urllib.request import Request, urlopen
+
+          url = "https://www.agenda-porto.pt/pesquisa/"
+          request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+
+          with urlopen(request, timeout=30) as response:
+              html = response.read().decode("utf-8", "replace")
+
+          links = set(re.findall(
+              r'href=["\']([^"\']*/evento/[^"\']+)',
+              html
+          ))
+
+          print("Links individuais encontrados:", len(links))
+          print("Moonspell encontrado:", "moonspell-nov26" in html)
+          PY
+
       - name: Atualizar agenda
         run: python scripts/update_events.py
 
