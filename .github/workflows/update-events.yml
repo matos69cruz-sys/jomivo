@@ -88,26 +88,17 @@ jobs:
                   flags=re.I
               )
               print("DATAS ANTES DO HEAT:", datas[-10:])
-              for slug in ("heat", "moonspell-nov26"):
-                match = re.search(
-                  r'href=["\']evento/' + re.escape(slug) + r'/["\']',
-                  html
-              )
-              if not match:
-                  continue
-
-              trecho = html[max(0, match.start()-5000):match.start()]
-              texto = re.sub(r'<[^>]+>', ' ', trecho)
-              datas = re.findall(
-                  r'\b\d{1,2}\s+(?:Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)\b',
-                  texto,
-                  flags=re.I
-              )
-              print("TESTE DATA", slug, ":", datas[-5:])
-
-          print("Moonspell encontrado:", "moonspell-nov26" in html)
-          pos = html.find("moonspell-nov26")
-          if pos >= 0:
+            for slug in ("heat", "moonspell-nov26"):
+              pos = html.find('href="evento/' + slug + '/"')
+              if pos >= 0:
+                  trecho = html[max(0, pos-5000):pos]
+                  texto = re.sub(r'<[^>]+>', ' ', trecho)
+                  datas = re.findall(
+                      r'\b\d{1,2}\s+(?:Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)\b',
+                      texto,
+                      flags=re.I
+                  )
+                  print("TESTE DATA", slug, ":", datas[-5:])
           print("Contexto Moonspell:", html[max(0, pos-200):pos+200])
           PY
 
