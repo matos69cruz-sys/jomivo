@@ -88,7 +88,7 @@ jobs:
                   flags=re.I
               )
               print("DATAS ANTES DO HEAT:", datas[-10:])
-            for slug in ("heat", "moonspell-nov26"):
+          for slug in ("heat", "moonspell-nov26"):
               pos = html.find('href="evento/' + slug + '/"')
               if pos >= 0:
                   trecho = html[max(0, pos-5000):pos]
@@ -99,7 +99,6 @@ jobs:
                       flags=re.I
                   )
                   print("TESTE DATA", slug, ":", datas[-5:])
-          print("Contexto Moonspell:", html[max(0, pos-200):pos+200])
           PY
 
       - name: Atualizar agenda
