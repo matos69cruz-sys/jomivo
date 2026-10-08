@@ -324,6 +324,36 @@ def links_from_html(html, base_url):
 
 
 def parse_porto():
+    
+    from porto_cards import fetch_porto_cards
+
+    cards = fetch_porto_cards(days=90)
+
+    if len(cards) < 30:
+        raise RuntimeError(
+            "Recolha Porto insuficiente; agenda anterior preservada."
+        )
+
+    events = []
+
+    for card in cards:
+        events.append(
+            make_event(
+                name=card["name"],
+                area="Porto",
+                city="Porto",
+                venue=card["venue"],
+                event_type=card["type"],
+                start=card["start"],
+                end=card["end"],
+                desc=card["desc"],
+                url=card["url"],
+                source=card["source"],
+            )
+        )
+
+    return dedupe(events)
+
     area = "Porto"
     city = "Porto"
     source = SOURCES[area]["url"]
