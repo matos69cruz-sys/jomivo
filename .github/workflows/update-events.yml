@@ -80,6 +80,14 @@ jobs:
           pos = html.find('href="evento/heat/"')
           if pos >= 0:
               print("CARTÃO HEAT:", html[max(0, pos-1200):pos+150])
+          if pos >= 0:
+              trecho = html[max(0, pos-5000):pos]
+              datas = re.findall(
+                  r'\b\d{1,2}\s+(?:Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez)\b',
+                  re.sub(r'<[^>]+>', ' ', trecho),
+                  flags=re.I
+              )
+              print("DATAS ANTES DO HEAT:", datas[-10:])
           print("Moonspell encontrado:", "moonspell-nov26" in html)
           pos = html.find("moonspell-nov26")
           if pos >= 0:
