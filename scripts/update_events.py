@@ -1648,6 +1648,18 @@ def main():
     # dessa cidade que já existiam no ficheiro.
     existing = load_existing()
 
+    # Preserva links diretos de eventos já conhecidos.
+    previous_links = {
+        (e.get("area"), e.get("start"), e.get("name")): e.get("url")
+        for e in existing
+        if e.get("url") and e.get("url") != e.get("source")
+    }
+
+    for event in collected:
+        key = (event.get("area"), event.get("start"), event.get("name"))
+        if not event.get("url") and key in previous_links:
+            event["url"] = previous_links[key]
+    
     for event in existing:
         area = event.get("area")
 
