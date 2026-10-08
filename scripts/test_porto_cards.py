@@ -1,49 +1,69 @@
-import re
-from collections import defaultdict
-from html import unescape
+
+from html.parser import HTMLParser
+from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 
-url = "https://www.agenda-porto.pt/pesquisa/"
-req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+BASE = "https://www.agenda-porto.pt"
+URL = BASE + "/pesquisa/"
+
+
+class EventParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.stack = []
+        self.events = []
+        self.seen = set()
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        cid = attrs.get("data-content-id")
+
+        inherited = self.stack[-1] if self.stack else None
+        current = cid or inherited
+        self.stack.append(current)
+
+        href = attrs.get("href", "")
+        if "/evento/" in href:
+            link = urljoin(BASE, href)
+
+            if link not in self.seen:
+                self.seen.add(link)
+                self.events.append({
+                    "id": current,
+                    "url": link
+                })
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        self.handle_endtag(tag)
+
+    def handle_endtag(self, tag):
+        if self.stack:
+            self.stack.pop()
+
+
+req = Request(
+    URL,
+    headers={"User-Agent": "Mozilla/5.0"}
+)
 
 with urlopen(req, timeout=30) as response:
-    html = response.read().decode("utf-8", "replace")
+    html = response.read().decode(
+        "utf-8", "replace"
+    )
 
-cards = defaultdict(list)
+parser = EventParser()
+parser.feed(html)
 
-for match in re.finditer(
-    r'<[^>]+data-content-id="([^"]+)"[^>]*>[^<]*',
-    html
-):
-    cid = match.group(1)
-    fragment = match.group(0)
+print("TOTAL DE LINKS:", len(parser.events))
 
-    link = re.search(r'href="([^"]*/evento/[^"]+)"', fragment)
-    if link:
-        cards[cid].append(("LINK", link.group(1)))
+with_id = sum(
+    bool(event["id"])
+    for event in parser.events
+)
 
-    value = re.sub(r"<[^>]+>", " ", fragment)
-    value = unescape(value).strip()
+print("LINKS COM ID:", with_id)
 
-    if value:
-        cards[cid].append(("TEXTO", value[:120]))
-
-found = 0
-
-for cid, items in cards.items():
-    links = [v for kind, v in items if kind == "LINK"]
-    if not links:
-        continue
-
-    print("\nCARTÃO:", cid)
-    for kind, value in items[:15]:
-        print(kind + ":", value)
-
-    found += 1
-    if found == 5:
-        break
-
-print("\nCARTÕES COM LINK:", sum(
-    any(kind == "LINK" for kind, _ in items)
-    for items in cards.values()
-))
+for event in parser.events[:10]:
+    print("\nID:", event["id"])
+    print("LINK:", event["url"])
