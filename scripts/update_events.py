@@ -1661,41 +1661,75 @@ def main():
 
             future = dedupe(future)
 
+            
             if area == "Porto":
-                excluded_terms = (
-                    "aulas de ",
-                    "aula de ",
-                    "curso de ",
-                    "formação em ",
-                    "formação de ",
-                    "workshop técnico",
-                    "meditação & budismo moderno",
-                    "quintas-feiras com ciência",
-                    "bitcommit",
+                priority_types = {
+                    "Música", "Teatro", "Dança",
+                    "Exposição", "Família",
+                    "Gastronomia", "Festas & Cultura",
+                }
+
+                special_terms = (
+                    "festival", "feira", "mercado",
+                    "concerto", "espetáculo", "festa",
+                    "visita guiada", "rota ",
+                    "corrida", "campeonato",
+                    "halloween", "gastronomia",
+                    "vinhos", "prova de ",
                 )
 
-                candidates = [
-                    event for event in future
-                    if any(
-                        term in event["name"].casefold()
-                        for term in excluded_terms
+                routine_terms = (
+                    "aula", "curso", "formação",
+                    "workshop", "palestra",
+                    "seminário", "meditação",
+                    "yoga", "ioga", "biodanza",
+                    "cerâmica em família",
+                    "costura criativa",
+                    "bitcommit", "photography",
+                    "fotografia de casamento",
+                )
+
+                candidates = []
+
+                for event in future:
+                    name = event["name"].casefold()
+                    category = event.get("type", "")
+
+                    special = any(
+                        term in name for term in special_terms
                     )
-                ]
+                    routine = any(
+                        term in name for term in routine_terms
+                    )
+
+                    if special:
+                        keep = True
+                    elif routine:
+                        keep = False
+                    elif category == "Cinema":
+                        keep = False
+                    elif category in priority_types:
+                        keep = True
+                    else:
+                        keep = False
+
+                    if not keep:
+                        candidates.append(event)
 
                 print(
-                    f"FILTRO TESTE: {len(candidates)} "
+                    f"FILTRO TURISTICO TESTE: "
+                    f"{len(candidates)} de {len(future)} "
                     "eventos candidatos a exclusão."
                 )
 
                 for event in candidates:
                     print(
-                        "FILTRO TESTE:",
+                        "EXCLUIR TESTE:",
                         event["start"],
                         event["type"],
                         event["name"],
                     )
 
-            
             if area != "Porto":
                 future = curate_tourist_events(future)
 
