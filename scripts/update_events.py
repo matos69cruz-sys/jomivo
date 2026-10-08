@@ -1683,13 +1683,19 @@ def main():
 
                 routine_terms = (
                     "aula", "curso", "formação",
-                    "workshop", "palestra",
-                    "seminário", "meditação",
-                    "yoga", "ioga", "biodanza",
-                    "cerâmica em família",
-                    "costura criativa",
-                    "bitcommit", "photography",
+                    "workshop", "oficina",
+                    "palestra", "seminário",
+                    "conferência", "congresso",
+                    "meditação", "yoga", "ioga",
+                    "biodanza", "cerâmica em família",
+                    "costura criativa", "bitcommit",
+                    "photography",
                     "fotografia de casamento",
+                    "clube de jogos",
+                    "clube de leitura",
+                    "book club", "quiz night",
+                    "treffpunkt", "phda:",
+                    "encadernação", "linogravura",
                 )
 
                 candidates = []
@@ -1719,10 +1725,10 @@ def main():
                         term in name for term in routine_terms
                     )
 
-                    if special:
-                        keep = True
-                    elif routine:
+                    if routine:
                         keep = False
+                    elif special:
+                        keep = True
                     elif category == "Cinema":
                         keep = False
                     elif category in priority_types:
