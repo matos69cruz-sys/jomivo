@@ -1697,9 +1697,23 @@ def main():
                 for event in future:
                     name = event["name"].casefold()
                     category = event.get("type", "")
+                    event_url = event.get("url", "").casefold()
 
-                    special = any(
-                        term in name for term in special_terms
+                    cultural_url_terms = (
+                        "visita-guiada",
+                        "percursos-literarios",
+                        "fimp-",
+                        "festival-",
+                        "concerto-",
+                        "espetaculo-",
+                    )
+                    
+                    special = (
+                      any(term in name for term in special_terms)
+                      or any(
+                        term in event_url
+                        for term in cultural_url_terms
+                      )
                     )
                     routine = any(
                         term in name for term in routine_terms
