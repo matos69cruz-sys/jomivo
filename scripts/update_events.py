@@ -1760,6 +1760,18 @@ def main():
                         event["name"],
                     )
 
+                excluded_ids = {id(event) for event in candidates}
+
+                future = [
+                    event for event in future
+                    if id(event) not in excluded_ids
+                ]
+
+                print(
+                    f"FILTRO ATIVO: {len(candidates)} "
+                    "eventos excluídos da agenda do Porto."
+                )
+            
             if area != "Porto":
                 future = curate_tourist_events(future)
 
