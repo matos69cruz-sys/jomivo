@@ -1658,7 +1658,9 @@ def main():
                 future.append(event)
 
             future = dedupe(future)
-            future = curate_tourist_events(future)
+            
+            if area != "Porto":
+                future = curate_tourist_events(future)
 
             print(
                 f"{area}: {len(future)} eventos futuros encontrados."
