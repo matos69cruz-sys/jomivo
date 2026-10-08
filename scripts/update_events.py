@@ -327,7 +327,7 @@ def parse_porto():
     
     from porto_cards import fetch_porto_cards
 
-    cards = fetch_porto_cards(days=90)
+    cards = fetch_porto_cards(days=30)
 
     if len(cards) < 30:
         raise RuntimeError(
@@ -1627,7 +1627,7 @@ def load_existing():
 
 def main():
     today = date.today()
-    cutoff = today + timedelta(days=90)
+    cutoff = today + timedelta(days=30)
 
     collectors = {
         "Porto": parse_porto,
