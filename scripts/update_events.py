@@ -2125,7 +2125,7 @@ def main():
         ):
             score += 1
 
-        tourist_terms = (
+            tourist_terms = (
             "visita guiada", "visitas guiadas",
             "rota das", "rota dos",
             "percurso guiado", "treetop walk",
@@ -2133,16 +2133,7 @@ def main():
 
         if (
             category in ("Evento", "Família")
-            and (
-                any(term in name for term in tourist_terms)
-                or (
-                    "visita" in desc
-                    and any(
-                        term in desc
-                        for term in ("património", "história", "arquitetura")
-                    )
-                )
-            )
+            and any(term in name for term in tourist_terms)
             and not any(term in name for term in routine_terms)
         ):
             score += 3
