@@ -2245,6 +2245,17 @@ def main():
         elif category == "Família":
             score += 1
 
+        # A programação de um teatro oficial pode vir etiquetada como
+        # "Evento" apesar de ser um espetáculo. Não promover automaticamente
+        # atividades práticas nem elevar tudo a Premium.
+        if (
+            event.get("venue") in ("Theatro Circo", "Teatro Aveirense")
+            and category in ("Evento", "Outros")
+            and not any(term in name for term in routine_terms)
+        ):
+            score += 2
+            reasons.append("programação de sala cultural oficial")
+
         if any(term in combined for term in special_terms):
             score += 2
             reasons.append("experiência especial")
