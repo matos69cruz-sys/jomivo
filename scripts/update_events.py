@@ -2135,7 +2135,6 @@ def main():
             "workshop prático",
             "curso de nível",
             "funcionam como formação",
-            "cada participante",
             "materiais incluídos",
         )
 
