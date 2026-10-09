@@ -44,6 +44,29 @@ def main():
     print("Eventos interessantes fora do cenário essencial (até 30):")
     for event in [e for e in porto if e.get("quality_level") == "INTERESSANTE"][:30]:
         print(f"  {event.get('start', '?')} | {event.get('type', '?')} | {event.get('name', '?')}")
+    # Sinalizar experiências potencialmente valiosas que a pontuação não destacou.
+    experience_terms = (
+        "vinho", "vinhos", "degustação", "prova de", "gastronomia",
+        "jantar", "chef", "visita guiada", "visitas guiadas",
+        "percurso guiado", "rota das", "rota dos", "património",
+        "experiência imersiva", "experiencia imersiva",
+    )
+    overlooked = [
+        e for e in porto
+        if e.get("quality_level") not in {"PREMIUM", "RECOMENDADO"}
+        and e.get("quality_level") != "ROTINA"
+        and any(
+            term in (e.get("name", "") + " " + e.get("desc", "")).casefold()
+            for term in experience_terms
+        )
+    ]
+    print(f"Experiências a rever fora da seleção essencial: {len(overlooked)}")
+    for event in overlooked[:30]:
+        print(
+            f"  {event.get('quality_level', '?')} | "
+            f"{event.get('start', '?')} | {event.get('type', '?')} | "
+            f"{event.get('name', '?')}"
+        )
     print("Atenção: cenário essencial é apenas diagnóstico, NÃO um filtro.")
     print("Nota: estas contagens NÃO alteram a agenda pública.")
     for title, group in (("REVER", review), ("ROTINA", excluded)):
