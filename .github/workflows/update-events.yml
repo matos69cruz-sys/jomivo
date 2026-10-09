@@ -40,6 +40,9 @@ jobs:
       - name: Validar events.json
         run: python -m json.tool events.json > /dev/null
 
+      - name: Pré-visualizar seleção de eventos (sem excluir)
+        run: python scripts/preview_selection.py
+
       - name: Guardar nova agenda no repositório
         run: |
           if git diff --quiet -- events.json; then
