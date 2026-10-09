@@ -2,6 +2,7 @@
 
 Não modifica events.json nem altera o site. Só apresenta contagens e exemplos.
 """
+import argparse
 import json
 from collections import Counter
 from pathlib import Path
@@ -13,7 +14,10 @@ EXCLUDE = {"ROTINA"}
 
 
 def main():
-    payload = json.loads(DATA.read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", type=Path, default=DATA, help="Ficheiro JSON para analisar")
+    args = parser.parse_args()
+    payload = json.loads(args.input.read_text(encoding="utf-8"))
     events = payload.get("events", [])
     porto = [e for e in events if e.get("area") == "Porto"]
     levels = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in porto)
