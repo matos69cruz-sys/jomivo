@@ -150,6 +150,17 @@ def main():
     print("JOMIVO PORTO DIVERSIDADE 14 DIAS:", dict(types_near.most_common()))
     if upcoming_porto and types_near.most_common(1)[0][1] / len(upcoming_porto) >= 0.75:
         print("JOMIVO PORTO ALERTA DIVERSIDADE: rever destaque excessivo de um género")
+    # Vitrine editorial por categoria: mostrar opções sem impor quotas
+    # ou retirar concertos da seleção completa.
+    print("JOMIVO PORTO VITRINE POR CATEGORIA (próximos 14 dias):")
+    for category in sorted(types_near):
+        choices = [e for e in upcoming_porto if e.get("type", "Outros") == category]
+        print(f"  {category}: {len(choices)} candidatos")
+        for e in choices[:3]:
+            print(
+                f"  JOMIVO VITRINE: {category} | {e.get('start', '?')} | "
+                f"{e.get('name', '?')} | {e.get('url', '')}"
+            )
     # Lista de revisão editorial por cidade, sem exclusão automática.
     priority_terms = (
         "vinho", "vinhos", "degustação", "prova", "jantar", "gastronomia",
