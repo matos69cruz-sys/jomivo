@@ -54,51 +54,54 @@ def fetch_html():
 
 
 def preview_html(html, today=None):
-    """Lê cada cartão pela sequência título/data/categoria, nunca pelo cartão anterior."""
+    """A página coloca data/categoria ANTES do título e link do evento seguinte."""
     today = today or date.today()
     cutoff = today + timedelta(days=30)
     parser = Links()
     parser.feed(html)
     found = {}
-    # A âncora da imagem precede o título e data do respetivo evento.
-    # Há também links de bilheteira; só usar a primeira ligação de cada cartão.
+    ui = {"bilhetes", "acessibilidade", "infantojuvenil", "saber mais",
+          "comprar bilhetes", "esgotado", "→", "programação"}
+    # Cada âncora aponta para o cartão cuja data/categoria surgem no início
+    # do segmento; o título surge depois da categoria, antes da âncora seguinte.
     for pos, (index, label, href) in enumerate(parser.links):
         next_index = parser.links[pos + 1][0] if pos + 1 < len(parser.links) else len(parser.parts)
-        card = parser.parts[index:next_index]
-        ui = {"bilhetes", "acessibilidade", "infantojuvenil", "saber mais",
-              "comprar bilhetes", "esgotado", "→", "programação"}
-        # A primeira data tem de estar dentro do próprio cartão.
-        dated = [(i, DATE_RE.search(part)) for i, part in enumerate(card)]
-        dated = [(i, m) for i, m in dated if m]
-        if not dated:
+        segment = [p.strip() for p in parser.parts[index:next_index] if p.strip()]
+        # Identificar data seguida da seta e da categoria.
+        matches = [(i, DATE_RE.search(part)) for i, part in enumerate(segment)]
+        matches = [(i, match) for i, match in matches if match]
+        if not matches:
             continue
-        date_index, match = dated[0]
-        before = [p.strip() for p in card[:date_index] if p.strip()]
-        before = [p for p in before if p.casefold() not in ui]
-        title = " ".join(label.split()) or (before[0] if before else "")
+        date_index, match = matches[0]
+        arrow = next((i for i in range(date_index + 1, min(date_index + 4, len(segment)))
+                      if segment[i] == "→"), None)
+        if arrow is None or arrow + 1 >= len(segment):
+            continue
+        category = segment[arrow + 1].casefold()
+        if any(term in category for term in EXCLUDED):
+            continue
+        if not any(term in category for term in ALLOWED):
+            continue
+        # Título imediatamente depois da categoria, até à data seguinte.
+        following = segment[arrow + 2:]
+        title_candidates = []
+        for part in following:
+            if DATE_RE.search(part):
+                break
+            if part.casefold() not in ui and part != "→":
+                title_candidates.append(part)
+        title = " ".join(label.split()) or (title_candidates[0] if title_candidates else "")
         if not title or title.casefold() in ui or len(title) > 180:
             continue
         if any(term in title.casefold() for term in EXCLUDED):
             continue
         day, month = int(match.group(1)), MONTHS[match.group(2).lower()]
-        year = today.year
-        if month < today.month and today.month >= 11:
-            year += 1
+        year = today.year + (1 if month < today.month and today.month >= 11 else 0)
         try:
             when = date(year, month, day)
         except ValueError:
             continue
         if not today <= when <= cutoff:
-            continue
-        after = card[date_index + 1:date_index + 8]
-        category = ""
-        for i, part in enumerate(after):
-            if part.strip() == "→" and i + 1 < len(after):
-                category = after[i + 1].casefold()
-                break
-        if not category or any(term in category for term in EXCLUDED):
-            continue
-        if not any(term in category for term in ALLOWED):
             continue
         url = urljoin(URL, href)
         parsed = urlparse(url)
@@ -106,7 +109,7 @@ def preview_html(html, today=None):
             continue
         if not parsed.path.startswith("/event/"):
             continue
-        # Evita associar datas de outubro a páginas explicitamente datadas de dezembro.
+        # A data da página pode contradizer a listagem: excluir se explícita.
         slug = parsed.path.casefold()
         month_slugs = {"jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5,
                        "jun": 6, "jul": 7, "ago": 8, "set": 9, "out": 10,
