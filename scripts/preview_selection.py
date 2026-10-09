@@ -109,6 +109,27 @@ def main():
         if area == "Braga":
             circo = [e for e in local if e.get("venue") == "Theatro Circo"]
             print(f"JOMIVO BRAGA THEATRO CIRCO: {len(circo)} espetáculos com link direto")
+    # Porto é o foco principal: identificar primeiro experiências futuras
+    # de maior qualidade, com ligação direta para revisão editorial.
+    porto_highlights = [
+        e for e in porto
+        if e.get("quality_level") in {"PREMIUM", "RECOMENDADO"}
+        and e.get("end", e.get("start", "")) >= date.today().isoformat()
+    ]
+    porto_highlights.sort(key=lambda e: (
+        0 if e.get("quality_level") == "PREMIUM" else 1,
+        -e.get("quality_score", 0),
+        e.get("start", ""),
+        e.get("name", "").casefold(),
+    ))
+    print(f"JOMIVO PORTO DESTAQUES EDITORIAIS: {len(porto_highlights)} candidatos futuros")
+    for e in porto_highlights[:20]:
+        print(
+            f"JOMIVO PORTO DESTAQUE: {e.get('quality_level', '?')} | "
+            f"score={e.get('quality_score', '?')} | "
+            f"{e.get('start', '?')} | {e.get('type', '?')} | "
+            f"{e.get('name', '?')} | {e.get('url', '')}"
+        )
     # Lista de revisão editorial por cidade, sem exclusão automática.
     priority_terms = (
         "vinho", "vinhos", "degustação", "prova", "jantar", "gastronomia",
