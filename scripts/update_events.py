@@ -2077,6 +2077,33 @@ def main():
     except Exception as error:
         print(f"AVISO complemento Teatro Aveirense: {error}", file=sys.stderr)
 
+    # Complemento oficial de Braga: Theatro Circo. Falhas não bloqueiam a agenda.
+    try:
+        from preview_theatro_circo import fetch_html as fetch_circo, preview_html as preview_circo
+        circo_events = preview_circo(fetch_circo(), today=today)
+        existing_keys = {
+            (e.get("area"), e.get("start"),
+             re.sub(r"\s+", " ", e.get("name", "").casefold()).strip())
+            for e in collected
+        }
+        added_circo = 0
+        for item in circo_events:
+            key = ("Braga", item["start"],
+                   re.sub(r"\s+", " ", item["name"].casefold()).strip())
+            if key in existing_keys:
+                continue
+            collected.append({
+                "area": "Braga", "city": "Braga",
+                "name": item["name"], "start": item["start"], "end": item["start"],
+                "url": item["url"], "source": item["source"],
+                "type": item["type"], "venue": "Theatro Circo", "desc": "",
+            })
+            existing_keys.add(key)
+            added_circo += 1
+        print(f"JOMIVO THEATRO CIRCO INTEGRADO: {added_circo} novos de {len(circo_events)} encontrados.")
+    except Exception as error:
+        print(f"AVISO complemento Theatro Circo: {error}", file=sys.stderr)
+
     # Se uma cidade falhar, preservamos os eventos futuros
     # dessa cidade que já existiam no ficheiro.
     existing = load_existing()
