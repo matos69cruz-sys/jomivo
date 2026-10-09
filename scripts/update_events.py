@@ -2125,7 +2125,7 @@ def main():
         ):
             score += 1
 
-            tourist_terms = (
+        tourist_terms = (
             "visita guiada", "visitas guiadas",
             "rota das", "rota dos",
             "percurso guiado", "treetop walk",
