@@ -2139,6 +2139,19 @@ def main():
             score += 3
             reasons.append("descoberta turística")
 
+        family_show_terms = (
+            "teatro", "marioneta", "espetáculo",
+            "encenação", "contadores de histórias",
+        )
+
+        if (
+            category == "Família"
+            and any(term in combined for term in family_show_terms)
+            and not any(term in name for term in routine_terms)
+        ):
+            score += 2
+            reasons.append("espetáculo familiar")
+        
         if score < 0:
             level = "ROTINA"
         elif score >= 4:
