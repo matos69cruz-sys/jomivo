@@ -34,6 +34,19 @@ def main():
     print(f"Revisão humana: {len(review)}")
     print(f"Potencial rotina: {len(excluded)}")
     print(f"Sem classificação reconhecida: {len(unknown)}")
+    # Vista global para não confundir a amostra do Porto com as três cidades.
+    global_levels = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in events)
+    print("JOMIVO SELEÇÃO GLOBAL (todas as cidades):")
+    print("  Níveis:", dict(sorted(global_levels.items())))
+    print("  Essencial:", sum(e.get("quality_level") in {"PREMIUM", "RECOMENDADO"} for e in events))
+    print("  Alargada:", sum(e.get("quality_level") in KEEP for e in events))
+    print("  Revisão:", sum(e.get("quality_level") in REVIEW for e in events))
+    print("  Rotina:", sum(e.get("quality_level") in EXCLUDE for e in events))
+    for area in sorted({e.get("area", "Desconhecida") for e in events}):
+        local = [e for e in events if e.get("area", "Desconhecida") == area]
+        essential = sum(e.get("quality_level") in {"PREMIUM", "RECOMENDADO"} for e in local)
+        expanded = sum(e.get("quality_level") in KEEP for e in local)
+        print(f"JOMIVO SELEÇÃO {area}: essencial={essential} | alargada={expanded} | total={len(local)}")
     # Comparar cenários sem eliminar concertos nem impor um limite artificial.
     core = [e for e in porto if e.get("quality_level") in {"PREMIUM", "RECOMENDADO"}]
     expanded = selected
