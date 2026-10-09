@@ -117,9 +117,9 @@ def main():
         and e.get("end", e.get("start", "")) >= date.today().isoformat()
     ]
     porto_highlights.sort(key=lambda e: (
+        e.get("start", ""),
         0 if e.get("quality_level") == "PREMIUM" else 1,
         -e.get("quality_score", 0),
-        e.get("start", ""),
         e.get("name", "").casefold(),
     ))
     print(f"JOMIVO PORTO DESTAQUES EDITORIAIS: {len(porto_highlights)} candidatos futuros")
