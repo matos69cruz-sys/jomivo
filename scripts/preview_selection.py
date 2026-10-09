@@ -122,6 +122,17 @@ def main():
         -e.get("quality_score", 0),
         e.get("name", "").casefold(),
     ))
+    # Falhar a validação se uma futura alteração quebrar a ordem temporal
+    # ou introduzir eventos expirados na lista de destaques.
+    assert all(
+        a.get("start", "") <= b.get("start", "")
+        for a, b in zip(porto_highlights, porto_highlights[1:])
+    ), "Destaques do Porto fora de ordem cronológica"
+    assert all(
+        e.get("end", e.get("start", "")) >= date.today().isoformat()
+        for e in porto_highlights
+    ), "Destaques do Porto incluem eventos terminados"
+    print("JOMIVO PORTO DESTAQUES ORDEM: cronológica validada")
     print(f"JOMIVO PORTO DESTAQUES EDITORIAIS: {len(porto_highlights)} candidatos futuros")
     for e in porto_highlights[:20]:
         print(
