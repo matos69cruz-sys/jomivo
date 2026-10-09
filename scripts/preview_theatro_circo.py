@@ -128,6 +128,60 @@ def preview_html(html, today=None):
     return list(found.values())
 
 
+
+def verified_events(today=None):
+    """Devolve apenas eventos cuja data é confirmada pela página oficial."""
+    today = today or date.today()
+    cutoff = today + timedelta(days=30)
+    candidates = preview_html(fetch_html(), today=today)
+    approved = []
+    pattern = re.compile(
+        r"\\b(\\d{1,2})(?:\\s*(?:a|até|[-–])\\s*\\d{1,2})?\\s+("
+        + "|".join(MONTHS) + r")(?:\\s*\\([^)]*\\))?\\s+(20\\d{2})\\b", re.I)
+    class Visible(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.parts = []
+            self.skip = 0
+        def handle_starttag(self, tag, attrs):
+            if tag in ("script", "style"):
+                self.skip += 1
+        def handle_endtag(self, tag):
+            if tag in ("script", "style") and self.skip:
+                self.skip -= 1
+        def handle_data(self, value):
+            if not self.skip and value.strip():
+                self.parts.append(" ".join(value.split()))
+    for event in candidates:
+        try:
+            req = Request(event["url"], headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(req, timeout=12) as response:
+                detail = response.read().decode("utf-8", "replace")
+            visible = Visible()
+            visible.feed(detail)
+            dates = []
+            for part in visible.parts:
+                for match in pattern.finditer(part):
+                    try:
+                        dates.append(date(int(match.group(3)),
+                                          MONTHS[match.group(2).lower()],
+                                          int(match.group(1))))
+                    except ValueError:
+                        continue
+            dates = list(dict.fromkeys(dates))
+            if len(dates) != 1:
+                print("JOMIVO THEATRO CIRCO BLOQUEADO (data ambígua):", event["name"], dates)
+                continue
+            official = dates[0]
+            if not today <= official <= cutoff:
+                print("JOMIVO THEATRO CIRCO BLOQUEADO (fora do prazo):", event["name"], official)
+                continue
+            approved.append({**event, "start": official.isoformat()})
+        except Exception as error:
+            print("JOMIVO THEATRO CIRCO BLOQUEADO (erro):", event["name"], error)
+    return approved
+
+
 def main():
     html = fetch_html()
     parser = Links()
