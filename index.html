@@ -267,13 +267,17 @@ function renderNature(){
  const intro=document.createElement('div');intro.className='eventIntro';
  intro.innerHTML=language==='pt'?'<h3>🌿 Natureza perto de ti</h3><p>Jardins, praias, miradouros e escapadinhas para descobrir o Norte.</p>':'<h3>🌿 Nature near you</h3><p>Gardens, beaches, viewpoints and nature escapes in Northern Portugal.</p>';
  cards.append(intro);
+ const cityLabel=document.createElement('div');cityLabel.className='filterLabel';cityLabel.textContent=language==='pt'?'ONDE':'WHERE';cards.append(cityLabel);
+ const area=document.createElement('div');area.className='eventFilters';
+ ['Todos','Porto','Braga','Aveiro'].forEach(a=>{const b=document.createElement('button');b.className=areaFilter===a?'active':'';b.textContent=language==='en'&&a==='Todos'?'All':a;b.onclick=()=>{areaFilter=a;renderNature()};area.append(b)});
+ cards.append(area);
+ const typeLabel=document.createElement('div');typeLabel.className='filterLabel';typeLabel.textContent=language==='pt'?'TIPO DE NATUREZA':'NATURE TYPE';cards.append(typeLabel);
  const filters=document.createElement('div');filters.className='eventFilters categoryFilters';
  const groups=['Todos','Jardins e parques','Praias','Miradouros','Cascatas','Trilhos e natureza'];
  const english={'Todos':'All','Jardins e parques':'Gardens & parks','Praias':'Beaches','Miradouros':'Viewpoints','Cascatas':'Waterfalls','Trilhos e natureza':'Trails & nature'};
  groups.forEach(g=>{const b=document.createElement('button');b.className=natureType===g?'active':'';b.textContent=language==='pt'?g:english[g];b.onclick=()=>{natureType=g;renderNature()};filters.append(b)});
+
  cards.append(filters);
- const area=document.createElement('div');area.className='eventFilters';
- ['Todos','Porto','Braga','Aveiro'].forEach(a=>{const b=document.createElement('button');b.className=areaFilter===a?'active':'';b.textContent=language==='en'&&a==='Todos'?'All':a;b.onclick=()=>{areaFilter=a;renderNature()};area.append(b)});cards.append(area);
  const list=naturePlaces.filter(p=>(natureType==='Todos'||natureGroup(p)===natureType)&&(areaFilter==='Todos'||areaOf(p.city)===areaFilter)).sort((a,b)=>{const rank=p=>/Porto|Gaia|Matosinhos|Miramar|Valongo/i.test(p.city)?0:/Aveiro|Ílhavo/i.test(p.city)?1:2;return rank(a)-rank(b)});
  if(!list.length){const empty=document.createElement('div');empty.className='eventEmpty';empty.textContent=language==='pt'?'Sem locais nesta seleção.':'No places in this selection.';cards.append(empty)}
  list.forEach(p=>{const c=document.createElement('article');c.className='discoverCard';c.tabIndex=0;c.setAttribute('role','button');const group=natureGroup(p);c.innerHTML=`<div class="dcTop"><div><strong>🌿 ${p.name}</strong><div style="color:#9fa8b2;font-size:12px;margin-top:3px">📍 ${p.city}</div></div><span>›</span></div><div class="dcPills"><span>${language==='pt'?group:english[group]}</span><span>⏱ ${p.time}</span></div>`;c.onclick=()=>openNature(p);c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openNature(p)}};cards.append(c)});
