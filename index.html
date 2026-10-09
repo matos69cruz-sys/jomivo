@@ -287,6 +287,7 @@ function openNature(p){
  const cards=$('cards');cards.replaceChildren();
  const back=document.createElement('button');back.className='back';back.textContent=language==='pt'?'← Voltar':'← Back';back.onclick=renderNature;cards.append(back);
  const box=document.createElement('article');box.className='card';box.innerHTML=`<h2>🌿 ${p.name}</h2><div class="dcPills"><span>📍 ${p.city}</span><span>⏱ ${p.time}</span></div><p class="desc">${p.desc}</p>`;
+ const photos=document.createElement('a');photos.className='requestBtn';photos.target='_blank';photos.rel='noopener noreferrer';photos.href='https://www.google.com/search?udm=2&q='+encodeURIComponent(p.q+' fotografias');photos.textContent=language==='pt'?'📷 Ver fotografias':'📷 View photos';box.append(photos);
  const map=document.createElement('a');map.className='requestBtn';map.target='_blank';map.rel='noopener noreferrer';map.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.q);map.textContent=language==='pt'?'📍 Como chegar':'📍 Directions';box.append(map);cards.append(box);
 }
 function renderCollection(items,icon){
