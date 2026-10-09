@@ -2132,8 +2132,10 @@ def main():
 
         if (
             category == "Exposição"
-            and any(term in desc for term in practical_activity_terms)
-            and not any(
+            and any(
+                term in desc[:160]
+                for term in practical_activity_terms
+                        )            and not any(
                 term in name
                 for term in ("inauguração", "mostra", "exposição")
             )
