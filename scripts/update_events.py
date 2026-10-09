@@ -100,6 +100,23 @@ def fetch_event_description(url):
         print("DESCRICAO INDISPONIVEL:", url, error)
         return ""
 
+def test_event_descriptions():
+    urls = [
+        "https://www.agenda-porto.pt/evento/moonspell-nov26/",
+    ]
+
+    for url in urls:
+        description = fetch_event_description(url)
+
+        print(
+            "TESTE DESCRICAO:",
+            url,
+            "TAMANHO:",
+            len(description),
+            "TEXTO:",
+            description[:200],
+        )
+
 def text(value):
     value = re.sub(
         r"<(script|style)[^>]*>.*?</\1>",
