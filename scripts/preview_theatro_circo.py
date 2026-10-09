@@ -164,6 +164,38 @@ def main():
                             nodes.extend(node["@graph"])
                         if node.get("startDate"):
                             dates.append(str(node["startDate"]))
+            # Datas visíveis: a página oficial não disponibiliza startDate JSON-LD.
+            class VisibleText(HTMLParser):
+                def __init__(self):
+                    super().__init__()
+                    self.parts = []
+                    self.skip = 0
+                def handle_starttag(self, tag, attrs):
+                    if tag in ("script", "style"):
+                        self.skip += 1
+                def handle_endtag(self, tag):
+                    if tag in ("script", "style") and self.skip:
+                        self.skip -= 1
+                def handle_data(self, value):
+                    if not self.skip and value.strip():
+                        self.parts.append(" ".join(value.split()))
+            visible = VisibleText()
+            visible.feed(detail)
+            official_dates = []
+            pattern = re.compile(r"\b(\d{1,2})\s+(" + "|".join(MONTHS) + r")\s+(20\d{2})\b", re.I)
+            for part in visible.parts:
+                for match in pattern.finditer(part):
+                    try:
+                        official_dates.append(date(int(match.group(3)),
+                                                   MONTHS[match.group(2).lower()],
+                                                   int(match.group(1))).isoformat())
+                    except ValueError:
+                        pass
+            official_dates = list(dict.fromkeys(official_dates))
+            status = ("CONFIRMADA" if event["start"] in official_dates
+                      else "DIVERGENTE" if official_dates else "NÃO VERIFICÁVEL")
+            print("JOMIVO DATA VISÍVEL:", status, event["name"],
+                  "listagem:", event["start"], "página:", official_dates[:5])
             print("JOMIVO DATA DETALHE:", event["name"], event["start"],
                   "JSON-LD:", dates[:3] or "sem data estruturada")
         except Exception as error:
