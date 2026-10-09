@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "events": [
     {
       "name": "Partilhar, de Pia Camil",
@@ -379,19 +379,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Café-Europa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "UFLOM – União das Freguesias de Lordelo do Ouro e Massarelos",
-      "type": "Exposição",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/cafe-europa/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "Eu Quero a Lua! · Partículas Elementares",
       "area": "Porto",
       "city": "Porto",
@@ -405,19 +392,6 @@
       "source": "https://www.agenda-porto.pt/"
     },
     {
-      "name": "Hate Moss",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Ferro Bar",
-      "type": "Música",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/hate-moss/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
       "name": "O Pai, de August Strindberg",
       "area": "Porto",
       "city": "Porto",
@@ -428,19 +402,6 @@
       "date": "8–18 Out",
       "desc": "",
       "url": "https://www.agenda-porto.pt/evento/tnsj-o-pai/",
-      "source": "https://www.agenda-porto.pt/"
-    },
-    {
-      "name": "Salma Jô",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "date": "8 Out",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/261008-salma-jo-br/",
       "source": "https://www.agenda-porto.pt/"
     },
     {
