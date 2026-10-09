@@ -1,0 +1,40 @@
+"""Pré-visualização conservadora da seleção JOMIVO.
+
+Não modifica events.json nem altera o site. Só apresenta contagens e exemplos.
+"""
+import json
+from collections import Counter
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parents[1] / "events.json"
+KEEP = {"PREMIUM", "RECOMENDADO", "INTERESSANTE"}
+REVIEW = {"POR AVALIAR"}
+EXCLUDE = {"ROTINA"}
+
+
+def main():
+    payload = json.loads(DATA.read_text(encoding="utf-8"))
+    events = payload.get("events", [])
+    porto = [e for e in events if e.get("area") == "Porto"]
+    levels = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in porto)
+    selected = [e for e in porto if e.get("quality_level") in KEEP]
+    review = [e for e in porto if e.get("quality_level") in REVIEW]
+    excluded = [e for e in porto if e.get("quality_level") in EXCLUDE]
+    unknown = [e for e in porto if e.get("quality_level") not in KEEP | REVIEW | EXCLUDE]
+
+    print("JOMIVO PRÉ-VISUALIZAÇÃO (sem exclusões reais)")
+    print(f"Total geral: {len(events)} | Porto: {len(porto)}")
+    print("Classificações:", dict(sorted(levels.items())))
+    print(f"Potencial seleção: {len(selected)}")
+    print(f"Revisão humana: {len(review)}")
+    print(f"Potencial rotina: {len(excluded)}")
+    print(f"Sem classificação reconhecida: {len(unknown)}")
+    print("Nota: estas contagens NÃO alteram a agenda pública.")
+    for title, group in (("REVER", review), ("ROTINA", excluded)):
+        print(f"--- {title}: exemplos (máximo 20) ---")
+        for event in group[:20]:
+            print(f"  {event.get('start', '?')} | {event.get('type', '?')} | {event.get('name', '?')}")
+
+
+if __name__ == "__main__":
+    main()
