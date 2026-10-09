@@ -1892,6 +1892,17 @@ def main():
                     event.get("type", "Outros") for event in candidates
                 )
                 print("JOMIVO FILTRO ANTIGO POR TIPO:", dict(excluded_by_type))
+                for event in candidates:
+                    if event.get("type") == "Exposição":
+                        print(
+                            "JOMIVO REVER EXPOSIÇÃO EXCLUÍDA:",
+                            event.get("start", ""),
+                            event.get("name", ""),
+                            event.get("url", ""),
+                        )
+                # Nota: eventos de tipo "Evento" enviados para REVER CULTURA
+                # não entram em candidates; contabilizar separadamente depois.
+
                 audit_terms = (
                     "vinho", "vinhos", "gastronomia", "degustação",
                     "prova de", "visita guiada", "património",
