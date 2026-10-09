@@ -79,7 +79,17 @@ def preview_html(html, today=None):
             continue
         # O título surge antes da data; o subtítulo pode estar entre ambos.
         before = [part for part in card[:date_index] if part.strip()]
-        title = " ".join(label.split()) or (before[0] if before else "")
+        ui_labels = {"bilhetes", "acessibilidade", "infantojuvenil", "saber mais",
+                     "comprar bilhetes", "esgotado", "→", "programação"}
+        candidates = [part for part in before if part.casefold().strip() not in ui_labels
+                      and not DATE_RE.search(part)]
+        title = " ".join(label.split())
+        if title.casefold().strip() in ui_labels:
+            title = ""
+        if not title:
+            title = candidates[0] if candidates else ""
+        if title.casefold().strip() in ui_labels:
+            continue
         if not title or len(title) > 180:
             continue
         if any(term in title.casefold() for term in EXCLUDED):
