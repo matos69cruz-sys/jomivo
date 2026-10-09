@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/update_events.py"
       - "scripts/preview_selection.py"
+      - "scripts/preview_teatro_aveirense.py"
       - ".github/workflows/update-events.yml"
       - ".github/workflows/validate-selection.yml"
   workflow_dispatch:
@@ -25,7 +26,7 @@ jobs:
           python-version: "3.12"
 
       - name: Validar sintaxe Python
-        run: python -m py_compile scripts/update_events.py scripts/preview_selection.py
+        run: python -m py_compile scripts/update_events.py scripts/preview_selection.py scripts/preview_teatro_aveirense.py
 
       - name: Verificar pré-visualização sem modificar events.json
         run: |
@@ -68,6 +69,30 @@ jobs:
           assert before == hashlib.sha256(original.read_bytes()).hexdigest()
           print("OK: seleção de teste correta e events.json intacto")
           PY
+
+      - name: Testar extrator do Teatro Aveirense com HTML de exemplo
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          from preview_teatro_aveirense import preview
+          from datetime import date
+          html = """<script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"MusicEvent",
+           "name":"Concerto especial","startDate":"2026-10-20",
+           "url":"https://www.teatroaveirense.pt/pt/programacao/concerto-especial/"}
+          </script>"""
+          found = preview(html, today=date(2026, 10, 9))
+          assert len(found) == 1 and found[0]["name"] == "Concerto especial", found
+          assert not preview(html.replace("Concerto especial", "Workshop de pintura"), today=date(2026, 10, 9))
+          assert not preview(html.replace("2026-10-20", "2027-10-20"), today=date(2026, 10, 9))
+          print("OK: JSON-LD, exclusões e janela temporal")
+          PY
+
+      - name: Testar fonte real Teatro Aveirense (diagnóstico, não publica)
+        continue-on-error: true
+        timeout-minutes: 2
+        run: python scripts/preview_teatro_aveirense.py
 
       - name: Testar recolha real numa pasta isolada (sem publicar)
         timeout-minutes: 15
