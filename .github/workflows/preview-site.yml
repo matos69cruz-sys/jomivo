@@ -1,0 +1,61 @@
+name: JOMIVO preview privada (sem publicação)
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/event-quality-metadata
+    paths:
+      - 'index.html'
+      - 'restaurants.json'
+      - 'images/**'
+      - 'scripts/**'
+      - '.github/workflows/preview-site.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Construir preview isolada
+        run: |
+          mkdir -p /tmp/jomivo-preview-work preview
+          cp events.json /tmp/jomivo-preview-work/events.json
+          (cd /tmp/jomivo-preview-work && python "$GITHUB_WORKSPACE/scripts/update_events.py") > /tmp/jomivo-preview-collection.log 2>&1
+          tail -n 8 /tmp/jomivo-preview-collection.log
+          cp index.html restaurants.json preview/
+          cp /tmp/jomivo-preview-work/events.json preview/events.json
+          if [ -d images ]; then cp -R images preview/images; fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('preview/events.json').read_text(encoding='utf-8'))
+          events = data.get('events', [])
+          assert len(events) >= 3, 'Sem eventos suficientes para a preview'
+          assert all('quality_level' in e for e in events), 'Falta classificação de qualidade'
+          print('PREVIEW JOMIVO:', len(events), 'eventos; ficheiros estáticos prontos')
+          PY
+          cat > preview/COMO_ABRIR.txt <<'TXT'
+          JOMIVO - PRE-VISUALIZACAO (NAO PUBLICADA)
+
+          1. Descompacte o ficheiro ZIP.
+          2. Abra um terminal na pasta extraida.
+          3. Execute: python -m http.server 8000
+          4. Abra no navegador: http://localhost:8000
+
+          O servidor local e necessario para carregar events.json e restaurants.json.
+          Esta versao nao altera jomivo.pt nem o ramo main.
+          TXT
+      - name: Guardar site de teste para descarregar
+        uses: actions/upload-artifact@v4
+        with:
+          name: jomivo-preview-site
+          path: preview/
+          retention-days: 14
