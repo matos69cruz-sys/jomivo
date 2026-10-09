@@ -73,6 +73,32 @@ def fetch(url, timeout=25, attempts=2):
 
     raise last_error
 
+def fetch_event_description(url):
+    try:
+        html = fetch(url, timeout=8, attempts=1)
+
+        match = re.search(
+            r'<meta\b[^>]*\b(?:name|property)=["\']'
+            r'(?:description|og:description)["\']'
+            r'[^>]*\bcontent=["\']([^"\']+)',
+            html,
+            re.I,
+        )
+
+        if not match:
+            match = re.search(
+                r'<meta\b[^>]*\bcontent=["\']([^"\']+)["\']'
+                r'[^>]*\b(?:name|property)=["\']'
+                r'(?:description|og:description)["\']',
+                html,
+                re.I,
+            )
+
+        return clean(match.group(1), 500) if match else ""
+
+    except Exception as error:
+        print("DESCRICAO INDISPONIVEL:", url, error)
+        return ""
 
 def text(value):
     value = re.sub(
