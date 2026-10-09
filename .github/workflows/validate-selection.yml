@@ -6,6 +6,7 @@ on:
       - "scripts/update_events.py"
       - "scripts/preview_selection.py"
       - "scripts/preview_teatro_aveirense.py"
+      - "scripts/preview_theatro_circo.py"
       - ".github/workflows/update-events.yml"
       - ".github/workflows/validate-selection.yml"
   workflow_dispatch:
@@ -26,7 +27,7 @@ jobs:
           python-version: "3.12"
 
       - name: Validar sintaxe Python
-        run: python -m py_compile scripts/update_events.py scripts/preview_selection.py scripts/preview_teatro_aveirense.py
+        run: python -m py_compile scripts/update_events.py scripts/preview_selection.py scripts/preview_teatro_aveirense.py scripts/preview_theatro_circo.py
 
       - name: Verificar pré-visualização sem modificar events.json
         run: |
@@ -93,6 +94,11 @@ jobs:
         continue-on-error: true
         timeout-minutes: 2
         run: python scripts/preview_teatro_aveirense.py
+
+      - name: Testar fonte real Theatro Circo (diagnóstico, não publica)
+        continue-on-error: true
+        timeout-minutes: 2
+        run: python scripts/preview_theatro_circo.py
 
       - name: Testar recolha real numa pasta isolada (sem publicar)
         timeout-minutes: 15
