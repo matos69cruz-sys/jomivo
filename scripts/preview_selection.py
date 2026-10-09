@@ -95,6 +95,29 @@ def main():
         if area == "Braga":
             circo = [e for e in local if e.get("venue") == "Theatro Circo"]
             print(f"JOMIVO BRAGA THEATRO CIRCO: {len(circo)} espetáculos com link direto")
+    # Lista de revisão editorial por cidade, sem exclusão automática.
+    priority_terms = (
+        "vinho", "vinhos", "degustação", "prova", "jantar", "gastronomia",
+        "visita guiada", "visitas guiadas", "património", "festival",
+        "concerto", "espetáculo", "ópera", "teatro", "exposição",
+    )
+    for area in sorted({e.get("area", "") for e in events}):
+        candidates = [
+            e for e in events
+            if e.get("area") == area and e.get("quality_level") == "POR AVALIAR"
+        ]
+        candidates.sort(key=lambda e: (
+            -sum(term in (e.get("name", "") + " " + e.get("desc", "")).casefold()
+                 for term in priority_terms),
+            e.get("start", ""),
+            e.get("name", "").casefold(),
+        ))
+        print(f"JOMIVO REVISÃO PRIORITÁRIA {area}: {len(candidates)} por avaliar")
+        for e in candidates[:20]:
+            print(
+                f"  {e.get('start', '?')} | {e.get('type', '?')} | "
+                f"{e.get('name', '?')} | {e.get('url', '')}"
+            )
     print("JOMIVO COBERTURA DE FONTES:")
     for area, domains in sorted(by_area.items()):
         total = sum(domains.values())
