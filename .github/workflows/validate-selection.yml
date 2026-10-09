@@ -137,7 +137,8 @@ jobs:
           assert "experiência cultural e gastronómica verificada" in book_tasting[0].get("quality_reasons", []), "Justificação editorial ausente"
 
           assert len(events) >= 3, "Recolha insuficiente"
-          assert all("quality_level" in e and "quality_score" in e for e in porto), "Falta classificação"
+          assert all("quality_level" in e and "quality_score" in e for e in events), "Falta classificação em alguma cidade"
+          assert all(isinstance(e.get("quality_reasons"), list) for e in events), "Faltam justificações editoriais"
           PY
           python "$GITHUB_WORKSPACE/scripts/preview_selection.py" --input events.json
           echo "Agenda pública e ficheiro original não foram alterados."
