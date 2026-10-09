@@ -1844,7 +1844,14 @@ def main():
                         term in name for term in routine_terms
                     )
 
-                    if routine:
+                    # Exceção editorial verificada: experiência cultural e
+                    # gastronómica, não um clube de leitura recorrente.
+                    verified_experience_urls = {
+                        "https://www.agenda-porto.pt/evento/the-book-tasting/",
+                    }
+                    if event_url.rstrip("/") + "/" in verified_experience_urls:
+                        keep = True
+                    elif routine:
                         keep = False
                     elif special:
                         keep = True
@@ -1868,6 +1875,30 @@ def main():
                                 event["name"],
                                 event.get("url", ""),
                             )
+                            # Estes eventos também são excluídos da seleção,
+                            # mas antes não eram contabilizados na auditoria.
+                            print(
+                                "JOMIVO REVER CULTURA EXCLUÍDA:",
+                                event.get("start", ""),
+                                event.get("name", ""),
+                                event.get("url", ""),
+                            )
+                            # Diagnóstico da tipologia: sem alterar o filtro.
+                            cultural_review_terms = (
+                                "visita", "mosteiro", "património",
+                                "casas de", "degustação", "tasting",
+                                "brunch", "gastronomia", "vinhos",
+                            )
+                            if any(
+                                term in event.get("name", "").casefold()
+                                for term in cultural_review_terms
+                            ):
+                                print(
+                                    "JOMIVO CANDIDATO CULTURAL A REVER:",
+                                    event.get("start", ""),
+                                    event.get("name", ""),
+                                    event.get("url", ""),
+                                )
                         else:
                             candidates.append(event)
 
@@ -1883,6 +1914,50 @@ def main():
                         event["start"],
                         event["type"],
                         event["name"],
+                    )
+
+                # Auditoria: perceber o que o filtro antigo remove ANTES
+                # de chegar ao novo classificador, sem mudar a seleção.
+                from collections import Counter as _AuditCounter
+                excluded_by_type = _AuditCounter(
+                    event.get("type", "Outros") for event in candidates
+                )
+                print("JOMIVO FILTRO ANTIGO POR TIPO:", dict(excluded_by_type))
+                for event in candidates:
+                    if event.get("type") == "Exposição":
+                        print(
+                            "JOMIVO REVER EXPOSIÇÃO EXCLUÍDA:",
+                            event.get("start", ""),
+                            event.get("name", ""),
+                            event.get("url", ""),
+                        )
+                # Nota: eventos de tipo "Evento" enviados para REVER CULTURA
+                # não entram em candidates; contabilizar separadamente depois.
+
+                audit_terms = (
+                    "vinho", "vinhos", "gastronomia", "degustação",
+                    "prova de", "visita guiada", "património",
+                    "concerto", "teatro", "exposição", "festival",
+                )
+                possibly_overlooked = [
+                    event for event in candidates
+                    if any(
+                        term in (
+                            event.get("name", "") + " " + event.get("desc", "")
+                        ).casefold()
+                        for term in audit_terms
+                    )
+                ]
+                print(
+                    "JOMIVO FILTRO ANTIGO POSSÍVEIS EXCLUSÕES RELEVANTES:",
+                    len(possibly_overlooked),
+                )
+                for event in possibly_overlooked[:30]:
+                    print(
+                        "JOMIVO REVER EXCLUSÃO:",
+                        event.get("start", ""),
+                        event.get("type", ""),
+                        event.get("name", ""),
                     )
 
                 excluded_ids = {id(event) for event in candidates}
@@ -1968,6 +2043,67 @@ def main():
                 f"AVISO {area}: {error}",
                 file=sys.stderr,
             )
+
+    # Complemento da agenda municipal: espetáculos oficiais do Teatro Aveirense.
+    # Uma falha desta fonte nunca bloqueia as restantes cidades.
+    try:
+        from preview_teatro_aveirense import fetch_html, preview, preview_html
+        teatro_html = fetch_html()
+        teatro_events = preview(teatro_html, today=today) or preview_html(teatro_html, today=today)
+        additions = []
+        for item in teatro_events:
+            when = item["start"]
+            additions.append({
+                "area": "Aveiro", "city": "Aveiro",
+                "name": item["name"], "start": when, "end": when,
+                "url": item["url"], "source": item["source"],
+                "type": item.get("type", "Teatro"),
+                "venue": "Teatro Aveirense", "desc": "",
+            })
+        # A fonte municipal pode conter o mesmo espetáculo com um título
+        # idêntico; evitar duplicados mesmo quando o local está omisso.
+        existing_keys = {
+            (e.get("area"), e.get("start"), re.sub(r"\s+", " ", e.get("name", "").casefold()).strip())
+            for e in collected
+        }
+        added = 0
+        for event in additions:
+            key = (event["area"], event["start"], re.sub(r"\s+", " ", event["name"].casefold()).strip())
+            if key not in existing_keys:
+                collected.append(event)
+                existing_keys.add(key)
+                added += 1
+        print(f"JOMIVO TEATRO AVEIRENSE INTEGRADO: {added} novos de {len(additions)} encontrados.")
+    except Exception as error:
+        print(f"AVISO complemento Teatro Aveirense: {error}", file=sys.stderr)
+
+    # Complemento Theatro Circo: só eventos com data confirmada na página oficial.
+    # A recolha ocorre apenas no ambiente de validação desta branch/PR.
+    try:
+        from preview_theatro_circo import verified_events
+        circo_events = verified_events(today=today)
+        existing_keys = {
+            (e.get("area"), e.get("start"), re.sub(r"\\s+", " ", e.get("name", "").casefold()).strip())
+            for e in collected
+        }
+        added = 0
+        for item in circo_events:
+            when = item["start"]
+            event = {
+                "area": "Braga", "city": "Braga",
+                "name": item["name"], "start": when, "end": when,
+                "url": item["url"], "source": item["source"],
+                "type": item.get("type", "Evento"),
+                "venue": "Theatro Circo", "desc": "",
+            }
+            key = (event["area"], when, re.sub(r"\\s+", " ", event["name"].casefold()).strip())
+            if key not in existing_keys:
+                collected.append(event)
+                existing_keys.add(key)
+                added += 1
+        print(f"JOMIVO THEATRO CIRCO INTEGRADO: {added} novos de {len(circo_events)} validados.")
+    except Exception as error:
+        print(f"AVISO complemento Theatro Circo: {error}", file=sys.stderr)
 
     # Se uma cidade falhar, preservamos os eventos futuros
     # dessa cidade que já existiam no ficheiro.
@@ -2082,9 +2218,6 @@ def main():
     )
 
     for event in collected:
-        if event.get("area") != "Porto":
-            continue
-
         name = event.get("name", "").casefold()
         desc = event.get("desc", "").casefold()
         category = event.get("type", "")
@@ -2093,7 +2226,7 @@ def main():
         score = 0
         reasons = []
 
-        if category == "Música":
+        if category in ("Música", "Ópera"):
             score += 3
             reasons.append("música")
 
@@ -2111,6 +2244,17 @@ def main():
 
         elif category == "Família":
             score += 1
+
+        # A programação de um teatro oficial pode vir etiquetada como
+        # "Evento" apesar de ser um espetáculo. Não promover automaticamente
+        # atividades práticas nem elevar tudo a Premium.
+        if (
+            event.get("venue") in ("Theatro Circo", "Teatro Aveirense")
+            and category in ("Evento", "Outros")
+            and not any(term in name for term in routine_terms)
+        ):
+            score += 2
+            reasons.append("programação de sala cultural oficial")
 
         if any(term in combined for term in special_terms):
             score += 2
@@ -2175,6 +2319,36 @@ def main():
             score += 2
             reasons.append("espetáculo familiar")
         
+        # Sinalização editorial específica: não confundir uma experiência
+        # gastronómica com um quiz/brunch genérico ou um clube de leitura.
+        verified_tasting = (
+            event.get("url", "").casefold().rstrip("/")
+            == "https://www.agenda-porto.pt/evento/the-book-tasting"
+        )
+        # Experiências gastronómicas com programação cultural:
+        # exigir sinais positivos no título, sem promover quizzes,
+        # cursos ou simples brunches pelo texto da descrição.
+        food_terms = ("degustação", "prova de vinhos", "wine tasting",
+                      "tasting menu", "jantar vínico", "jantar harmonizado",
+                      "wine pairing")
+        culture_terms = ("livro", "livros", "book", "literatura",
+                         "música ao vivo", "concerto", "arte", "teatro")
+        negative_terms = ("quiz", "bingo", "workshop", "curso",
+                          "seminário", "palestra", "conferência")
+        curated_food_culture = (
+            category in ("Evento", "Gastronomia", "Festas & Cultura")
+            and any(term in combined for term in food_terms)
+            and any(term in combined for term in culture_terms)
+            and any(term in name for term in ("tasting", "degustação", "prova", "jantar"))
+            and not any(term in name for term in negative_terms)
+        )
+        if verified_tasting and not any(term in name for term in routine_terms):
+            score += 4
+            reasons.append("experiência cultural e gastronómica verificada")
+        elif curated_food_culture:
+            score += 3
+            reasons.append("gastronomia com programação cultural")
+
         if score < 0:
             level = "ROTINA"
         elif score >= 4:
@@ -2185,6 +2359,11 @@ def main():
             level = "INTERESSANTE"
         else:
             level = "POR AVALIAR"
+
+        # Guardar a avaliação para uso futuro no site, sem filtrar eventos.
+        event["quality_score"] = score
+        event["quality_level"] = level
+        event["quality_reasons"] = reasons
 
         counts[level] += 1
 

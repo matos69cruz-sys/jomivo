@@ -1,0 +1,200 @@
+name: Validar seleção JOMIVO (PR)
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "scripts/update_events.py"
+      - "scripts/preview_selection.py"
+      - "scripts/preview_teatro_aveirense.py"
+      - "scripts/preview_theatro_circo.py"
+      - ".github/workflows/update-events.yml"
+      - ".github/workflows/validate-selection.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-selection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter código
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar sintaxe JavaScript e regras da agenda no site
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          class Scripts(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.inside = False
+                  self.parts = []
+              def handle_starttag(self, tag, attrs):
+                  if tag == "script" and not dict(attrs).get("src"):
+                      self.inside = True
+              def handle_endtag(self, tag):
+                  if tag == "script":
+                      self.inside = False
+              def handle_data(self, data):
+                  if self.inside:
+                      self.parts.append(data)
+          html = Path("index.html").read_text(encoding="utf-8")
+          parser = Scripts()
+          parser.feed(html)
+          js = "\\n".join(parser.parts)
+          assert "eventPeriod='Mês',eventArea='Porto'" in js
+          assert "monthEnd.setDate(monthEnd.getDate()+29)" in js
+          assert "e.quality_level==='ROTINA'" in js
+          assert "Number.isFinite(a.getTime())" in js
+          assert "'Teatro':'🎭'" in js
+          Path("/tmp/jomivo-inline.js").write_text(js, encoding="utf-8")
+          print("OK: regras da agenda presentes no HTML")
+          PY
+          node --check /tmp/jomivo-inline.js
+
+      - name: Validar sintaxe Python
+        run: python -m py_compile scripts/update_events.py scripts/preview_selection.py scripts/preview_teatro_aveirense.py scripts/preview_theatro_circo.py
+
+      - name: Verificar pré-visualização sem modificar events.json
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import subprocess
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          original = Path("events.json")
+          before = hashlib.sha256(original.read_bytes()).hexdigest()
+          sample = {
+              "events": [
+                  {"area": "Porto", "name": "Concerto", "quality_level": "PREMIUM"},
+                  {"area": "Porto", "name": "Peça de teatro", "quality_level": "RECOMENDADO"},
+                  {"area": "Porto", "name": "Exposição", "quality_level": "INTERESSANTE"},
+                  {"area": "Porto", "name": "A confirmar", "quality_level": "POR AVALIAR"},
+                  {"area": "Porto", "name": "Aula de yoga", "quality_level": "ROTINA"},
+                  {"area": "Braga", "name": "Concerto", "quality_level": "PREMIUM"}
+              ]
+          }
+          with tempfile.TemporaryDirectory() as folder:
+              fixture = Path(folder) / "fixture.json"
+              fixture.write_text(json.dumps(sample), encoding="utf-8")
+              result = subprocess.run(
+                  [sys.executable, "scripts/preview_selection.py", "--input", str(fixture)],
+                  capture_output=True, text=True, check=True,
+              )
+          print(result.stdout)
+          for expected in (
+              "Total geral: 6 | Porto: 5",
+              "Potencial seleção: 3",
+              "Revisão humana: 1",
+              "Potencial rotina: 1",
+              "Sem classificação reconhecida: 0",
+          ):
+              assert expected in result.stdout, f"Falta: {expected}"
+          assert before == hashlib.sha256(original.read_bytes()).hexdigest()
+          print("OK: seleção de teste correta e events.json intacto")
+          PY
+
+      - name: Testar extrator do Teatro Aveirense com HTML de exemplo
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          from preview_teatro_aveirense import preview
+          from datetime import date
+          html = """<script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"MusicEvent",
+           "name":"Concerto especial","startDate":"2026-10-20",
+           "url":"https://www.teatroaveirense.pt/pt/programacao/concerto-especial/"}
+          </script>"""
+          found = preview(html, today=date(2026, 10, 9))
+          assert len(found) == 1 and found[0]["name"] == "Concerto especial", found
+          assert not preview(html.replace("Concerto especial", "Workshop de pintura"), today=date(2026, 10, 9))
+          assert not preview(html.replace("2026-10-20", "2027-10-20"), today=date(2026, 10, 9))
+          print("OK: JSON-LD, exclusões e janela temporal")
+          PY
+
+      - name: Testar fonte real Teatro Aveirense (diagnóstico, não publica)
+        continue-on-error: true
+        timeout-minutes: 2
+        run: python scripts/preview_teatro_aveirense.py
+
+      - name: Testar fonte real Theatro Circo (diagnóstico, não publica)
+        continue-on-error: true
+        timeout-minutes: 2
+        run: python scripts/preview_theatro_circo.py
+
+      - name: Testar recolha real numa pasta isolada (sem publicar)
+        timeout-minutes: 15
+        run: |
+          mkdir -p /tmp/jomivo-validation
+          cp events.json /tmp/jomivo-validation/events.json
+          cd /tmp/jomivo-validation
+          python "$GITHUB_WORKSPACE/scripts/update_events.py" > collection.log 2>&1 || {
+            tail -n 100 collection.log
+            exit 1
+          }
+          grep -E 'JOMIVO THEATRO CIRCO INTEGRADO:|AVISO complemento Theatro Circo:|JOMIVO THEATRO CIRCO BLOQUEADO|JOMIVO RESUMO SCORE:|TOTAL:|Fontes atualizadas:|JOMIVO FILTRO ANTIGO POR TIPO:|JOMIVO FILTRO ANTIGO POSSÍVEIS EXCLUSÕES RELEVANTES:|JOMIVO REVER EXCLUSÃO:|JOMIVO REVER EXPOSIÇÃO EXCLUÍDA:|JOMIVO REVER CULTURA EXCLUÍDA:|JOMIVO CANDIDATO CULTURAL A REVER:' collection.log || true
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          events = json.loads(Path("events.json").read_text(encoding="utf-8"))["events"]
+          circo = [e for e in events if e.get("venue") == "Theatro Circo"]
+          print("JOMIVO THEATRO CIRCO RESULTADO FINAL:", len(circo))
+          for event in circo:
+              print("JOMIVO CIRCO VALIDADO:", event["start"], event["name"])
+          assert len(circo) >= 13, f"Esperados pelo menos 13 espetáculos oficiais, encontrados {len(circo)}"
+          assert not any("Agnes Obel" in e.get("name", "") for e in circo), "Agnes Obel 2027 não pode entrar"
+          ocelo = [e for e in circo if e.get("name") == "Ocelo"]
+          assert len(ocelo) == 1 and ocelo[0]["start"] == "2026-11-07", "Data Ocelo incorreta"
+          # Confirmar que os espaços culturais não ficam invisíveis por
+          # terem a categoria genérica "Evento" ou "Outros".
+          official = [
+              e for e in events
+              if e.get("venue") in {"Theatro Circo", "Teatro Aveirense"}
+          ]
+          generic_official = [
+              e for e in official
+              if e.get("type") in {"Evento", "Outros"}
+              and "atividade rotineira" not in e.get("quality_reasons", [])
+          ]
+          print("JOMIVO SALAS CULTURAIS:", len(official),
+                "| categorias genéricas:", len(generic_official))
+          for e in generic_official:
+              print("JOMIVO SALA GENÉRICA:", e["name"], e["quality_level"],
+                    e["quality_score"], e["quality_reasons"])
+          assert official, "Nenhuma programação de salas culturais integrada"
+          assert all(
+              "programação de sala cultural oficial" in e["quality_reasons"]
+              and e["quality_score"] >= 2
+              for e in generic_official
+          ), "Espetáculo de sala oficial desvalorizado por categoria genérica"
+          porto = [e for e in events if e.get("area") == "Porto"]
+          levels = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in porto)
+          print("Porto:", len(porto), "| Classificações:", dict(levels))
+          book_tasting = [
+              e for e in porto
+              if e.get("url", "").rstrip("/") == "https://www.agenda-porto.pt/evento/the-book-tasting"
+          ]
+          assert len(book_tasting) == 1, "The Book Tasting deve ser recuperado exatamente uma vez"
+          print("JOMIVO EXPERIÊNCIA RECUPERADA:", book_tasting[0]["name"])
+          assert book_tasting[0].get("quality_level") == "PREMIUM", "Experiência verificada deve ser Premium"
+          assert "experiência cultural e gastronómica verificada" in book_tasting[0].get("quality_reasons", []), "Justificação editorial ausente"
+
+          assert len(events) >= 3, "Recolha insuficiente"
+          assert all("quality_level" in e and "quality_score" in e for e in events), "Falta classificação em alguma cidade"
+          assert all(isinstance(e.get("quality_reasons"), list) for e in events), "Faltam justificações editoriais"
+          PY
+          python "$GITHUB_WORKSPACE/scripts/preview_selection.py" --input events.json
+          echo "Agenda pública e ficheiro original não foram alterados."
