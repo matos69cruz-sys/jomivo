@@ -2256,11 +2256,29 @@ def main():
             event.get("url", "").casefold().rstrip("/")
             == "https://www.agenda-porto.pt/evento/the-book-tasting"
         )
-        if verified_tasting and not any(
-            term in name for term in routine_terms
-        ):
+        # Experiências gastronómicas com programação cultural:
+        # exigir sinais positivos no título, sem promover quizzes,
+        # cursos ou simples brunches pelo texto da descrição.
+        food_terms = ("degustação", "prova de vinhos", "wine tasting",
+                      "tasting menu", "jantar vínico", "jantar harmonizado",
+                      "wine pairing")
+        culture_terms = ("livro", "livros", "book", "literatura",
+                         "música ao vivo", "concerto", "arte", "teatro")
+        negative_terms = ("quiz", "bingo", "workshop", "curso",
+                          "seminário", "palestra", "conferência")
+        curated_food_culture = (
+            category in ("Evento", "Gastronomia", "Festas & Cultura")
+            and any(term in combined for term in food_terms)
+            and any(term in combined for term in culture_terms)
+            and any(term in name for term in ("tasting", "degustação", "prova", "jantar"))
+            and not any(term in name for term in negative_terms)
+        )
+        if verified_tasting and not any(term in name for term in routine_terms):
             score += 4
             reasons.append("experiência cultural e gastronómica verificada")
+        elif curated_food_culture:
+            score += 3
+            reasons.append("gastronomia com programação cultural")
 
         if score < 0:
             level = "ROTINA"
