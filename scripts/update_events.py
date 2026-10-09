@@ -1876,6 +1876,22 @@ def main():
                                 event.get("name", ""),
                                 event.get("url", ""),
                             )
+                            # Diagnóstico da tipologia: sem alterar o filtro.
+                            cultural_review_terms = (
+                                "visita", "mosteiro", "património",
+                                "casas de", "degustação", "tasting",
+                                "brunch", "gastronomia", "vinhos",
+                            )
+                            if any(
+                                term in event.get("name", "").casefold()
+                                for term in cultural_review_terms
+                            ):
+                                print(
+                                    "JOMIVO CANDIDATO CULTURAL A REVER:",
+                                    event.get("start", ""),
+                                    event.get("name", ""),
+                                    event.get("url", ""),
+                                )
                         else:
                             candidates.append(event)
 
