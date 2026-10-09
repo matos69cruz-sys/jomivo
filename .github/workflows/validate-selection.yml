@@ -124,6 +124,28 @@ jobs:
           assert not any("Agnes Obel" in e.get("name", "") for e in circo), "Agnes Obel 2027 não pode entrar"
           ocelo = [e for e in circo if e.get("name") == "Ocelo"]
           assert len(ocelo) == 1 and ocelo[0]["start"] == "2026-11-07", "Data Ocelo incorreta"
+          # Confirmar que os espaços culturais não ficam invisíveis por
+          # terem a categoria genérica "Evento" ou "Outros".
+          official = [
+              e for e in events
+              if e.get("venue") in {"Theatro Circo", "Teatro Aveirense"}
+          ]
+          generic_official = [
+              e for e in official
+              if e.get("type") in {"Evento", "Outros"}
+              and "atividade rotineira" not in e.get("quality_reasons", [])
+          ]
+          print("JOMIVO SALAS CULTURAIS:", len(official),
+                "| categorias genéricas:", len(generic_official))
+          for e in generic_official:
+              print("JOMIVO SALA GENÉRICA:", e["name"], e["quality_level"],
+                    e["quality_score"], e["quality_reasons"])
+          assert official, "Nenhuma programação de salas culturais integrada"
+          assert all(
+              "programação de sala cultural oficial" in e["quality_reasons"]
+              and e["quality_score"] >= 2
+              for e in generic_official
+          ), "Espetáculo de sala oficial desvalorizado por categoria genérica"
           porto = [e for e in events if e.get("area") == "Porto"]
           levels = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in porto)
           print("Porto:", len(porto), "| Classificações:", dict(levels))
