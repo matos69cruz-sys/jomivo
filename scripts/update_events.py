@@ -2250,6 +2250,18 @@ def main():
             score += 2
             reasons.append("espetáculo familiar")
         
+        # Sinalização editorial específica: não confundir uma experiência
+        # gastronómica com um quiz/brunch genérico ou um clube de leitura.
+        verified_tasting = (
+            event.get("url", "").casefold().rstrip("/")
+            == "https://www.agenda-porto.pt/evento/the-book-tasting"
+        )
+        if verified_tasting and not any(
+            term in name for term in routine_terms
+        ):
+            score += 4
+            reasons.append("experiência cultural e gastronómica verificada")
+
         if score < 0:
             level = "ROTINA"
         elif score >= 4:
