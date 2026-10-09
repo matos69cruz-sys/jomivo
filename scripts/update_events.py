@@ -117,6 +117,29 @@ def test_event_descriptions():
             description[:200],
         )
 
+    html = fetch(urls[0], timeout=8, attempts=1)
+
+    blocks = re.findall(
+        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>'
+        r'(.*?)</script>',
+        html,
+        re.I | re.S,
+    )
+
+    for block in blocks:
+        try:
+            data = json.loads(block)
+            for item in walk(data):
+                if "description" in item:
+                    description = clean(item["description"], 1000)
+                    print(
+                        "TESTE DESCRICAO COMPLETA:",
+                        len(description),
+                        description[:500],
+                    )
+        except (ValueError, TypeError):
+            pass
+
 def text(value):
     value = re.sub(
         r"<(script|style)[^>]*>.*?</\1>",
