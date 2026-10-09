@@ -2186,6 +2186,11 @@ def main():
         else:
             level = "POR AVALIAR"
 
+        # Guardar a avaliação para uso futuro no site, sem filtrar eventos.
+        event["quality_score"] = score
+        event["quality_level"] = level
+        event["quality_reasons"] = reasons
+
         counts[level] += 1
 
         print(
