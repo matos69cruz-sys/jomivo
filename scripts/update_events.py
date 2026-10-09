@@ -1786,6 +1786,61 @@ def main():
                     if id(event) not in excluded_ids
                 ]
 
+                premium_terms = (
+                    "festival", "concerto", "espetáculo",
+                    "visita guiada", "rota das",
+                    "prova de vinhos", "vinhos à prova",
+                    "degustação", "gastronomia",
+                    "teatro", "ópera", "ballet",
+                    "mercado", "feira", "fado",
+                )
+
+                secondary_terms = (
+                    "jam session", "quiz", "bingo",
+                    "clube", "conversas",
+                    "sessão de escuta",
+                    "encontro", "tertúlia",
+                )
+
+                premium_count = 0
+                secondary_count = 0
+
+                for event in future:
+                    name = event["name"].casefold()
+                    category = event.get("type", "")
+
+                    if any(term in name for term in secondary_terms):
+                        level = "INTERESSANTE"
+                    elif (
+                        any(term in name for term in premium_terms)
+                        or category in ("Teatro", "Dança")
+                    ):
+                        level = "PREMIUM"
+                    else:
+                        level = "POR AVALIAR"
+
+                    if level == "PREMIUM":
+                        premium_count += 1
+                    elif level == "INTERESSANTE":
+                        secondary_count += 1
+
+                    print(
+                        "CLASSIFICACAO JOMIVO:",
+                        level,
+                        category,
+                        event["name"],
+                    )
+
+                print(
+                    "RESUMO PREMIUM:",
+                    premium_count,
+                    "premium,",
+                    secondary_count,
+                    "interessantes,",
+                    len(future) - premium_count - secondary_count,
+                    "por avaliar."
+                )
+                
                 print(
                     f"FILTRO ATIVO: {len(candidates)} "
                     "eventos excluídos da agenda do Porto."
