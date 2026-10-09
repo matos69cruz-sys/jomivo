@@ -136,8 +136,8 @@ def verified_events(today=None):
     candidates = preview_html(fetch_html(), today=today)
     approved = []
     pattern = re.compile(
-        r"\\b(\\d{1,2})(?:\\s*(?:a|até|[-–])\\s*\\d{1,2})?\\s+("
-        + "|".join(MONTHS) + r")(?:\\s*\\([^)]*\\))?\\s+(20\\d{2})\\b", re.I)
+        r"\b(\d{1,2})(?:\s*(?:a|até|[-–])\s*\d{1,2})?\s+("
+        + "|".join(MONTHS) + r")(?:\s*\([^)]*\))?\s+(20\d{2})\b", re.I)
     class Visible(HTMLParser):
         def __init__(self):
             super().__init__()
