@@ -47,16 +47,6 @@ def main():
         essential = sum(e.get("quality_level") in {"PREMIUM", "RECOMENDADO"} for e in local)
         expanded = sum(e.get("quality_level") in KEEP for e in local)
         print(f"JOMIVO SELEÇÃO {area}: essencial={essential} | alargada={expanded} | total={len(local)}")
-    # Avisos de cobertura editorial: apenas diagnóstico, nunca filtragem.
-    area_counts = Counter(e.get("area", "Desconhecida") for e in events)
-    if area_counts:
-        largest_area, largest_count = area_counts.most_common(1)[0]
-        for area, count in sorted(area_counts.items()):
-            if area != largest_area and count * 5 < largest_count:
-                print(
-                    f"JOMIVO ALERTA DESEQUILÍBRIO REGIONAL: {area}={count} "
-                    f"vs {largest_area}={largest_count}; reforçar fontes locais"
-                )
     # Comparar cenários sem eliminar concertos nem impor um limite artificial.
     core = [e for e in porto if e.get("quality_level") in {"PREMIUM", "RECOMENDADO"}]
     expanded = selected
