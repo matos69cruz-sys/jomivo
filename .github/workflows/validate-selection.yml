@@ -1,0 +1,69 @@
+name: Validar seleção JOMIVO (PR)
+
+on:
+  pull_request:
+    paths:
+      - "scripts/update_events.py"
+      - "scripts/preview_selection.py"
+      - ".github/workflows/validate-selection.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-selection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter código
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validar sintaxe Python
+        run: python -m py_compile scripts/update_events.py scripts/preview_selection.py
+
+      - name: Verificar pré-visualização sem modificar events.json
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import subprocess
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          original = Path("events.json")
+          before = hashlib.sha256(original.read_bytes()).hexdigest()
+          sample = {
+              "events": [
+                  {"area": "Porto", "name": "Concerto", "quality_level": "PREMIUM"},
+                  {"area": "Porto", "name": "Peça de teatro", "quality_level": "RECOMENDADO"},
+                  {"area": "Porto", "name": "Exposição", "quality_level": "INTERESSANTE"},
+                  {"area": "Porto", "name": "A confirmar", "quality_level": "POR AVALIAR"},
+                  {"area": "Porto", "name": "Aula de yoga", "quality_level": "ROTINA"},
+                  {"area": "Braga", "name": "Concerto", "quality_level": "PREMIUM"}
+              ]
+          }
+          with tempfile.TemporaryDirectory() as folder:
+              fixture = Path(folder) / "fixture.json"
+              fixture.write_text(json.dumps(sample), encoding="utf-8")
+              result = subprocess.run(
+                  [sys.executable, "scripts/preview_selection.py", "--input", str(fixture)],
+                  capture_output=True, text=True, check=True,
+              )
+          print(result.stdout)
+          for expected in (
+              "Total geral: 6 | Porto: 5",
+              "Potencial seleção: 3",
+              "Revisão humana: 1",
+              "Potencial rotina: 1",
+              "Sem classificação reconhecida: 0",
+          ):
+              assert expected in result.stdout, f"Falta: {expected}"
+          assert before == hashlib.sha256(original.read_bytes()).hexdigest()
+          print("OK: seleção de teste correta e events.json intacto")
+          PY
