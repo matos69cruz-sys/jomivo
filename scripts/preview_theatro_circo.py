@@ -54,56 +54,49 @@ def fetch_html():
 
 
 def preview_html(html, today=None):
+    """Lê cada cartão pela sequência título/data/categoria, nunca pelo cartão anterior."""
     today = today or date.today()
     cutoff = today + timedelta(days=30)
     parser = Links()
     parser.feed(html)
     found = {}
-    # Theatro Circo: o link da imagem vem antes do título e da data.
-    # A próxima ligação inicia um novo cartão de evento.
+    # A âncora da imagem precede o título e data do respetivo evento.
+    # Há também links de bilheteira; só usar a primeira ligação de cada cartão.
     for pos, (index, label, href) in enumerate(parser.links):
         next_index = parser.links[pos + 1][0] if pos + 1 < len(parser.links) else len(parser.parts)
         card = parser.parts[index:next_index]
-        # Ignorar menus, scripts e ligações que não tenham um cartão completo.
-        matches = [(i, DATE_RE.search(part)) for i, part in enumerate(card)]
-        matches = [(i, match) for i, match in matches if match]
-        if not matches:
+        ui = {"bilhetes", "acessibilidade", "infantojuvenil", "saber mais",
+              "comprar bilhetes", "esgotado", "→", "programação"}
+        # A primeira data tem de estar dentro do próprio cartão.
+        dated = [(i, DATE_RE.search(part)) for i, part in enumerate(card)]
+        dated = [(i, m) for i, m in dated if m]
+        if not dated:
             continue
-        date_index, match = matches[0]
+        date_index, match = dated[0]
+        before = [p.strip() for p in card[:date_index] if p.strip()]
+        before = [p for p in before if p.casefold() not in ui]
+        title = " ".join(label.split()) or (before[0] if before else "")
+        if not title or title.casefold() in ui or len(title) > 180:
+            continue
+        if any(term in title.casefold() for term in EXCLUDED):
+            continue
         day, month = int(match.group(1)), MONTHS[match.group(2).lower()]
+        year = today.year
+        if month < today.month and today.month >= 11:
+            year += 1
         try:
-            when = date(today.year + (today.month == 12 and month == 1), month, day)
+            when = date(year, month, day)
         except ValueError:
             continue
         if not today <= when <= cutoff:
             continue
-        # O título surge antes da data; o subtítulo pode estar entre ambos.
-        before = [part for part in card[:date_index] if part.strip()]
-        ui_labels = {"bilhetes", "acessibilidade", "infantojuvenil", "saber mais",
-                     "comprar bilhetes", "esgotado", "→", "programação"}
-        candidates = [part for part in before if part.casefold().strip() not in ui_labels
-                      and not DATE_RE.search(part)]
-        title = " ".join(label.split())
-        if title.casefold().strip() in ui_labels:
-            title = ""
-        if not title:
-            title = candidates[0] if candidates else ""
-        if title.casefold().strip() in ui_labels:
-            continue
-        if not title or len(title) > 180:
-            continue
-        if any(term in title.casefold() for term in EXCLUDED):
-            continue
-        # A seta e a categoria surgem após a data, normalmente em nós separados.
         after = card[date_index + 1:date_index + 8]
         category = ""
         for i, part in enumerate(after):
             if part.strip() == "→" and i + 1 < len(after):
                 category = after[i + 1].casefold()
                 break
-        if not category:
-            category = " ".join(after[:3]).casefold()
-        if any(term in category for term in EXCLUDED):
+        if not category or any(term in category for term in EXCLUDED):
             continue
         if not any(term in category for term in ALLOWED):
             continue
@@ -112,6 +105,14 @@ def preview_html(html, today=None):
         if parsed.hostname not in ("theatrocirco.com", "www.theatrocirco.com"):
             continue
         if not parsed.path.startswith("/event/"):
+            continue
+        # Evita associar datas de outubro a páginas explicitamente datadas de dezembro.
+        slug = parsed.path.casefold()
+        month_slugs = {"jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5,
+                       "jun": 6, "jul": 7, "ago": 8, "set": 9, "out": 10,
+                       "nov": 11, "dez": 12}
+        slug_date = re.search(r"(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)20\d{2}", slug)
+        if slug_date and month_slugs[slug_date.group(1)] != when.month:
             continue
         event_type = ("Música" if "música" in category else "Teatro" if "teatro" in category
                       else "Dança" if "dança" in category else "Ópera" if "ópera" in category
