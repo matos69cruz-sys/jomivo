@@ -131,6 +131,9 @@ def main():
     print("JOMIVO THEATRO CIRCO DIAGNÓSTICO: links /event/ =", len(parser.links))
     for index, title, href in parser.links[:8]:
         print("JOMIVO LINK AMOSTRA:", repr(title[:100]), href, repr(" | ".join(parser.parts[max(0, index - 12):index])[:250]))
+    for pos, (index, label, href) in enumerate(parser.links[:18]):
+        next_index = parser.links[pos + 1][0] if pos + 1 < len(parser.links) else len(parser.parts)
+        print("JOMIVO CARTÃO:", href, repr(" | ".join(parser.parts[index:next_index])[:350]))
     events = preview_html(html)
     print("JOMIVO THEATRO CIRCO (pré-visualização, não publica):", len(events))
     for event in events:
