@@ -2058,6 +2058,75 @@ def main():
         added,
         "novas descricoes recolhidas.",
     )
+
+    # JOMIVO: avaliação premium com descrições
+    premium_total = 0
+    interesting_total = 0
+    review_total = 0
+
+    routine_signals = (
+        "aulas de", "aula de", "curso de",
+        "workshop", "oficina de",
+        "formação", "seminário",
+        "sessão de yoga", "sessão de ioga",
+        "quiz", "bingo", "jam session",
+        "clube de leitura",
+    )
+
+    experience_signals = (
+        "concerto", "ao vivo", "música ao vivo",
+        "espetáculo", "estreia", "digressão",
+        "exposição", "instalação artística",
+        "visita guiada", "percurso guiado",
+        "festival", "degustação",
+        "prova de vinhos", "gastronomia",
+        "mercado de", "feira de",
+    )
+
+    for event in collected:
+        if event.get("area") != "Porto":
+            continue
+
+        name = event.get("name", "").casefold()
+        description = event.get("desc", "").casefold()
+        category = event.get("type", "")
+
+        combined = name + " " + description
+
+        if any(term in name for term in routine_signals):
+            level = "ROTINA"
+        elif category in ("Teatro", "Música", "Exposição", "Dança"):
+            level = "PREMIUM"
+        elif any(term in combined for term in experience_signals):
+            level = "PREMIUM"
+        elif category in ("Família", "Gastronomia", "Festas & Cultura"):
+            level = "INTERESSANTE"
+        else:
+            level = "POR AVALIAR"
+
+        if level == "PREMIUM":
+            premium_total += 1
+        elif level == "INTERESSANTE":
+            interesting_total += 1
+        elif level == "POR AVALIAR":
+            review_total += 1
+
+        print(
+            "JOMIVO NOVA AVALIACAO:",
+            level,
+            category,
+            event.get("name", ""),
+        )
+
+    print(
+        "JOMIVO NOVO RESUMO:",
+        premium_total,
+        "premium,",
+        interesting_total,
+        "interessantes,",
+        review_total,
+        "por avaliar.",
+    )
     
     collected.sort(
         key=lambda event: (
