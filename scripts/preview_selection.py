@@ -4,7 +4,7 @@ Não modifica events.json nem altera o site. Só apresenta contagens e exemplos.
 """
 import argparse
 import json
-from datetime import date
+from datetime import date, timedelta
 from collections import Counter
 from pathlib import Path
 
@@ -141,6 +141,15 @@ def main():
             f"{e.get('start', '?')} | {e.get('type', '?')} | "
             f"{e.get('name', '?')} | {e.get('url', '')}"
         )
+    # Diversidade editorial do Porto: detetar se os destaques próximos
+    # ficam dominados por um único género, sem limitar nem remover eventos.
+    upcoming_porto = [e for e in porto_highlights if e.get("start", "") <=
+                      (date.today() + __import__("datetime").timedelta(days=14)).isoformat()]
+    types_near = Counter(e.get("type", "Outros") for e in upcoming_porto)
+    print(f"JOMIVO PORTO PRÓXIMOS 14 DIAS: {len(upcoming_porto)} destaques")
+    print("JOMIVO PORTO DIVERSIDADE 14 DIAS:", dict(types_near.most_common()))
+    if upcoming_porto and types_near.most_common(1)[0][1] / len(upcoming_porto) >= 0.75:
+        print("JOMIVO PORTO ALERTA DIVERSIDADE: rever destaque excessivo de um género")
     # Lista de revisão editorial por cidade, sem exclusão automática.
     priority_terms = (
         "vinho", "vinhos", "degustação", "prova", "jantar", "gastronomia",
