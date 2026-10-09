@@ -2125,6 +2125,20 @@ def main():
         ):
             score += 1
 
+        tourist_terms = (
+            "visita", "rota", "percurso",
+            "passeio", "treetop walk",
+            "jardins", "património",
+        )
+
+        if (
+            category in ("Evento", "Família")
+            and any(term in name for term in tourist_terms)
+            and not any(term in name for term in routine_terms)
+        ):
+            score += 3
+            reasons.append("descoberta turística")
+
         if score < 0:
             level = "ROTINA"
         elif score >= 4:
