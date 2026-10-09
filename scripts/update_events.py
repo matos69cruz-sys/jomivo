@@ -105,56 +105,81 @@ def fetch_event_description(url):
         return ""
 
 def test_event_descriptions():
-    urls = [
-        "https://www.agenda-porto.pt/evento/moonspell-nov26/",
-    ]
+    from concurrent.futures import ThreadPoolExecutor
+    from time import perf_counter
 
-    for url in urls:
-        description = fetch_event_description(url)
+    from porto_cards import fetch_porto_cards
+
+    cards = fetch_porto_cards(days=30)
+
+    # Escolher eventos de categorias diferentes.
+    selected = []
+    seen_categories = set()
+    seen_urls = set()
+
+    for card in cards:
+        category = card.get("type", "")
+        url = card.get("url", "")
+
+        if (
+            "/evento/" in url
+            and url not in seen_urls
+            and category not in seen_categories
+        ):
+            selected.append(card)
+            seen_categories.add(category)
+            seen_urls.add(url)
+
+        if len(selected) == 10:
+            break
+
+    # Completar a amostra caso existam menos de 10 categorias.
+    for card in cards:
+        url = card.get("url", "")
+
+        if len(selected) >= 10:
+            break
+
+        if "/evento/" in url and url not in seen_urls:
+            selected.append(card)
+            seen_urls.add(url)
+
+    started = perf_counter()
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        descriptions = list(
+            executor.map(
+                fetch_event_description,
+                [card["url"] for card in selected],
+            )
+        )
+
+    successful = 0
+
+    for card, description in zip(selected, descriptions):
+        if len(description) >= 80:
+            successful += 1
 
         print(
-            "TESTE DESCRICAO:",
-            url,
-            "TAMANHO:",
+            "TESTE LOTE:",
+            card.get("type", ""),
+            card.get("name", ""),
+            "CARACTERES:",
             len(description),
             "TEXTO:",
-            description[:200],
+            description[:160],
         )
 
-    html = fetch(urls[0], timeout=8, attempts=1)
-
-    blocks = re.findall(
-        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>'
-        r'(.*?)</script>',
-        html,
-        re.I | re.S,
-    )
-
-    for block in blocks:
-        try:
-            data = json.loads(block)
-            for item in walk(data):
-                if "description" in item:
-                    description = clean(item["description"], 1000)
-                    print(
-                        "TESTE DESCRICAO COMPLETA:",
-                        len(description),
-                        description[:500],
-                    )
-        except (ValueError, TypeError):
-            pass
-
-    phrase = "No dia 1 de Novembro"
-    position = html.find(phrase)
-
-    if position >= 0:
-        print(
-            "TESTE HTML DESCRICAO:",
-            html[max(0, position - 400):position + 700],
+    print(
+        "RESUMO LOTE:",
+        successful,
+        "de",
+        len(selected),
+        "descricoes com pelo menos 80 caracteres;",
+        "TEMPO:",
+        round(perf_counter() - started, 1),
+        "segundos",
         )
-    else:
-        print("TESTE HTML DESCRICAO: frase não encontrada")
-
 def text(value):
     value = re.sub(
         r"<(script|style)[^>]*>.*?</\1>",
