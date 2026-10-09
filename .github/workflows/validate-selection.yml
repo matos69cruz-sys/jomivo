@@ -79,7 +79,7 @@ jobs:
             tail -n 100 collection.log
             exit 1
           }
-          grep -E 'JOMIVO RESUMO SCORE:|TOTAL:|Fontes atualizadas:|JOMIVO FILTRO ANTIGO POR TIPO:|JOMIVO FILTRO ANTIGO POSSÍVEIS EXCLUSÕES RELEVANTES:|JOMIVO REVER EXCLUSÃO:|JOMIVO REVER EXPOSIÇÃO EXCLUÍDA:|JOMIVO REVER CULTURA EXCLUÍDA:' collection.log || true
+          grep -E 'JOMIVO RESUMO SCORE:|TOTAL:|Fontes atualizadas:|JOMIVO FILTRO ANTIGO POR TIPO:|JOMIVO FILTRO ANTIGO POSSÍVEIS EXCLUSÕES RELEVANTES:|JOMIVO REVER EXCLUSÃO:|JOMIVO REVER EXPOSIÇÃO EXCLUÍDA:|JOMIVO REVER CULTURA EXCLUÍDA:|JOMIVO CANDIDATO CULTURAL A REVER:' collection.log || true
           python - <<'PY'
           import json
           from collections import Counter
