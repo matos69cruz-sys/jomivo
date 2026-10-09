@@ -4,6 +4,7 @@ Não modifica events.json nem altera o site. Só apresenta contagens e exemplos.
 """
 import argparse
 import json
+from datetime import date
 from collections import Counter
 from pathlib import Path
 
@@ -101,14 +102,15 @@ def main():
         "visita guiada", "visitas guiadas", "património", "festival",
         "concerto", "espetáculo", "ópera", "teatro", "exposição",
     )
+    today = date.today().isoformat()
     for area in sorted({e.get("area", "") for e in events}):
         candidates = [
             e for e in events
             if e.get("area") == area and e.get("quality_level") == "POR AVALIAR"
+            and e.get("end", e.get("start", "")) >= today
         ]
         candidates.sort(key=lambda e: (
-            -sum(term in (e.get("name", "") + " " + e.get("desc", "")).casefold()
-                 for term in priority_terms),
+            -sum(term in e.get("name", "").casefold() for term in priority_terms),
             e.get("start", ""),
             e.get("name", "").casefold(),
         ))
