@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Pré-visualização da programação oficial do Theatro Circo (não publica)."""
 import re
+import json
 from datetime import date, timedelta
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
@@ -141,6 +142,32 @@ def main():
     print("JOMIVO THEATRO CIRCO (pré-visualização, não publica):", len(events))
     for event in events:
         print(event["start"], "|", event["name"], "|", event["url"])
+    # Auditoria independente das datas em páginas individuais (não publica).
+    for event in events[:5]:
+        try:
+            req = Request(event["url"], headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(req, timeout=12) as response:
+                detail = response.read().decode("utf-8", "replace")
+            blocks = re.findall(
+                r'<script[^>]*type=["\x27]application/ld\+json["\x27][^>]*>(.*?)</script>',
+                detail, flags=re.I | re.S)
+            dates = []
+            for block in blocks:
+                try:
+                    payload = json.loads(block)
+                except (ValueError, TypeError):
+                    continue
+                nodes = payload if isinstance(payload, list) else [payload]
+                for node in nodes:
+                    if isinstance(node, dict):
+                        if isinstance(node.get("@graph"), list):
+                            nodes.extend(node["@graph"])
+                        if node.get("startDate"):
+                            dates.append(str(node["startDate"]))
+            print("JOMIVO DATA DETALHE:", event["name"], event["start"],
+                  "JSON-LD:", dates[:3] or "sem data estruturada")
+        except Exception as error:
+            print("JOMIVO DATA DETALHE ERRO:", event["url"], str(error)[:120])
 
 
 if __name__ == "__main__":
