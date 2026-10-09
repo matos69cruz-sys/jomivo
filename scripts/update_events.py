@@ -2130,7 +2130,7 @@ def main():
             "curso", "formação", "aula prática",
         )
 
-         if (
+        if (
             category == "Exposição"
             and any(
                 term in desc[:160]
