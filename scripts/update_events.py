@@ -1868,6 +1868,14 @@ def main():
                                 event["name"],
                                 event.get("url", ""),
                             )
+                            # Estes eventos também são excluídos da seleção,
+                            # mas antes não eram contabilizados na auditoria.
+                            print(
+                                "JOMIVO REVER CULTURA EXCLUÍDA:",
+                                event.get("start", ""),
+                                event.get("name", ""),
+                                event.get("url", ""),
+                            )
                         else:
                             candidates.append(event)
 
