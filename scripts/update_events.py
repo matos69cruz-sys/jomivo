@@ -2059,28 +2059,26 @@ def main():
         "novas descricoes recolhidas.",
     )
 
-    # JOMIVO: avaliação premium com descrições
-    premium_total = 0
-    interesting_total = 0
-    review_total = 0
+    # JOMIVO: classificação por relevância da experiência
+    from collections import Counter
 
-    routine_signals = (
-        "aulas de", "aula de", "curso de",
-        "workshop", "oficina de",
-        "formação", "seminário",
-        "sessão de yoga", "sessão de ioga",
-        "quiz", "bingo", "jam session",
-        "clube de leitura",
+    counts = Counter()
+
+    routine_terms = (
+        "aulas de", "aula de", "workshop",
+        "oficina de", "curso de", "formação",
+        "seminário", "quiz", "bingo",
+        "jam session", "clube de leitura",
+        "sessão de escuta", "meditação",
     )
 
-    experience_signals = (
-        "concerto", "ao vivo", "música ao vivo",
-        "espetáculo", "estreia", "digressão",
-        "exposição", "instalação artística",
-        "visita guiada", "percurso guiado",
-        "festival", "degustação",
-        "prova de vinhos", "gastronomia",
-        "mercado de", "feira de",
+    special_terms = (
+        "estreia", "digressão", "festival",
+        "edição especial", "concerto único",
+        "visita guiada", "visitas guiadas",
+        "percurso guiado", "degustação",
+        "prova de vinhos", "espetáculo",
+        "instalação artística",
     )
 
     for event in collected:
@@ -2088,45 +2086,67 @@ def main():
             continue
 
         name = event.get("name", "").casefold()
-        description = event.get("desc", "").casefold()
+        desc = event.get("desc", "").casefold()
         category = event.get("type", "")
+        combined = name + " " + desc
 
-        combined = name + " " + description
+        score = 0
+        reasons = []
 
-        if any(term in name for term in routine_signals):
-            level = "ROTINA"
-        elif category in ("Teatro", "Música", "Exposição", "Dança"):
+        if category == "Música":
+            score += 3
+            reasons.append("música")
+
+        elif category == "Teatro":
+            score += 3
+            reasons.append("teatro")
+
+        elif category == "Exposição":
+            score += 2
+            reasons.append("exposição")
+
+        elif category == "Dança":
+            score += 2
+            reasons.append("dança")
+
+        elif category == "Família":
+            score += 1
+
+        if any(term in combined for term in special_terms):
+            score += 2
+            reasons.append("experiência especial")
+
+        if any(term in name for term in routine_terms):
+            score -= 5
+            reasons.append("atividade rotineira")
+
+        if category == "Exposição" and (
+            "galeria" in desc or "museu" in desc
+        ):
+            score += 1
+
+        if score >= 4:
             level = "PREMIUM"
-        elif any(term in combined for term in experience_signals):
-            level = "PREMIUM"
-        elif category in ("Família", "Gastronomia", "Festas & Cultura"):
+        elif score >= 2:
             level = "INTERESSANTE"
+        elif score < 0:
+            level = "ROTINA"
         else:
             level = "POR AVALIAR"
 
-        if level == "PREMIUM":
-            premium_total += 1
-        elif level == "INTERESSANTE":
-            interesting_total += 1
-        elif level == "POR AVALIAR":
-            review_total += 1
+        counts[level] += 1
 
         print(
-            "JOMIVO NOVA AVALIACAO:",
+            "JOMIVO SCORE:",
+            score,
             level,
             category,
             event.get("name", ""),
+            "|",
+            ", ".join(reasons),
         )
 
-    print(
-        "JOMIVO NOVO RESUMO:",
-        premium_total,
-        "premium,",
-        interesting_total,
-        "interessantes,",
-        review_total,
-        "por avaliar.",
-    )
+    print("JOMIVO RESUMO SCORE:", dict(counts))
     
     collected.sort(
         key=lambda event: (
