@@ -2218,9 +2218,6 @@ def main():
     )
 
     for event in collected:
-        if event.get("area") != "Porto":
-            continue
-
         name = event.get("name", "").casefold()
         desc = event.get("desc", "").casefold()
         category = event.get("type", "")
@@ -2229,7 +2226,7 @@ def main():
         score = 0
         reasons = []
 
-        if category == "Música":
+        if category in ("Música", "Ópera"):
             score += 3
             reasons.append("música")
 
