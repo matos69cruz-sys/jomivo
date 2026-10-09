@@ -2125,6 +2125,22 @@ def main():
         ):
             score += 1
 
+        practical_activity_terms = (
+            "workshop", "oficina", "atelier",
+            "curso", "formação", "aula prática",
+        )
+
+        if (
+            category == "Exposição"
+            and any(term in desc for term in practical_activity_terms)
+            and not any(
+                term in name
+                for term in ("inauguração", "mostra", "exposição")
+            )
+        ):
+            score -= 4
+            reasons.append("atividade prática")
+        
         tourist_terms = (
             "visita guiada", "visitas guiadas",
             "rota das", "rota dos",
