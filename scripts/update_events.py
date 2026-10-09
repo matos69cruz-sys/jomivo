@@ -2125,12 +2125,14 @@ def main():
         ):
             score += 1
 
-        if score >= 4:
+        if score < 0:
+            level = "ROTINA"
+        elif score >= 4:
             level = "PREMIUM"
+        elif score >= 3:
+            level = "RECOMENDADO"
         elif score >= 2:
             level = "INTERESSANTE"
-        elif score < 0:
-            level = "ROTINA"
         else:
             level = "POR AVALIAR"
 
