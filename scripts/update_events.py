@@ -140,6 +140,17 @@ def test_event_descriptions():
         except (ValueError, TypeError):
             pass
 
+    phrase = "No dia 1 de Novembro"
+    position = html.find(phrase)
+
+    if position >= 0:
+        print(
+            "TESTE HTML DESCRICAO:",
+            html[max(0, position - 400):position + 700],
+        )
+    else:
+        print("TESTE HTML DESCRICAO: frase não encontrada")
+
 def text(value):
     value = re.sub(
         r"<(script|style)[^>]*>.*?</\1>",
