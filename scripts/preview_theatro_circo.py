@@ -194,6 +194,17 @@ def main():
             official_dates = list(dict.fromkeys(official_dates))
             status = ("CONFIRMADA" if event["start"] in official_dates
                       else "DIVERGENTE" if official_dates else "NÃO VERIFICÁVEL")
+            if official_dates:
+                verified = official_dates[0]
+                if verified != event["start"]:
+                    print("JOMIVO CORREÇÃO DATA:", event["name"],
+                          event["start"], "->", verified)
+                if not date.today().isoformat() <= verified <= (date.today() + timedelta(days=30)).isoformat():
+                    print("JOMIVO EXCLUÍDO FORA DA JANELA:", event["name"], verified)
+                else:
+                    print("JOMIVO APTO PARA REVISÃO:", event["name"], verified)
+            else:
+                print("JOMIVO BLOQUEADO SEM DATA OFICIAL:", event["name"])
             print("JOMIVO DATA VISÍVEL:", status, event["name"],
                   "listagem:", event["start"], "página:", official_dates[:5])
             print("JOMIVO DATA DETALHE:", event["name"], event["start"],
