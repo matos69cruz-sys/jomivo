@@ -212,7 +212,7 @@ function openZeTour(t){
  const btn=document.createElement('a');btn.className='requestBtn';btn.href='mailto:?subject='+encodeURIComponent('JOMIVO — '+t.name);btn.textContent=language==='pt'?'✉️ Pedir informações':'✉️ Request information';box.append(btn);cards.append(box)
 }
 
-let eventPeriod='Semana',eventArea='Todos',eventCategory='Todos';
+let eventPeriod='Mês',eventArea='Porto',eventCategory='Todos';
 const EVENT_FEED_URL='events.json';
 const fallbackEvents=[
 {name:'PRISMA / Art Light Tech',area:'Aveiro',city:'Aveiro',type:'Festival',start:'2026-10-07',end:'2026-10-10',date:'7–10 Out',desc:'Festival dedicado à luz, arte e tecnologia.'},
