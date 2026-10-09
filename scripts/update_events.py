@@ -2077,6 +2077,34 @@ def main():
     except Exception as error:
         print(f"AVISO complemento Teatro Aveirense: {error}", file=sys.stderr)
 
+    # Complemento Theatro Circo: só eventos com data confirmada na página oficial.
+    # A recolha ocorre apenas no ambiente de validação desta branch/PR.
+    try:
+        from preview_theatro_circo import verified_events
+        circo_events = verified_events(today=today)
+        existing_keys = {
+            (e.get("area"), e.get("start"), re.sub(r"\\s+", " ", e.get("name", "").casefold()).strip())
+            for e in collected
+        }
+        added = 0
+        for item in circo_events:
+            when = item["start"]
+            event = {
+                "area": "Braga", "city": "Braga",
+                "name": item["name"], "start": when, "end": when,
+                "url": item["url"], "source": item["source"],
+                "type": item.get("type", "Evento"),
+                "venue": "Theatro Circo", "desc": "",
+            }
+            key = (event["area"], when, re.sub(r"\\s+", " ", event["name"].casefold()).strip())
+            if key not in existing_keys:
+                collected.append(event)
+                existing_keys.add(key)
+                added += 1
+        print(f"JOMIVO THEATRO CIRCO INTEGRADO: {added} novos de {len(circo_events)} validados.")
+    except Exception as error:
+        print(f"AVISO complemento Theatro Circo: {error}", file=sys.stderr)
+
     # Se uma cidade falhar, preservamos os eventos futuros
     # dessa cidade que já existiam no ficheiro.
     existing = load_existing()
