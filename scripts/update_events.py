@@ -2125,20 +2125,25 @@ def main():
         ):
             score += 1
 
-        practical_activity_terms = (
-            "workshop", "oficina", "atelier",
-            "curso", "formação", "aula prática",
+        practical_activity_phrases = (
+            "neste workshop",
+            "nesta oficina",
+            "neste atelier",
+            "vem aprender",
+            "vais aprender",
+            "vamos aprender",
+            "workshop prático",
+            "curso de nível",
+            "funcionam como formação",
+            "cada participante",
+            "materiais incluídos",
         )
 
         if (
             category == "Exposição"
             and any(
-                term in desc[:160]
-                for term in practical_activity_terms
-            )
-            and not any(
-                term in name
-                for term in ("inauguração", "mostra", "exposição")
+                phrase in desc
+                for phrase in practical_activity_phrases
             )
         ):
             score -= 4
