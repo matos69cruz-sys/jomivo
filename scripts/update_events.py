@@ -78,21 +78,25 @@ def fetch_event_description(url):
         html = fetch(url, timeout=8, attempts=1)
 
         match = re.search(
+            r'data-bl-name=["\']Sinopse desk["\']'
+            r'.*?<div[^>]*class=["\'][^"\']*bl-text[^"\']*["\'][^>]*>'
+            r'(.*?)</div>',
+            html,
+            re.I | re.S,
+        )
+
+        if match:
+            description = clean(match.group(1), 500)
+            if description:
+                return description
+
+        match = re.search(
             r'<meta\b[^>]*\b(?:name|property)=["\']'
             r'(?:description|og:description)["\']'
             r'[^>]*\bcontent=["\']([^"\']+)',
             html,
             re.I,
         )
-
-        if not match:
-            match = re.search(
-                r'<meta\b[^>]*\bcontent=["\']([^"\']+)["\']'
-                r'[^>]*\b(?:name|property)=["\']'
-                r'(?:description|og:description)["\']',
-                html,
-                re.I,
-            )
 
         return clean(match.group(1), 500) if match else ""
 
