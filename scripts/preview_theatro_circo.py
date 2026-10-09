@@ -143,7 +143,7 @@ def main():
     for event in events:
         print(event["start"], "|", event["name"], "|", event["url"])
     # Auditoria independente das datas em páginas individuais (não publica).
-    for event in events[:5]:
+    for event in events:
         try:
             req = Request(event["url"], headers={"User-Agent": "Mozilla/5.0"})
             with urlopen(req, timeout=12) as response:
@@ -182,7 +182,7 @@ def main():
             visible = VisibleText()
             visible.feed(detail)
             official_dates = []
-            pattern = re.compile(r"\b(\d{1,2})\s+(" + "|".join(MONTHS) + r")\s+(20\d{2})\b", re.I)
+            pattern = re.compile(r"\b(\d{1,2})(?:\s*(?:a|até|[-–])\s*\d{1,2})?\s+(" + "|".join(MONTHS) + r")(?:\s*\([^)]*\))?\s+(20\d{2})\b", re.I)
             for part in visible.parts:
                 for match in pattern.finditer(part):
                     try:
