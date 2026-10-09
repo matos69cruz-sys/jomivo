@@ -110,12 +110,20 @@ jobs:
             tail -n 100 collection.log
             exit 1
           }
-          grep -E 'JOMIVO RESUMO SCORE:|TOTAL:|Fontes atualizadas:|JOMIVO FILTRO ANTIGO POR TIPO:|JOMIVO FILTRO ANTIGO POSSÍVEIS EXCLUSÕES RELEVANTES:|JOMIVO REVER EXCLUSÃO:|JOMIVO REVER EXPOSIÇÃO EXCLUÍDA:|JOMIVO REVER CULTURA EXCLUÍDA:|JOMIVO CANDIDATO CULTURAL A REVER:' collection.log || true
+          grep -E 'JOMIVO THEATRO CIRCO INTEGRADO:|AVISO complemento Theatro Circo:|JOMIVO THEATRO CIRCO BLOQUEADO|JOMIVO RESUMO SCORE:|TOTAL:|Fontes atualizadas:|JOMIVO FILTRO ANTIGO POR TIPO:|JOMIVO FILTRO ANTIGO POSSÍVEIS EXCLUSÕES RELEVANTES:|JOMIVO REVER EXCLUSÃO:|JOMIVO REVER EXPOSIÇÃO EXCLUÍDA:|JOMIVO REVER CULTURA EXCLUÍDA:|JOMIVO CANDIDATO CULTURAL A REVER:' collection.log || true
           python - <<'PY'
           import json
           from collections import Counter
           from pathlib import Path
           events = json.loads(Path("events.json").read_text(encoding="utf-8"))["events"]
+          circo = [e for e in events if e.get("venue") == "Theatro Circo"]
+          print("JOMIVO THEATRO CIRCO RESULTADO FINAL:", len(circo))
+          for event in circo:
+              print("JOMIVO CIRCO VALIDADO:", event["start"], event["name"])
+          assert len(circo) >= 13, f"Esperados pelo menos 13 espetáculos oficiais, encontrados {len(circo)}"
+          assert not any("Agnes Obel" in e.get("name", "") for e in circo), "Agnes Obel 2027 não pode entrar"
+          ocelo = [e for e in circo if e.get("name") == "Ocelo"]
+          assert len(ocelo) == 1 and ocelo[0]["start"] == "2026-11-07", "Data Ocelo incorreta"
           porto = [e for e in events if e.get("area") == "Porto"]
           levels = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in porto)
           print("Porto:", len(porto), "| Classificações:", dict(levels))
