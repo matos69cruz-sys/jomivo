@@ -75,15 +75,26 @@ def main():
         area = event.get("area", "Desconhecida")
         domain = urlparse(event.get("url", "")).netloc.lower() or "sem domínio"
         by_area.setdefault(area, Counter())[domain] += 1
-    # Fontes oficiais confirmadas para a próxima integração.
-    # Apenas diagnóstico: NÃO somar eventos sem extrair data e link direto.
+    # Fontes oficiais já integradas na recolha de testes (PR), não publicadas.
     candidate_sources = {
         "Aveiro": ("Teatro Aveirense", "https://www.teatroaveirense.pt/pt/programacao/"),
         "Braga": ("Theatro Circo", "https://theatrocirco.com/"),
     }
-    print("JOMIVO FONTES OFICIAIS CANDIDATAS (ainda não integradas):")
+    print("JOMIVO FONTES OFICIAIS NA RECOLHA DE TESTES:")
     for area, (venue, url) in candidate_sources.items():
         print(f"  {area}: {venue} | {url}")
+    # Auditoria editorial por cidade: identificar variedade e fontes diretas.
+    for area in sorted({e.get("area", "") for e in events}):
+        local = [e for e in events if e.get("area") == area]
+        classes = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in local)
+        types = Counter(e.get("type", "Outros") for e in local)
+        missing_links = sum(not e.get("url") or e.get("url") == e.get("source") for e in local)
+        print(f"JOMIVO QUALIDADE {area}: {len(local)} eventos | níveis {dict(classes)}")
+        print(f"JOMIVO TIPOS {area}: {dict(types.most_common(12))}")
+        print(f"JOMIVO LINKS GENÉRICOS {area}: {missing_links}")
+        if area == "Braga":
+            circo = [e for e in local if e.get("venue") == "Theatro Circo"]
+            print(f"JOMIVO BRAGA THEATRO CIRCO: {len(circo)} espetáculos com link direto")
     print("JOMIVO COBERTURA DE FONTES:")
     for area, domains in sorted(by_area.items()):
         total = sum(domains.values())
