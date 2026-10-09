@@ -115,7 +115,7 @@ def preview_html(html, today=None):
         context = parser.parts[max(0, index - 12):index]
         context_text = " | ".join(context).casefold()
         dates = list(re.finditer(
-            rf"(\\d{{1,2}})(?:\\s*[-–+]\\s*\\d{{1,2}})?\\s+({MONTH_PATTERN})",
+            rf"(\d{{1,2}})(?:\s*[-–+]\s*\d{{1,2}})?\s+({MONTH_PATTERN})",
             context_text,
         ))
         if not dates:
@@ -130,7 +130,7 @@ def preview_html(html, today=None):
         except ValueError:
             continue
         category_match = re.findall(
-            r"categoria\\s*\\|?\\s*(música|teatro de marionetas|teatro|dança|ópera|exposição|festival)",
+            r"categoria\s*\|?\s*(música|teatro de marionetas|teatro|dança|ópera|exposição|festival)",
             context_text,
         )
         category = category_match[-1].title() if category_match else ""
