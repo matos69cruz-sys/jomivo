@@ -1999,6 +1999,66 @@ def main():
 
     collected = dedupe(collected)
 
+    # JOMIVO: descrições dos eventos do Porto
+    from concurrent.futures import ThreadPoolExecutor
+
+    saved_descriptions = {
+        event.get("url"): event.get("desc", "")
+        for event in existing
+        if (
+            event.get("area") == "Porto"
+            and event.get("url")
+            and event.get("desc")
+        )
+    }
+
+    pending = []
+
+    for event in collected:
+        if event.get("area") != "Porto":
+            continue
+
+        url = event.get("url", "")
+
+        if "/evento/" not in url:
+            continue
+
+        previous = saved_descriptions.get(url, "")
+
+        if previous:
+            event["desc"] = previous
+        elif not event.get("desc"):
+            pending.append(event)
+
+    print(
+        "DESCRICOES PORTO:",
+        len(pending),
+        "paginas por consultar;",
+        len(saved_descriptions),
+        "descricoes anteriores disponiveis.",
+    )
+
+    def collect_description(event):
+        return fetch_event_description(event["url"])
+
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        descriptions = list(
+            executor.map(collect_description, pending)
+        )
+
+    added = 0
+
+    for event, description in zip(pending, descriptions):
+        if description:
+            event["desc"] = description
+            added += 1
+
+    print(
+        "DESCRICOES PORTO RESULTADO:",
+        added,
+        "novas descricoes recolhidas.",
+    )
+    
     collected.sort(
         key=lambda event: (
             event["start"],
