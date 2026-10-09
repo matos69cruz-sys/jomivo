@@ -67,6 +67,24 @@ def main():
             f"{event.get('start', '?')} | {event.get('type', '?')} | "
             f"{event.get('name', '?')}"
         )
+    # Diagnóstico de fontes: identificar lacunas regionais e dependência
+    # excessiva de uma só agenda, sem alterar a recolha/publicação.
+    from urllib.parse import urlparse
+    by_area = {}
+    for event in events:
+        area = event.get("area", "Desconhecida")
+        domain = urlparse(event.get("url", "")).netloc.lower() or "sem domínio"
+        by_area.setdefault(area, Counter())[domain] += 1
+    print("JOMIVO COBERTURA DE FONTES:")
+    for area, domains in sorted(by_area.items()):
+        total = sum(domains.values())
+        print(f"  {area}: {total} eventos | {len(domains)} domínio(s)")
+        for domain, count in domains.most_common(8):
+            print(f"    {domain}: {count}")
+        if total < 15:
+            print(f"  JOMIVO ALERTA COBERTURA: {area} tem menos de 15 eventos")
+        if total and domains.most_common(1)[0][1] / total >= 0.9:
+            print(f"  JOMIVO ALERTA CONCENTRAÇÃO: {area} depende >=90% de uma fonte")
     print("Atenção: cenário essencial é apenas diagnóstico, NÃO um filtro.")
     print("Nota: estas contagens NÃO alteram a agenda pública.")
     for title, group in (("REVER", review), ("ROTINA", excluded)):
