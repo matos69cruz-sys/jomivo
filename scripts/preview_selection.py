@@ -33,6 +33,18 @@ def main():
     print(f"Revisão humana: {len(review)}")
     print(f"Potencial rotina: {len(excluded)}")
     print(f"Sem classificação reconhecida: {len(unknown)}")
+    # Comparar cenários sem eliminar concertos nem impor um limite artificial.
+    core = [e for e in porto if e.get("quality_level") in {"PREMIUM", "RECOMENDADO"}]
+    expanded = selected
+    print(f"Cenário essencial (Premium + Recomendado): {len(core)}")
+    print(f"Cenário alargado (+ Interessante): {len(expanded)}")
+    print("Distribuição por tipo no cenário essencial:")
+    for category, count in sorted(Counter(e.get("type", "Outros") for e in core).items()):
+        print(f"  {category}: {count}")
+    print("Eventos interessantes fora do cenário essencial (até 30):")
+    for event in [e for e in porto if e.get("quality_level") == "INTERESSANTE"][:30]:
+        print(f"  {event.get('start', '?')} | {event.get('type', '?')} | {event.get('name', '?')}")
+    print("Atenção: cenário essencial é apenas diagnóstico, NÃO um filtro.")
     print("Nota: estas contagens NÃO alteram a agenda pública.")
     for title, group in (("REVER", review), ("ROTINA", excluded)):
         print(f"--- {title}: exemplos (máximo 20) ---")
