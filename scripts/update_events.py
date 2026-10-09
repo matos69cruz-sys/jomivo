@@ -1979,6 +1979,8 @@ def main():
 
     return 0
 
+if __name__ == "__main__":
+    test_event_descriptions()
 
 if __name__ == "__main__":
     raise SystemExit(main())
