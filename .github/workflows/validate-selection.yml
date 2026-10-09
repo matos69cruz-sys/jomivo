@@ -3,6 +3,7 @@ name: Validar seleção JOMIVO (PR)
 on:
   pull_request:
     paths:
+      - "index.html"
       - "scripts/update_events.py"
       - "scripts/preview_selection.py"
       - "scripts/preview_teatro_aveirense.py"
@@ -25,6 +26,39 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Verificar sintaxe JavaScript e regras da agenda no site
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          class Scripts(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.inside = False
+                  self.parts = []
+              def handle_starttag(self, tag, attrs):
+                  if tag == "script" and not dict(attrs).get("src"):
+                      self.inside = True
+              def handle_endtag(self, tag):
+                  if tag == "script":
+                      self.inside = False
+              def handle_data(self, data):
+                  if self.inside:
+                      self.parts.append(data)
+          html = Path("index.html").read_text(encoding="utf-8")
+          parser = Scripts()
+          parser.feed(html)
+          js = "\\n".join(parser.parts)
+          assert "eventPeriod='Mês',eventArea='Porto'" in js
+          assert "monthEnd.setDate(monthEnd.getDate()+29)" in js
+          assert "e.quality_level==='ROTINA'" in js
+          assert "Number.isFinite(a.getTime())" in js
+          assert "'Teatro':'🎭'" in js
+          Path("/tmp/jomivo-inline.js").write_text(js, encoding="utf-8")
+          print("OK: regras da agenda presentes no HTML")
+          PY
+          node --check /tmp/jomivo-inline.js
 
       - name: Validar sintaxe Python
         run: python -m py_compile scripts/update_events.py scripts/preview_selection.py scripts/preview_teatro_aveirense.py scripts/preview_theatro_circo.py
