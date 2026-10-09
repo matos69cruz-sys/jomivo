@@ -1885,6 +1885,39 @@ def main():
                         event["name"],
                     )
 
+                # Auditoria: perceber o que o filtro antigo remove ANTES
+                # de chegar ao novo classificador, sem mudar a seleção.
+                from collections import Counter as _AuditCounter
+                excluded_by_type = _AuditCounter(
+                    event.get("type", "Outros") for event in candidates
+                )
+                print("JOMIVO FILTRO ANTIGO POR TIPO:", dict(excluded_by_type))
+                audit_terms = (
+                    "vinho", "vinhos", "gastronomia", "degustação",
+                    "prova de", "visita guiada", "património",
+                    "concerto", "teatro", "exposição", "festival",
+                )
+                possibly_overlooked = [
+                    event for event in candidates
+                    if any(
+                        term in (
+                            event.get("name", "") + " " + event.get("desc", "")
+                        ).casefold()
+                        for term in audit_terms
+                    )
+                ]
+                print(
+                    "JOMIVO FILTRO ANTIGO POSSÍVEIS EXCLUSÕES RELEVANTES:",
+                    len(possibly_overlooked),
+                )
+                for event in possibly_overlooked[:30]:
+                    print(
+                        "JOMIVO REVER EXCLUSÃO:",
+                        event.get("start", ""),
+                        event.get("type", ""),
+                        event.get("name", ""),
+                    )
+
                 excluded_ids = {id(event) for event in candidates}
 
                 future = [
