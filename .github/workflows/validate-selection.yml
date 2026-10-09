@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/update_events.py"
       - "scripts/preview_selection.py"
+      - ".github/workflows/update-events.yml"
       - ".github/workflows/validate-selection.yml"
   workflow_dispatch:
 
@@ -67,3 +68,28 @@ jobs:
           assert before == hashlib.sha256(original.read_bytes()).hexdigest()
           print("OK: seleção de teste correta e events.json intacto")
           PY
+
+      - name: Testar recolha real numa pasta isolada (sem publicar)
+        timeout-minutes: 15
+        run: |
+          mkdir -p /tmp/jomivo-validation
+          cp events.json /tmp/jomivo-validation/events.json
+          cd /tmp/jomivo-validation
+          python "$GITHUB_WORKSPACE/scripts/update_events.py" > collection.log 2>&1 || {
+            tail -n 100 collection.log
+            exit 1
+          }
+          grep -E 'JOMIVO RESUMO SCORE:|TOTAL:|Fontes atualizadas:' collection.log || true
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          events = json.loads(Path("events.json").read_text(encoding="utf-8"))["events"]
+          porto = [e for e in events if e.get("area") == "Porto"]
+          levels = Counter(e.get("quality_level", "SEM CLASSIFICAÇÃO") for e in porto)
+          print("Porto:", len(porto), "| Classificações:", dict(levels))
+          assert len(events) >= 3, "Recolha insuficiente"
+          assert all("quality_level" in e and "quality_score" in e for e in porto), "Falta classificação"
+          PY
+          python "$GITHUB_WORKSPACE/scripts/preview_selection.py" --input events.json
+          echo "Agenda pública e ficheiro original não foram alterados."
