@@ -1844,7 +1844,14 @@ def main():
                         term in name for term in routine_terms
                     )
 
-                    if routine:
+                    # Exceção editorial verificada: experiência cultural e
+                    # gastronómica, não um clube de leitura recorrente.
+                    verified_experience_urls = {
+                        "https://www.agenda-porto.pt/evento/the-book-tasting/",
+                    }
+                    if event_url.rstrip("/") + "/" in verified_experience_urls:
+                        keep = True
+                    elif routine:
                         keep = False
                     elif special:
                         keep = True
