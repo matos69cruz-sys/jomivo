@@ -2126,14 +2126,23 @@ def main():
             score += 1
 
         tourist_terms = (
-            "visita", "rota", "percurso",
-            "passeio", "treetop walk",
-            "jardins", "património",
+            "visita guiada", "visitas guiadas",
+            "rota das", "rota dos",
+            "percurso guiado", "treetop walk",
         )
 
         if (
             category in ("Evento", "Família")
-            and any(term in name for term in tourist_terms)
+            and (
+                any(term in name for term in tourist_terms)
+                or (
+                    "visita" in desc
+                    and any(
+                        term in desc
+                        for term in ("património", "história", "arquitetura")
+                    )
+                )
+            )
             and not any(term in name for term in routine_terms)
         ):
             score += 3
