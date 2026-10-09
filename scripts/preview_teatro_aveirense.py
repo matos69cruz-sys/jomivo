@@ -21,7 +21,7 @@ def fetch_html(url=URL):
 
 def extract_jsonld(html):
     results = []
-    for raw in re.findall(r'<script[^>]*type=["\\\']application/ld\\+json["\\\'][^>]*>(.*?)</script>', html, re.I | re.S):
+    for raw in re.findall(r'<script[^>]*type=["\x27]application/ld[+]json["\x27][^>]*>(.*?)</script>', html, re.I | re.S):
         try:
             value = json.loads(unescape(raw.strip()))
         except (ValueError, TypeError):
@@ -45,12 +45,12 @@ def preview(html, today=None):
     cutoff = today + timedelta(days=30)
     found = {}
     for item in extract_jsonld(html):
-        title = re.sub(r"\\s+", " ", str(item.get("name", ""))).strip()
+        title = re.sub(r"\s+", " ", str(item.get("name", ""))).strip()
         start = str(item.get("startDate", ""))[:10]
         url = urljoin(BASE, str(item.get("url", "")))
         if not title or any(term in title.casefold() for term in REJECT):
             continue
-        if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", start):
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", start):
             continue
         try:
             when = date.fromisoformat(start)
