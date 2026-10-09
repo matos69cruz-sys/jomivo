@@ -75,6 +75,15 @@ def main():
         area = event.get("area", "Desconhecida")
         domain = urlparse(event.get("url", "")).netloc.lower() or "sem domínio"
         by_area.setdefault(area, Counter())[domain] += 1
+    # Fontes oficiais confirmadas para a próxima integração.
+    # Apenas diagnóstico: NÃO somar eventos sem extrair data e link direto.
+    candidate_sources = {
+        "Aveiro": ("Teatro Aveirense", "https://www.teatroaveirense.pt/pt/programacao/"),
+        "Braga": ("Theatro Circo", "https://theatrocirco.com/"),
+    }
+    print("JOMIVO FONTES OFICIAIS CANDIDATAS (ainda não integradas):")
+    for area, (venue, url) in candidate_sources.items():
+        print(f"  {area}: {venue} | {url}")
     print("JOMIVO COBERTURA DE FONTES:")
     for area, domains in sorted(by_area.items()):
         total = sum(domains.values())
