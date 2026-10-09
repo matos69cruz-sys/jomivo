@@ -102,7 +102,13 @@ def preview_html(html, today=None):
 
 
 def main():
-    events = preview_html(fetch_html())
+    html = fetch_html()
+    parser = Links()
+    parser.feed(html)
+    print("JOMIVO THEATRO CIRCO DIAGNÓSTICO: links /event/ =", len(parser.links))
+    for index, title, href in parser.links[:8]:
+        print("JOMIVO LINK AMOSTRA:", repr(title[:100]), href, repr(" | ".join(parser.parts[max(0, index - 12):index])[:250]))
+    events = preview_html(html)
     print("JOMIVO THEATRO CIRCO (pré-visualização, não publica):", len(events))
     for event in events:
         print(event["start"], "|", event["name"], "|", event["url"])
