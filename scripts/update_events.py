@@ -2044,6 +2044,39 @@ def main():
                 file=sys.stderr,
             )
 
+    # Complemento da agenda municipal: espetáculos oficiais do Teatro Aveirense.
+    # Uma falha desta fonte nunca bloqueia as restantes cidades.
+    try:
+        from preview_teatro_aveirense import fetch_html, preview, preview_html
+        teatro_html = fetch_html()
+        teatro_events = preview(teatro_html, today=today) or preview_html(teatro_html, today=today)
+        additions = []
+        for item in teatro_events:
+            when = item["start"]
+            additions.append({
+                "area": "Aveiro", "city": "Aveiro",
+                "name": item["name"], "start": when, "end": when,
+                "url": item["url"], "source": item["source"],
+                "type": item.get("type", "Teatro"),
+                "venue": "Teatro Aveirense", "desc": "",
+            })
+        # A fonte municipal pode conter o mesmo espetáculo com um título
+        # idêntico; evitar duplicados mesmo quando o local está omisso.
+        existing_keys = {
+            (e.get("area"), e.get("start"), re.sub(r"\s+", " ", e.get("name", "").casefold()).strip())
+            for e in collected
+        }
+        added = 0
+        for event in additions:
+            key = (event["area"], event["start"], re.sub(r"\s+", " ", event["name"].casefold()).strip())
+            if key not in existing_keys:
+                collected.append(event)
+                existing_keys.add(key)
+                added += 1
+        print(f"JOMIVO TEATRO AVEIRENSE INTEGRADO: {added} novos de {len(additions)} encontrados.")
+    except Exception as error:
+        print(f"AVISO complemento Teatro Aveirense: {error}", file=sys.stderr)
+
     # Se uma cidade falhar, preservamos os eventos futuros
     # dessa cidade que já existiam no ficheiro.
     existing = load_existing()
