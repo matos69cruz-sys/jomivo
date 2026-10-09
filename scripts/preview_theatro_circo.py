@@ -59,11 +59,17 @@ def preview_html(html, today=None):
     parser = Links()
     parser.feed(html)
     found = {}
-    for index, label, href in parser.links:
-        context = " | ".join(parser.parts[max(0, index - 16):index + 1])
-        match = DATE_RE.search(context)
-        if not match:
+    # Theatro Circo: o link da imagem vem antes do título e da data.
+    # A próxima ligação inicia um novo cartão de evento.
+    for pos, (index, label, href) in enumerate(parser.links):
+        next_index = parser.links[pos + 1][0] if pos + 1 < len(parser.links) else len(parser.parts)
+        card = parser.parts[index:next_index]
+        # Ignorar menus, scripts e ligações que não tenham um cartão completo.
+        matches = [(i, DATE_RE.search(part)) for i, part in enumerate(card)]
+        matches = [(i, match) for i, match in matches if match]
+        if not matches:
             continue
+        date_index, match = matches[0]
         day, month = int(match.group(1)), MONTHS[match.group(2).lower()]
         try:
             when = date(today.year + (today.month == 12 and month == 1), month, day)
@@ -71,20 +77,25 @@ def preview_html(html, today=None):
             continue
         if not today <= when <= cutoff:
             continue
-        low = context.casefold()
-        if any(term in low for term in ("cancelado", "espetáculo cancelado")):
+        # O título surge antes da data; o subtítulo pode estar entre ambos.
+        before = [part for part in card[:date_index] if part.strip()]
+        title = " ".join(label.split()) or (before[0] if before else "")
+        if not title or len(title) > 180:
             continue
-        # O tipo é obtido da última indicação editorial junto à data.
-        categories = re.findall(
-            r"→\s*([^|]{1,70})", context, re.I
-        )
-        category_text = categories[-1].casefold() if categories else ""
-        if not any(term in category_text for term in ALLOWED):
+        if any(term in title.casefold() for term in EXCLUDED):
             continue
-        if any(term in category_text for term in EXCLUDED):
+        # A seta e a categoria surgem após a data, normalmente em nós separados.
+        after = card[date_index + 1:date_index + 8]
+        category = ""
+        for i, part in enumerate(after):
+            if part.strip() == "→" and i + 1 < len(after):
+                category = after[i + 1].casefold()
+                break
+        if not category:
+            category = " ".join(after[:3]).casefold()
+        if any(term in category for term in EXCLUDED):
             continue
-        title = " ".join(label.split())
-        if not title or any(term in title.casefold() for term in EXCLUDED):
+        if not any(term in category for term in ALLOWED):
             continue
         url = urljoin(URL, href)
         parsed = urlparse(url)
@@ -92,11 +103,12 @@ def preview_html(html, today=None):
             continue
         if not parsed.path.startswith("/event/"):
             continue
+        event_type = ("Música" if "música" in category else "Teatro" if "teatro" in category
+                      else "Dança" if "dança" in category else "Ópera" if "ópera" in category
+                      else "Exposição" if "exposição" in category else "Evento")
         found[(when.isoformat(), url)] = {
             "area": "Braga", "name": title, "start": when.isoformat(),
-            "url": url, "source": URL, "type": "Música" if "música" in category_text
-            else "Teatro" if "teatro" in category_text else "Dança" if "dança" in category_text
-            else "Ópera" if "ópera" in category_text else "Evento",
+            "url": url, "source": URL, "type": event_type,
         }
     return list(found.values())
 
