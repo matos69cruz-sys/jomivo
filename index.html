@@ -360,4 +360,34 @@ function makeAreaTabs(areas,onChange){
  areas.forEach(a=>{const b=document.createElement('button');b.textContent=a;b.className=areaFilter===a?'active':'';b.onclick=()=>{areaFilter=a;onChange()};d.append(b)});return d
 }
 render();loadJomivoEvents();
-</script></body></html>
+</script>
+<!-- JOMIVO: consentimento para estatísticas (GA4) -->
+<style>
+#jomivo-analytics-consent{position:fixed;bottom:14px;left:14px;right:14px;max-width:520px;margin:auto;z-index:2147483647;background:#171b21;color:#f5f7f8;border:1px solid #454b55;border-radius:15px;padding:16px;box-shadow:0 10px 35px #0009;font:14px/1.5 Inter,system-ui,sans-serif}
+#jomivo-analytics-consent p{margin:0 0 12px}#jomivo-analytics-consent .consent-actions{display:flex;gap:9px;flex-wrap:wrap}#jomivo-analytics-consent button{flex:1;min-width:110px;border-radius:10px;padding:10px 12px;font:700 13px Inter,system-ui,sans-serif;cursor:pointer}#jomivo-analytics-consent .accept{background:#d8ff5c;border:1px solid #d8ff5c;color:#10130a}#jomivo-analytics-consent .reject{background:#252b33;border:1px solid #545d68;color:#f5f7f8}
+#jomivo-consent-settings{position:fixed;bottom:0;left:0;z-index:2147483646;background:#171b21;border:1px solid #454b55;border-radius:0 9px 0 0;color:#d3d9df;padding:5px 9px;font:11px Inter,system-ui,sans-serif;cursor:pointer}
+</style>
+<div id="jomivo-analytics-consent" hidden role="dialog" aria-label="Preferências de privacidade" aria-modal="false"><p id="jomivo-consent-description"></p><div class="consent-actions"><button type="button" class="reject" id="jomivo-consent-reject"></button><button type="button" class="accept" id="jomivo-consent-accept"></button></div></div>
+<button id="jomivo-consent-settings" type="button" hidden></button>
+<script>
+(function(){
+'use strict';
+var KEY='jomivo_analytics_consent_v1',ID='G-DE9L63ECS8',loaded=false;
+var panel=document.getElementById('jomivo-analytics-consent');
+var settings=document.getElementById('jomivo-consent-settings');
+function english(){return document.documentElement.lang.toLowerCase().startsWith('en') || (typeof language!=='undefined' && language==='en');}
+function labels(){var en=english();document.getElementById('jomivo-consent-description').textContent=en?'May we use optional analytics cookies to understand visits and improve JOMIVO? You can change your choice at any time.':'Podemos utilizar cookies opcionais de estatísticas para compreender as visitas e melhorar o JOMIVO? Podes alterar a tua escolha a qualquer momento.';document.getElementById('jomivo-consent-reject').textContent=en?'Reject':'Rejeitar';document.getElementById('jomivo-consent-accept').textContent=en?'Accept':'Aceitar';settings.textContent=en?'Privacy settings':'Privacidade';}
+function read(){try{return localStorage.getItem(KEY)}catch(e){return null}}
+function write(v){try{localStorage.setItem(KEY,v)}catch(e){}}
+function loadAnalytics(){if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};window.gtag('js',new Date());window.gtag('config',ID,{send_page_view:true});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(ID);document.head.appendChild(s)}
+function show(){labels();panel.hidden=false;settings.hidden=true}
+function hide(){panel.hidden=true;settings.hidden=false;labels()}
+function choose(value){write(value);hide();if(value==='accepted'){loadAnalytics()}else if(loaded){window['ga-disable-'+ID]=true;document.cookie='_ga=; Max-Age=0; path=/; SameSite=Lax';document.cookie='_ga_'+ID.slice(2)+'=; Max-Age=0; path=/; SameSite=Lax';}}
+document.getElementById('jomivo-consent-accept').addEventListener('click',function(){window['ga-disable-'+ID]=false;choose('accepted')});
+document.getElementById('jomivo-consent-reject').addEventListener('click',function(){choose('rejected')});
+settings.addEventListener('click',show);
+var choice=read();if(choice==='accepted'){hide();loadAnalytics()}else if(choice==='rejected'){hide()}else{show()}
+var observer=new MutationObserver(function(){labels()});observer.observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+})();
+</script>
+</body></html>
