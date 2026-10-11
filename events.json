@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "events": [
     {
       "name": "Partilhar, de Pia Camil",
@@ -92,22 +92,20 @@
       ]
     },
     {
-      "name": "Na Lâmina Implacável do Tempo",
+      "name": "Serralves em Luz",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Galeria Municipal do Porto",
-      "type": "Exposição",
-      "start": "2026-08-22",
-      "end": "2026-10-10",
-      "date": "22 Ago – 10 Out",
-      "desc": "Na Lâmina Implacável do Tempo é mais do que uma evocação biográfica. A exposição propõe uma aproximação ao universo poético de Inês Lourenço através do percurso literário, da atividade editorial e das múltiplas redes de criação e amizade que moldaram uma das vozes mais singulares da poesia portuguesa contemporânea. Longe de uma retrospetiva convencional, construiu-se um mapa de relações, revelando os diálogos que atravessam a obra da autora e que fazem da poesia um lugar de encontro entre litera",
-      "url": "https://www.agenda-porto.pt/evento/feira-do-livro-exposicao-andquotna-lamina-implacavel-do-tempoandquot/",
+      "venue": "Serralves",
+      "type": "Evento",
+      "start": "2026-09-01",
+      "end": "2026-11-08",
+      "date": "1 Set – 8 Nov",
+      "desc": "O Serralves em Luz regressa em 2026 para a sua 4.ª edição, convidando o público a descobrir o Parque de Serralves através de um percurso imersivo que transforma a paisagem noturna numa extraordinária exposição de luz ao ar livre. Entre arte, natureza e tecnologia, esta experiência sensorial revela novas formas de percecionar e habitar este espaço único, proporcionando uma visita inesquecível. Sob o conceito \"Light vs Darkness\", esta edição propõe um percurso que explora a relação entre a luz e a",
+      "url": "https://www.agenda-porto.pt/evento/serralves-serralves-em-luz-setembro/",
       "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Performative TV",
@@ -182,16 +180,16 @@
       ]
     },
     {
-      "name": "Morto, Matado, Morrido, de Diogo Potes",
+      "name": "Afterglow, de Francesca Cecamore",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Viga Galeria",
+      "venue": "Tincal lab",
       "type": "Exposição",
       "start": "2026-09-19",
-      "end": "2026-10-10",
-      "date": "19 Set – 10 Out",
-      "desc": "Há coisas que morrem. Outras que matamos. Outras ainda que julgávamos mortas até percebermos que continuavam, de alguma maneira, a viver connosco e a verter por nós. Morto, Matado, Morrido parte dessa estranha abundância da língua portuguesa: três formas tão próximas de dizer o fim e, ainda assim, três maneiras diferentes de lá chegar, de lidar com aquilo que acaba e com o que permanece depois. Na sua segunda exposição a solo, Diogo Potes atravessa precisamente esse território pouco arrumado ond",
-      "url": "https://www.agenda-porto.pt/evento/morto-matado-morrido/",
+      "end": "2026-11-09",
+      "date": "19 Set – 9 Nov",
+      "desc": "O Tincal lab celebra o próximo evento de Inaugurações Simultâneas em Miguel Bombarda no dia 19 de Setembro, Sábado, com a apresentação da exposição individual de Francesca Cecamore: Afterglow . Visitem na loja 3 do CCBombarda, contaremos com a presença da autora, entre as 16h00 e as 20h00. Francesca Cecamore foi a vencedora do Prémio Selecção do Público (votação online) do Desafio Tincal lab 2025 Joalharia e Celebração. Para visitar até 9 de Novembro. STATEMENT Afterglow A colecção Afterglow des",
+      "url": "https://www.agenda-porto.pt/evento/francesca-cecamore/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -549,22 +547,6 @@
       ]
     },
     {
-      "name": "Eu Quero a Lua! · Partículas Elementares",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TMP — Campo Alegre",
-      "type": "Família",
-      "start": "2026-10-08",
-      "end": "2026-10-10",
-      "date": "8–10 Out",
-      "desc": "Eu quero a Lua! é a história de uma menina chamada Alice que vivia num país à beira-mar e que tinha todas as coisas que uma menina poderia querer. Mas faltava a mais importante: a Lua. Tão importante que a fez ficar doente e impulsionar no seu pai uma vontade tremenda de lhe concretizar o sonho. Mas será que era realmente a Lua que Alice queria? Num cenário que se divide em várias malas, que se vão abrindo de cena em cena, fazendo correr a história de forma emotiva, surpreendente e pedagógica, E",
-      "url": "https://www.agenda-porto.pt/evento/fimp-eu-quero-a-lua/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "O Pai, de August Strindberg",
       "area": "Porto",
       "city": "Porto",
@@ -602,288 +584,6 @@
       ]
     },
     {
-      "name": "Crime e Castigo, da Compagnie Karyatides",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TeCA — Teatro Carlos Alberto",
-      "type": "Teatro",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "date": "9–10 Out",
-      "desc": "É verão em São Petersburgo. A cidade está imersa num calor sufocante. O jovem estudante Raskolnikov sai do cubículo alugado onde vive, que “mais parece um armário do que um quarto”, e deambula por ruas e ruelas. Desesperado e oprimido pela miséria, decide assassinar uma velha usurária para lhe roubar o dinheiro. Um crime que tenta justificar a si próprio com a ideia de que grandes homens, como César ou Napoleão, foram assassinos absolvidos pela História. Mas, depois do crime, vem o castigo, e Ra",
-      "url": "https://www.agenda-porto.pt/evento/fimp-crime-e-castigo/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Triatlo de São Jacinto",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Desporto",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Campeonato Nacional de Clubes de Triatlo 7º Campeonato Nacional Militar de Triatlo A freguesia de São Jacinto vai acolher uma prova de triatlo, ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/triatlo-de-sao-jacinto",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "\"Música Em Comunidade\", Orquestra Do Distrito de Braga (Descentrar)",
-      "area": "Braga",
-      "city": "Braga",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "A comunidade de Merelim (São Paio), Panóias e Parada de Tibães junta-se à Orquestra do Distrito de Braga num concerto de criação coletiva.",
-      "url": "https://visitbraga.travel/event/1188-musica-em-comunidade-orquestra-do-distrito-de-braga-descentrar",
-      "source": "https://visitbraga.travel/agenda-braga/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "bma lab: eden – ética e durabilidade para uma ecologia da natureza",
-      "area": "Braga",
-      "city": "Braga",
-      "venue": "",
-      "type": "Outros",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Masterclass de Olga Kisseleva sobre arte, tecnologia e sustentabilidade, explorando novas formas de conhecimento e ação perante desafios ambientais.",
-      "url": "https://visitbraga.travel/event/1202-bma-lab-eden-etica-e-durabilidade-para-uma-ecologia-da-natureza",
-      "source": "https://visitbraga.travel/agenda-braga/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "area": "Braga",
-      "city": "Braga",
-      "name": "Glockenwise",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "url": "https://theatrocirco.com/event/glockenwise/",
-      "source": "https://theatrocirco.com/programa/",
-      "type": "Música",
-      "venue": "Theatro Circo",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "10 Anos Coro Crescendi",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Família",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "O Crescendi – Coro da Pausa sobe pela primeira vez ao palco da Sala Suggia para celebrar o seu 10.º aniversário. Fundado em Gondomar pela maestrina Beatriz Correia, o projeto nasceu como coro infantil e juvenil e cresceu como espaço de formação artística, expressão e pertença para mais de uma centena de crianças e jovens. Ao longo da última década, o Crescendi construiu um percurso marcado por repertório único em Portugal, espetáculos temáticos, viagens e experiências que levam a música para alé",
-      "url": "https://www.agenda-porto.pt/evento/cdm-10-anos-coro-crescendi/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "experiência especial",
-        "espetáculo familiar"
-      ]
-    },
-    {
-      "name": "A Abertura da Abertura 2021–2026",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TMP — Rivoli",
-      "type": "Teatro",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "No fimp, entre 2021 e 2025, foram criados 5 pequenos filmes em que os protagonistas eram objetos em movimento. São verdadeiros filmes de ação: saltos, cambalhotas, reações em cadeia, explosões e outros sobressaltos. Ao longo destes anos convidámos vários artistas para explorar este universo. Num processo simultaneamente lúdico e desafiante, rapidamente se descobriu que os objetos são muito, muito temperamentais, pois só fazem o que lhes apetece quando lhes apetece. Ao longo dos anos a metodologi",
-      "url": "https://www.agenda-porto.pt/evento/fimp-a-abertura-da-abertura/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Agnes Nunes",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mouco",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Agnes Nunes é reconhecida como uma das vozes mais promissoras da nova geração da música brasileira, Agnes Nunes apresenta um espetáculo que reflete a sua evolução artística e consolidação enquanto autora. No alinhamento, destacam-se temas do seu álbum de estreia, Menina Mulher (2022), assim como do mais recente trabalho, O Amor e Suas Variáveis (2024), um projeto que explora, de forma sensível e intimista, diferentes fases do amor ao longo de dez faixas. Com uma abordagem contemporânea e autênti",
-      "url": "https://www.agenda-porto.pt/evento/agnes-nunes/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Alt Rock",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço AL859",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Porto! Preparados para uma noite de rock alternativo, na vanguarda da música portuguesa? Contamos com Treewax, Prisão Platão, Fala Pa Dentro, Vencidos da Vida, e DJ set de Marquês2069 para dar vida ao Espaço Al859 no dia 10 de outubro. Portas às 18h. Muitos concertos por apenas 7 cascos, numa oportunidade única de ver o que se anda a fazer e a ouvir, contando com bandas alternativas do norte e sul do país. Acompanhas-nos no andamento?",
-      "url": "https://www.agenda-porto.pt/evento/alt-rock-1791544033932/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Animar o Inanimado – da Ficção à Ação",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TMP — Rivoli",
-      "type": "Teatro",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Criar para teatro de marionetas é tão desafiante quanto estimulante. Cada marioneta possui uma identidade própria, cada espetáculo apresenta necessidades específicas e cada criação implica um processo de pesquisa, experimentação e construção dramatúrgica. Nesta masterclass, a atriz e encenadora Micaela Soares e o intérprete/criador Vítor Gomes partilham a sua experiência enquanto criadores envolvidos na dramaturgia e na construção de espetáculos de teatro com marionetas na companhia Teatro de Ma",
-      "url": "https://www.agenda-porto.pt/evento/fimp-animar-o-inanimado/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "teatro",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Arranjos Florais Esculturais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Duas Luas Studio",
-      "type": "Exposição",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Vem passar uma tarde rodeado de flores, criatividade e boa companhia, e leva para casa a tua própria criação floral. As vagas são limitadas, pelo que é necessário fazer reserva antecipada. Reserva o teu lugar através do WhatsApp: +351935670000. O que está incluído: Um vaso para o teu arranjo Flores da época Todos os materiais florais Café e chá Oficina de duas horas",
-      "url": "https://www.agenda-porto.pt/evento/arranjos-florais-esculturais-1791279120152/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Bekka Lopez + Auad + Bekka Lopez vs Auad",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Alinhamento: Bekka Lopez Auad Bekka Lopez VS Auad",
-      "url": "https://www.agenda-porto.pt/evento/maetrix-iv-higher-realities/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Campeonato Distrital de Tiro do Porto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Sociedade de Tiro do Porto",
-      "type": "Desporto",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "A 10 de outubro, a Sociedade de Tiro do Porto organiza nas suas instalações o Campeonato Distrital do Porto. Prevê-se a participação de dezenas de atletas. A prova será dividida em competições de pistola de ar comprimido 10m (p10) e de carabina de ar comprimido 10m (C10 e CCart), modalidades olímpicas que requerem precisão, concentração e destreza. As inscrições decorrem até 5 de Outubro no Portal da Federação Portuguesa de Tiro",
-      "url": "https://www.agenda-porto.pt/evento/campeonato-distrital-de-tiro-do-porto/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Casas de Brasileiros ou Torna-Viagens",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Ateneu Comercial do Porto",
-      "type": "Evento",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Alda Helena Silva Neto Licenciada em História, variante História da Arte, pela Faculdade de Letras da Universidade do Porto. Mestre em História da Arte em Portugal pela Faculdade de Letras da Universidade do Porto, com a tese – As Casas de “Brasileiros” no concelho de Paredes . Doutoranda em Estudos do Património na Faculdade de Letras da Universidade do Porto. Formação avançada em Gestão de Património Cultural, pela Universidade Católica Portuguesa. Professora de História no Ensino Básico e Sec",
-      "url": "https://www.agenda-porto.pt/evento/casas-de-brasileiros-ou-torna-viagens/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Criatura-dança + Bilrus",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Vindos da vibrante cidade de Barcelos, Elisabete Silva, Vítor Oliveira, Pedro Marques, Ricardo Carvalho e Carolina Alves juntaram-se por uma visão comum, transformando ideias em som vivo e partilhado. A Criatura-dança é um ser mutante em constante autodescoberta. Ela vive entre o pop/rock e a eletrónica sem se fixar: pode ser ruidosa, tensa e elétrica, ou delicada e intimista — e adora dançar. Até então, as canções surgiram sempre em português e a narrativa fixou-se no centro das composições. A",
-      "url": "https://www.agenda-porto.pt/evento/criatura-danca-bilrus/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "de raiz #01",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Raiz",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "O sistema de som nasce dos encontros comunitários no subsolo da raiz em movimento a partir de 2024, através da necessidade coletiva e individual de criar caixas de som portáteis, de uso comunitário e frequente em espaços fechados e ao ar livre. É um sistema que reflete o desenho desta raiz, um espaço de experimentação artística, de apoio mútuo e de encontros. Este sound system é um lugar onde criar continua a significar construir laços e comunidade. Um processo de construção em aberto que procur",
-      "url": "https://www.agenda-porto.pt/evento/de-raiz-01/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Eish K’A Medo!",
       "area": "Porto",
       "city": "Porto",
@@ -902,148 +602,6 @@
       ]
     },
     {
-      "name": "Escuta Ativa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fonoteca Municipal do Porto",
-      "type": "Evento",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Todos os meses, personalidades de diferentes áreas são desafiadas a partilhar experiências pessoais e histórias musicais a partir da seleção de um disco de vinil da coleção da Fonoteca Municipal do Porto (FMP). Mais do que uma conversa ou a simples audição de um disco, estas sessões de Escuta Ativa pretendem proporcionar uma imersão total numa experiência de escuta e atenção. A convidada do mês de outubro é a rapper e deputada na Assembleia da República, Eva Cruzeiro. e o disco escolhido para es",
-      "url": "https://www.agenda-porto.pt/evento/escuta-ativa-1010/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Eça Agora!",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca Municipal Almeida Garrett",
-      "type": "Família",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Três contadores de histórias levam ao público dois contos de Eça de Queiroz: A Aia e O Tesouro . São figuras de outro tempo que trazem dentro das suas malas de viagem os lugares dos contos, detalhes da imaginação de Eça. O espetáculo começa com uma breve introdução de Eça, a partir de factos biográficos curiosos e segue com os contos. O vocabulário queirosiano mantém-se e a partir dele se descobre o seu universo. Dirigido a famílias com crianças maiores de 12 anos Entrada gratuita, mediante leva",
-      "url": "https://www.agenda-porto.pt/evento/eca-agora-espetaculo/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "experiência especial",
-        "espetáculo familiar"
-      ]
-    },
-    {
-      "name": "Fimpalitos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TeCA — Teatro Carlos Alberto",
-      "type": "Família",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Nesta oficina de construção e manipulação de marionetas, a reutilização é a palavra de ordem. A madeira utilizada para criar os corpos dos Fimpalitos provém de sobras de cenografias cedidas por várias estruturas de teatro da cidade. A partir destas matérias-primas, cada participante irá construir, personalizar e manipular a sua própria marioneta. O FIMP – Festival Internacional de Marionetas do Porto disponibiliza todos os materiais e ferramentas necessários para a criação de cada Fimpalito, que",
-      "url": "https://www.agenda-porto.pt/evento/fimp-fimpalitos-1788953522799/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "experiência especial",
-        "espetáculo familiar"
-      ]
-    },
-    {
-      "name": "Fireflies",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "O LUGAR da Palmilha Dentada",
-      "type": "Teatro",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Fireflies é um espectáculo de teatro físico semi improvisado que explora os laços invisíveis e invencíveis que nos unem e que nos lembra que é na elação com o outro que encontramos a nossa própria luz. Inscrição através de formulário .",
-      "url": "https://www.agenda-porto.pt/evento/decimas-fireflies/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Massimiliano Pagliara",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Pérola Negra Club",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "DJ e produtor, natural de Tricase, Itália, Massimiliano cresceu rodeado por diversos estilos musicais, desde o rap até ao rock’n’roll. Mudou-se para Milão, onde se formou em teatro e dança, e mergulhou na cena de clubes, descobrindo a música eletrónica experimental que moldou o seu som. Agora radicado em Berlim, traz uma fusão de house, disco, electro e techno, tendo já atuado em locais icónicos como o Panorama Bar e o Robert Johnson. Com 20 anos de carreira, Massimiliano é conhecido pelas suas",
-      "url": "https://www.agenda-porto.pt/evento/massimiliano-pagliari/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Ondas e Confissões",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "O LUGAR da Palmilha Dentada",
-      "type": "Teatro",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Seis pessoas, quatro nacionalidades, apresenta-se em português, e com os seus diferentes sotaques, confessam segredos e contam histórias. Não importa de onde viemos, todos temos alguma parte da nossa história que é universal. Inscrição através de formulário .",
-      "url": "https://www.agenda-porto.pt/evento/decimas-ondas-e-confissoes/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Pedro Jerónimo Quinteto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Porta-Jazz",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "\"Então, e se uma semana tivesse sua própria banda sonora? E se segunda-feira não fosse apenas o começo de uma rotina pesada, mas um convite para ver a Lua brilhar? MIVRO II não é apenas um álbum; é um convite. Cada música é um dia, e em cada dia um planeta que suga o ouvinte para algo mais perto do primordial. Marte, terça-feira, é uma faísca que incendeia novos começos, e as melodias de Júpiter, na quinta-feira, conduzem à destruição e à criação. Mercúrio, na quarta-feira, é o dia de fingir que",
-      "url": "https://www.agenda-porto.pt/evento/porta-jazz-pedro-jeronimo-quinteto/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Podíamos Viver Melhor Aqui?",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Rua das Antas",
-      "type": "Evento",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Juntamo-nos para conversar sobre a nossa zona, falar sobre o que podia melhorar e o que são as necessidades de quem vive e trabalha na zona das Antas. O Habitar, o Gabinete de Apoio Técnico Estudantil da FAUP, a Associação CAOS, a Associação de Moradores das Antas e a associação Periférica, promovem um convívio e discussão informal sobre o que queremos e precisamos na nossa zona. A Operação de Reabilitação Urbana do Bonfim está em consulta pública e esta é a hora de nos juntarmos e enviarmos à C",
-      "url": "https://www.agenda-porto.pt/evento/podiamos-viver-melhor-aqui/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Porto City Race",
       "area": "Porto",
       "city": "Porto",
@@ -1058,144 +616,6 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "PRAYA + Conversas do Arquipélago",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "FISGA Warehouse",
-      "type": "Evento",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "No dia 10 de outubro de 2026, sábado, o público está convidado para uma tarde que cruza as artes visuais e a palavra. Às 14h00, decorre uma visita guiada à exposição PRAYA, conduzida pela artista Duda Affonso. A seguir, às 15h00, Francisco Aguiar apresenta uma sessão de leitura de trechos do livro Conversas do Arquipélago , de Edouard Glissant e Hans Ulrich Obrist. A iniciativa propõe um diálogo entre o percurso da exposição e as cartas trocadas entre o filósofo martinicano e o curador suíço em",
-      "url": "https://www.agenda-porto.pt/evento/visita-guiada-e-leitura-de-andquotconversas-do-arquipelagoand39/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Prazer Mais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "The Knoty (W)Hole",
-      "type": "Evento",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "É com enorme prazer que anunciamos o workshop Prazer Mais, com A Rapariga que Lia o Kamasutra, no Porto, no dia 10 de outubro, às 17h30. O workshop é ideal para curiosos, iniciantes ou casais que queiram descobrir ou saber mais como dar ou ter prazer, com maior consciência, responsabilidade e forma orientada e segura. O workshop não requer conhecimentos prévios. WORKSHOP Porque o prazer e sexualidade são essenciais e fazem parte da saúde humana – física e mental, este workshop tem como objetivo",
-      "url": "https://www.agenda-porto.pt/evento/prazer-mais/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Purple Hazin",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "por Monster Jinx",
-      "url": "https://www.agenda-porto.pt/evento/261010-purple-hazin/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Ride for Kids",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fundação Infantil Ronald McDonald",
-      "type": "Família",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "O Ride for Kids é um evento de fitness. Parte das receitas deste evento serão doados à Casa Ronald McDonald Portugal, contribuindo para que crianças e jovens em tratamento hospitalar, e as suas famílias, encontrem apoio, proximidade e um lugar onde possam permanecer juntos durante um dos momentos mais difíceis das suas vidas. 10 de outubro, das 10h00 às 18h00 Inscrições @rideforkidsportugal e rideforkidscasaronaldmcdonald@gmail.com 50 Bicicletas Ellipse 8 Horas Nonstop 15 Instrutores Equipas de",
-      "url": "https://www.agenda-porto.pt/evento/ride-for-kids/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Rike + Márcio Reis",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez em Paris",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "22h00–00h30 Rike (live music) 00h30–04h00 Márcio Reis (DJ Set)",
-      "url": "https://www.agenda-porto.pt/evento/rike-marcio-reis/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Sábados a Contar",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca Municipal Almeida Garrett",
-      "type": "Família",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Histórias para ouvir, mãos para criar e muita imaginação para brincar! Pensada para crianças dos 3 aos 6 anos, esta atividade convida pequenos leitores e famílias a entrar numa Hora do Conto repleta de magia, seguida de um ateliê criativo onde as histórias ganham forma, cor e movimento. Entrada gratuita / 20 participantes Inscrição através de formulário em museudoporto.pt ou bibliotecasdoporto.pt",
-      "url": "https://www.agenda-porto.pt/evento/bibliotecas-do-porto-sabados-a-contar-1010/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "The Cradle + Larie + Sofi Naufal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Amparo 99",
-      "type": "Música",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "Mais um fim de tarde de concertos no Amparo99! No sábado dia 10 de Outubro, Paco Cathcart/The Cradle volta à nossa blackbox e desta vez acompanhade de Larie e Sofi Laufal para nos guiarem até ao anoitecer por guitarras, canções, e sonoridades que cruzam os universos do folk e da música experimental. Paco Cathcart nasceu e cresceu em Brooklyn, Nova Iorque, onde em 2013 criou o seu projeto musical The Cradle. Desde o início que atua um pouco por todo o mundo a tocar a sua extensa discografia de já",
-      "url": "https://www.agenda-porto.pt/evento/the-cradle-larie-sofi-naufal/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Vinhos à Prova no Ervilha",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Ervilha Bar",
-      "type": "Evento",
-      "start": "2026-10-10",
-      "end": "2026-10-10",
-      "date": "10 Out",
-      "desc": "DJ set e prova de vinhos",
-      "url": "https://www.agenda-porto.pt/evento/vinhos-a-prova-no-ervilha/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "experiência especial"
-      ]
     },
     {
       "name": "Trilho “BRAGA VERDEJANTE / ALTANEIRA, PELOS PRADOS DE SOBREPOSTA” (Descentrar)",
@@ -1670,6 +1090,22 @@
         "teatro",
         "experiência especial"
       ]
+    },
+    {
+      "name": "Gastronomia | Conversas d’Alguidar",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "date": "15 Out",
+      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-21",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "AJAquemDIGA — Poesia na AJA Norte",
@@ -2557,7 +1993,7 @@
       ]
     },
     {
-      "name": "Psyanide + Ganeisha + Zandria",
+      "name": "PsyAnide + Ganeisha + Zandria",
       "area": "Porto",
       "city": "Porto",
       "venue": "Era uma vez no Porto",
@@ -2565,8 +2001,8 @@
       "start": "2026-10-17",
       "end": "2026-10-17",
       "date": "17 Out",
-      "desc": "HINDU SYNERGY Dia 17 regressamos ao Era Uma Vez no Porto para mais uma viagem por diferentes dimensões do psychedelic trance, reunindo três nomes que trazem consigo identidades e sonoridades distintas para uma noite de conexão, energia e psychedelic vibes 🌌 PSYANIDE Natural de Austrália e a representar Skizodelic Mind de Espanha, Psyanide pisará o Porto com a sua energia, onde a intensidade e a construção psicadélica se encontram, levando o dancefloor por uma experiência dinâmica e envolvente. G",
-      "url": "https://www.agenda-porto.pt/evento/hindu-synergy/",
+      "desc": "Multiverse Events apresenta Hindu Synergy",
+      "url": "https://www.agenda-porto.pt/evento/multiverse-events-apresenta-hindu-synergy/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3707,6 +3143,24 @@
       ]
     },
     {
+      "name": "Círculo, de David Barnes",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Geraldes da Silva",
+      "type": "Exposição",
+      "start": "2026-10-24",
+      "end": "2026-11-11",
+      "date": "24 Out – 11 Nov",
+      "desc": "A geometria, os padrões e a matemática sempre me fascinaram e servem de base para a minha prática artística. Na Cardiff Art College, criei instalações utilizando redes feitas à mão e sólidos geométricos. Após visitar Marrocos, decidi fazer um mestrado em arte islâmica na The Prince's School of Traditional Art, em Londres. Lá, comecei a experimentar novos desenhos e geometrias depois de aprender a criar padrões com compasso e régua. Nos três anos seguintes, auxiliei no planeamento e na realização",
+      "url": "https://www.agenda-porto.pt/evento/circulo-david-barnes/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Daniel Casares Sexteto",
       "area": "Porto",
       "city": "Porto",
@@ -3858,6 +3312,24 @@
       "date": "24 Out",
       "desc": "A Galeria Geraldes da Silva acolhe Linha de Terra , a nova exposição de pintura da artista plástica portuguesa Luz Henriques. O que acontece quando intercetamos linhas que, no sentido mais profundo e metafórico, significam caminhos, sonhos e projetos? A exposição Linha de Terra convida-nos a entrar num território onde estas intersecções ganham forma e volume. Longe de serem meros traços estáticos, as linhas que aqui habitam são intenções puras, cruzamentos de destinos e geografias emocionais que",
       "url": "https://www.agenda-porto.pt/evento/linha-de-terra-inauguracao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Linha de Terra, de Luz Henriques",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Geraldes da Silva",
+      "type": "Exposição",
+      "start": "2026-10-24",
+      "end": "2026-11-11",
+      "date": "24 Out – 11 Nov",
+      "desc": "A Galeria Geraldes da Silva acolhe Linha de Terra , a nova exposição de pintura da artista plástica portuguesa Luz Henriques. O que acontece quando intercetamos linhas que, no sentido mais profundo e metafórico, significam caminhos, sonhos e projetos? A exposição Linha de Terra convida-nos a entrar num território onde estas intersecções ganham forma e volume. Longe de serem meros traços estáticos, as linhas que aqui habitam são intenções puras, cruzamentos de destinos e geografias emocionais que",
+      "url": "https://www.agenda-porto.pt/evento/linha-de-terra/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -4956,6 +4428,24 @@
       ]
     },
     {
+      "name": "Dentro da Pele, de Ana Si",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria CATAPULTA",
+      "type": "Exposição",
+      "start": "2026-10-31",
+      "end": "2026-11-12",
+      "date": "31 Out – 12 Nov",
+      "desc": "Ana Si é uma artista que transforma emoções em matéria, cor e gesto. A sua pintura nasce de um olhar atento sobre o ser humano e sobre aquilo que existe para além da aparência. Rostos, corpos e silêncios tornam-se territórios onde explora a identidade, a vulnerabilidade e as emoções que tantas vezes escapam às palavras. Entre camadas, contrastes e fragmentos, as suas figuras revelam-se e ocultam-se, num diálogo entre o que mostramos e o que guardamos. A sua pintura procura esse lugar íntimo onde",
+      "url": "https://www.agenda-porto.pt/evento/dentro-da-pele/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Halloween do Viajante no Tempo",
       "area": "Porto",
       "city": "Porto",
@@ -5398,6 +4888,24 @@
       ]
     },
     {
+      "name": "Equilíbrios, de Pedro Matias",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TMP — Campo Alegre",
+      "type": "Teatro",
+      "start": "2026-11-06",
+      "end": "2026-11-07",
+      "date": "6–7 Nov",
+      "desc": "Equilíbrios é um projeto de circo contemporâneo, que aborda a própria disciplina de equilíbrios enquanto matéria de investigação. O projeto desenvolve-se através de um solo monodisciplinar, recorrendo à prática do rola-bola como forma de expressão. “O que é o equilíbrio?” é a pergunta que motiva este projeto. Dependendo da abordagem, o equilíbrio pode ser compreendido como uma negociação de forças entre extremidades. Apesar da sua estabilidade, é sempre circunstancial e a tensão é um elemento qu",
+      "url": "https://www.agenda-porto.pt/evento/tmp-equilibrios/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Fingertips",
       "area": "Porto",
       "city": "Porto",
@@ -5543,6 +5051,58 @@
       ]
     },
     {
+      "name": "Ancestralidade Vital, de Pak Ndjamena",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "A PiSCiNA - Associação Cultural",
+      "type": "Teatro",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Em Ancestralidade Vital , uma performer atravessa memórias corporais e simbólicas em busca das forças que sustentam a vida. A cena é ritual e movimento, é respiração e resistência. Cada gesto reconecta corpo e espírito, revelando a ancestralidade como fonte de criação, cura e continuidade.",
+      "url": "https://www.agenda-porto.pt/evento/ancestralidade-vital/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
+      "name": "Magusto Melancólico",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Associação de Moradores da Lomba",
+      "type": "Evento",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Os lugares guardam histórias. Na Lomba, essas histórias vivem nas ruas, nas casas, nas vozes de quem ali mora e nas memórias de quem por ali passou. São histórias de vizinhança, de trabalho, de infância, de encontros e desencontros, de tempos que ficaram para trás e de outros que entretanto chegaram. Algumas lembranças trazem um sorriso, outras uma pequena saudade. E talvez seja essa mistura que torna um lugar verdadeiramente nosso. Em novembro, quando o outono se instala e os dias começam a ped",
+      "url": "https://www.agenda-porto.pt/evento/magusto-melancolico/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "O Museu como Performance",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "date": "7–8 Nov",
+      "desc": "O Museu como Performance regressa a Serralves para transformar o Museu num espaço vivo, onde corpo, som, gesto, imagem e presença ocupam temporariamente galerias e outros lugares menos habituais. Ao longo do programa, artistas de diferentes áreas cruzam performance, artes visuais, dança e música, propondo novas formas de olhar para o Museu e de o habitar. Mais do que apresentar performances dentro de um espaço expositivo, este programa convida artistas e público a experimentar outras relações co",
+      "url": "https://www.agenda-porto.pt/evento/070811-museu-como-performance/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Papi Opus 11",
       "area": "Porto",
       "city": "Porto",
@@ -5562,6 +5122,43 @@
       ]
     },
     {
+      "name": "Trilha",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Associação de Moradores da Lomba",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Onde as crianças ensinam e os mais velhos redescobrem, em som, o bairro que foi. Trilha começa numa instalação interativa que converte desenhos feitos à mão em composições musicais em tempo real. O ponto de partida conceptual é o percurso quotidiano e a memória territorial. O projeto convoca três temporalidades sobrepostas do mesmo bairro: o presente real — os elementos dos caminhos que as crianças fazem todos os dias; o presente imaginário — os elementos que gostariam que existissem nesses perc",
+      "url": "https://www.agenda-porto.pt/evento/trilha-0110/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Yotto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Produtor, DJ e fundador da editora Odd One Out, Yotto é um dos nomes mais influentes da eletrónica melódica contemporânea, cruzando house, techno e atmosferas cinematográficas em atuações intensas e imersivas. Com centenas de milhões de streams, remixes para nomes como Gorillaz, Rüfüs Du Sol e Coldplay e atuações em alguns dos principais clubes e festivais de todo o mundo, o finlandês estreia-se no Misty Fest apresentando ao público português a energia hipnótica e emocional que define o seu univ",
+      "url": "https://www.agenda-porto.pt/evento/misty-fest-yotto/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Cantar-o-Lar [ESTREIA] Projeto de Arte Comunitária",
@@ -5572,6 +5169,114 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
+      "name": "A Arte da Fuga",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "Bach não determinou a instrumentação da sua Arte da Fuga, o brilhante testamento que faz culminar séculos de música e a vida criativa do próprio compositor. Mas não imaginava a desconstrução de que seria alvo pelas mãos do seu compatriota Johannes Schöllhorn, dois séculos e meio mais tarde.",
+      "url": "https://www.agenda-porto.pt/evento/cdm-a-arte-da-fuga/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Bruno Pernadas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Local a anunciar",
+      "type": "Música",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "A fechar esta edição do Porto Sounds Secret, a 8 de novembro, será a vez da apresentação, ao vivo, de Bruno Pernadas . O músico propõe uma viagem pelo novo disco, Unlikely, Maybe , uma viagem pelas paisagens sonoras da música de fusão dos anos 80, indie, pop, jazz descontrolado, passando pelo dance hall proveniente da cultura sound system da Jamaica dos anos 50 e 60.",
+      "url": "https://www.agenda-porto.pt/evento/pss-bruno-pernadas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Cinderela — O Musical",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teatro Sá da Bandeira",
+      "type": "Família",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "O espetáculo é baseado na clássica história dos irmãos Grimm sobre a jovem Cinderela maltratada pela madrasta e as suas duas filhas, que sonha mudar de vida e encontrar a felicidade. Cinderela acredita no poder dos sonhos e tem uma fé inabalável no futuro, que não se deixa abater mesmo nas maiores adversidades. Tudo muda quando surge a sua fada madrinha que lhe mostra que “sonhar é acreditar”. A encenação pensada para todos os tipos de salas passa uma mensagem intemporal de gentileza, bondade, r",
+      "url": "https://www.agenda-porto.pt/evento/tsb-cinderela-o-musical/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "experiência especial",
+        "espetáculo familiar"
+      ]
+    },
+    {
+      "name": "EDP Maratona do Porto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Vários locais",
+      "type": "Desporto",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "Organizada pela Runporto, a EDP Maratona do Porto celebra, a 8 de novembro, a sua 22ª edição, consolidando-se como um dos eventos de referência no panorama nacional e internacional de maratonas. Com partida marcada para as 08h00, esta prova, de 42 km, oferece aos participantes a oportunidade de correr ao longo das margens do rio Douro. Quem não quiser fazer a Maratona, pode correr outras distâncias: a Corrida dos Ossos Saudáveis, de 10 km, ou a Mimosa APO, de 6 km. A partida acontece às 08h00 ju",
+      "url": "https://www.agenda-porto.pt/evento/edp-maratona-do-porto-2026/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Regresso ao Barroco",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "date": "10 Nov",
+      "desc": "Um drama de Pier Paolo Pasolini encontra-se com a Paixão Segundo São João neste concerto partilhado entre a Orquestra Barroca e o Remix Ensemble. Pela primeira vez, os dois agrupamentos interpretam a mesma partitura: uma obra inspirada no texto homónimo de Pasolini, que denuncia uma sociedade hipócrita e cruel, opressiva para todos aqueles que ousam viver à margem das normas impostas por um sistema burguês e capitalista. O Compositor em Residência na Casa da Música, Hèctor Parra, descreve a part",
+      "url": "https://www.agenda-porto.pt/evento/cdm-regresso-ao-barroco/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Rodrigo Cuevas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "date": "10 Nov",
+      "desc": "Na última década, Rodrigo Cuevas afirmou-se como uma das vozes mais singulares das artes performativas ibéricas. O seu trabalho move-se entre o concerto, o teatro e a celebração popular, cruzando canção tradicional, eletrónica, humor e uma presença magnética em palco. Agora, o multifacetado artista asturiano apresenta o espetáculo \"La Belleza\", uma criação contemporânea que reinventa o folclore através da música e da performance. Baseado no repertório do álbum Manual de Belleza, o concerto prome",
+      "url": "https://www.agenda-porto.pt/evento/rodrigo-cuevas-misty-fest/",
+      "source": "https://www.agenda-porto.pt/",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
