@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "events": [
     {
       "name": "Partilhar, de Pia Camil",
@@ -12,24 +12,6 @@
       "date": "16 Mai – 18 Out",
       "desc": "Desafiada a criar uma instalação para o terreiro da Galeria Municipal do Porto, a artista mexicana Pia Camil apresenta “Partilhar”, um projeto têxtil de grande escala, composto por peças de roupa em segunda mão, muitas das quais doadas pela população da cidade. Num cruzamento entre arte e espaço lúdico, a obra reflete as investigações de Pia Camil em torno das práticas colaborativas, da indústria, das sociedades de produção e da consciência individual e coletiva no tempo contemporâneo. “Partilha",
       "url": "https://www.agenda-porto.pt/evento/gmp-partilhar-de-pia-camil/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Espasmo Quadrado, de Pedro Henriques",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-05-22",
-      "end": "2026-10-11",
-      "date": "22 Mai – 11 Out",
-      "desc": "Ao longo de um percurso de praticamente duas décadas, em que se dedicou a vários meios artísticos, Pedro Henriques (Porto, 1985) examinou continuamente os diferentes conceitos de cultura visual, propondo reflexões sobre a forma como, num contexto caracterizado pela ascensão da tecnologia e dos meios digitais, produzimos, consumimos e fazemos circular imagens. Henriques apresenta, no Museu de Serralves, uma seleção criteriosa do seu trabalho dos últimos 20 anos, realizado em meios tão diversos qu",
-      "url": "https://www.agenda-porto.pt/evento/2205-pedro-henriques/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -190,6 +172,78 @@
       "date": "19 Set – 9 Nov",
       "desc": "O Tincal lab celebra o próximo evento de Inaugurações Simultâneas em Miguel Bombarda no dia 19 de Setembro, Sábado, com a apresentação da exposição individual de Francesca Cecamore: Afterglow . Visitem na loja 3 do CCBombarda, contaremos com a presença da autora, entre as 16h00 e as 20h00. Francesca Cecamore foi a vencedora do Prémio Selecção do Público (votação online) do Desafio Tincal lab 2025 Joalharia e Celebração. Para visitar até 9 de Novembro. STATEMENT Afterglow A colecção Afterglow des",
       "url": "https://www.agenda-porto.pt/evento/francesca-cecamore/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Como Se..., de Maria Souto de Moura",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Fernando Santos",
+      "type": "Exposição",
+      "start": "2026-09-19",
+      "end": "2026-11-14",
+      "date": "19 Set – 14 Nov",
+      "desc": "\"A pintura de Maria tem vindo a construir-se precisamente nesse limiar: entre superfície e espaço, entre o que é visto e o que é percecionado, entre a realidade física da obra e a espacialidade que o olhar lhe acrescenta. Na sua investigação, a própria artista descreve a possibilidade de uma “falsa gravidade”, produzida pelo ritmo da composição e pela aproximação dos elementos à margem inferior do suporte. A pintura deixa, assim, de ser apenas uma imagem para passar a existir também na experiênc",
+      "url": "https://www.agenda-porto.pt/evento/como-se-de-maria-souto-de-moura/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Cubo, de Maria Souto de Moura",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Fernando Santos",
+      "type": "Exposição",
+      "start": "2026-09-19",
+      "end": "2026-11-14",
+      "date": "19 Set – 14 Nov",
+      "desc": "A instalação tem como ponto de partida conceptual o nome do espaço expositivo que, embora se designe como cubo, não o é. A conjugação entre pintura, luz e espaço constrói um elemento virtual que permite a perceção do sólido através de uma experiência essencialmente bidimensional, emoldurada pela vitrine. Entre o nome da galeria, o espaço expositivo e a instalação estabelece-se uma continuidade fenomenológica. Nenhum deles é um cubo em sentido literal, mas todos o evocam.",
+      "url": "https://www.agenda-porto.pt/evento/cubo-de-maria-souto-de-moura/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Fungo, Floresta, Futuros",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Dentro",
+      "type": "Exposição",
+      "start": "2026-09-19",
+      "end": "2026-11-14",
+      "date": "19 Set – 14 Nov",
+      "desc": "A exposição do projeto Fungo, Floresta, Futuros apresenta o trabalho desenvolvido, ao longo de um ano, em colaboração com o Monte da Ervilha e os seus agentes humanos e mais-que-humanos. Tendo por mediadores principais a película fílmica, a gravação sonora e a curiosidade, construímos uma relação de atenção e escuta ao território, aos elementos vegetais, minerais e animais que o habitam e atravessam. Perante a incerteza sobre o futuro deste lugar, procurámos conhecer o seu agora: os diferentes t",
+      "url": "https://www.agenda-porto.pt/evento/fungo-floresta-futuros-1789549084285/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Obra Recente, de Ana Vidigal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Fernando Santos",
+      "type": "Exposição",
+      "start": "2026-09-19",
+      "end": "2026-11-14",
+      "date": "19 Set – 14 Nov",
+      "desc": "\"A arte de Ana Vidigal tem o fígado infante, e as crianças são, por natureza, despudoradas. Digo fígado porque existe uma folia mas também uma fúria, uma ternura toda de aprendiz mas também já a maturação e a sua ruína. A criança não aceita a ruína que os outros criam, mas cria ruína. Ninguém é criança sem auscultar o mundo procurando vencê-lo, até torcendo o pescoço ao boneco, ao pássaro, à beleza, à palavra. É o que a artista faz, torce o pescoço aos bonecos, aos pássaros, à beleza e às palavr",
+      "url": "https://www.agenda-porto.pt/evento/obra-recente/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -565,25 +619,6 @@
       ]
     },
     {
-      "name": "Blues Juke Joint Weekend",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Vários locais",
-      "type": "Dança",
-      "start": "2026-10-09",
-      "end": "2026-10-11",
-      "date": "9–11 Out",
-      "desc": "É com enorme entusiasmo que vos damos as boas-vindas à 3.ª edição do Blues Juke Joint Weekend, que terá lugar de 9 a 11 de outubro de 2026, na cidade do Porto, Portugal. O Blues Juke Joint Weekend é um festival dedicado à cultura e à dança Blues, inspirado no espírito e na atmosfera dos tradicionais bares Juke Joint. O nosso objetivo é criar um espaço onde a dança, a música ao vivo, o convívio e a partilha cultural se encontram de forma autêntica e vibrante, celebrando o Blues não apenas como um",
-      "url": "https://www.agenda-porto.pt/evento/blues-juke-joint-weekend-1786088362058/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 4,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "dança",
-        "experiência especial"
-      ]
-    },
-    {
       "name": "Eish K’A Medo!",
       "area": "Porto",
       "city": "Porto",
@@ -602,109 +637,6 @@
       ]
     },
     {
-      "name": "Porto City Race",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Vários locais",
-      "type": "Desporto",
-      "start": "2026-10-10",
-      "end": "2026-10-11",
-      "date": "10–11 Out",
-      "desc": "A prova de orientação urbana regressa à cidade em outubro e mantém o formato de três etapas distribuídas por dois dias e promete desafios para todos os níveis de praticantes. Inscrições em gd4caminhos.com ou através do email inscrever@gd4caminhos.com . O programa arranca na manhã de sábado, 10 de outubro, com uma prova sprint no Campus Universitário da Asprela. Ainda no sábado, ao final do dia, realiza-se a Porto City Race by Night. No domingo de manhã realiza-se a última etapa, com partida e ch",
-      "url": "https://www.agenda-porto.pt/evento/porto-city-race-2026/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Trilho “BRAGA VERDEJANTE / ALTANEIRA, PELOS PRADOS DE SOBREPOSTA” (Descentrar)",
-      "area": "Braga",
-      "city": "Braga",
-      "venue": "",
-      "type": "Festas & Cultura",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "Percurso pela Serra dos Picos, em Sobreposta, entre trilhos naturais, paisagens amplas e vestígios históricos nas imediações do Pico do Crasto.",
-      "url": "https://visitbraga.travel/event/1189-trilho-braga-verdejante-altaneira-pelos-prados-de-sobreposta-descentrar",
-      "source": "https://visitbraga.travel/agenda-braga/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "ars ad hoc",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Música",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "A nona temporada do ars ad hoc tem como fio condutor a presença de obras do compositor siciliano Salvatore Sciarrino (1947) e a estreia de obras de compositores portugueses. Centrado na exploração dos limites do timbre, do silêncio e das infinitas possibilidades do arco, este primeiro concerto propõe uma viagem pela sensibilidade da música dos séculos XX e XXI. A miniatura Doloroso [1992], de György Kurtág (1926), contrasta com o enérgico “Little Duo” [2010], de Jonathan Harvey (1939 - 2012), pe",
-      "url": "https://www.agenda-porto.pt/evento/1110-ars-ad-hoc/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Concerto Secreto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Escola Utopia",
-      "type": "Música",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "Um concerto surpresa com música ao vivo na Escola Utopia. Inscrição através de formulário .",
-      "url": "https://www.agenda-porto.pt/evento/decimas-concerto-secreto/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Dia do Vizinho #15",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Vários locais",
-      "type": "Família",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "O Dia do Vizinho é um convite à proximidade, ao encontro e à partilha. Três domingos por ano, o Museu e Bibliotecas do Porto abre as portas em ambiente de festa para celebrar com quem está mais próximo: os vizinhos. Cada edição acontece num espaço diferente da cidade e é cocriada com a população local, artistas, coletivos, associações e instituições do território. De manhã cedo até ao fim da tarde, há propostas para todas as idades e interesses: oficinas, visitas guiadas, jogos, música, conversa",
-      "url": "https://www.agenda-porto.pt/evento/dia-do-vizinho-15/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Do Fio ao Novelo",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Família",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "Na Quinta vivem várias raças autóctones, como as ovelhas Bordaleira de Entre Douro-e-Minho, que todos os anos são tosquiadas e nos dão a sua lã. Nesta oficina, o saber passa pelas mãos: da lã em bruto ao fio, a experiência passa por explorar, passo a passo, a transformação desta fibra natural.",
-      "url": "https://www.agenda-porto.pt/evento/1110-oficina-de-familias-or-do-fio-ao-novelo/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Os Miseráveis, da Compagnie Karyatides",
       "area": "Porto",
       "city": "Porto",
@@ -721,22 +653,6 @@
       "quality_reasons": [
         "teatro"
       ]
-    },
-    {
-      "name": "Os Quintais da Memória, de ArtePlusArs",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Teatro de Belomonte",
-      "type": "Família",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "date": "11 Out",
-      "desc": "Emílio revisita episódios marcantes da sua infância a partir do quintal da casa onde cresceu. É desse território íntimo que emergem memórias convocadas pelos objetos que ali encontra. Cada vestígio torna-se um portal que nos conduz por entre os recônditos quintais da vizinhança e pelas histórias das suas gentes peculiares, num tempo de inocência e vulnerabilidade, atravessado por incertezas. Um tempo permanentemente à beira do abismo do incompreensível, tantas vezes absurdo, mundo dos adultos. R",
-      "url": "https://www.agenda-porto.pt/evento/fimp-os-quintais-da-memoria/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
     },
     {
       "name": "FIAT NOX",
@@ -821,6 +737,7 @@
       "type": "Exposição",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "13 Out",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
@@ -1257,6 +1174,7 @@
       "type": "Dança",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "16 Out",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
@@ -1651,6 +1569,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "17 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -1993,7 +1912,7 @@
       ]
     },
     {
-      "name": "PsyAnide + Ganeisha + Zandria",
+      "name": "Psyanide + Ganeisha + Zandria",
       "area": "Porto",
       "city": "Porto",
       "venue": "Era uma vez no Porto",
@@ -2001,8 +1920,8 @@
       "start": "2026-10-17",
       "end": "2026-10-17",
       "date": "17 Out",
-      "desc": "Multiverse Events apresenta Hindu Synergy",
-      "url": "https://www.agenda-porto.pt/evento/multiverse-events-apresenta-hindu-synergy/",
+      "desc": "HINDU SYNERGY Dia 17 regressamos ao Era Uma Vez no Porto para mais uma viagem por diferentes dimensões do psychedelic trance, reunindo três nomes que trazem consigo identidades e sonoridades distintas para uma noite de conexão, energia e psychedelic vibes 🌌 PSYANIDE Natural de Austrália e a representar Skizodelic Mind de Espanha, Psyanide pisará o Porto com a sua energia, onde a intensidade e a construção psicadélica se encontram, levando o dancefloor por uma experiência dinâmica e envolvente. G",
+      "url": "https://www.agenda-porto.pt/evento/hindu-synergy/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2213,6 +2132,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "18 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2390,6 +2310,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "20 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2582,6 +2503,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "22 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2943,6 +2865,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "24 Out",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -3738,6 +3661,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "27 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4070,6 +3994,7 @@
       "type": "Teatro",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "30 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4286,6 +4211,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "31 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4756,6 +4682,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "5 Nov",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -4826,6 +4753,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "6 Nov",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -5169,6 +5097,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "8 Nov",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -5282,6 +5211,24 @@
       "quality_reasons": [
         "música",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Há Fado no Mercado",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado do Bolhão",
+      "type": "Música",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "date": "11 Nov",
+      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo da fadista Ana Ferreira. Programação: 20h00 l Casa Vegetariana 21h00 l Herdade 1980",
+      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-1111/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     }
   ]
