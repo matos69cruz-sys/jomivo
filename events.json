@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "events": [
     {
       "name": "Partilhar, de Pia Camil",
@@ -211,24 +211,6 @@
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Fungo, Floresta, Futuros",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Dentro",
-      "type": "Exposição",
-      "start": "2026-09-19",
-      "end": "2026-11-14",
-      "date": "19 Set – 14 Nov",
-      "desc": "A exposição do projeto Fungo, Floresta, Futuros apresenta o trabalho desenvolvido, ao longo de um ano, em colaboração com o Monte da Ervilha e os seus agentes humanos e mais-que-humanos. Tendo por mediadores principais a película fílmica, a gravação sonora e a curiosidade, construímos uma relação de atenção e escuta ao território, aos elementos vegetais, minerais e animais que o habitam e atravessam. Perante a incerteza sobre o futuro deste lugar, procurámos conhecer o seu agora: os diferentes t",
-      "url": "https://www.agenda-porto.pt/evento/fungo-floresta-futuros-1789549084285/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
       ]
@@ -637,42 +619,6 @@
       ]
     },
     {
-      "name": "Os Miseráveis, da Compagnie Karyatides",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TeCA — Teatro Carlos Alberto",
-      "type": "Teatro",
-      "start": "2026-10-11",
-      "end": "2026-10-13",
-      "date": "11–13 Out",
-      "desc": "Um homem rouba um pão para alimentar a família. Por esse crime, passa 19 anos na prisão e é sujeito a trabalhos forçados nas galés. Este é o ponto de partida de um dos maiores clássicos da literatura mundial e a história que inspirou a peça que a Compagnie Karyatides estreou em 2014, já apresentada mais de 700 vezes. Nesta adaptação épica de Os Miseráveis para teatro de objetos, Jean Valjean, Cosette e as restantes personagens intemporais do romance de Victor Hugo (1802-85) são representadas por",
-      "url": "https://www.agenda-porto.pt/evento/fimp-os-miseraveis/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "FIAT NOX",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Teatro de Ferro",
-      "type": "Teatro",
-      "start": "2026-10-12",
-      "end": "2026-10-12",
-      "date": "12 Out",
-      "desc": "FIAT NOX é um filme construído numa relação estrutural com o teatro de marionetas, a cenografia, a máscara e a música que está em pleno processo de criação. O argumento de FIAT NOX assenta em certos factos históricos misturados uns com os outros, à maneira da estética surrealista. A ação decorre em Paris em plena primeira guerra mundial. FIAT NOX pretende interrogar as possibilidades de uma renovação estética no contexto de um conflito à escala planetária. Neste fazer teatro a pensar em cinema (",
-      "url": "https://www.agenda-porto.pt/evento/fimp-fiat-nox/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
       "name": "Gigantes de Papel, Laços de Gente",
       "area": "Porto",
       "city": "Porto",
@@ -691,42 +637,6 @@
       ]
     },
     {
-      "name": "Kaleidobolt",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lovers & Lollypops",
-      "type": "Música",
-      "start": "2026-10-12",
-      "end": "2026-10-12",
-      "date": "12 Out",
-      "desc": "O trio finlandês Kaleidobolt apresenta em Portugal Karakuchi , o quinto álbum de uma carreira dedicada a expandir os limites do rock psicadélico, progressivo e garage. Entre riffs imprevisíveis, mudanças de ritmo e uma abordagem tão técnica quanto irreverente, os Kaleidobolt apresentam a sua música na forma mais intensa, veloz e incisiva até à data. Rock de impacto imediato, seco e cortante, que acelera até ao limite sem perder precisão.",
-      "url": "https://www.agenda-porto.pt/evento/kaleidobolt/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Primeira Box",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Música",
-      "start": "2026-10-12",
-      "end": "2026-10-12",
-      "date": "12 Out",
-      "desc": "O Coliseu e a Câmara Municipal do Porto, através da Ágora, apresentam o Primeira Box. Um ciclo de música que abre a nova sala Coliseu Box a bandas e artistas emergentes que merecem ser descobertos por novos públicos. O programa conta com a curadoria do músico, DJ e produtor João Vieira (DJ Kitten / X-Wife) e do Coliseu. Com o Coliseu Box, abrem-se novas possibilidades para um encontro feliz da cena musical portuense underground com a grandeza e as capacidades técnicas de uma das mais importantes",
-      "url": "https://www.agenda-porto.pt/evento/primeira-box-1210/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "A Casa da Rosa Os Filmes das Nossas Terças / Ciclo o Problema da Habitação",
@@ -737,28 +647,11 @@
       "type": "Exposição",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "13 Out",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
       ]
-    },
-    {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-52",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
     },
     {
       "name": "Constituição, Política e Direito",
@@ -793,6 +686,42 @@
       "quality_reasons": [
         "teatro",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Os Miseráveis, da Compagnie Karyatides",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TeCA — Teatro Carlos Alberto",
+      "type": "Teatro",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "date": "13 Out",
+      "desc": "Um homem rouba um pão para alimentar a família. Por esse crime, passa 19 anos na prisão e é sujeito a trabalhos forçados nas galés. Este é o ponto de partida de um dos maiores clássicos da literatura mundial e a história que inspirou a peça que a Compagnie Karyatides estreou em 2014, já apresentada mais de 700 vezes. Nesta adaptação épica de Os Miseráveis para teatro de objetos, Jean Valjean, Cosette e as restantes personagens intemporais do romance de Victor Hugo (1802-85) são representadas por",
+      "url": "https://www.agenda-porto.pt/evento/fimp-os-miseraveis/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
+      "name": "Sessões de escuta À La Carte",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Lola Hi-Fi",
+      "type": "Música",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "date": "13 Out",
+      "desc": "Nova rubrica semanal, onde marcamos encontro com o arquivista sonoro Armando Sousa, para explorar os caminhos que levam à música. Todas as terças-feiras escolhemos um tema, que também será um ponto de partida para, durante uma hora, ir ao encontro não só de relações improváveis e de novas descobertas, mas também de reencontros com memórias à espera de serem reavivadas.",
+      "url": "https://www.agenda-porto.pt/evento/sessoes-de-escuta-a-la-carte/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -1009,22 +938,6 @@
       ]
     },
     {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-10-15",
-      "end": "2026-10-15",
-      "date": "15 Out",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-21",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "AJAquemDIGA — Poesia na AJA Norte",
       "area": "Porto",
       "city": "Porto",
@@ -1128,6 +1041,24 @@
       ]
     },
     {
+      "name": "Odisseia",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Albergues do Porto",
+      "type": "Exposição",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "date": "15 Out",
+      "desc": "Esta exposição é o resultado de oito meses de encontros e criação contínua nos Albergues do Porto, no âmbito da Oficina QualquerCoisa — uma prática aberta à escuta, à partilha e ao indeterminado, onde artistas residentes acompanharam e mediaram o que os participantes faziam emergir. Deste processo nasceram os Alter-Egos: figurações poéticas de gestos, memórias e imaginários, transpostas para a encenação da curta-metragem Odisseia. Criaturas e seres fabulares habitam uma cosmogonia que orbita em",
+      "url": "https://www.agenda-porto.pt/evento/odisseia-albergues-do-porto/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Praed",
       "area": "Porto",
       "city": "Porto",
@@ -1174,7 +1105,6 @@
       "type": "Dança",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "16 Out",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
@@ -1214,6 +1144,24 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
+      ]
+    },
+    {
+      "name": "Alpha Maid + superbronca",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-10-16",
+      "end": "2026-10-16",
+      "date": "16 Out",
+      "desc": "Alpha Maid é o projeto artístico de Leisha Thomas, que forma composições carregadas de produção lo-fi, firme e por vezes industrial, cruzando elementos de improvisação, a dissonância do post-punk ou os pilares tradicionais do dub. O trabalho que tem desenvolvido desde o lançamento do seu primeiro EP sob a alçada do coletivo CURL, bem como as inúmeras colaborações com nomes que partilham o mesmo cunho vanguardista (Mica Levi, Coby Sey, Valentina Magaletti, Ben Vince), têm feito de Alpha Maid uma",
+      "url": "https://www.agenda-porto.pt/evento/rca-alpha-maid-superbronca/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -1569,7 +1517,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "17 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -1690,6 +1637,40 @@
       "date": "17 Out",
       "desc": "Parece mentira, mas já lá vão quase 4 anos desde que criámos o projeto Cápsula Melódica. Este ano, queremos sair da bolha digital e assinalar este marco de uma forma especial: a pedido de muitas famílias, vamos finalmente juntar-nos fora do ecrã para uma celebração intimista ao som de alguns dos nomes mais interessantes da cena eletrónica nacional. No próximo dia 17 de Outubro, juntem-se a nós no Porto e venham festejar connosco durante o dia. Valody, Fresko, Law and Disorder (Live) e Luís Afons",
       "url": "https://www.agenda-porto.pt/evento/capsula-melodica-4o-aniversario/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "De Ciências à Literatura",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Rua de Santa Catarina",
+      "type": "Evento",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "date": "17 Out",
+      "desc": "Partindo do casamento que tanta tinta fez correr nos folhetins do final do século XIX, o Clube de Leitura da FCUP propõe uma viagem por um enlace de maior grandeza: o encontro entre a Ciência e a Literatura. De mãos dadas, estas duas forças intelectuais conduzem-nos por ruas e recantos da Invicta, alguns deles autênticos palcos da vida e da obra de ilustres Homens da Ciência, da Técnica e das Letras, que nos propomos revisitar. Uma viagem no tempo, em que os participantes serão convidados a imag",
+      "url": "https://www.agenda-porto.pt/evento/de-ciencias-a-literatura/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Escutar como quem trespassa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Associação de Moradores da Bouça",
+      "type": "Música",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "date": "17 Out",
+      "desc": "“Escutar como quem trespassa” é o título do podcast que encerra o projeto “Trespasse: práticas de escuta e caminhada pelo bairro da Bouça”, guiado pela dupla de artistas Beatriz Rola e Inês Luzio, a partir do bairro da Bouça. É, também, o mote da festa de encerramento agendada para o próximo dia 17 de outubro, na Associação de Moradores da Bouça, que conta com uma instalação, uma caminhada pelo bairro e um concerto de lançamento. Este “Trespasse” acompanhou a dupla no seu último ano de convivênc",
+      "url": "https://www.agenda-porto.pt/evento/escutar-como-quem-trespassa/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2057,7 +2038,7 @@
       "name": "Trampolim",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Viga Galeria",
+      "venue": "Viga Galeria e Atelier",
       "type": "Exposição",
       "start": "2026-10-17",
       "end": "2026-10-17",
@@ -2132,7 +2113,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "18 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2310,7 +2290,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "20 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2503,7 +2482,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "22 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2865,7 +2843,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "24 Out",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -3651,6 +3628,22 @@
       ]
     },
     {
+      "name": "The Collective Scream",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Alameda das Fontainhas",
+      "type": "Evento",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "Reúna-se com os seus amigos, faça barulho e livre-se do peso da semana! Um espaço simples, divertido e sem julgamentos para fazer muito barulho e sair de lá a sentir-se mais leve.",
+      "url": "https://www.agenda-porto.pt/evento/the-collective-scream/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Filho de Ninguém Os Filmes das Nossas Terças",
@@ -3661,7 +3654,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "27 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -3822,6 +3814,25 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Montes + Alga",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "date": "28 Out",
+      "desc": "Depois de terem atuado na Piscina no passado mês de julho, Arianna Casellas (Melífluo) e Kauê Gindri estreiam-se no Estúdio Zero. Vindos de Caracas e Porto Alegre, respetivamente, encontraram na cidade do Porto um ponto de convergência e o berço para Montes , a dupla que formam juntos desde 2020. No ano seguinte, surgiu a estreia em disco pela mão da Lovers & Lollypops, com Vozes Antenas Fragas , um trabalho dividido em quatro partes contínuas ao longo de uma hora, que vai reproduzindo passagens",
+      "url": "https://www.agenda-porto.pt/evento/montes-alga/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     },
     {
@@ -3994,7 +4005,6 @@
       "type": "Teatro",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "30 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4211,7 +4221,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "31 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4387,6 +4396,25 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Hetta + Mangualde + TAPE",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Este ano, a noite de Halloween no Estúdio Zero faz-se ao som de três dos nomes mais falados do recente panorama do post-hardcore nacional. Os Hetta , naturais do Montijo, são há muito uma referência maior dentro deste núcleo, somando presenças frequentes em palcos nacionais e além-fronteiras. Acetate, álbum de estreia lançado pela Lovers & Lollypops no ano passado, surgiu como um manifesto ruidoso e incisivo, condensando todo o fulgor, a crueza e a intensidade que já marcavam os primeiros lançam",
+      "url": "https://www.agenda-porto.pt/evento/rca-hetta-mangualde-tape/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     },
     {
@@ -4638,6 +4666,22 @@
       ]
     },
     {
+      "name": "Hora de Ponta",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Fonoteca Municipal do Porto",
+      "type": "Evento",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "date": "4 Nov",
+      "desc": "Jorge Palma deixou-nos há pouco mais de um mês, mas o seu legado continua e vai continuar presente. Durante a Hora de Ponta desta tarde, a Fonoteca propõe explorar a discografia deste cantautor, tentando, em jeito de homenagem, reconstruir a sua carreira e perceber a marca indelével que deixou na música portuguesa. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar este espaço, para a escuta conju",
+      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-0411/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Há Fado no Mercado",
       "area": "Porto",
       "city": "Porto",
@@ -4682,7 +4726,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "5 Nov",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -4753,12 +4796,27 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "6 Nov",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "125 anos de (C)oração",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Auditório do Centro Comunitário do Monte Pedral",
+      "type": "Família",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Como prelúdio do 125º aniversário da Associação do Monte Pedral a sua Direção e a Junta de Freguesia de Paranhos vão realizar um Concerto de Música de Câmara pela Academia de Música de Costa Cabral “125 anos de (c)oração” que se realizará a 6 de novembro de 2026 pelas 21:30 horas, no Monte Pedral. A entrada é livre, mas sujeita aos lugares disponíveis.",
+      "url": "https://www.agenda-porto.pt/evento/125-anos-de-coracao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "AFRO SAL.OYÁ",
@@ -4886,6 +4944,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Pintura Europeia na Coleção do MNSR",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Museu Nacional Soares dos Reis",
+      "type": "Exposição",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Nesta visita, os participantes são convidados a descobrir alguns dos principais temas representados na pintura europeia, patente na coleção atualmente exposta no Museu, entre os quais se destacam o retrato, as cenas de género e a natureza-morta (género artístico dedicado à representação de objetos inanimados, flores, frutos, conchas, insetos, objetos utilitários, copos, travessas). Maioritariamente provenientes da Coleção Allen, estas obras refletem o gosto artístico de uma época e testemunham,",
+      "url": "https://www.agenda-porto.pt/evento/mnsr-pintura-europeia-na-colecao-do-museu-nacional-soares-dos-reis/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "exposição"
       ]
     },
     {
@@ -5097,7 +5173,6 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
-      "date": "8 Nov",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -5214,6 +5289,22 @@
       ]
     },
     {
+      "name": "Hora de Ponta",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Fonoteca Municipal do Porto",
+      "type": "Evento",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "date": "11 Nov",
+      "desc": "A adesão de Portugal à CEE, o desastre de Chernobyl ou o Mundial no México foram alguns dos acontecimentos mais relevantes de 1986. Na música também os houve e nesta Hora de Ponta, o público é convidado a recuar 40 anos no tempo para relembrar alguns deles. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar este espaço, para a escuta conjunta de uma seleção de discos com base num determinado tema.",
+      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-1111/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Há Fado no Mercado",
       "area": "Porto",
       "city": "Porto",
@@ -5229,6 +5320,59 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Bastien e Bastienne de W. A. Mozart Uma ópera em marionetas e em português",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "url": "https://www.teatroaveirense.pt/pt/evento/bastien-e-bastienne-escolas/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Ópera",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Bilhetes Há Muitos!",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Museu do Carro Eléctrico",
+      "type": "Exposição",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "Partindo da coleção de bilhética do Museu do Carro Eléctrico, a exposição Bilhetes Há Muitos! convida a olhar para estes objetos para além da sua função original. Ao longo de seis núcleos, descobrimos como um bilhete se transforma em objeto museológico, documento histórico, artefacto gráfico, indicador social e lugar de memória.",
+      "url": "https://www.agenda-porto.pt/evento/bilhetes-ha-muitos/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Temáticas Intemporais",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Museu Nacional Soares dos Reis",
+      "type": "Exposição",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "Nesta visita atravessamos as exposições para selecionar obras e saborear temáticas intemporais, escritas, pintadas, esculpidas. Cruzamos literatura e artes plásticas em obras que são janelas para o mistério da vida: amor, morte, beleza, sonho, conhecido, desconhecido, transcendência, fraquezas e forças da condição humana… temas chave universais tratados de forma única.",
+      "url": "https://www.agenda-porto.pt/evento/mnsr-tematicas-intemporais-1211/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
       ]
     }
   ]
