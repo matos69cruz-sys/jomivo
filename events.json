@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "events": [
     {
       "name": "Partilhar, de Pia Camil",
@@ -172,60 +172,6 @@
       "date": "19 Set – 9 Nov",
       "desc": "O Tincal lab celebra o próximo evento de Inaugurações Simultâneas em Miguel Bombarda no dia 19 de Setembro, Sábado, com a apresentação da exposição individual de Francesca Cecamore: Afterglow . Visitem na loja 3 do CCBombarda, contaremos com a presença da autora, entre as 16h00 e as 20h00. Francesca Cecamore foi a vencedora do Prémio Selecção do Público (votação online) do Desafio Tincal lab 2025 Joalharia e Celebração. Para visitar até 9 de Novembro. STATEMENT Afterglow A colecção Afterglow des",
       "url": "https://www.agenda-porto.pt/evento/francesca-cecamore/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Como Se..., de Maria Souto de Moura",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Fernando Santos",
-      "type": "Exposição",
-      "start": "2026-09-19",
-      "end": "2026-11-14",
-      "date": "19 Set – 14 Nov",
-      "desc": "\"A pintura de Maria tem vindo a construir-se precisamente nesse limiar: entre superfície e espaço, entre o que é visto e o que é percecionado, entre a realidade física da obra e a espacialidade que o olhar lhe acrescenta. Na sua investigação, a própria artista descreve a possibilidade de uma “falsa gravidade”, produzida pelo ritmo da composição e pela aproximação dos elementos à margem inferior do suporte. A pintura deixa, assim, de ser apenas uma imagem para passar a existir também na experiênc",
-      "url": "https://www.agenda-porto.pt/evento/como-se-de-maria-souto-de-moura/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Cubo, de Maria Souto de Moura",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Fernando Santos",
-      "type": "Exposição",
-      "start": "2026-09-19",
-      "end": "2026-11-14",
-      "date": "19 Set – 14 Nov",
-      "desc": "A instalação tem como ponto de partida conceptual o nome do espaço expositivo que, embora se designe como cubo, não o é. A conjugação entre pintura, luz e espaço constrói um elemento virtual que permite a perceção do sólido através de uma experiência essencialmente bidimensional, emoldurada pela vitrine. Entre o nome da galeria, o espaço expositivo e a instalação estabelece-se uma continuidade fenomenológica. Nenhum deles é um cubo em sentido literal, mas todos o evocam.",
-      "url": "https://www.agenda-porto.pt/evento/cubo-de-maria-souto-de-moura/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Obra Recente, de Ana Vidigal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Fernando Santos",
-      "type": "Exposição",
-      "start": "2026-09-19",
-      "end": "2026-11-14",
-      "date": "19 Set – 14 Nov",
-      "desc": "\"A arte de Ana Vidigal tem o fígado infante, e as crianças são, por natureza, despudoradas. Digo fígado porque existe uma folia mas também uma fúria, uma ternura toda de aprendiz mas também já a maturação e a sua ruína. A criança não aceita a ruína que os outros criam, mas cria ruína. Ninguém é criança sem auscultar o mundo procurando vencê-lo, até torcendo o pescoço ao boneco, ao pássaro, à beleza, à palavra. É o que a artista faz, torce o pescoço aos bonecos, aos pássaros, à beleza e às palavr",
-      "url": "https://www.agenda-porto.pt/evento/obra-recente/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -637,39 +583,6 @@
       ]
     },
     {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "A Casa da Rosa Os Filmes das Nossas Terças / Ciclo o Problema da Habitação",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "url": "https://www.teatroaveirense.pt/pt/evento/a-casa-da-rosa/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Exposição",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Constituição, Política e Direito",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Católica Porto Business School",
-      "type": "Evento",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "A Faculdade de Direito – Escola do Porto da Universidade Católica Portuguesa promove a aula inaugural Constituição, Política e Direito , com Paulo Rangel, Ministro de Estado e dos Negócios Estrangeiros, no dia 13 de outubro, às 17h00, no Auditório Carvalho Guerra. Num tempo marcado por profundas mutações sociais, tecnológicas e geopolíticas, a relação entre Constituição, Política e Direito reclama uma reflexão renovada. A reconfiguração dos espaços de poder, das formas de pertença e dos modos de",
-      "url": "https://www.agenda-porto.pt/evento/constituicao-politica-e-direito/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "O Capote, de Alma d’Arame e O Teatrão",
       "area": "Porto",
       "city": "Porto",
@@ -686,97 +599,6 @@
       "quality_reasons": [
         "teatro",
         "experiência especial"
-      ]
-    },
-    {
-      "name": "Os Miseráveis, da Compagnie Karyatides",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TeCA — Teatro Carlos Alberto",
-      "type": "Teatro",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "Um homem rouba um pão para alimentar a família. Por esse crime, passa 19 anos na prisão e é sujeito a trabalhos forçados nas galés. Este é o ponto de partida de um dos maiores clássicos da literatura mundial e a história que inspirou a peça que a Compagnie Karyatides estreou em 2014, já apresentada mais de 700 vezes. Nesta adaptação épica de Os Miseráveis para teatro de objetos, Jean Valjean, Cosette e as restantes personagens intemporais do romance de Victor Hugo (1802-85) são representadas por",
-      "url": "https://www.agenda-porto.pt/evento/fimp-os-miseraveis/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Sessões de escuta À La Carte",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lola Hi-Fi",
-      "type": "Música",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "Nova rubrica semanal, onde marcamos encontro com o arquivista sonoro Armando Sousa, para explorar os caminhos que levam à música. Todas as terças-feiras escolhemos um tema, que também será um ponto de partida para, durante uma hora, ir ao encontro não só de relações improváveis e de novas descobertas, mas também de reencontros com memórias à espera de serem reavivadas.",
-      "url": "https://www.agenda-porto.pt/evento/sessoes-de-escuta-a-la-carte/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Uma Vida de Amizade",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Teatro Sá da Bandeira",
-      "type": "Teatro",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "Após o sucesso da sua estreia em Portugal, Uma Vida de Amizade regressa para uma aguardada segunda temporada. Nesta comédia emocionante e bem-humorada, três amigas de longa data, Gilda, Yasmin e Renée, reencontram-se para partilhar memórias, confidências e reflexões sobre os caminhos que escolheram ao longo da vida. Entre momentos divertidos e emocionantes, a peça aborda temas como a amizade, o envelhecimento, os sonhos, as desilusões e a importância de viver cada etapa da vida com autenticidade",
-      "url": "https://www.agenda-porto.pt/evento/tsb-uma-vida-de-amizade/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "teatro",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Vozes em Roda",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Yoga sobre o Porto",
-      "type": "Música",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
-      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-1791365939425/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Yemen Blues",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-13",
-      "end": "2026-10-13",
-      "date": "13 Out",
-      "desc": "Fundado pelo cantor e compositor Ravid Kahalani, Yemen Blues é um projeto musical singular que cruza as tradições iemenitas com influências de blues, jazz, funk e ritmos da África Ocidental. O grupo construiu uma linguagem artística própria, onde a força ancestral do canto se encontra com uma abordagem contemporânea e cosmopolita. As suas atuações distinguem-se pela intensidade emocional, pela riqueza rítmica e pela capacidade de criar pontes entre diferentes culturas e geografias musicais.",
-      "url": "https://www.agenda-porto.pt/evento/cdm-yemen-blues/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -1059,6 +881,22 @@
       ]
     },
     {
+      "name": "Orquestra de Sopros da ESMAE",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teatro Helena Sá e Costa",
+      "type": "Família",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "date": "15 Out",
+      "desc": "A Orquestra de Sopros da ESMAE apresenta, no dia 15 de outubro, às 19h00, um programa dirigido pelo maestro Mark Heron, com a participação do flautista Frederico Paixão como solista, que reúne obras de cinco compositores de diferentes gerações e geografias. O repertório percorre diferentes linguagens da música para sopros, reunindo obras marcadas por referências urbanas, paisagísticas e culturais, numa proposta que coloca em diálogo compositores de diferentes períodos e contextos. Maestro Mark H",
+      "url": "https://www.agenda-porto.pt/evento/orquestra-de-sopros-da-esmae-1791891730119/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Praed",
       "area": "Porto",
       "city": "Porto",
@@ -1105,6 +943,7 @@
       "type": "Dança",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "16 Out",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
@@ -1517,6 +1356,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "17 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -1659,6 +1499,25 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Dia da Música Popular Brasileira",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Instituto Pernambuco-Porto",
+      "type": "Música",
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "date": "17–18 Out",
+      "desc": "O Dia da Música Popular Brasileira (MPB) é celebrado pela primeira vez em Portugal, nos dias 17 e 18 de outubro, no Instituto Pernambuco – Porto Brasil. Com entrada gratuita, a iniciativa reúne concertos, cinema, conversas e oficinas, contando com a participação de nomes como Sérgio Godinho, Samuel Úria, Tiago Nacarato, Mayra Andrade, Almério e Zé Renato. A programação arranca a 17 de outubro com uma visita guiada à exposição de Arte Moderna Brasileira, uma conversa sobre as relações entre o mod",
+      "url": "https://www.agenda-porto.pt/evento/dia-mpb/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
     },
     {
       "name": "Escutar como quem trespassa",
@@ -1911,6 +1770,22 @@
       ]
     },
     {
+      "name": "Quem guarda as histórias do futebol?",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Barros Lima",
+      "type": "Evento",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "date": "17 Out",
+      "desc": "Com Alcino Barros e Nuno Domingos Moderação de Virgílio Borges Pereira Apresentação por João Covita Como se constrói a história dos clubes e das comunidades ligadas ao futebol de Campanhã e das zonas mais a nascente da cidade? Que documentos, imagens, testemunhos e objetos permitem reconstruí-la? O que ficou por registar, perdeu-se ou permanece disperso? E como podem os arquivos institucionais, as memórias pessoais e o conhecimento das comunidades contribuir para uma história mais plural do fute",
+      "url": "https://www.agenda-porto.pt/evento/11-em-campo-1310/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "RFM – Que Grandioso Espetáculo é Este?",
       "area": "Porto",
       "city": "Porto",
@@ -2087,6 +1962,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Zamaan",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Passos Manuel",
+      "type": "Música",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "date": "17 Out",
+      "desc": "Zamaan regressa ao Passos Manuel para uma edição muito especial de club night , com Hayk Karoyi (ARM/ES) ao vivo, pela primeira vez em Portugal, e Saya (ES/PS) DJ set , com decoração de Peronuno e desenho de luz de Soares. Na música de Hayk Karoyi, a vibrante paleta sonora do Mediterrâneo encontra as profundas camadas da cultura e da herança medieval arménias. Compositor, artista sonoro, produtor, selector e performer ao vivo, Hayk é também um multi-instrumentista especializado em instrumentos d",
+      "url": "https://www.agenda-porto.pt/evento/zamaan-1710/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Árvores do Parque",
       "area": "Porto",
       "city": "Porto",
@@ -2113,6 +2006,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "18 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2290,6 +2184,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "20 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2364,6 +2259,24 @@
       "quality_reasons": [
         "música",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Sessões de escuta À La Carte",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Lola Hi-Fi",
+      "type": "Música",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "date": "20 Out",
+      "desc": "Nova rubrica semanal, onde marcamos encontro com o arquivista sonoro Armando Sousa, para explorar os caminhos que levam à música. Todas as terças-feiras escolhemos um tema, que também será um ponto de partida para, durante uma hora, ir ao encontro não só de relações improváveis e de novas descobertas, mas também de reencontros com memórias à espera de serem reavivadas.",
+      "url": "https://www.agenda-porto.pt/evento/a-la-carte-chuck-berry/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -2472,6 +2385,22 @@
       "quality_reasons": []
     },
     {
+      "name": "Iniciação ao Ukulele",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Família",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "date": "21 Out",
+      "desc": "Queres começar a tocar ukulele? Duas sessões independentes, que podes fazer em separado ou em conjunto: 21/10 → quatro acordes básicos + primeiras músicas 28 /10 → mais acordes + ritmos + músicas completas Não precisas de experiência! Não tens ukulele? Temos alguns disponíveis. Donativo mínimo: 10€ por sessão. Vagas limitadas! Inscrições por mensagem. O workshop realiza-se com um mínimo de três inscrições. Vem aprender, tocar e divertir-te connosco!",
+      "url": "https://www.agenda-porto.pt/evento/iniciacao-ao-ukulele-2110/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Helena Caldeira Novas Quintas",
@@ -2482,6 +2411,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "22 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2843,6 +2773,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "24 Out",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -3468,6 +3399,24 @@
       ]
     },
     {
+      "name": "Sessão de Histórias Musicadas (Braga Em Risco)",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "Hora do conto musicada com o livro \"O que Há no Topo da Montanha?\" com Isadora Vilela da Toca dos Sons.",
+      "url": "https://visitbraga.travel/event/1216-sessao-de-historias-musicadas-braga-em-risco",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "A Lemonade Stand-up Comedy",
       "area": "Porto",
       "city": "Porto",
@@ -3654,6 +3603,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "27 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -3731,6 +3681,24 @@
       ]
     },
     {
+      "name": "Sessões de escuta À La Carte",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Lola Hi-Fi",
+      "type": "Música",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "date": "27 Out",
+      "desc": "Nova rubrica semanal, onde marcamos encontro com o arquivista sonoro Armando Sousa, para explorar os caminhos que levam à música. Todas as terças-feiras escolhemos um tema, que também será um ponto de partida para, durante uma hora, ir ao encontro não só de relações improváveis e de novas descobertas, mas também de reencontros com memórias à espera de serem reavivadas.",
+      "url": "https://www.agenda-porto.pt/evento/a-la-carte-jazz-sovietico/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "A Lemonade Stand-up Comedy",
       "area": "Porto",
       "city": "Porto",
@@ -3795,6 +3763,22 @@
       "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-2810/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Iniciação ao Ukulele",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Família",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "date": "28 Out",
+      "desc": "Queres começar a tocar ukulele? Duas sessões independentes, que podes fazer em separado ou em conjunto: 21/10 → quatro acordes básicos + primeiras músicas 28 /10 → mais acordes + ritmos + músicas completas Não precisas de experiência! Não tens ukulele? Temos alguns disponíveis. Donativo mínimo: 10€ por sessão. Vagas limitadas! Inscrições por mensagem. O workshop realiza-se com um mínimo de três inscrições. Vem aprender, tocar e divertir-te connosco!",
+      "url": "https://www.agenda-porto.pt/evento/iniciacao-ao-ukulele-2810/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
     },
@@ -4005,6 +3989,7 @@
       "type": "Teatro",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "30 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4221,6 +4206,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "31 Out",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4259,6 +4245,25 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Sessão musical “Oru Kami”",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Sessão musical “Oru Kami” com GariBambi: espetáculo de papel e som inspirado em origami para crianças dos 0 aos 5 anos.",
+      "url": "https://visitbraga.travel/event/1219-sessao-musical-oru-kami",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
     },
     {
       "name": "A Família Addams, de Barry Sonnenfeld",
@@ -4577,6 +4582,25 @@
       ]
     },
     {
+      "name": "Micro Festival EUREKA! #13",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Porta-Jazz",
+      "type": "Música",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "date": "1 Nov",
+      "desc": "Truz truz. Vamos abrir as portas da percepção e interrogar o real. Ficaremos em unidade com tudo o que nos rodeia e aceitaremos todas as alucinações e distorções cognitivas! Através de narcóticos, tecnologia ou arte perseguiremos a transcendência a caminho de paraísos artificiais. Mas serão estes, libertação ou armadilha? Os estados alterados de consciência tanto podem ser visionários como patológicos, e se o delírio tem um lado romântico, importa reconhecer o trauma e a vulnerabilidade. Por out",
+      "url": "https://www.agenda-porto.pt/evento/micro-festival-eureka-13/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Moonspell",
       "area": "Porto",
       "city": "Porto",
@@ -4726,6 +4750,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "5 Nov",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -4796,6 +4821,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "6 Nov",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -5089,6 +5115,25 @@
       "quality_reasons": []
     },
     {
+      "name": "Nativo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teatro do Bolhão",
+      "type": "Família",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "A nossa herança imaterial é conduzida pela permanente regeneração e é essa transformação o motor para o futuro da autodescoberta. Após vinte anos de um profundo estudo, formação e percurso ligados à música de raiz, o músico Tiago Manuel Soares apresenta-se a solo, com a percussão tradicional portuguesa como ponto central da narrativa, num espetáculo pioneiro. Nativo vai à descoberta de novas estéticas, numa visão contemporânea da diversidade deste património imaterial português, vista aos olhos",
+      "url": "https://www.agenda-porto.pt/evento/nativo-de-tiago-manuel-soares/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "experiência especial",
+        "espetáculo familiar"
+      ]
+    },
+    {
       "name": "O Museu como Performance",
       "area": "Porto",
       "city": "Porto",
@@ -5173,6 +5218,7 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "8 Nov",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
@@ -5323,6 +5369,22 @@
       ]
     },
     {
+      "name": "Impressão em Cerâmica",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "doBarro",
+      "type": "Família",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "date": "11 Nov",
+      "desc": "Nesta oficina, exploramos a relação entre desenho e cerâmica, trazendo o teu traço diretamente para o barro. Ao longo da sessão, vais criar a tua própria peça e experimentar diferentes formas de marcar, imprimir e transferir desenhos para a superfície, explorando como imagem, textura e forma se combinam. Em vez de técnicas de pintura mais tradicionais, o foco está na impressão e na incorporação do desenho diretamente no material. Podes trabalhar a partir de desenhos próprios ou simplesmente expe",
+      "url": "https://www.agenda-porto.pt/evento/db-impressao-em-ceramica/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Bastien e Bastienne de W. A. Mozart Uma ópera em marionetas e em português",
@@ -5333,28 +5395,11 @@
       "type": "Ópera",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "date": "12 Nov",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
-      ]
-    },
-    {
-      "name": "Bilhetes Há Muitos!",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Museu do Carro Eléctrico",
-      "type": "Exposição",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Partindo da coleção de bilhética do Museu do Carro Eléctrico, a exposição Bilhetes Há Muitos! convida a olhar para estes objetos para além da sua função original. Ao longo de seis núcleos, descobrimos como um bilhete se transforma em objeto museológico, documento histórico, artefacto gráfico, indicador social e lugar de memória.",
-      "url": "https://www.agenda-porto.pt/evento/bilhetes-ha-muitos/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
       ]
     },
     {
@@ -5373,6 +5418,130 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Sondre Lerche Apresentação do disco 'Acrobat'",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "url": "https://www.teatroaveirense.pt/pt/evento/sondre-lerche/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Música",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "area": "Braga",
+      "city": "Braga",
+      "name": "A esta hora, na infância neva",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "url": "https://theatrocirco.com/event/a-esta-hora-na-infancia-neva/",
+      "source": "https://theatrocirco.com/programa/",
+      "type": "Dança",
+      "venue": "Theatro Circo",
+      "desc": "",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "dança"
+      ]
+    },
+    {
+      "name": "#Não somos cactos#",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TMP — Campo Alegre",
+      "type": "Família",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "date": "13–14 Nov",
+      "desc": "Neste momento, há zonas do planeta que “aquecem” — pelo aquecimento global, pela expansão das áreas desérticas, pela disputa pela água, pela proliferação de radicalismos, pela sobrevivência. Paradoxalmente, as cheias e a falta de controlo sobre as águas são também causa de morte e de deslocação de populações inteiras. #Não somos cactos# aborda a crescente escassez de água potável no planeta e os novos fluxos de migrações a ela associados, realidade que promete abalar as atuais conceções de Human",
+      "url": "https://www.agenda-porto.pt/evento/tmp-nao-somos-cactos/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Jam Session Porta-Jazz",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Porta-Jazz",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Sextas-feiras à noite, pelas 21:30, é dia de perpetuar a tradição jazzística com um ritual fundamental - a jam session. Todas as semanas as portas estarão abertas a todos os músicos que queiram participar neste ritual tão importante para a história do jazz, proporcionando também ao público a oportunidade de experienciar um ambiente espontâneo e descomprometido. Estas noites são sempre antecipadas por um concerto cujo líder será o anfitrião da jam session que se segue. Martín Otero Ferreira - Pia",
+      "url": "https://www.agenda-porto.pt/evento/jam-session-martin-otero-ferreira/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "música",
+        "atividade rotineira"
+      ]
+    },
+    {
+      "name": "Joana Gama",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Alameda Shop & Spot",
+      "type": "Teatro",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Depois das férias, há um novo motivo para sorrir! Entre os meses de setembro e novembro o Alameda Shop&Spot vai transformar-se num verdadeiro palco de comédia ao apresentar o Alameda Comedy Club. Um ciclo de seis noites de stand-up obrigatórias para todos os amantes de humor, que prometem fazer com que o regresso à rotina seja mais leve e divertido. O melhor de tudo, é que a entrada é gratuita! O line-up reúne alguns dos maiores nomes do stand-up nacional, garantindo uma programação diversificad",
+      "url": "https://www.agenda-porto.pt/evento/alameda-joana-gama/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
+      "name": "miaw",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Embora os miaw sejam formados pelo dinamarquês Frederik Fog e pela neerlandesa Liza Dries, a semente do projeto não se encontra em nenhum dos seus países de origem, mas sim em Colónia, a cidade alemã onde ambos viveram durante algum tempo. “Quase todas as vezes que começávamos a fazer canções surgiam quando supostamente tínhamos combinado para beber um vinho e também era muito frequente bebermos um vinho quando supostamente tínhamos combinado estar juntos fazer canções”, contaram numa entrevista",
+      "url": "https://www.agenda-porto.pt/evento/miaw/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Os Mistérios da Rosa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Reitoria da Universidade do Porto",
+      "type": "Teatro",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Uma viagem no primeiro e mais célebre romance de Umberto Eco, um dos livros imprescindíveis do séc. XX que, pela força do enredo e a inteligência da escrita, seduziu — e continua a seduzir — milhões de leitores em todo o mundo. O espetáculo alterna leituras, encenação de excertos, enquadramento crítico de Maria Luísa Malato e música original pelo compositor e violetista José Valente. Com a participação dos alunos do Curso de Teatro da ESAP (Escola Superior Artística do Porto) e a direção de Jorg",
+      "url": "https://www.agenda-porto.pt/evento/bl-os-misterios-da-rosa/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "teatro",
+        "experiência especial"
       ]
     }
   ]
