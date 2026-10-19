@@ -1,24 +1,6 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "events": [
-    {
-      "name": "Partilhar, de Pia Camil",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Municipal do Porto",
-      "type": "Exposição",
-      "start": "2026-05-16",
-      "end": "2026-10-18",
-      "date": "16 Mai – 18 Out",
-      "desc": "Desafiada a criar uma instalação para o terreiro da Galeria Municipal do Porto, a artista mexicana Pia Camil apresenta “Partilhar”, um projeto têxtil de grande escala, composto por peças de roupa em segunda mão, muitas das quais doadas pela população da cidade. Num cruzamento entre arte e espaço lúdico, a obra reflete as investigações de Pia Camil em torno das práticas colaborativas, da indústria, das sociedades de produção e da consciência individual e coletiva no tempo contemporâneo. “Partilha",
-      "url": "https://www.agenda-porto.pt/evento/gmp-partilhar-de-pia-camil/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
     {
       "name": "Para Voz, de Lydia Ourahmane",
       "area": "Porto",
@@ -511,77 +493,6 @@
       ]
     },
     {
-      "name": "O Pai, de August Strindberg",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TNSJ — Teatro Nacional de São João",
-      "type": "Teatro",
-      "start": "2026-10-16",
-      "end": "2026-10-18",
-      "date": "16–18 Out",
-      "desc": "Não exageramos se dissermos que O Pai (1887) é uma das peças mais ferozes de August Strindberg. Um abalo sísmico em três atos, que continua a sacudir até aos alicerces as paredes da sala de estar da família burguesa. Num lar tradicional, o pai, Capitão, e a mãe, Laura, estão em conflito aberto sobre a educação da filha, Berta. “É como estar metido numa jaula de tigres.” Quando o Capitão tenta impor a sua vontade, Laura retalia, instilando na imaginação febril do marido o vírus da dúvida: seria e",
-      "url": "https://www.agenda-porto.pt/evento/tnsj-o-pai/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Dia da Música Popular Brasileira",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Instituto Pernambuco-Porto",
-      "type": "Música",
-      "start": "2026-10-17",
-      "end": "2026-10-18",
-      "date": "17–18 Out",
-      "desc": "O Dia da Música Popular Brasileira (MPB) é celebrado pela primeira vez em Portugal, nos dias 17 e 18 de outubro, no Instituto Pernambuco – Porto Brasil. Com entrada gratuita, a iniciativa reúne concertos, cinema, conversas e oficinas, contando com a participação de nomes como Sérgio Godinho, Samuel Úria, Tiago Nacarato, Mayra Andrade, Almério e Zé Renato. A programação arranca a 17 de outubro com uma visita guiada à exposição de Arte Moderna Brasileira, uma conversa sobre as relações entre o mod",
-      "url": "https://www.agenda-porto.pt/evento/dia-mpb/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Fall Market by BOA",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "The SPACE by BOA",
-      "type": "Evento",
-      "start": "2026-10-17",
-      "end": "2026-10-18",
-      "date": "17–18 Out",
-      "desc": "O mercado contará com a presença da Luxalys, que dará a conhecer as suas velas artesanais e aromas, enquanto a Art e Manha e o Camellia's Studio ficarão responsáveis por uma seleção de bijuteria, no primeiro caso produzida em cerâmica. A esta oferta acresce ainda a possibilidade de fazer um piercing ou tatuar um desenho especial, missão que ficará nas mãos da equipa da Portrait Tattoo, e de apoiar a Mama Help, no âmbito da campanha Outubro Rosa.",
-      "url": "https://www.agenda-porto.pt/evento/fall-market-by-boa-1792067918407/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Laboratório de Biografias Impossíveis",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Onze Onze",
-      "type": "Exposição",
-      "start": "2026-10-17",
-      "end": "2026-10-18",
-      "date": "17–18 Out",
-      "desc": "Dois encontros para dar voz aos objetos, criar histórias, fotografias, zines e uma exposição coletiva. Se gostas de histórias, de objetos com passado e de criar com as mãos, esta experiência é para ti. Ao longo de duas sessões de três horas, vais desacelerar o olhar sobre as coisas que te rodeiam: observar objetos, imaginar biografias, fotografar, escrever encontros improváveis e, no segundo dia, construir suportes, criar uma zine analógica e montar uma pequena exposição coletiva. Mais do que pr",
-      "url": "https://www.agenda-porto.pt/evento/laboratorio-de-biografias-impossiveis-17-e-18-out/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
       "name": "Treat or Treat, de KIKA",
       "area": "Porto",
       "city": "Porto",
@@ -592,185 +503,6 @@
       "date": "17–31 Out",
       "desc": "Um lançamento de peças de cerâmica.",
       "url": "https://www.agenda-porto.pt/evento/treat-or-treat/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "E as flores? Joana Gama",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "url": "https://www.teatroaveirense.pt/pt/evento/e-as-flores/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Música",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Community Kirtan",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Healing House",
-      "type": "Música",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "Um encontro aberto a todos, onde a voz, a respiração e o canto se tornam formas simples de criar ligação. Através da prática de call-and-response de mantras, não é preciso ter experiência ou saber cantar apenas vontade de participar e estar presente. No estúdio do Healing House, no Porto, este encontro convida-nos a deixar de lado o ritmo habitual do dia a dia e a experimentar a força de muitas vozes a cantar em conjunto. Cada voz faz parte do todo. A tua também.",
-      "url": "https://www.agenda-porto.pt/evento/community-kirtan/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Folk Trindade",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fundação Inatel",
-      "type": "Música",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "É com muito prazer que vos convidamos a juntarem-se a nós neste início de Outono com dois grandes artistas! Isidro Vidal que nos traz a música tradicional galega com uma roupagem moderna e que dará uma oficina às 15h00 e apresenta o seu concerto às 17h00. De seguida continuamos com Bayan e a sua música persa às 18h30 que celebram connosco o Mehrengar, uma antiga celebração persa de amizade, amor e renovação. Lá vos esperamos!",
-      "url": "https://www.agenda-porto.pt/evento/isidro-vidal-bayan/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Gilsons",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Música",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "Eu Vejo Luz em Maior Proporção do que eu Vejo Escuridão é novo disco dos Gilsons, o esperado sucessor de P'ra Gente Acordar . O trio Gilsons, composto por José, João e Fran Gil, vai fazer de 2026 um novo capítulo da sua história, e provar que o talento de Gilberto Gil se multiplica. Minha Flor e Bem Me Quer são os primeiros avanços do novo disco, Minha Flor reúne três gerações da família Veloso em uma colaboração histórica. A faixa, composta em parceria com Arnaldo Antunes, conta com Caetano, Mo",
-      "url": "https://www.agenda-porto.pt/evento/gilsons-1792145356858/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "ItsRøbben + Blackjapo + Gabii + Psybass",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "Prestige Events",
-      "url": "https://www.agenda-porto.pt/evento/itsrobben-blackjapo-gabii-psybass/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "O Swing de Bach – De Leipzig ao Jazz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "O regresso à música genial de Johann Sebastian Bach é inevitável, e a sua versatilidade serve de mote para este programa de fim de tarde. O Coro Casa da Música mergulha em peças para teclas transformadas com criatividade, revisita dois dos mais célebres motetes sacros e termina este percurso com um excerto da Missa em Si menor, num arranjo cheio de balanço celebrizado pelos Swingle Singers. Pelo meio, ficamos com Mendelssohn, uma figura essencial para que se voltasse a ouvir Bach a partir do séc",
-      "url": "https://www.agenda-porto.pt/evento/cdm-o-swing-de-bach/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Odisseia Musical",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "Mundos sonoros contrastantes encontram-se neste concerto dirigido por Peter Sommerer, diretor artístico da Filarmónica de Sopros da Saxónia. Em Othello: A Symphonic Portrait, Alfred Reed transforma o drama de Shakespeare numa sequência de cenas musicais, do amor à tragédia. Tema e Variações revela o virtuosismo da escrita musical de Arnold Schoenberg, numa composição pensada para banda, enquanto a partitura de Johann Strauss II nos traz o brilho e o encanto vienenses. O programa inclui ainda exc",
-      "url": "https://www.agenda-porto.pt/evento/cdm-odisseia-musical/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Ricardo Coelho Quinteto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "Kohelet é o nome hebraico do livro bíblico Eclesiastes e é também o título do primeiro álbum do vibrafonista Ricardo Coelho, editado em 2025 pelo Carimbo Porta-Jazz. Nas notas de capa, Coelho cita uma passagem desse livro – “Lança o teu trigo sobre o mar, que passado algum tempo o recolherás” – para deixar uma pergunta que atravessa o disco: “Não sei se foi da água, mas eis que em mim brotou algo. Iludido? Talvez…” Tendo o gospel como alicerce, o vibrafonista portuense é reconhecido pela versati",
-      "url": "https://www.agenda-porto.pt/evento/cdm-ricardo-coelho-quinteto/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Teatro Dom Roberto, com Valdevinos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Trindade",
-      "type": "Família",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "O fimp é também o lugar para revisitar aa tradição e, por isso, não podíamos deixar de convidar Dom Roberto - uma das expressões fundamentais do património português do teatro de marionetas. Este autêntico herói nacional, reconhecido desde 2021 como Património Cultural Imaterial português, é também um membro da ilustre família euroasiática das marionetas de luva. Com a sua voz inumana e sempre pronto para a traulitada, Dom Roberto promete assombrar e divertir crianças de todas as idades. Nesta e",
-      "url": "https://www.agenda-porto.pt/evento/fimp-teatro-dom-roberto-trindade/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "espetáculo familiar"
-      ]
-    },
-    {
-      "name": "ΞllllllΞ, de Pedro Melo Alves",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "date": "18 Out",
-      "desc": "ΞllllllΞ [lido “imm”] é uma narrativa sensorial transdisciplinar do compositor Pedro Melo Alves, na intersecção entre música, tecno-performance e artes digitais. Interrogando os elos comuns entre a cultura erudita, o mainstream pop, os movimentos urbanos e as suas raízes ancestrais, ΞllllllΞ apresenta-se como um palco aberto à discussão ontológica contemporânea e à investigação transhumanista e pós-humanista. Quatro músicos, uma equipa de artistas multimédia e um performer ocupam o centro do esp",
-      "url": "https://www.agenda-porto.pt/evento/1810-pedro-melo-alves/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -840,23 +572,6 @@
       "desc": "Receção ao Caloiro 2026",
       "url": "https://www.agenda-porto.pt/evento/up-serenata-ao-caloiro/",
       "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "As Águias da República Os Filmes das Nossas Terças",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "url": "https://www.teatroaveirense.pt/pt/evento/as-aguias-da-republica/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Música",
-      "venue": "Teatro Aveirense",
-      "desc": "",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -3172,6 +2887,22 @@
       ]
     },
     {
+      "name": "CONCERTOSNAPISCINA 128#",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hotelier",
+      "type": "Família",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "André Silva | Nascido em Lisboa, vive e trabalha actualmente em Les Cévennes, França. Do passeio à repetição, à atenção e à escuta, é com uma atitude de aventura que enche os bolsos, cadernos, rolos de filme e gravadores. Ao utilizar a fotografia como mergulho no mundo, o desenho como exercício interior e o som como eco de gestos e de fenómenos acústicos, descobre um universo feito dos detritos do mundo que recolhe cuidadosamente, para depois os relançar no mundo. O seu trabalho assume a forma d",
+      "url": "https://www.agenda-porto.pt/evento/f-n6gC4ISAgX/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Contas Feitas 2026",
       "area": "Porto",
       "city": "Porto",
@@ -4729,6 +4460,22 @@
       ]
     },
     {
+      "name": "Estação Casa da Música",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Família",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "\"Depois de algum tempo com as portas fechadas, a estação volta finalmente a ganhar vida — e o comboio está prestes a partir! O maquinista já se prepara para a viagem e o som rítmico das rodas nos trilhos dá o arranque musical desta oficina cheia de descobertas. Embarcamos juntos num passeio entusiasmante por vários destinos sonoros, sempre a bordo de meios de transporte ecológicos e sustentáveis. Pelo caminho, vamos encontrar ritmos escondidos, sons surpreendentes e até alguns tesouros musicais",
+      "url": "https://www.agenda-porto.pt/evento/estacao-casa-da-musica-0811-26/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Six Moving Guitars, de Fredrik Rasten",
       "area": "Porto",
       "city": "Porto",
@@ -5709,6 +5456,60 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Hora de Ponta",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Fonoteca Municipal do Porto",
+      "type": "Evento",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Na semana em que decorre o FIATO - Festival Internacional de Artes e Ópera do Porto, a Fonoteca propõe celebrar a Ópera na sua Hora de Ponta. Partindo de grandes clássicos, o público é desafiado a descobrir o que mais distingue este formato musical. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar este espaço, para a escuta conjunta de uma seleção de discos com base num determinado tema.",
+      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-1811/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
+      ]
+    },
+    {
+      "name": "Há Fado no Mercado",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado do Bolhão",
+      "type": "Música",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo do fadista Marcelo Soledad. Programação: 20h00 l Peixe no Mercado 21h00 l Nelson dos Leitões - Original da Bairrada",
+      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-1811/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Svaneborg Kardyb + Vega Trails",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Svaneborg Kardyb O duo dinamarquês Svaneborg Kardyb, formado por Nikolaj Svaneborg (teclas) e Jonas Kardyb (bateria e percussão), cria composições intrincadas e cíclicas que conjugam uma intimidade calorosa com um subtil sentido de movimento. Um minimalismo jazzístico que oscila entre contemplação e impulso, onde as suaves camadas de Wurlitzer e a percussão precisa ondulam como ecos na superfície de águas calmas. Vencedores de dois Danish Music Awards Jazz 2019 (Artista Revelação do Ano e Compos",
+      "url": "https://www.agenda-porto.pt/evento/svaneborg-kardyb-vega-trails/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     }
   ]
 }
