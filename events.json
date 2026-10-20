@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "events": [
     {
       "name": "Para Voz, de Lydia Ourahmane",
@@ -511,72 +511,20 @@
       ]
     },
     {
-      "name": "Conversas Ibéricas",
+      "name": "Ciência, Consciência e Espiritualidade",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Serralves",
+      "venue": "Universidade Portucalense Infante D. Henrique",
       "type": "Evento",
-      "start": "2026-10-19",
-      "end": "2026-10-19",
-      "date": "19 Out",
-      "desc": "As Conversas Ibéricas nascem da vontade de aproximar algumas das vozes mais relevantes da arquitetura e da cultura contemporâneas, criando um espaço de encontro entre mestres, profissionais, estudantes, instituições e todos aqueles que descobrem território privilegiado de reflexão em Portugal e Espanha. Na primeira edição, o Porto afirma-se como lugar natural de encontro pela sua singular tradição arquitetónica e paisagística. Organizada pela Fundação de Serralves em parceria com a Fundação FPAC",
-      "url": "https://www.agenda-porto.pt/evento/1910-conversas-ibericas/",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "date": "20 Out",
+      "desc": "A Universidade Portucalense promove amanhã, dia 20 de outubro, uma conferência com Luís Portela, Presidente da Fundação BIAL e Doutor Honoris Causa da instituição, dedicada ao tema “Ciência, Consciência e Espiritualidade”. A iniciativa parte de uma questão que continua a desafiar o pensamento contemporâneo: até onde pode ir o conhecimento científico na compreensão do ser humano e da realidade? Num contexto em que a ciência e a inovação assumem um papel central na compreensão e na transformação d",
+      "url": "https://www.agenda-porto.pt/evento/ciencia-consciencia-e-espiritualidade/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "Dia da Beneficência",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Vários locais",
-      "type": "Evento",
-      "start": "2026-10-19",
-      "end": "2026-10-19",
-      "date": "19 Out",
-      "desc": "Receção ao Caloiro 2026",
-      "url": "https://www.agenda-porto.pt/evento/up-dia-da-beneficencia/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Imarhan",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-19",
-      "end": "2026-10-19",
-      "date": "19 Out",
-      "desc": "Expoentes da nova vaga da música tuaregue e grandes regeneradores do assouf (conhecido como blues do deserto), os Imarhan apresentam o álbum Essam , onde pela primeira vez se afastam do domínio absoluto das guitarras para explorar paisagens eletrónicas e produções evocativas. Poesia ancestral, funk, rock psicadélico e ritmos pan-africanos foram sempre linhas mestras do universo sonoro do quinteto argelino, que agora tanto pisca o olho à folk-pop cósmica como se alinha com a vanguarda das pistas",
-      "url": "https://www.agenda-porto.pt/evento/cdm-imarhan/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Serenata ao Caloiro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Avenida dos Aliados",
-      "type": "Música",
-      "start": "2026-10-19",
-      "end": "2026-10-19",
-      "date": "19 Out",
-      "desc": "Receção ao Caloiro 2026",
-      "url": "https://www.agenda-porto.pt/evento/up-serenata-ao-caloiro/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
     },
     {
       "name": "Leituras no Mosteiro",
@@ -1013,6 +961,24 @@
       ]
     },
     {
+      "name": "Queernic Karaoke",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar of Soap",
+      "type": "Música",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "date": "22 Out",
+      "desc": "Noite de karaoke",
+      "url": "https://www.agenda-porto.pt/evento/queernic-karaoke/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Quintas de Leitura",
       "area": "Porto",
       "city": "Porto",
@@ -1285,6 +1251,22 @@
       ]
     },
     {
+      "name": "Jantar e conversa com Basel Adra",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "A Beneficência Familiar",
+      "type": "Evento",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "Uma noite de partilha, reflexão e diálogo em torno da Palestina, da realidade vivida pelo seu povo e da importância de dar espaço às vozes que testemunham e documentam esta realidade. Contaremos com a presença de Basel Adra, co-realizador do documentário 𝘕𝘰 𝘖𝘵𝘩𝘦𝘳 𝘓𝘢𝘯𝘥. Reservas e pagamento até 20 de outubro. Como reservar: - O pagamento pode ser efetuado por transferência bancária para o seguinte IBAN: PT50 0010 0000 4934 7510 0015 6 - Ou por MBWay para 916 986 951 Após o pagamento, agradecemos",
+      "url": "https://www.agenda-porto.pt/evento/jantar-e-conversa-com-basel-adra/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Masterpiece",
       "area": "Porto",
       "city": "Porto",
@@ -1373,6 +1355,22 @@
       "quality_reasons": [
         "teatro"
       ]
+    },
+    {
+      "name": "Rest Revolution",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Healing House",
+      "type": "Família",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "A verdadeira revolução é abrandar. Num mundo que nunca pára, vem fazer uma pausa connosco. Uma prática de 01h30 com movimento lento, restaurativo e intuitivo, seguida de uma sessão de yin e de uma meditação final. Um espaço para desacelerar, respirar e fazer parte de uma comunidade. Reservas: mensagem direta no Instagram (@Aleayerbeyogart) ou WhatsApp.(912450782)",
+      "url": "https://www.agenda-porto.pt/evento/rest-revolution-1792402413445/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Tempos Brutos, Danças Furiosas",
@@ -1674,6 +1672,24 @@
       ]
     },
     {
+      "name": "Exposição Permanente Villa J",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa São Roque — Centro de Arte",
+      "type": "Exposição",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Villa J Casa São Roque – Centro de Arte Em 2019 abre a Casa São Roque, antiga morada da família Ramos Pinto, depois de aturadas obras de recuperação e restauro, com a “Inventória”, uma exposição solo de Ana Jotta (J), mobilada com trabalhos do acervo da Coleção Peter Meeker. Sete anos depois, o Centro de Arte volta a receber J. O trabalho da artista habita agora o piso superior de forma permanente, com inauguração no dia 24 de outubro, às 16h. A Villa J é pontuada por desenhos nas paredes a marc",
+      "url": "https://www.agenda-porto.pt/evento/inauguracao-villa-j/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Feira Marginal",
       "area": "Porto",
       "city": "Porto",
@@ -1705,6 +1721,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Flash Coros de Ópera",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado do Bolhão",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "A ópera vai ecoar pelo Mercado do Bolhão. Junta-te a nós! O FIATO convida-te a celebrar o Dia Mundial da Ópera com um momento único: Flash Dia Mundial da Ópera! O desafio? Reunir pessoas de todas as idades e níveis de experiência para interpretar dois dos coros mais icónicos da história da ópera. Vamos unir vozes numa celebração inesquecível. Não importa se és amador ou profissional - vem cantar connosco e juntos vamos trazer a ópera de volta à cidade invicta! Direção Musical: Teresa Queirós Pia",
+      "url": "https://www.agenda-porto.pt/evento/fiato-flash-coros-de-opera/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -1850,6 +1884,22 @@
       ]
     },
     {
+      "name": "Los Cubanitos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Porto com Salsa",
+      "type": "Família",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Prepare-se para uma noite cheia de ritmo, alegria e muita salsa! - Ambiente familiar - Energia contagiante - Dança, música ao vivo e boa disposição - A autêntica vibração cubana Venha viver uma experiência única ao som dos Los Cubanitos e deixe-se levar pelos ritmos quentes de Cuba. Noite Cubana à sua medida!",
+      "url": "https://www.agenda-porto.pt/evento/los-cubanitos/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Maracujália",
       "area": "Porto",
       "city": "Porto",
@@ -1887,6 +1937,42 @@
       ]
     },
     {
+      "name": "Mesa Criativa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Onze Onze",
+      "type": "Exposição",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Tens um bordado por terminar, um caderno de desenho à espera ou uma ideia que vais deixando para depois? Traz o teu projeto e junta-te à nossa mesa criativa no Onze Onze, no Porto. Podes desenhar, escrever, bordar, fazer crochet, colagem ou trazer outro projeto que possas desenvolver numa mesa partilhada. Cada pessoa segue o seu ritmo, com espaço para trocar ideias e deixar a conversa acontecer. Não tens um projeto? Temos algumas opções para ti. Vamos disponibilizar materiais básicos e sugestões",
+      "url": "https://www.agenda-porto.pt/evento/mesa-criativa-caminho/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Novos Talentos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado do Bolhão",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "O FIATO – Novos Talentos pretende dar palco aos artistas mais jovens, dando lugar a novas vozes e talentos. Para isso, o FIATO desafiou escolas de música do Porto a apresentarem duas récitas no Mercado do Bolhão. Conservatório de Música do Porto ORFEU NOS INFERNOS Uma Opereta de Jacques Offenbach Apresenta Estúdio de Ópera A opereta Orfeu nos Infernos, composta por Jacques Offenbach em 1858, é uma irreverente paródia do mito clássico de Orfeu e Eurídice. Nesta versão satírica, o célebre poeta e",
+      "url": "https://www.agenda-porto.pt/evento/fiato-novos-talentos/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Névoa-Nada, de Gustavo Ciríaco",
       "area": "Porto",
       "city": "Porto",
@@ -1921,6 +2007,24 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
+      ]
+    },
+    {
+      "name": "Orquestra Sinfónica da ESMAE",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teatro Helena Sá e Costa",
+      "type": "Família",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "A Orquestra Sinfónica da ESMAE, dirigida pelo maestro Jan Wierzba, apresenta a 24 de outubro, às 19h00, no Teatro Helena Sá e Costa, um programa dedicado a Antonín Dvořák e Piotr Ilitch Tchaikovsky. O concerto terá uma segunda apresentação às 21h30 do dia 28 de outubro, na Casa da Música. O programa abre com a sinfonia ‘A Bruxa do Meio Dia’, Op. 108, de Antonín Dvořák, uma obra inspirada num poema de Karel Jaromír Erben e marcada por uma forte dimensão narrativa. A composição integra o ciclo Kyt",
+      "url": "https://www.agenda-porto.pt/evento/thsc-orquestra-sinfonica-da-esmae-2410/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "espetáculo familiar"
       ]
     },
     {
@@ -1975,6 +2079,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Pre-Halloween Extravaganza",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar of Soap",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Drag Show",
+      "url": "https://www.agenda-porto.pt/evento/pre-halloween-extravaganza/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -2286,6 +2408,24 @@
       "date": "25 Out",
       "desc": "Este é um encontro que apela aos sentidos. Primeiro, a voz como raiz de toda a música. La nuda voce, uma obra muito recente de Francesca Verunelli, procura o momento em que a voz se separa do corpo para se transformar em canto, desde a mais íntima vibração das cordas vocais. O texto interpretado pelas solistas convidadas Johanna Vargas e Helēna Sorokina provém da tradição oral italiana – um poema sobre a voz que se perde. Depois do Remix, entra em palco a Sinfónica para mergulhar na última obra",
       "url": "https://www.agenda-porto.pt/evento/cdm-imagens/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Jam Brasileira do 13",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Embaixada Bar Porto",
+      "type": "Música",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "com Adriana Ramalho",
+      "url": "https://www.agenda-porto.pt/evento/jam-brasileira-do-13/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2638,6 +2778,22 @@
       ]
     },
     {
+      "name": "Orquestra Sinfónica da ESMAE",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Família",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "date": "28 Out",
+      "desc": "A Orquestra Sinfónica da ESMAE, dirigida pelo maestro Jan Wierzba, apresenta a 28 de outubro, às 21h30, na Casa da Música, um programa dedicado a Antonín Dvořák e Piotr Ilitch Tchaikovsky. O programa abre com a sinfonia ‘A Bruxa do Meio Dia’, Op. 108, de Antonín Dvořák, uma obra inspirada num poema de Karel Jaromír Erben e marcada por uma forte dimensão narrativa. A composição integra o ciclo Kytice, em que Dvořák transforma motivos da tradição popular checa em música sinfónica. Segue-se a Sinfo",
+      "url": "https://www.agenda-porto.pt/evento/cdm-orquestra-sinfonica-da-esmae-2810/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "UPTEC NON-STOP",
       "area": "Porto",
       "city": "Porto",
@@ -2887,22 +3043,6 @@
       ]
     },
     {
-      "name": "CONCERTOSNAPISCINA 128#",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hotelier",
-      "type": "Família",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "André Silva | Nascido em Lisboa, vive e trabalha actualmente em Les Cévennes, França. Do passeio à repetição, à atenção e à escuta, é com uma atitude de aventura que enche os bolsos, cadernos, rolos de filme e gravadores. Ao utilizar a fotografia como mergulho no mundo, o desenho como exercício interior e o som como eco de gestos e de fenómenos acústicos, descobre um universo feito dos detritos do mundo que recolhe cuidadosamente, para depois os relançar no mundo. O seu trabalho assume a forma d",
-      "url": "https://www.agenda-porto.pt/evento/f-n6gC4ISAgX/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Contas Feitas 2026",
       "area": "Porto",
       "city": "Porto",
@@ -3117,23 +3257,6 @@
       ]
     },
     {
-      "area": "Braga",
-      "city": "Braga",
-      "name": "A fila J é a melhor",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "url": "https://theatrocirco.com/event/espetaculo-20-anos-reabertura-theatro-circo/",
-      "source": "https://theatrocirco.com/programa/",
-      "type": "Teatro",
-      "venue": "Theatro Circo",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
       "name": "Exposição - As Cores do Rio de Mariza Lima",
       "area": "Braga",
       "city": "Braga",
@@ -3307,6 +3430,24 @@
       ]
     },
     {
+      "name": "Halloween",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "KRIA Tattoo Studio",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "A KRIA está pronta para celebrar a época mais assustadora do ano com um evento especial de Halloween! No dia 31 de outubro, teremos um grande flash day . Contaremos com a presença de vários artistas talentosos, flash tattoo s, cerveja, música e bandas ao vivo durante todo o dia. Venha fazer uma tatuagem nova, beber uma cerveja, curtir um som ou simplesmente dar um salto aqui para passar algum tempo connosco! Todos são bem-vindos, venha vestido a rigor como quiser! Vemo-nos lá!",
+      "url": "https://www.agenda-porto.pt/evento/halloween-flash-day-andamp-live-music/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Halloween do Viajante no Tempo",
       "area": "Porto",
       "city": "Porto",
@@ -3399,7 +3540,7 @@
       "name": "O que se Esconde no Silêncio",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Teatro do Bolhão",
+      "venue": "Palácio do Bolhão",
       "type": "Teatro",
       "start": "2026-10-31",
       "end": "2026-10-31",
@@ -4160,7 +4301,7 @@
       "name": "Nativo",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Teatro do Bolhão",
+      "venue": "Palácio do Bolhão",
       "type": "Família",
       "start": "2026-11-07",
       "end": "2026-11-07",
@@ -4476,6 +4617,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Pintura Reversa em Tecido",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Os Patafúrdios",
+      "type": "Exposição",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "Tens uma peça esquecida no armário, desbotada ou que já não combina contigo? Esta oficina convida-te a olhar para ela de outra forma e a transformá-la numa peça única, criada por ti. Ao longo de duas horas, vais explorar a pintura reversa em tecido: uma técnica em que, em vez de acrescentares cor, a retiras com lixívia para criar padrões, contrastes e desenhos. Começamos com uma introdução e uma demonstração do João Santos. Depois, tens tempo para experimentar e desenvolver as tuas ideias, com a",
+      "url": "https://www.agenda-porto.pt/evento/pintura-reversa-em-tecido/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Six Moving Guitars, de Fredrik Rasten",
       "area": "Porto",
       "city": "Porto",
@@ -4698,6 +4857,22 @@
       "quality_reasons": []
     },
     {
+      "name": "Delícia de Morangos e Chantilly",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Auditório Municipal de Gaia",
+      "type": "Família",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Imaginem tipo um piano bar, mas tipo não exatamente: uma espécie de espaço de ensaios tipo de uma banda sinfónica. De qualquer maneira, isso não interessa tipo nada. A grande questão é que tipo a Bunny, a modos que personagem principal, está apaixonada pelo Benny, que é tipo secundário. Há, todavia, um problema entre eles, derivado tipo das vicissitudes da vida. Entretanto, diz que a coisa só se resolve com a intervenção de um Áugure e de uma Sacerdotisa — e é isso que nós queremos ver…",
+      "url": "https://www.agenda-porto.pt/evento/fiato-delicia-de-morangos-e-chantilly/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Dzudza",
       "area": "Porto",
       "city": "Porto",
@@ -4868,6 +5043,22 @@
       "date": "14 Nov",
       "desc": "Nesta oficina vais experimentar a pintura acrílica de forma livre e acessível, mesmo que nunca tenhas pintado antes. Começamos com um esboço simples e uma introdução leve à cor e aos contrastes, apenas como apoio ao processo criativo. A partir daí, cada participante desenvolve a sua pintura em camadas, explorando gesto, composição e mistura de cores ao seu ritmo, sem pressão por resultado. O foco está na experimentação e na construção de uma imagem pessoal. A sessão decorre ao longo de cerca de",
       "url": "https://www.agenda-porto.pt/evento/db-acrilico-livre-1791900924988/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Agatha Christie no Museu da Farmácia",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Museu da Farmácia",
+      "type": "Família",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "O Museu da Farmácia propõe uma aliciante aventura pelo misterioso mundo de Agatha Christie (1890-1976), a denominada “Rainha do Crime”, estabelecendo uma relação entre a História da Farmácia e a do Médio Oriente (Mesopotâmia e Egito), Europa e América Central. As universalmente conhecidas obras literárias “Crime na Mesopotâmia”, “Um Crime no Expresso do Oriente”, “Morte no Nilo”, “O Mistério das Caraíbas”, “Encontro com a Morte” e “Intriga em Bagdade” serão a prova do crime numa invulgar viagem",
+      "url": "https://www.agenda-porto.pt/evento/agatha-christie-no-museu-da-farmacia/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
@@ -5153,7 +5344,7 @@
       "name": "O Barbeiro de Einstein",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Teatro do Bolhão",
+      "venue": "Palácio do Bolhão",
       "type": "Família",
       "start": "2026-11-14",
       "end": "2026-11-14",
@@ -5232,6 +5423,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Sob as Luas, de Álamo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa dos Açores do Norte",
+      "type": "Teatro",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "\"Sob as Luas de Álamo\" é um projecto da beOMNI Expression, de Joana Moreira e Miguel Maduro-Dias, criado em homenagem ao escritor açoriano Álamo Oliveira. O espectáculo não é uma biografia ilustrada, mas uma caminhada poética por Angra do Heroísmo, onde a cidade se torna corpo, memória e oficina da Palavra. A partir de um percurso traçado por alguns dos poemas de Álamo Oliveira, a Palavra, o Vídeo, a Sonoplastia, a presença cénica e a Música cruzam-se numa viagem pela sua obra, dando especial at",
+      "url": "https://www.agenda-porto.pt/evento/sob-as-luas-de-alamo/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Tear de Cintura Mexicano",
       "area": "Porto",
       "city": "Porto",
@@ -5286,6 +5495,22 @@
       ]
     },
     {
+      "name": "Tornados numa Garrafa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Museu da Farmácia",
+      "type": "Família",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Junta-te a nós no Museu da Farmácia e vem simular um tornado dentro de uma garrafa. Assim, poderás perceber como este fenómeno natural se forma, mas de maneira segura e divertida. Inscreva-se já e garanta a sua vaga ! Com a inscrição no Atelier Educativo, oferecemos o estacionamento. Para mais informações: museudafarmacia@anf.pt",
+      "url": "https://www.agenda-porto.pt/evento/tornados-numa-garrafa/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Trampolim",
       "area": "Porto",
       "city": "Porto",
@@ -5322,6 +5547,22 @@
       ]
     },
     {
+      "name": "Ópera de Elevador",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teatro Helena Sá e Costa",
+      "type": "Família",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Num centro comercial, o encontro luso-brasileiro de quatro figuras num elevador: duas querem subir, uma quer descer, outra não sabe para onde vai. Não importa: o elevador avaria. E agora? Agora, que remédio, têm de falar uns com os outros. Ou de aproveitar o tempo perdido para fazer chamadas importantes. Até que venha Ícaro Ascensão, o técnico redentor, pôr o elevador a funcionar. Assim esperamos.",
+      "url": "https://www.agenda-porto.pt/evento/fiato-opera-de-elevador/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "A Tigela Partida — Olhar e Recriar",
       "area": "Porto",
       "city": "Porto",
@@ -5342,18 +5583,16 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "Coliseu Porto Ageas",
-      "type": "Teatro",
+      "type": "Família",
       "start": "2026-11-15",
       "end": "2026-11-15",
       "date": "15 Nov",
       "desc": "Quem decreta o que é certo ou errado? Quem decreta que o amor é prisão ou liberdade? Amor de Perdição é uma ópera que ultrapassa a barreira do tempo. Uma criação que nos confronta com um sentimento maior do que qualquer uma das personagens; que nos coloca sob a luz – e o seu excesso – “A cegueira que cega, ao cerrar os olhos… não é a maior cegueira…” – sobre as dúvidas, as perguntas, os anseios e a ironia de Camilo. Teresa, Simão e Mariana movem-se entre muros, cartas e memórias, prisioneiros de",
-      "url": "https://www.agenda-porto.pt/evento/coliseu-amor-de-perdicao/",
+      "url": "https://www.agenda-porto.pt/evento/fiato-amor-de-perdicao/",
       "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "BDSM 101",
@@ -5421,6 +5660,25 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Ópera para Bebés!",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço QC",
+      "type": "Família",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "date": "15 Nov",
+      "desc": "Com quantas camadas se constrói uma voz? E é feita de quê? Com que material revestimos as paredes da nossa fala, do nosso som? Pode a ausência de voz dizer mais do que muitas palavras? Neste espetáculo para famílias iremos tentar perceber tudo isto, observar a voz nas suas várias dimensões e descobrir se esta é só som ou se pode carregar histórias, dor, alegria, autoridade, doçura ou até memórias. Ouvimos também dizer que a voz pode ser a nossa profissão, o nosso dom, será verdade? De canção em",
+      "url": "https://www.agenda-porto.pt/evento/fiato-opera-para-bebes-espaco-qc/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "experiência especial",
+        "espetáculo familiar"
       ]
     },
     {
@@ -5494,6 +5752,22 @@
       ]
     },
     {
+      "name": "La Voix humaine, de Poulenc",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Palácio do Bolhão",
+      "type": "Família",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Noutros tempos nós encontrávamo-nos, perdíamos a cabeça, esquecíamos promessas, arriscávamos o impossível, convencíamos aqueles que amamos apertando-os contra o peito. Um olhar podia mudar tudo. Mas com este telefone, o que acabou, acabou. O tema principal da ópera La Voix Humaine é a solidão, a ausência do que é corpóreo e material. A mera presença de uma voz, projectada pelo auricular um telefone, numa troca de pensamentos e emoções, numa espiral de interpretações e leituras, tem as suas inevi",
+      "url": "https://www.agenda-porto.pt/evento/fiato-la-voix-humaine/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Svaneborg Kardyb + Vega Trails",
       "area": "Porto",
       "city": "Porto",
@@ -5509,6 +5783,23 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Songs of Ascencion Beatriz Moreira, Iris Auguste e Giulia Micelli / Palcos Instáveis - Segunda Casa",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "url": "https://www.teatroaveirense.pt/pt/evento/songs-of-ascencion/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Dança",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "dança"
       ]
     }
   ]
