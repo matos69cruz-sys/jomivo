@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "events": [
     {
       "name": "Para Voz, de Lydia Ourahmane",
@@ -511,180 +511,6 @@
       ]
     },
     {
-      "name": "Ciência, Consciência e Espiritualidade",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Universidade Portucalense Infante D. Henrique",
-      "type": "Evento",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "A Universidade Portucalense promove amanhã, dia 20 de outubro, uma conferência com Luís Portela, Presidente da Fundação BIAL e Doutor Honoris Causa da instituição, dedicada ao tema “Ciência, Consciência e Espiritualidade”. A iniciativa parte de uma questão que continua a desafiar o pensamento contemporâneo: até onde pode ir o conhecimento científico na compreensão do ser humano e da realidade? Num contexto em que a ciência e a inovação assumem um papel central na compreensão e na transformação d",
-      "url": "https://www.agenda-porto.pt/evento/ciencia-consciencia-e-espiritualidade/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Leituras no Mosteiro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TNSJ — Mosteiro de São Bento da Vitória",
-      "type": "Evento",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "As Leituras no Mosteiro estão de volta. De volta ao seu espaço habitual, a sala do Centro de Documentação, reaberta após as obras no Mosteiro de São Bento da Vitória. De volta à Dramaturgia Portuguesa Contemporânea. E de volta ao tema desta temporada, o repertório, neste caso acrescentando-lhe capítulos novos. Entre setembro e dezembro de 2026, quatro dramaturgos do nosso tempo vão partilhar com os leitores peças da sua autoria: João Luís Barreto Guimarães, poeta, tradutor, Prémio Pessoa (2022)",
-      "url": "https://www.agenda-porto.pt/evento/leituras-mosteiro-2010/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Natércia Freire",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa Comum",
-      "type": "Evento",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "No âmbito do ciclo Colectivo de Poesia — Poetas a Várias Vozes, a Casa Comum recebe, no próximo 20 de outubro, às 21h30, a sessão dedicada à poeta Natércia Freire. “Como homenagear uma vida dedicada à poesia? Como retribuir uma vida manifestada em poesia? Como tornar viva, para além do abraço de esquecimento que a memória traz, uma vida que viveu, imersa, na poesia e no mistério que encerrava?” Eis as inquietações plasmadas na nota de apresentação de O Livro de Natércia, uma edição da Quasi do i",
-      "url": "https://www.agenda-porto.pt/evento/natercia-freire/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Nina Maia",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lovers & Lollypops",
-      "type": "Música",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "A cantora, compositora e instrumentista brasileira Nina Maia é uma das vozes mais promissoras da nova música brasileira. Em INTEIRA , o álbum de estreia aclamado pela imprensa da especialidade, cruza MPB, jazz e indie pop em canções delicadas e contemporâneas, onde a riqueza melódica se alia a uma forte carga emocional. Entre tradição e renovação, constrói um universo musical íntimo e luminoso, marcado pela subtileza, pela proximidade e por uma escrita cuidada.",
-      "url": "https://www.agenda-porto.pt/evento/nina-maia/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Quebra-Gelo",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Associação Quebra-Dados",
-      "type": "Evento",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "O que é o Quebra-Gelo? O Quebra-Gelo destina-se a todo o tipo de pessoas que queiram divertir-se a jogar, mas especialmente àquelas que procuram encontrar pessoas com interesses semelhantes para jogar. Quer adores jogos de tabuleiro mas não tenhas ninguém com quem jogar, quer tenhas um grupo de amigos mas não tenhas jogos de tabuleiro, ou quer simplesmente queiras conhecer novas pessoas e divertir-te: isto é para ti! Há alguma taxa para o evento? Sim, há uma taxa de 3 €. No entanto, ao efetuar e",
-      "url": "https://www.agenda-porto.pt/evento/quebra-gelo-1790755263521/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Rodrigo Correia & João Barradas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "Talento criativo multifacetado, Rodrigo Correia tem desenvolvido um importante trabalho não apenas enquanto contrabaixista – integra o quarteto do pianista João Paulo Esteves da Silva e participa em diferentes projetos ligados ao jazz – mas também como produtor associado a grandes nomes da música pop nacional. O seu registo de estreia na esfera da composição, para cuja apresentação em palco convidou músicos ilustres como João Barradas, Ricardo Toscano, André Fernandes, João Paulo Esteves da Silv",
-      "url": "https://www.agenda-porto.pt/evento/cdm-rodrigo-correia/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Sessões de escuta À La Carte",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lola Hi-Fi",
-      "type": "Música",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "Nova rubrica semanal, onde marcamos encontro com o arquivista sonoro Armando Sousa, para explorar os caminhos que levam à música. Todas as terças-feiras escolhemos um tema, que também será um ponto de partida para, durante uma hora, ir ao encontro não só de relações improváveis e de novas descobertas, mas também de reencontros com memórias à espera de serem reavivadas.",
-      "url": "https://www.agenda-porto.pt/evento/a-la-carte-chuck-berry/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "The Lemon Twigs",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hard Club",
-      "type": "Música",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "Sem dúvida, os irmãos Michael e Brian D’Addario nasceram demasiado tarde. Por isso, desde que se tornaram oficialmente The Lemon Twigs, atrasam o calendário à vontade e vestem-se, tocam e vivem como se pertencessem àquela idade dourada do rock que mais ou menos poderíamos situar entre 1965 e 1972. Um exercício magistral de retromania que gera uma fascinante miragem: efetivamente, parece que andaram de braço dado com os Stones, Simon & Garfunkel, Elton John, Nilsson, James Taylor, Bowie, Big Star",
-      "url": "https://www.agenda-porto.pt/evento/the-lemon-twigs/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Vozes em Roda",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Yoga sobre o Porto",
-      "type": "Música",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
-      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-2010/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Ópera em Diálogo",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa Comum",
-      "type": "Música",
-      "start": "2026-10-20",
-      "end": "2026-10-20",
-      "date": "20 Out",
-      "desc": "Casa Comum recebe, no dia 20 de outubro, às 18h30, a sessão Ópera em Diálogo, uma proposta que convida o público a descobrir o universo da ópera através de uma experiência próxima, acessível e participativa. Distinguido na primeira edição do programa Impulso Cultural da Universidade do Porto, o projeto é desenvolvido por Ana Madureira (piano), Catarina Rebelo (harpa) e Joaquín Marrero (viola d’arco), estudantes e alumni da U.Porto. Combinando música ao vivo e momentos de contextualização, o conc",
-      "url": "https://www.agenda-porto.pt/evento/opera-em-dialogo/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "area": "Braga",
       "city": "Braga",
       "name": "Ópera de elevador",
@@ -702,7 +528,7 @@
       ]
     },
     {
-      "name": "Amanhã É Sempre Longe Demais",
+      "name": "Amanhã é sempre longe demais",
       "area": "Porto",
       "city": "Porto",
       "venue": "Coliseu Porto Ageas",
@@ -800,6 +626,22 @@
       "url": "https://www.agenda-porto.pt/evento/iniciacao-ao-ukulele-2110/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Oceanos e Economia Azul",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Universidade Portucalense Infante D. Henrique",
+      "type": "Evento",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "date": "21 Out",
+      "desc": "A Universidade Portucalense recebe amanhã, dia 21 de outubro, a pré-conferência da VII Cimeira Académica União Europeia–América Latina e Caraíbas, dedicada aos oceanos e à economia azul. A iniciativa propõe uma reflexão sobre o contributo da ciência, da inovação e das tecnologias emergentes para a sustentabilidade dos recursos marinhos e para o reforço da cooperação internacional. Num contexto em que a proteção dos oceanos e a utilização sustentável dos seus recursos assumem crescente importânci",
+      "url": "https://www.agenda-porto.pt/evento/oceanos-e-economia-azul/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
     },
@@ -1051,6 +893,42 @@
       ]
     },
     {
+      "name": "FIOB ITÁLIA E A ESCOLA IBÉRICA (1700- 1750) – CICLO ENTRE REGISTOS E PALAVRAS",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Outros",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "Festival Internacional de Órgão de Braga 2026",
+      "url": "https://visitbraga.travel/event/1243-fiob-italia-e-a-escola-iberica-1700-1750-ciclo-entre-registos-e-palavras",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
+      ]
+    },
+    {
+      "name": "ORQUESTRA FILARMÓNICA DE BRAGA",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "\"THE ERAS OF CLASSICAL MUSIC – A TRIBUTE\"",
+      "url": "https://visitbraga.travel/event/1242-orquestra-filarmonica-de-braga",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "area": "Braga",
       "city": "Braga",
       "name": "Semibreve 2026: Malcolm Pardon & Gustaf Broms",
@@ -1101,6 +979,24 @@
       "quality_reasons": [
         "teatro",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Almost Halloween But Not Yet",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar of Soap",
+      "type": "Música",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "Drag show",
+      "url": "https://www.agenda-porto.pt/evento/almost-halloween-but-not-yet/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -1174,6 +1070,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Festa Mundial da Animação",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Sala Estúdio Perpétuo",
+      "type": "Cinema",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "date": "23–25 Out",
+      "desc": "A 25ª edição da Festa Mundial da Animação começa já na sexta-feira, dia 23 de outubro e decorre até dia 25 de outubro, na Sala-Estúdio Perpétuo, no Porto! A programação conta com sessões de curtas-metragens pensadas para escolas, famílias e público geral - com curadoria da Casa da Animação e do Festival Internacional da Cinema de Animação de Estugarda (ITFS); uma longa-metragem para um domingo em família; e as sessões dedicadas ao Prémio Nacional da Animação. No dia 24 de outubro, na Cerimónia d",
+      "url": "https://www.agenda-porto.pt/evento/festa-mundial-da-animacao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
       ]
     },
     {
@@ -1282,24 +1196,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
-      ]
-    },
-    {
-      "name": "MICAR — Festa de Abertura",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-23",
-      "end": "2026-10-23",
-      "date": "23 Out",
-      "desc": "Mostra Internacional de Cinema Anti-Racista",
-      "url": "https://www.agenda-porto.pt/evento/261023-micar-festa-de-abertura/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -1419,6 +1315,43 @@
       "date": "24 Out",
       "desc": "A Orquestra Filarmónica de Braga apresenta um concerto que percorre vários estilos, do clássico ao pop e jazz, sob direção do maestro Filipe Cunha.",
       "url": "https://visitbraga.travel/event/1194-viva-a-musica-orquestra-filarmonica-de-braga",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "FESTIVAL SEMIBREVE",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Festival de música eletrónica e arte digital.",
+      "url": "https://visitbraga.travel/event/1241-festival-semibreve",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
+      "name": "LINHAGENS DO ROMANTISMO - Música de Câmara Braga 2026",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Concerto com obras de Brahms e Dvořák que destaca a riqueza expressiva e o virtuosismo do quarteto com piano no século XIX.",
+      "url": "https://visitbraga.travel/event/1244-linhagens-do-romantismo-musica-de-camara-braga-2026",
       "source": "https://visitbraga.travel/agenda-braga/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -1742,6 +1675,22 @@
       ]
     },
     {
+      "name": "Flea Market Porto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Silo Auto",
+      "type": "Família",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Feira de compra, venda e troca de objetos em segunda mão. 220 carros estacionados nos pisos 6º e 7º do Silo Auto com a mais fina tralha portuense.",
+      "url": "https://www.agenda-porto.pt/evento/flea-market-porto-1792503917281/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Fora da Cápsula #2",
       "area": "Porto",
       "city": "Porto",
@@ -1756,6 +1705,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Forró Fuso",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Galera, o próximo Trem Bão já tem data marcada! Sábado, 24 de outubro, tem forró no Jubilant! Pela primeira vez ao vivo: Forró Fuso! “Fuso” vem do italiano e significa “misturado”, “fundido”, mas também pode ser “aluado”, “doido”… E é bem nessa mistura que a magia acontece! Uma banda atípica, formada por músicos brasileiros e italianos, que junta violino e violão de sete cordas à batida da zabumba e do triângulo. Música feita à mão, forró ao vivo e muita vontade de dançar! Quem vêm com esse fuso",
+      "url": "https://www.agenda-porto.pt/evento/forro-fuso/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Fotografia de Outono",
@@ -2204,22 +2171,6 @@
       ]
     },
     {
-      "name": "Treetrop Walk",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Evento",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "date": "24 Out",
-      "desc": "Percurso elevado ao nível da copa das árvores que proporciona uma experiência única de proximidade com o património natural, arquitetónico e paisagístico do Parque. Este projeto foi concebido pelo Arquiteto Carlos Castanheira, em colaboração com o Arquiteto Álvaro Siza Vieira.",
-      "url": "https://www.agenda-porto.pt/evento/2410-visita-guiada-ao-treetop-walk-1792071566073/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Victoria + Parque Império",
       "area": "Porto",
       "city": "Porto",
@@ -2359,6 +2310,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Escucha tu salsa!",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Família",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "Espaço Cultural Jubilant e PongoMusica convidam-vos! Será uma tarde 100% dedicada à salsa, apenas com discos de vinil. A ideia é que possamos ouvir com atenção plena e, se for inevitável, dançar! Para esta primeira edição, recebemos um convidado especial: um colecionador e curador meticuloso de salsa em vinil. Diretamente de Madrid e da Venezuela, recebemos El Delpino. Desta vez, vamos usar um termo talvez um pouco batido — \"melómano\" —, mas que define com precisão a conexão de Eduardo com a mús",
+      "url": "https://www.agenda-porto.pt/evento/escucha-tu-salsa/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Espelho Meu, Espelho Teu",
@@ -3024,6 +2991,24 @@
       ]
     },
     {
+      "name": "Absoluto Mariana Leite Soares",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "ABSOLUTO, de Mariana Leite Soares, explora o ouvido absoluto e desafia as normas da música clássica através da escuta e da técnica.",
+      "url": "https://visitbraga.travel/event/1248-absoluto-mariana-leite-soares",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "CarneViva + Este Carro Não Tem 6ª",
       "area": "Porto",
       "city": "Porto",
@@ -3250,6 +3235,24 @@
       "type": "Música",
       "venue": "Teatro Aveirense",
       "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "DA POLIFONIA AO CANTO INSTRUMENTAL - Música de Câmara de Braga 2026",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Este concerto percorre do Barroco ao Romantismo com obras de Bach, Vitali, Wieniawski e Bottesini, destacando o virtuosismo das cordas.",
+      "url": "https://visitbraga.travel/event/1246-da-polifonia-ao-canto-instrumental-musica-de-camara-de-braga-2026",
+      "source": "https://visitbraga.travel/agenda-braga/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -3787,6 +3790,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Café República",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Macaréu — Associação Cultural",
+      "type": "Evento",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "date": "3 Nov",
+      "desc": "O Café República é o local onde, desde a juventude, se reúne um grupo de amigos numa tertúlia cultural. Pretende homenagear esses locais já quase inexistentes, que eram um lugar de abrigo de amizades, ideias e ideais. O Café República é um dos resistentes por força da vontade dos seus frequentadores que nunca quiseram perder esse elo de convívio e, por isso, cá está, ao fim de tantos anos. Inspirado nos ambientes dos anos sessenta e setenta do século passado, o Café República tenta reproduzir o",
+      "url": "https://www.agenda-porto.pt/evento/cafe-republica/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Os escritores de Massarelos",
@@ -4965,6 +4984,25 @@
       ]
     },
     {
+      "name": "Ópera à Moda do Porto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Vários locais",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Ópera à Moda do Porto leva a ópera diretamente para os recantos mais icónicos da cidade, aproximando este género musical do dia a dia portuense. Com o objetivo de democratizar o acesso à arte, transforma espaços públicos como estações de metro, mercados e shoppings em palcos inesperados. Se tu não vais à ópera, a ópera vai até ti, quebrando barreiras e envolvendo a cidade neste espetáculo único. Em 2026 vamos falar sobre a voz do Porto em seis sketches apresentados ao longo da semana do festival",
+      "url": "https://www.agenda-porto.pt/evento/fiato-opera-a-moda-do-porto/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Bastien e Bastienne de W. A. Mozart Uma ópera em marionetas e em português",
@@ -5080,6 +5118,25 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Amuleto Apotropaico",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Passos Manuel",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "A Perf volta ao Passos Manuel para celebrar o lançamento de «Língua Espúria», o segundo álbum dos Amuleto Apotropaico . O primeiro lançamento da editora foi o álbum de estreia homónimo, em 2025. Condensou dois anos de concertos em quatro peças onde improvisação, drone e ímpeto ritual se fundiam. «Língua Espúria» fala outra língua. António Feiteira afasta-se da interação entre guitarra e bateria que caracterizou o álbum de estreia e avança para uma estrutura totalmente eletrónica, com ritmos frag",
+      "url": "https://www.agenda-porto.pt/evento/amuleto-apotropaico/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     },
     {
@@ -5788,7 +5845,7 @@
     {
       "area": "Aveiro",
       "city": "Aveiro",
-      "name": "Songs of Ascencion Beatriz Moreira, Iris Auguste e Giulia Micelli / Palcos Instáveis - Segunda Casa",
+      "name": "Songs of Ascencion Beatriz Moreira, Iris Auguste e Giulia Miceli / Palcos Instáveis - Segunda Casa",
       "start": "2026-11-19",
       "end": "2026-11-19",
       "url": "https://www.teatroaveirense.pt/pt/evento/songs-of-ascencion/",
@@ -5800,6 +5857,44 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "dança"
+      ]
+    },
+    {
+      "name": "FIATO em Vinil",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "",
+      "type": "Família",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Antes de ser espetáculo, a ópera é voz, e às vezes basta ouvi-la. No FIATO em Vinil, o público é convidado a sentar-se e a deixar o tempo abrandar enquanto se dá à escuta. Partindo da temática \"Todas as vozes podem mudar o mundo\", vamos percorrer o espólio da Fonoteca Municipal do Porto, para escutar grandes vozes de outros tempos. É uma sessão de escuta partilhada, sem pressas nem regras, para quem cresceu com estes discos e para quem os descobre pela primeira vez. Uma pausa no meio do festival",
+      "url": "https://www.agenda-porto.pt/evento/fiato-em-vinil/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "experiência especial",
+        "espetáculo familiar"
+      ]
+    },
+    {
+      "name": "Rubel",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Coliseu Porto Ageas",
+      "type": "Música",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Após o sucesso dos seus últimos concertos esgotados em Portugal, Rubel regressa com a digressão BELEZA. Rubel e Violão , num formato especial e intimista. Em palco, apenas voz e violão, como no início da sua carreira, para uma experiência única, próxima e profundamente envolvente com o público português. O espetáculo percorre canções marcantes de toda a discografia do artista, incluindo temas do seu mais recente álbum, Beleza . Mas agora a gente faz o que com isso? , que foi destacado na lista d",
+      "url": "https://www.agenda-porto.pt/evento/coliseu-rubel/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     }
   ]
