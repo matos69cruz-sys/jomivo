@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "events": [
     {
       "name": "Para Voz, de Lydia Ourahmane",
@@ -511,159 +511,6 @@
       ]
     },
     {
-      "area": "Braga",
-      "city": "Braga",
-      "name": "Ópera de elevador",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "url": "https://theatrocirco.com/event/opera-de-elevador/",
-      "source": "https://theatrocirco.com/programa/",
-      "type": "Ópera",
-      "venue": "Theatro Circo",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Amanhã é sempre longe demais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Evento",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "A morte faz parte da condição de estar vivo. Mas numa era em que parece obrigatório mostrar felicidade, que tempo e espaço existem para aprender a lidar com o abismo? E que apoios existem para ajudar a atravessar o momento mais difícil da vida de alguém? Na semana que antecede o Dia de Todos os Santos, em que o país pára para lembrar e homenagear os seus mortos, os Mantras do Coliseu Porto Ageas organizam a conversa “Amanhã é sempre longe demais”. No painel, quatro convidados partilham o seu olh",
-      "url": "https://www.agenda-porto.pt/evento/amanha-e-sempre-longe-demais/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Ana Cristina",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mercado do Bolhão",
-      "type": "Música",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo da fadista Ana Cristina.",
-      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-2110/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Curbside Lambsear",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
-      "type": "Música",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "Curbside Lambsear é o projeto de Annabelle Mödlinger e Magdalena McLean. A colaboração explora texturas ásperas e intenções delicadas, entrelaçando elementos de pop, folk e improvisação com influências de drone, dub e post-punk. O projeto surgiu como uma forma de Magdalena e Annabelle experimentarem escrever música em conjunto, utilizando as primeiras sessões para aprender novos instrumentos e explorar o processo de gravação e composição através de estações de trabalho de áudio digital (DAWs). A",
-      "url": "https://www.agenda-porto.pt/evento/rca-curbside-lambsear/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Fado com Miguel Bandeirinha",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "Apesar do berço em Lisboa, o Fado tem no \"Porto\" uma palavra magnificamente cravada na sua história e na sua alma, e ninguém melhor do que o \"nosso\" Miguel Bandeirinha para personificar esta relação num serão mensal à boleia da sua voz.",
-      "url": "https://www.agenda-porto.pt/evento/261021-fado/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Hora de Ponta",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fonoteca Municipal do Porto",
-      "type": "Evento",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "A Jamaica é a paragem principal deste fim de tarde na Fonoteca Municipal do Porto, mas a escuta não se irá cingir a este país. Durante os sessenta minutos da Hora de Ponta, o público é convidado a ouvir e tentar discernir o carácter distintivo do dub face a outras expressões musicais jamaicanas, assim como a sua influência na cultura europeia. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar est",
-      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-2110/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Iniciação ao Ukulele",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Cultural Jubilant",
-      "type": "Família",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "Queres começar a tocar ukulele? Duas sessões independentes, que podes fazer em separado ou em conjunto: 21/10 → quatro acordes básicos + primeiras músicas 28 /10 → mais acordes + ritmos + músicas completas Não precisas de experiência! Não tens ukulele? Temos alguns disponíveis. Donativo mínimo: 10€ por sessão. Vagas limitadas! Inscrições por mensagem. O workshop realiza-se com um mínimo de três inscrições. Vem aprender, tocar e divertir-te connosco!",
-      "url": "https://www.agenda-porto.pt/evento/iniciacao-ao-ukulele-2110/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Oceanos e Economia Azul",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Universidade Portucalense Infante D. Henrique",
-      "type": "Evento",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "A Universidade Portucalense recebe amanhã, dia 21 de outubro, a pré-conferência da VII Cimeira Académica União Europeia–América Latina e Caraíbas, dedicada aos oceanos e à economia azul. A iniciativa propõe uma reflexão sobre o contributo da ciência, da inovação e das tecnologias emergentes para a sustentabilidade dos recursos marinhos e para o reforço da cooperação internacional. Num contexto em que a proteção dos oceanos e a utilização sustentável dos seus recursos assumem crescente importânci",
-      "url": "https://www.agenda-porto.pt/evento/oceanos-e-economia-azul/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Pedro Tabuada convida Westvil",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-10-21",
-      "end": "2026-10-21",
-      "date": "21 Out",
-      "desc": "Pedro Tabuada convida Westvil VJ Akira",
-      "url": "https://www.agenda-porto.pt/evento/pedro-tabuada-convida-westvil/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Gastronomia | Conversas d’Alguidar",
       "area": "Aveiro",
       "city": "Aveiro",
@@ -712,6 +559,24 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "dança"
+      ]
+    },
+    {
+      "name": "Baskandal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Embaixada Bar Porto",
+      "type": "Música",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "date": "22 Out",
+      "desc": "Jam Balkan",
+      "url": "https://www.agenda-porto.pt/evento/baskandal/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -1070,6 +935,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "DJ Camila Dillitzer",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Embaixada Terrace",
+      "type": "Música",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "Música pop",
+      "url": "https://www.agenda-porto.pt/evento/dj-camila-dillitzer-1792570707162/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -2189,6 +2072,22 @@
       ]
     },
     {
+      "name": "Feira das Velharias",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "Destinada a promover a venda e troca de velharias, antiguidades, artigos colecionáveis e similares [inclui artigos de cerâmica decorativa, móveis ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/feira-das-velharias",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "area": "Braga",
       "city": "Braga",
       "name": "Semibreve 2026: Fennesz & Oscar Jockel",
@@ -2538,6 +2437,22 @@
       ]
     },
     {
+      "name": "Entre Nós",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TMP — Rivoli",
+      "type": "Evento",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "date": "27 Out",
+      "desc": "A Contraponto Editores e o Teatro Municipal do Porto têm o prazer de o/a convidar para o lançamento de «Entre Nós», uma conversa com Júlio Machado Vaz e Manuel Sobrinho Simões. O evento terá lugar no Teatro Rivoli, no Porto, no dia 27 de outubro, às 18h30. Os bilhetes são gratuitos e podem ser levantados na bilheteira do teatro ou reservados online no dia do evento, a partir das 11h00. A lotação é limitada à capacidade da sala",
+      "url": "https://www.agenda-porto.pt/evento/tmp-entre-nos/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Filme surpresa de Halloween",
       "area": "Porto",
       "city": "Porto",
@@ -2582,6 +2497,24 @@
       "date": "27 Out",
       "desc": "Nova rubrica semanal, onde marcamos encontro com o arquivista sonoro Armando Sousa, para explorar os caminhos que levam à música. Todas as terças-feiras escolhemos um tema, que também será um ponto de partida para, durante uma hora, ir ao encontro não só de relações improváveis e de novas descobertas, mas também de reencontros com memórias à espera de serem reavivadas.",
       "url": "https://www.agenda-porto.pt/evento/a-la-carte-jazz-sovietico/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Vozes em Roda",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Yoga sobre o Porto",
+      "type": "Música",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "date": "27 Out",
+      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
+      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-2710/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3026,6 +2959,22 @@
         "música",
         "experiência especial"
       ]
+    },
+    {
+      "name": "Cerâmica de Halloween",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Ateliê Oca",
+      "type": "Família",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "Neste workshop, você vai criar sua própria peça de cerâmica inspirada no universo do Halloween. Pode ser um personagem monstruosamente divertido, uma abóbora decorativa, um porta-velas, uma caneca temática ou qualquer outra ideia que a sua imaginação trouxer. Com orientação durante todo o processo, você vai modelar e pintar sua criação, explorando formas, cores e detalhes para dar vida à sua ideia. Não precisa ter experiência com cerâmica, basta vir com vontade de criar! Todos os materiais e as",
+      "url": "https://www.agenda-porto.pt/evento/ceramica-de-halloween/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Contas Feitas 2026",
@@ -3494,8 +3443,8 @@
       "venue": "Saber Fazer",
       "type": "Exposição",
       "start": "2026-10-31",
-      "end": "2026-10-31",
-      "date": "31 Out",
+      "end": "2026-11-01",
+      "date": "31 Out – 1 Nov",
       "desc": "Dias 31 de Outubro e 1 de Novembro de 2026 iremos receber a Guida Fonseca para orientar uma formação excepcional no Saber Fazer: a Iniciação à Tapeçaria. Da Tapeçaria tradicional à contemporânea, deram-se várias transformações que lhe conferiram novo estatuto e função, assumindo-se como território e ferramenta de expressão plástica. O executante de tapeçaria não é apenas um hábil executante, mas também criador e intérprete. Com décadas de experiência na formação profissional na área da Tapeçaria",
       "url": "https://www.agenda-porto.pt/evento/iniciacao-a-tapecaria/",
       "source": "https://www.agenda-porto.pt/",
@@ -3612,6 +3561,25 @@
       ]
     },
     {
+      "name": "Resina Epoxy",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Ateliê Oca",
+      "type": "Exposição",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Neste workshop de iniciação à resina epóxi, os participantes terão a oportunidade de explorar a criatividade e descobrir as possibilidades deste material, aprendendo as técnicas básicas de aplicação e decoração. Ao longo da sessão, cada participante irá criar duas bases para copos e dois marcadores de livros, personalizando as suas peças com pigmentos, folha de ouro e outros elementos decorativos. Todos os materiais e utensílios necessários estão incluídos, não sendo necessária qualquer experiên",
+      "url": "https://www.agenda-porto.pt/evento/resina-epoxy/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "exposição",
+        "atividade prática"
+      ]
+    },
+    {
       "name": "Scary Groove Quest",
       "area": "Porto",
       "city": "Porto",
@@ -3716,6 +3684,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Frédéric Chopin — Poesia ao Piano",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Open Music School Porto",
+      "type": "Família",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "date": "1 Nov",
+      "desc": "Neste recital, Nikolay Pestov convida o público a descobrir a poesia de Frédéric Chopin através de algumas das suas obras mais emblemáticas, das baladas e valsas aos prelúdios, noturnos e à célebre F antaisie-Impromptu . Uma viagem pela intimidade, pelo lirismo e pela intensidade emocional de um dos maiores compositores do romantismo.",
+      "url": "https://www.agenda-porto.pt/evento/frederic-chopin-poesia-ao-piano/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Micro Festival EUREKA! #13",
@@ -3942,6 +3926,25 @@
       "quality_reasons": []
     },
     {
+      "name": "Accordia",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "date": "5 Nov",
+      "desc": "No próximo dia 5 de novembro, às 18h30, a Livraria de Serralves acolhe a apresentação da Accordia , uma nova editora portuguesa dedicada à criação e edição de livros de arte. A estreia faz-se com o lançamento de 23 títulos, numa coleção que reúne nomes incontornáveis da arte contemporânea portuguesa, como Graça Morais, Rui Chafes, Pedro Calapez, Jorge Molder, Cristina Ataíde, João Louro, Noé Sendas, Avelino Sá e Mónica de Miranda, entre muitos outros. O encontro registará a presença de vários ar",
+      "url": "https://www.agenda-porto.pt/evento/0511-apresentacao-da-accordia/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 4,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "exposição",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Black Bombaim & Isaiah Mitchell",
       "area": "Porto",
       "city": "Porto",
@@ -3970,6 +3973,24 @@
       "date": "5 Nov",
       "desc": "Estão entre os duos de pianistas mais requisitados da atualidade e têm o condão de encher salas com público invulgarmente jovem. Os neerlandeses Lucas e Arthur Jussen tornaram-se os músicos mais novos a assinar contrato com a prestigiada Deutsche Grammophon e ainda andavam na escola primária quando se estrearam no Concertgebouw de Amesterdão. Em 2005, começaram a ter aulas com Maria João Pires, que lhes ensinou “a importância da respiração e de nunca haver uma separação entre técnica e musicalid",
       "url": "https://www.agenda-porto.pt/evento/cdm-irmaos-jussen/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Penelope Isles + Silentide",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "date": "5 Nov",
+      "desc": "Concerto duplo",
+      "url": "https://www.agenda-porto.pt/evento/rca-penelope-isles-silentide/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -4081,6 +4102,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Fears + Laura Olim",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Concerto duplo",
+      "url": "https://www.agenda-porto.pt/evento/rca-fears-laura-olim/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -4301,6 +4340,24 @@
       ]
     },
     {
+      "name": "Líquen + Mafalda",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Concerto duplo",
+      "url": "https://www.agenda-porto.pt/evento/rca-liquen-mafalda/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Magusto Melancólico com a Sonoscopia",
       "area": "Porto",
       "city": "Porto",
@@ -4334,22 +4391,6 @@
         "experiência especial",
         "espetáculo familiar"
       ]
-    },
-    {
-      "name": "Nerikomi",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "doBarro",
-      "type": "Família",
-      "start": "2026-11-07",
-      "end": "2026-11-17",
-      "date": "7–17 Nov",
-      "desc": "Nesta oficina mergulhamos na técnica japonesa de Nerikomi, onde o barro é tingido e combinado em camadas para criar padrões diretamente no material. Ao longo da sessão, vais dominar a preparação de barro colorido com óxidos e aprender a estruturar padrões únicos, com composições gráficas e orgânicas. Depois, transformamos esses padrões em peças como pequenos pratos, chávenas ou objetos decorativos. Cada peça nasce do processo, tornando-se única e irrepetível. A oficina tem a duração de três hora",
-      "url": "https://www.agenda-porto.pt/evento/db-nerikomi/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
     },
     {
       "name": "O Museu como Performance",
@@ -4444,6 +4485,24 @@
       ]
     },
     {
+      "name": "Vorace, de Sofia Kafol",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "\"Vorace (tradução italiana de voraz) é um solo para um corpo na sua arena, suportado pela capacidade pulmonar da performer e muitos pompoms, aliados da reverberação do ritmo que constrói a voracidade deste corpo. Vorace é uma arena de dicotomias, um desejo de estabilidade que se consome só por o desejar. Uma tentativa de emancipação num corpo que ativa outros corpos. Uma ode à insistência que surge nas raízes e vem saboreada na boca.\" \"Em Vorace quero resgatar o meu corpo. Corpo ensopado de ball",
+      "url": "https://www.agenda-porto.pt/evento/0711-sofia-kafol-vorace/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Yotto",
       "area": "Porto",
       "city": "Porto",
@@ -4513,6 +4572,24 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Blast!, de Ruth Childs",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "Blast! é baseado nas minhas observações sobre como os seres humanos se expressam. Se a minha criação anterior, fantasia , evocava sensações e movimentos ligados à minha própria memória íntima, este novo solo, Blast! , é um estudo, um panorama ou uma reapropriação dos corpos, com foco no corpo dorido, sofredor, estranho, explosivo e violento. Há algum tempo, sinto a necessidade de responder à violência, incorporando-a e transformando-a no meu trabalho. Não necessariamente a minha própria violênci",
+      "url": "https://www.agenda-porto.pt/evento/0811-ruth-childs-blast/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
     },
     {
       "name": "Bruno Pernadas",
@@ -4646,6 +4723,24 @@
       "date": "8 Nov",
       "desc": "Tens uma peça esquecida no armário, desbotada ou que já não combina contigo? Esta oficina convida-te a olhar para ela de outra forma e a transformá-la numa peça única, criada por ti. Ao longo de duas horas, vais explorar a pintura reversa em tecido: uma técnica em que, em vez de acrescentares cor, a retiras com lixívia para criar padrões, contrastes e desenhos. Começamos com uma introdução e uma demonstração do João Santos. Depois, tens tempo para experimentar e desenvolver as tuas ideias, com a",
       "url": "https://www.agenda-porto.pt/evento/pintura-reversa-em-tecido/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Sham3dan, de Nasa4nasa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "Sham3dan é uma performance de dança em que bailarinos convocam os fantasmas dos seus predecessores, ao mesmo tempo que mobilizam os campos magnéticos que geram coletivamente. A performance parte da história da dança Sham3dan no Egito e das transformações que esta sofreu ao longo dos anos. A obra evoca as figuras fundadoras desta dança como as mães que, enquanto fantasmas, a fizeram chegar até ao presente. As ficções que envolvem as suas vidas evidenciam sempre o sacrifício inerente à dança. Sham",
+      "url": "https://www.agenda-porto.pt/evento/0811-nasa4nasa-sham3dan/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -4808,6 +4903,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Keiyaa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/evento/rca-keiyaa/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Temáticas Intemporais",
       "area": "Porto",
       "city": "Porto",
@@ -4874,6 +4987,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Clubbing Amazónico",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Durante uma noite, a Casa da Música transforma-se numa grande pista de dança ao ritmo da Amazónia. Das 21:00 às 02:00, vários espaços acolhem uma viagem que vai dos cantos ancestrais à eletrónica das cidades amazónicas. Abre o coletivo Puwewere Puyanawa, com o repertório tradicional de um povo indígena do Acre. Segue-se MIND, o projeto em que o pianista Jean Phi Dary, nascido na Guiana Francesa, cruza jazz, eletrónica e tradições afro-caribenhas. Nos bares, DJ Farofa, Marcelo Damaso e Selecta Al",
+      "url": "https://www.agenda-porto.pt/evento/cdm-clubbing-amazonico/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Delícia de Morangos e Chantilly",
@@ -4984,6 +5115,24 @@
       ]
     },
     {
+      "name": "Superfan",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/evento/rca-superfan/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Ópera à Moda do Porto",
       "area": "Porto",
       "city": "Porto",
@@ -5052,6 +5201,24 @@
       "quality_level": "PREMIUM",
       "quality_reasons": [
         "descoberta turística"
+      ]
+    },
+    {
+      "name": "A Voz em Grupo: Canções e Jogos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Uma formação intensiva e eminentemente prática concebida para educadores, professores, músicos e diretores de coros amadores. O grande objetivo é fornecer um conjunto de ferramentas e dinâmicas vocais de montagem rápida e forte impacto pedagógico. Através de jogos musicais e canções acessíveis, os participantes adquirem um repertório versátil, pronto a aplicar no quotidiano da sala de aula ou nos ensaios, estimulando a coesão de grupo e o gosto pelo canto coletivo.",
+      "url": "https://www.agenda-porto.pt/evento/cdm-a-voz-em-grupo-cancoes-e-jogos/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -5274,6 +5441,24 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Floresta do Amazonas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "“Sim, sou brasileiro e bem brasileiro. Na minha música eu deixo cantar os rios e os mares deste grande Brasil. Eu não ponho breque nem freios, nem mordaça na exuberância tropical das nossas florestas e dos nossos céus”, confessava Heitor Villa-Lobos. Ideais que pôs em prática na Floresta do Amazonas, uma grande suite baseada em lendas amazónicas pré-colombianas. A natureza, o território e as tradições múltiplas da cultura brasileira são também os ingredientes que alimentam Bianca Dacosta, artist",
+      "url": "https://www.agenda-porto.pt/evento/cdm-floresta-do-amazonas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Gabriel Beck",
@@ -5620,6 +5805,25 @@
       "quality_reasons": []
     },
     {
+      "name": "A Invenção da Natureza",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Família",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "date": "15 Nov",
+      "desc": "Inspirados no livro A Invenção da Natureza (de Andrea Wulf), embarcamos numa grande odisseia feita de aventuras e ideias de Humboldt, o naturalista e explorador alemão que há mais de duzentos anos descobriu que a Terra é um grande organismo vivo e que inventou a maneira como hoje vemos a natureza, o mundo, o universo. Entre paisagens sonoras, visuais e sensoriais, este espetáculo é uma viagem por terras longínquas, de uma ponta à outra do mundo, sempre de ouvidos atentos e olhos bem abertos para",
+      "url": "https://www.agenda-porto.pt/evento/cdm-a-invencao-da-natureza/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "experiência especial",
+        "espetáculo familiar"
+      ]
+    },
+    {
       "name": "A Tigela Partida — Olhar e Recriar",
       "area": "Porto",
       "city": "Porto",
@@ -5702,6 +5906,22 @@
       ]
     },
     {
+      "name": "Música e Amazónia",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Evento",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "date": "15 Nov",
+      "desc": "Numa conversa com moderação do produtor cultural Axel Britto, os artistas José Roberto Aguilar, Puwe (integrante do povo indígena Puyanawa), Sama e João Boto partilham as suas ideias sobre a Amazónia enquanto matriz criativa, mas também como território de identidade, conhecimento e responsabilidade, explorando a influência da floresta na música, nas artes visuais e na cultura contemporânea.",
+      "url": "https://www.agenda-porto.pt/evento/cdm-musica-e-amazonia/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Ocaso",
       "area": "Porto",
       "city": "Porto",
@@ -5739,110 +5959,6 @@
       ]
     },
     {
-      "name": "Luísa Sobral",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "date": "16 Nov",
-      "desc": "Cartas de Desamor é o oitavo álbum de Luísa Sobral e assinala a sua aproximação à música tradicional portuguesa. Explorando novos territórios, este trabalho nasce como um renascimento criativo e emocional após um período de maior introspeção. Sem nunca perder o foco nas letras e na canção de autor, a compositora cruza a sua identidade com os ritmos e as percussões da nossa cultura.",
-      "url": "https://www.agenda-porto.pt/evento/cdm-luisa-sobral/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Leituras no Mosteiro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TNSJ — Mosteiro de São Bento da Vitória",
-      "type": "Evento",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "As Leituras no Mosteiro estão de volta. De volta ao seu espaço habitual, a sala do Centro de Documentação, reaberta após as obras no Mosteiro de São Bento da Vitória. De volta à Dramaturgia Portuguesa Contemporânea. E de volta ao tema desta temporada, o repertório, neste caso acrescentando-lhe capítulos novos. Entre setembro e dezembro de 2026, quatro dramaturgos do nosso tempo vão partilhar com os leitores peças da sua autoria: João Luís Barreto Guimarães, poeta, tradutor, Prémio Pessoa (2022)",
-      "url": "https://www.agenda-porto.pt/evento/leituras-mosteiro-1711/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Hora de Ponta",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fonoteca Municipal do Porto",
-      "type": "Evento",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "date": "18 Nov",
-      "desc": "Na semana em que decorre o FIATO - Festival Internacional de Artes e Ópera do Porto, a Fonoteca propõe celebrar a Ópera na sua Hora de Ponta. Partindo de grandes clássicos, o público é desafiado a descobrir o que mais distingue este formato musical. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar este espaço, para a escuta conjunta de uma seleção de discos com base num determinado tema.",
-      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-1811/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Há Fado no Mercado",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mercado do Bolhão",
-      "type": "Música",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "date": "18 Nov",
-      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo do fadista Marcelo Soledad. Programação: 20h00 l Peixe no Mercado 21h00 l Nelson dos Leitões - Original da Bairrada",
-      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-1811/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "La Voix humaine, de Poulenc",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Palácio do Bolhão",
-      "type": "Família",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "date": "18 Nov",
-      "desc": "Noutros tempos nós encontrávamo-nos, perdíamos a cabeça, esquecíamos promessas, arriscávamos o impossível, convencíamos aqueles que amamos apertando-os contra o peito. Um olhar podia mudar tudo. Mas com este telefone, o que acabou, acabou. O tema principal da ópera La Voix Humaine é a solidão, a ausência do que é corpóreo e material. A mera presença de uma voz, projectada pelo auricular um telefone, numa troca de pensamentos e emoções, numa espiral de interpretações e leituras, tem as suas inevi",
-      "url": "https://www.agenda-porto.pt/evento/fiato-la-voix-humaine/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Svaneborg Kardyb + Vega Trails",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "date": "18 Nov",
-      "desc": "Svaneborg Kardyb O duo dinamarquês Svaneborg Kardyb, formado por Nikolaj Svaneborg (teclas) e Jonas Kardyb (bateria e percussão), cria composições intrincadas e cíclicas que conjugam uma intimidade calorosa com um subtil sentido de movimento. Um minimalismo jazzístico que oscila entre contemplação e impulso, onde as suaves camadas de Wurlitzer e a percussão precisa ondulam como ecos na superfície de águas calmas. Vencedores de dois Danish Music Awards Jazz 2019 (Artista Revelação do Ano e Compos",
-      "url": "https://www.agenda-porto.pt/evento/svaneborg-kardyb-vega-trails/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Songs of Ascencion Beatriz Moreira, Iris Auguste e Giulia Miceli / Palcos Instáveis - Segunda Casa",
@@ -5860,41 +5976,55 @@
       ]
     },
     {
-      "name": "FIATO em Vinil",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "",
-      "type": "Família",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Antes de ser espetáculo, a ópera é voz, e às vezes basta ouvi-la. No FIATO em Vinil, o público é convidado a sentar-se e a deixar o tempo abrandar enquanto se dá à escuta. Partindo da temática \"Todas as vozes podem mudar o mundo\", vamos percorrer o espólio da Fonoteca Municipal do Porto, para escutar grandes vozes de outros tempos. É uma sessão de escuta partilhada, sem pressas nem regras, para quem cresceu com estes discos e para quem os descobre pela primeira vez. Uma pausa no meio do festival",
-      "url": "https://www.agenda-porto.pt/evento/fiato-em-vinil/",
-      "source": "https://www.agenda-porto.pt/",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "O Problema da Habitação [ESTREIA] Direção de Jorge Louraço Figueira",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "url": "https://www.teatroaveirense.pt/pt/evento/o-problema-da-habitacao/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Teatro",
+      "venue": "Teatro Aveirense",
+      "desc": "",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
-        "experiência especial",
-        "espetáculo familiar"
+        "teatro",
+        "experiência especial"
       ]
     },
     {
-      "name": "Rubel",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
+      "area": "Braga",
+      "city": "Braga",
+      "name": "An Evening with Lambchop",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "url": "https://theatrocirco.com/event/lambchop/",
+      "source": "https://theatrocirco.com/programa/",
       "type": "Música",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Após o sucesso dos seus últimos concertos esgotados em Portugal, Rubel regressa com a digressão BELEZA. Rubel e Violão , num formato especial e intimista. Em palco, apenas voz e violão, como no início da sua carreira, para uma experiência única, próxima e profundamente envolvente com o público português. O espetáculo percorre canções marcantes de toda a discografia do artista, incluindo temas do seu mais recente álbum, Beleza . Mas agora a gente faz o que com isso? , que foi destacado na lista d",
-      "url": "https://www.agenda-porto.pt/evento/coliseu-rubel/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
+      "venue": "Theatro Circo",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
       "quality_reasons": [
-        "música",
-        "experiência especial"
+        "música"
+      ]
+    },
+    {
+      "area": "Braga",
+      "city": "Braga",
+      "name": "Nuvens",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "url": "https://theatrocirco.com/event/nuvens-nov2026/",
+      "source": "https://theatrocirco.com/programa/",
+      "type": "Evento",
+      "venue": "Theatro Circo",
+      "desc": "",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "programação de sala cultural oficial"
       ]
     }
   ]
