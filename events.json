@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "events": [
+    {
+      "name": "50 Anos de Pensamento em Nutrição",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "FCNAUP — Faculdade de Ciências da Nutrição e Alimentação da U.Porto",
+      "type": "Exposição",
+      "start": "2026-06-01",
+      "end": "2026-10-30",
+      "date": "1 Jun – 30 Out",
+      "desc": "Dividida por cinco décadas (1970/2020), a exposição acompanha a evolução das Ciências da Nutrição e Alimentação no nosso país através de 76 obras – um número que faz a ponte com o ano da criação do curso – entre livros pioneiros, artigos científicos e patentes, selecionadas e produzidas por docentes, antigos docentes e diretores da FCNAUP. Entre as obras, destacam-se publicações de médicos fundadores da FCNAUP (como Emílio Peres, Norberto Teixeira Santos ou Gonçalves Ferreira); as atualizações d",
+      "url": "https://www.agenda-porto.pt/evento/exposicao-50-anos-de-pensamento-em-nutricao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
     {
       "name": "Para Voz, de Lydia Ourahmane",
       "area": "Porto",
@@ -511,235 +529,6 @@
       ]
     },
     {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-96",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "Helena Caldeira Novas Quintas",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "url": "https://www.teatroaveirense.pt/pt/evento/helena-caldeira-novas-quintas/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Música",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Bamu Swing & Blues Social Dance",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bamu Zunta Mon",
-      "type": "Dança",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Os Swing & Blues Socials são encontros regulares de dança promovidos pelo Bamu Zunta Mon, no coração do Porto. Ao som do swing e do blues, abrimos a pista a todos os que queiram dançar, conviver e partilhar momentos em comunidade. Não é necessário ter par nem experiência prévia. Basta trazer vontade de dançar!",
-      "url": "https://www.agenda-porto.pt/evento/bamu-swing-andamp-blues-social-dance/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
-      "name": "Baskandal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Embaixada Bar Porto",
-      "type": "Música",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Jam Balkan",
-      "url": "https://www.agenda-porto.pt/evento/baskandal/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Construir o Futuro que Queremos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Ordem dos Arquitectos Secção Regional Norte",
-      "type": "Evento",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Os edifícios de hoje vão enfrentar um clima mais extremo e exigências de desempenho cada vez mais rigorosas. Como responder a isso, em obra nova e em reabilitação? A Ordem dos Arquitetos Secção Regional Norte acolhe, a convite da Associação Passivhaus Portugal, duas conferências com dois nomes de referência internacional da arquitetura sustentável: Lloyd Alter, professor de Design Sustentável na Toronto Metropolitan University e autor de The Story of Upfront Carbon, apresenta “Passive Survivabil",
-      "url": "https://www.agenda-porto.pt/evento/construir-o-futuro-que-queremos/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Entrelaçados: O Poder da Conexão Humana",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "MACS — Multidisciplinary Art and Craft Space",
-      "type": "Exposição",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Entrelaçados – O Poder da Conexão Humana Art Talk com Lía Sabela e Jaqueline Lodi Uma conversa sobre o percurso de Entrelaçados , desde a candidatura à DGARTES, passando pelo processo criativo e pela exposição final, até às experiências vividas ao longo de cinco meses de trabalho com residentes dos Albergues do Porto, em parceria com a Associação Unificar. Através de imagens, histórias e de um diálogo entre Lía e Jaqueline, a conversa irá explorar os desafios, as aprendizagens e os momentos marc",
-      "url": "https://www.agenda-porto.pt/evento/entrelacados-o-poder-da-conexao-humana/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Mannara + Gio Ribeiro + Flavia Olliver",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "MNRA B-day",
-      "url": "https://www.agenda-porto.pt/evento/mnra-b-day/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Pizza Man",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Teatro",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "A cena passa-se no apartamento de Julia, em Oeiras, numa noite quente de Verão. Com Eduardo Madeira, Liliana Santos e Núria Madruga. Encenação de João Didelet.",
-      "url": "https://www.agenda-porto.pt/evento/pizza-man/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Porto Comedy Room",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Pinguim Café",
-      "type": "Teatro",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "O Porto Comedy Room é a noite certa para quem gosta de rir sem pedir licença. Um palco dedicado à comédia ao vivo, onde novos talentos se cruzam com nomes já conhecidos da comédia nacional. Em cada edição, o cartaz muda: estilos diferentes, piadas novas e comédia da boa. É stand-up comedy sem filtros, sem formalidades e com rasgo. Traz os amigos, o date ou vem sozinho — alguém vai rir contigo!",
-      "url": "https://www.agenda-porto.pt/evento/porto-comedy-room-2210/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Queernic Karaoke",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bar of Soap",
-      "type": "Música",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Noite de karaoke",
-      "url": "https://www.agenda-porto.pt/evento/queernic-karaoke/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Quintas de Leitura",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TMP — Campo Alegre",
-      "type": "Teatro",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Um verso do poeta surrealista António José Forte serve de motor a esta sessão que marca o encontro luminoso e improvável entre duas poetas do Porto: Filipa Leal e Francisca Bartilotti. Vozes categóricas e rebeldes, une-as uma visão desconcertante e, por vezes, irónica do quotidiano. O mundo inteiro cabe na poesia das nossas convidadas. Ao sabor da noite, dão palavras ao coração: Filipa Leal, Francisca Bartilotti, Renato Filipe Cardoso, Isaque Ferreira, Constança a. Amador, Inês Pinho, Carlos Rap",
-      "url": "https://www.agenda-porto.pt/evento/quintas-de-leitura-2210/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Tertúlia Folk Jam",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "A Beneficência Familiar",
-      "type": "Dança",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Na quarta tertúlia de cada mês estaremos lá para bailar, como sempre, mas ao som de música tocada ao vivo, em espírito de jam folk aberta a todos os que quiserem participar. Os músicos e tocadores que se juntarem à jam terão entrada livre. Evento de Coreto - Associação para a Promoção de Artes e Culturas Tradicionais TERTÚLIA FOLK • Todas as quintas-feiras (21h30-00h00) • A Beneficência Familiar, Rua Formosa, 349 - 1.º (em frente ao Bolhão, Porto). - 4€ para público geral / 3€ para associados da",
-      "url": "https://www.agenda-porto.pt/evento/tertulia-folk-jam/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
-      "name": "Tickles",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "date": "22 Out",
-      "desc": "Após dois EPs esmagadores, o projeto francês de noise punk TICKLES lança finalmente o seu primeiro assalto em longa-duração. Mantendo a intensidade crua que os tornou conhecidos, o quarteto escavou ainda mais fundo na lama para entregar a sua obra mais obscura e furiosa até à data.",
-      "url": "https://www.agenda-porto.pt/evento/261022-tickles-fr/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "area": "Braga",
       "city": "Braga",
       "name": "Festival Semibreve",
@@ -956,6 +745,24 @@
       ]
     },
     {
+      "name": "Dupplo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar Bar",
+      "type": "Música",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "Dupplo é o alter ego de Pedro Pinto, natural do Porto, mas a viver em Lisboa há mais de uma década. Uma figura de referência na cena eletrónica portuguesa, tem contribuído para o panorama musical através da produção musical e da curadoria de eventos em projetos como Voxels, Twin Turbo e MegaBass. Mas, enquanto Dupplo, tem liberdade para fazer o que lhe apetece. Com mais de 20 anos atrás dos pratos, a explorar house, disco, electro, techno ou o que bem lhe apetecer, o DJing continua a ser a sua f",
+      "url": "https://www.agenda-porto.pt/evento/dupplo-1792679450922/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Festa Mundial da Animação",
       "area": "Porto",
       "city": "Porto",
@@ -1048,22 +855,6 @@
       ]
     },
     {
-      "name": "Jantar e conversa com Basel Adra",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "A Beneficência Familiar",
-      "type": "Evento",
-      "start": "2026-10-23",
-      "end": "2026-10-23",
-      "date": "23 Out",
-      "desc": "Uma noite de partilha, reflexão e diálogo em torno da Palestina, da realidade vivida pelo seu povo e da importância de dar espaço às vozes que testemunham e documentam esta realidade. Contaremos com a presença de Basel Adra, co-realizador do documentário 𝘕𝘰 𝘖𝘵𝘩𝘦𝘳 𝘓𝘢𝘯𝘥. Reservas e pagamento até 20 de outubro. Como reservar: - O pagamento pode ser efetuado por transferência bancária para o seguinte IBAN: PT50 0010 0000 4934 7510 0015 6 - Ou por MBWay para 916 986 951 Após o pagamento, agradecemos",
-      "url": "https://www.agenda-porto.pt/evento/jantar-e-conversa-com-basel-adra/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Masterpiece",
       "area": "Porto",
       "city": "Porto",
@@ -1150,6 +941,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Rike + Ineya & Chichorro Mau",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "date": "23 Out",
+      "desc": "Concerto e DJ set",
+      "url": "https://www.agenda-porto.pt/evento/rike-ineya-andamp-chichorro-mau/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Tempos Brutos, Danças Furiosas",
@@ -1698,6 +1507,24 @@
       ]
     },
     {
+      "name": "Laura Tozzi + Ivo T",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Concerto e DJ set",
+      "url": "https://www.agenda-porto.pt/evento/laura-tozzi-ivo-t/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Linha de Terra, de Luz Henriques",
       "area": "Porto",
       "city": "Porto",
@@ -1784,6 +1611,24 @@
       "quality_reasons": [
         "música",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Mercúrio — Abertura",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercúrio",
+      "type": "Exposição",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "date": "24 Out",
+      "desc": "Mercúrio é um espaço cultural transdisciplinar, gerido por artistas e aberto à cidade, dedicado à experimentação artística e ao encontro de diferentes práticas, saberes e modos de fazer. Para além de constituir o atelier de 12 artistas, conta com um espaço expositivo aberto a um leque alargado de propostas culturais, desde a divulgação de trabalho artístico emergente a iniciativas de caráter social e comunitário, workshops , concertos e outras formas de encontro e participação. Acreditamos na ex",
+      "url": "https://www.agenda-porto.pt/evento/abertura-mercurio/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
       ]
     },
     {
@@ -2300,6 +2145,24 @@
       ]
     },
     {
+      "name": "Jassa + Mota 4475 + Joana L333",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "date": "25 Out",
+      "desc": "Prestige Invictus",
+      "url": "https://www.agenda-porto.pt/evento/jassa-mota-4475-joana-l333/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Kids Holiday Donut",
       "area": "Porto",
       "city": "Porto",
@@ -2623,6 +2486,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Mannara",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "date": "28 Out",
+      "desc": "VJ Akira",
+      "url": "https://www.agenda-porto.pt/evento/mannara/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Mia Morgado",
       "area": "Porto",
       "city": "Porto",
@@ -2942,6 +2823,24 @@
       ]
     },
     {
+      "name": "1000A + ØTNIP + MAQWEEN (Berlin)",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "CARACTER #4 1000A ØTNIP MAQWEEN (Berlin)",
+      "url": "https://www.agenda-porto.pt/evento/caracter-4/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "CarneViva + Este Carro Não Tem 6ª",
       "area": "Porto",
       "city": "Porto",
@@ -2987,6 +2886,22 @@
       "date": "30 Out",
       "desc": "O maior evento de literacia financeira da região está de volta ao Palácio da Bolsa. Na sessão matinal, o Contas Feitas é dirigido às empresas e tem, como tema de fundo, o private equity: as oportunidades e os desafios deste instrumento de capitalização e financiamento serão debatidos, na presença de profissionais e consultoras de referência no setor financeiro. Durante a tarde, as conferências centram-se nas finanças pessoais e numa das matérias de maior atualidade: o impacto da Inteligência Art",
       "url": "https://www.agenda-porto.pt/evento/contas-feitas-2026/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Conversa com Basel Adra",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Associação dos Jornalistas e Homens de Letras do Porto",
+      "type": "Evento",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "A Associação José Afonso recebe Basel Adra, cineasta e jornalista palestiniano, co-realizador de 𝙉𝙤 𝙊𝙩𝙝𝙚𝙧 𝙇𝙖𝙣𝙙, vencedor do Óscar de Melhor Documentário em 2025, para uma conversa sobre o filme e a realidade que retrata. Natural de Masafer Yatta, na Cisjordânia, Basel Adra documentou, entre 2019 e 2023, o deslocamento forçado da população palestiniana da sua comunidade e a destruição das suas habitações. Desse registo nasceu 𝙉𝙤 𝙊𝙩𝙝𝙚𝙧 𝙇𝙖𝙣𝙙 (2024), realizado em conjunto com Yuval Abraham, Hamdan B",
+      "url": "https://www.agenda-porto.pt/evento/conversa-com-basel-adra/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
@@ -3064,6 +2979,42 @@
       "quality_reasons": [
         "música",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Jazz Sessions + The Wallpapers",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "Concerto e DJ set",
+      "url": "https://www.agenda-porto.pt/evento/jazz-sessions-the-wallpapers-1792657367645/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "KHORROREEE!",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "FBAUP — Faculdade de Belas Artes da U.Porto",
+      "type": "Música",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "ATENÇÃO! O HallowQueer está de voltaaaa! Sexta-feira, dia 30 de outubro, a partir das 23h59, os portões da FBAUP darão entrada para uma noite de morrer!! Para começar as travessuras contamos com um concerto de arrepiar dos TRASGO às 00h30! A partir das 02h00 preparem-se para DJ sets de outro mundo para animar a pista das profanações! Um agradecimento à AEFBAUP e ao JUP por fazerem essa festa acontecer connosco.",
+      "url": "https://www.agenda-porto.pt/evento/hallowqueer-1792656846981/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -3455,6 +3406,24 @@
       ]
     },
     {
+      "name": "Morto Vivo Halloween",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Estúdio Morto Vivo",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Venham festejar o Halloween no Estúdio Morto Vivo! Cocktails , mocktails e disfarces (disfarces encorajados, mas não obrigatórios).",
+      "url": "https://www.agenda-porto.pt/evento/morto-vivo-halloween/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Mãos na Terra: Modelagem com Barro",
       "area": "Porto",
       "city": "Porto",
@@ -3489,6 +3458,24 @@
       ]
     },
     {
+      "name": "Northern Lighthouse x Sparks Studio",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Studio Sparks",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Northern Lighthouse é um artista italiano de música eletrónica sediado em Bruxelas que trabalha com sintetizadores modulares e baterias eletrónicas. A sua música combina atmosferas envolventes, ritmos e uma forte intensidade, explorando locais remotos e memórias suspensas. Já realizou digressões pela Europa, América e Ásia. O seu último álbum, Argentiera , explora uma aldeia mineira abandonada na Sardenha através de gravações de campo, sons de inspiração industrial, vozes dos residentes e um liv",
+      "url": "https://www.agenda-porto.pt/evento/northern-lighthouse-x-sparks-studio/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "O que se Esconde no Silêncio",
       "area": "Porto",
       "city": "Porto",
@@ -3505,6 +3492,24 @@
       "quality_reasons": [
         "teatro",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Opalia + Basic + Banks B2B Denial.exe",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Opalia (uk) Basic (20 years of DJing) (Counterpoint) Ramsight Banks B2B Denial.exe (Counterpoint)",
+      "url": "https://www.agenda-porto.pt/evento/opalia-basic-banks-b2b-denialexe/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -3629,6 +3634,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "X-Raydio & Halloween Party",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "DJ set",
+      "url": "https://www.agenda-porto.pt/evento/x-raydio-andamp-halloween-party/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Alceu Valença",
@@ -3981,6 +4004,24 @@
       ]
     },
     {
+      "name": "O que Pode um Museu?",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "date": "5 Nov",
+      "desc": "O que pode um museu? Artistas, curadores e investigadores em diálogo sobre performance e artes vivas em contexto de instituições de arte contemporânea. Com Ana Bigotte Vieira, André e. Teodósio, André Guedes, Paula Parente Pinto e moderação de Rita Castro Neves. Esta mesa-redonda dedicada reúne quatro participantes com percursos ligados à investigação, à criação artística e à curadoria. Ana Bigotte Vieira é investigadora, curadora e dramaturga, com trabalho nas áreas da história e teoria das art",
+      "url": "https://www.agenda-porto.pt/evento/0511-o-que-pode-um-museu/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Penelope Isles + Silentide",
       "area": "Porto",
       "city": "Porto",
@@ -4301,6 +4342,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Display Title",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "No dia 7 de novembro, regressamos ao Era Uma Vez no Porto para uma noite dedicada às sonoridades mais profundas e psicadélicas da música eletrónica. Uma viagem entre twilight, forest e psychedelic, conduzida por três artistas nacionais que partilham a mesma ligação à pista, mas com identidades próprias. ⚡️ KENDOWN - Live Set KENDOWN traz um Live Set de 2h centrado nas sonoridades tão próprias do Twilight. Entre atmosferas densas, texturas orgânicas e ritmos envolventes, prepara-se para conduzir",
+      "url": "https://www.agenda-porto.pt/evento/shadow-groove/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -5683,24 +5742,6 @@
       ]
     },
     {
-      "name": "Tear de Cintura Mexicano",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Saber Fazer",
-      "type": "Exposição",
-      "start": "2026-11-14",
-      "end": "2026-11-15",
-      "date": "14–15 Nov",
-      "desc": "No fim de semana de 14 e 15 de Novembro a Fundação TuYo traz ao Saber Fazer Gabina Valentin López, uma tecedeira Amuzga de Xochistlahuaca, na Costa Chica do México, para divulgar a sua cultura e técnicas de produção artesanal. Durante a tarde de sábado e o dia de domingo, Gabi orientará uma Masterclass de tear de cintura para os que quiserem aprender esta técnica ancestral. Durante a Masterclass ensinará a montar a teia num tear de cintura, a tecer a simbologia Amuzga, aprender os significados d",
-      "url": "https://www.agenda-porto.pt/evento/tear-de-cintura-mexicano/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
       "name": "Texto, com Rui Manuel Amaral",
       "area": "Porto",
       "city": "Porto",
@@ -5856,22 +5897,6 @@
       "quality_reasons": []
     },
     {
-      "name": "BDSM 101",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "The Knoty (W)Hole",
-      "type": "Evento",
-      "start": "2026-11-15",
-      "end": "2026-11-15",
-      "date": "15 Nov",
-      "desc": "Têm curiosidade sobre BDSM? Querem saber o que é, o que não é, os seus pilares, premissas e história? No próximo dia 15 de novembro às 18h, iremos ter uma The Knoty (W)Hole Talk sobre BDSM 101 – Introdução. Nesta talk iremos falar sobre BDSM, o que é, o que significa a sigla, premissas, como o consentimento é a base de tudo e porquê, roles, como começar. Gratuito mas carece de inscrição prévia. Limite de participantes de 30 pessoas. O espaço será para uso exclusivo dos participantes que se regis",
-      "url": "https://www.agenda-porto.pt/evento/bdsm-101-1791446703440/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Iniciação ao Shibari",
       "area": "Porto",
       "city": "Porto",
@@ -5920,24 +5945,6 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "Ocaso",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Macaréu — Associação Cultural",
-      "type": "Música",
-      "start": "2026-11-15",
-      "end": "2026-11-15",
-      "date": "15 Nov",
-      "desc": "Urgência irónica, vigilância furiosa, caos comedido, angústia a ferver na melancolia de um mundo a arder. Colocando em diálogo as canções do seu primeiro trabalho ( Projecto Ocaso , editado em abril de 2026) com imagens e discursos cristalizados, mas iminentemente presentes na espuma dos dias, Ocaso apresenta-nos uma performance de combate, em tempos de colapso. Um projeto de Francisco Figueiredo, Francisco Santos e João Campos, que usa a música como ferramenta para pesquisar sobre a memória vis",
-      "url": "https://www.agenda-porto.pt/evento/ocaso-1791785818623/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
     },
     {
       "name": "Ópera para Bebés!",
