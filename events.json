@@ -1,24 +1,6 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "events": [
-    {
-      "name": "Call of the West, de Victor Torpedo",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa do Infante — Gabinete do Tempo",
-      "type": "Exposição",
-      "start": "2026-05-22",
-      "end": "2026-11-22",
-      "date": "22 Mai – 22 Nov",
-      "desc": "Call of the West é uma história reencontrada. Esta exposição, a realizar-se na Casa do Infante, integra o programa da KISMIF Conference 2026. Trata uma narrativa longínqua de uma viagem, de uma amizade e de um momento irrepetível da cultura underground portuguesa. Estes registos fotográficos – feitos por Victor Torpedo em 1997 (com edição e tratamento de negativos de 35mm por Pedro Medeiros) – narram a primeira viagem dos Tédio Boys aos EUA. Era o augúrio de um mundo que se encontrava (e encontr",
-      "url": "https://www.agenda-porto.pt/evento/call-of-the-west-1779183717356/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
     {
       "name": "50 Anos de Pensamento em Nutrição",
       "area": "Porto",
@@ -567,7 +549,7 @@
       ]
     },
     {
-      "name": "Cartografias Poéticas por Helena Cardos",
+      "name": "Cartografias Poéticas por Helena Cardoso",
       "area": "Porto",
       "city": "Porto",
       "venue": "Casa Comum",
@@ -617,7 +599,7 @@
       "quality_reasons": []
     },
     {
-      "name": "NATIVUS:ENSEMBLE",
+      "name": "NATIVUS:ENSEMBLE - ADIADO",
       "area": "Porto",
       "city": "Porto",
       "venue": "Teatro Helena Sá e Costa",
@@ -681,6 +663,22 @@
       "date": "28 Out",
       "desc": "A Feira dos 28 reúne dezenas de feirantes. Vestuário, calçado, materiais de construção e para a agricultura, utensílios domésticos e produtos ...",
       "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/feira-dos-28",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Mercadinho de Outono",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Desporto",
+      "start": "2026-10-28",
+      "end": "2026-11-01",
+      "date": "28 Out – 1 Nov",
+      "desc": "Atividades Pinturas Faciais Atividades sensoriais Expressão plástica Jogos Arco e teologia Jogo das latas Macaca Corrida de sacos Corrida ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/mercadinho-de-outono",
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
@@ -1177,6 +1175,22 @@
       ]
     },
     {
+      "name": "Catarse — Histórias Reais",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Evento",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "O CATARSE - Histórias Reais do mês de outubro será especial de Halloween, com o tema MEDO. Venham contar uma história sobre medos de infância, da fase adulta, superação, ou aquela história que deu um frio na barriga, mas no final deu tudo certo. Não têm uma história? Então venham prestigiar essa noite arrepiante (muahahaha). O evento tem como objetivo incentivar a partilha de histórias reais, em formato de apresentação em palco, num ambiente seguro e acolhedor. COMO FUNCIONA? 1) Contaremos com u",
+      "url": "https://www.agenda-porto.pt/evento/catarse-3010/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Cerâmica de Halloween",
       "area": "Porto",
       "city": "Porto",
@@ -1319,6 +1333,24 @@
       ]
     },
     {
+      "name": "Kodakino",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Citynizer Plaza",
+      "type": "Música",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "A banda post-punk do Porto vai atuar no STOP Blizzard 26, no Citynizer Plaza.",
+      "url": "https://www.agenda-porto.pt/evento/kodakino-1793006781438/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Porto Comedy Room",
       "area": "Porto",
       "city": "Porto",
@@ -1407,6 +1439,24 @@
       ]
     },
     {
+      "name": "Something Soft, de Britu Tränkler",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "The LAB.yrinth",
+      "type": "Teatro",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "Something Soft é uma reflexão sobre o luto através do movimento — pensar e sentir com o corpo. Inspira-se no livro Flight Ways , de Thom van Dooren, que acompanha cinco espécies de aves à beira da extinção e explora o que significa viver e morrer juntos neste mundo partilhado. Neste solo, o foco recai particularmente nos corvos, cujos comportamentos sociais incluem respostas coletivas à morte. Baseando-se nos textos de Van Dooren, a peça questiona como poderemos aprender a fazer o luto em conjun",
+      "url": "https://www.agenda-porto.pt/evento/something-soft-de-britu-trankler/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Tō Yō",
       "area": "Porto",
       "city": "Porto",
@@ -1451,7 +1501,7 @@
       "start": "2026-10-31",
       "end": "2026-10-31",
       "date": "31 Out",
-      "desc": "No dia 31 de outubro, o programa municipal Aveiro em Movimento reúne Aurora Cunha, tricampeã mundial de corrida em estrada, Jaime Pacheco, antigo ...",
+      "desc": "No dia 31 de outubro, o programa municipal Aveiro em Movimento reúne Aurora Cunha , tricampeã mundial de corrida em estrada, Jaime Pacheco , ...",
       "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/depois-da-meta-e-do-apito-final-longevidade-e-saude-apos-o-alto-rendimento",
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
       "quality_score": 0,
@@ -1658,6 +1708,24 @@
       "date": "31 Out",
       "desc": "Este Halloween, o Look.Sharp Cafe faz 6 anos - e estamos a celebrar levando-te numa viagem através do tempo. Atravessa a linha do tempo e viaja pelas décadas enquanto transformamos o café no parque de diversões de um viajante no tempo. Vem mascarado(a) de alguém (ou algo) de outra era e prepara-te para uma noite de música, disfarces, cocktails e algumas surpresas pelo caminho. Prepara-te para viajar por décadas, eras e talvez até por algumas linhas do tempo que nunca deveriam ter sido descoberta",
       "url": "https://www.agenda-porto.pt/evento/time-travellerand39s-halloween/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Halloween Drag Show",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar of Soap",
+      "type": "Música",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Witch House — 5.º Aniversário",
+      "url": "https://www.agenda-porto.pt/evento/halloween-drag-show/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -1896,6 +1964,22 @@
         "exposição",
         "atividade prática"
       ]
+    },
+    {
+      "name": "Pequenos Jardineiros",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Família",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Entrar na “casa” das plantas — as estufas do Parque, onde o ambiente é cuidadosamente controlado para favorecer o seu crescimento — permite-nos descobrir como funciona este espaço protegido e explorar, de forma prática e interativa, algumas das espécies da Horta e do Jardim das Aromáticas.",
+      "url": "https://www.agenda-porto.pt/evento/3111-oficina-de-familias-or-pequenos-jardineiros/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Pequenos Jardins Secretos #2",
@@ -2249,6 +2333,22 @@
       ]
     },
     {
+      "name": "Dr. Love",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Evento",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "date": "4 Nov",
+      "desc": "Então? Diz lá que fetiche é que te subiu à cabeça desta vez no jantar de Natal da tua empresa ou naquela esquina bem regada na noite da passagem de ano? O que te aflige? Que medos ou bloqueios esperas ver ultrapassados? Sejam quais forem os anjos e/ou demónios que te sussurrem o que o Dr. Love traduz ao microfone, o nosso especialista tem no conselho o elixir da cura que tu precisas. À pala e à pinha. Entrada livre* *reserva de mesa sujeita a serviço de jantar.",
+      "url": "https://www.agenda-porto.pt/evento/261104-dr-love/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Geologist",
       "area": "Porto",
       "city": "Porto",
@@ -2406,6 +2506,24 @@
       ]
     },
     {
+      "name": "Mike Vhiles",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "date": "5 Nov",
+      "desc": "Mike Vhiles versam sobre más decisões acumuladas que rebentam em e com o palco, numa série de erupções sónicas repletas de fuzz e distorção gutural a fazer lembrar uma data de filmes apocalípticos. São de Coimbra mas não ligam ao pedigree da Sofia cidade. Preferem desacatos, quezílias e o apuro de quem vive com o sangue na guelra. Bilhetes",
+      "url": "https://www.agenda-porto.pt/evento/261105-mike-vhiles/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "O que Pode um Museu?",
       "area": "Porto",
       "city": "Porto",
@@ -2440,22 +2558,6 @@
       "quality_reasons": [
         "música"
       ]
-    },
-    {
-      "name": "Pintura em Azulejos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "doBarro",
-      "type": "Família",
-      "start": "2026-11-05",
-      "end": "2026-11-23",
-      "date": "5–23 Nov",
-      "desc": "Nesta oficina, cada participante cria um pequeno mural composto por quatro azulejos. Partimos do desenho das ideias e da sua transferência para os azulejos. Podes trazer referências dos teus passeios pelo Porto, padrões, fachadas ou detalhes que te tenham ficado na memória, e usá-las como ponto de partida para o teu projeto. Ao longo da sessão, podes optar por desenhar diretamente, usar papel vegetal, trabalhar com moldes e stencils ou uma mistura de todos. A oficina é pensada para tornar o proc",
-      "url": "https://www.agenda-porto.pt/evento/db-pintura-em-azulejos-1791898446296/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
     },
     {
       "name": "Poison Ruïn",
@@ -2671,6 +2773,24 @@
       ]
     },
     {
+      "name": "PEAK",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Peak Hyperpop, EDM, Leftfield Bass, IDM, e música eletrónica na sua generalidade, numa noite de clubbing que celebra a cultura hiper-digital, com DJ sets e concertos. Line-up: PHASER (@i_phaser) > DJDJ SENTADA (@rileysentada) > DJFALCONA (@mcfalcona) > LIVE ACT Bilhetes à porta",
+      "url": "https://www.agenda-porto.pt/evento/261106-peak/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Pintura Europeia na Coleção do MNSR",
       "area": "Porto",
       "city": "Porto",
@@ -2736,6 +2856,24 @@
       "date": "6 Nov",
       "desc": "O regresso da banda punk Oi! inglesa á Cidade Invicta!",
       "url": "https://www.agenda-porto.pt/evento/the-chisel-pester-98-axe/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Tom Ribeira",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Tom Ribeira é uma voz de destaque na nova geração de artistas brasileiros, construindo uma carreira que faz a ponte entre tradição e modernidade. Nascido em Botucatu, no interior de São Paulo, Tom bebe profundamente de suas raízes enquanto molda um som contemporâneo que mistura influências brasileiras e latino-americanas com uma composição refinada. Bilhetes",
+      "url": "https://www.agenda-porto.pt/evento/261106-tom-ribeira/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2833,18 +2971,36 @@
       ]
     },
     {
+      "name": "Brasa",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "A Brasa tá de volta e dessa vez vem fervendo. Baile funk de verdade, com muita batida, hit, grave e atitude. Diretamente do Rio de Janeiro, DJ Swag do Complexo chega no Porto em sua Euro Tour, fazendo seu debut na Brasa com suas produções próprias e aquela pressão do funk carioca. De Lisboa, DJ Maribel volta pra sua segunda Brasa, trazendo uma curadoria pesadíssima e um set cheio de personalidade. No comando da pista, DJ Runnan, host e cofundadora da Brasa, botando fogo no baile como só ela sabe",
+      "url": "https://www.agenda-porto.pt/evento/261107-brasa/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Dia Internacional One Health",
       "area": "Porto",
       "city": "Porto",
       "venue": "ICBAS - Instituto de Ciências Biomédicas Abel Salazar",
-      "type": "Evento",
+      "type": "Família",
       "start": "2026-11-07",
       "end": "2026-11-07",
       "date": "7 Nov",
       "desc": "No dia 7 de novembro, o ICBAS – Instituto de Ciências Biomédicas Abel Salazar da Universidade do Porto assinala o Dia Internacional One Health com um evento aberto à sociedade, que convida o público a participar em sessões científicas, debates e oficinas dedicados à interligação entre a saúde humana, animal e do ambiente. A iniciativa terá lugar no Edifício Abel Salazar (entrada pela Rua do Prof. Vicente José de Carvalho) e o programa inclui: 15h | O Futuro da Ciência: Uma Saúde em Ação, sessões",
       "url": "https://www.agenda-porto.pt/evento/dia-internacional-one-health/",
       "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
+      "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
     },
@@ -2971,6 +3127,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Me and Others",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "A Turma",
+      "type": "Exposição",
+      "start": "2026-11-07",
+      "end": "2026-11-15",
+      "date": "7–15 Nov",
+      "desc": "No âmbito do InResidence 2026, selecionámos a artista Polina Borodina (Rússia/Alemanha) para desenvolver, ao longo de dois meses, o projeto \"Five Minutes Younger\". Durante a residência, a artista dedicar-se-á à escrita de uma nova peça de longa duração. \"Five Minutes Younger\" acompanha um homem em busca da irmã, desaparecida enquanto percorria o Caminho de Santiago. Para a encontrar, segue o mesmo percurso entre Portugal e Espanha, atravessando as paisagens que ela conheceu e seguindo os vestígi",
+      "url": "https://www.agenda-porto.pt/evento/workshop-me-and-others/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Nativo",
       "area": "Porto",
       "city": "Porto",
@@ -3040,6 +3214,24 @@
       "quality_reasons": [
         "experiência especial",
         "espetáculo familiar"
+      ]
+    },
+    {
+      "name": "Porto Vinyl Market",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "O Porto Vinyl Market regressa com um banquete de discos, livros e revistas, memorabilia e demais objetos sobre música e cultura musical, com a presença de várias lojas, dealers, labels e melómanos do Porto e arredores.",
+      "url": "https://www.agenda-porto.pt/evento/261107-vinyl-market/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -3433,6 +3625,25 @@
       ]
     },
     {
+      "name": "Cabarex",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Teatro",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "date": "11 Nov",
+      "desc": "Um espetáculo único, como começam os textos promocionais de todos os restantes eventos que não este, que é mesmo único. Os cabarés da Réptil estão de volta ao Maus Hábitos numa residência que, em todas as segundas quartas-feiras do mês, traz o cabaré mais ousado do Porto. Na companhia de uma trupe de artistas de variedades, este espetáculo orientado para um público adulto e de uma curiosidade underground convida os espectadores boémios — e mesmo os puritanos — a uma paródia política e apocalípti",
+      "url": "https://www.agenda-porto.pt/evento/261111-cabarex/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "teatro",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Excepção Fatal, de David Ole",
       "area": "Porto",
       "city": "Porto",
@@ -3571,6 +3782,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Dirty Sound Magnet",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "Com mais de 800 concertos pela Europa, Reino Unido e México, os Dirty Sound Magnet tornaram-se uma das forças mais eletrizantes do rock moderno. Vindos da Suíça, o trio construiu uma reputação pelo seu mundo musical hipnotizante e pelas suas atuações ao vivo intensas e imprevisíveis. Presença de palco hipnótica, carisma de estrela de rock, mestria instrumental, lirismo poético e uma energia implacável — nenhum concerto dos DSM é igual a outro. Bilhetes",
+      "url": "https://www.agenda-porto.pt/evento/261112-dirty-sound-magnet/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Keiyaa",
       "area": "Porto",
       "city": "Porto",
@@ -3653,6 +3882,40 @@
       "url": "https://www.agenda-porto.pt/evento/tmp-nao-somos-cactos/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Baddies",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Festa da Pyrats",
+      "url": "https://www.agenda-porto.pt/evento/261113-baddies/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "BALUARTE",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Vários locais",
+      "type": "Evento",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "date": "13–15 Nov",
+      "desc": "De 13 a 15 de novembro, a arte urbana está em primeiro plano em mais uma edição da BALUARTE. Depois de se ter estreado no Quartel de Monte Pedral, em 2023, e de ter ocupado, em 2024 e 2025, alguns dos espaços comuns do Silo Auto, a Exposição de Arte Urbana do Porto instala-se, este ano, numa zona histórica das Fontainhas. Durante três dias, a Escola Básica do Sol, o Abrigo dos Pequeninos e o Passeio das Fontainhas recebem várias propostas, com intervenções e mostras de trabalhos de vários artist",
+      "url": "https://www.agenda-porto.pt/evento/baluarte-2026/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
     },
@@ -4385,6 +4648,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Screwed",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Já tínhamos saudades, confessamos, Screwed, by SlimCutz, no palco embutido num quarto andar.",
+      "url": "https://www.agenda-porto.pt/evento/261114-screwed/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Sob as Luas de Álamo",
       "area": "Porto",
       "city": "Porto",
@@ -4768,6 +5049,24 @@
       ]
     },
     {
+      "name": "Fado com Miguel Bandeirinha",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Apesar do berço em Lisboa, o Fado tem no \"Porto\" uma palavra magnificamente cravada na sua história e na sua alma, e ninguém melhor do que o \"nosso\" Miguel Bandeirinha para personificar esta relação num serão mensal à boleia da sua voz.",
+      "url": "https://www.agenda-porto.pt/evento/261118-fado/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Hora de Ponta",
       "area": "Porto",
       "city": "Porto",
@@ -4874,6 +5173,24 @@
       ]
     },
     {
+      "name": "Mansion's Cellar",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Após alguns anos a testar as suas ideias no Loco’s Rock, em Douarnenez (Bretanha), e em alguns locais emblemáticos de Rennes, Malo, Louka, Lény, Axel e Thomas formaram naturalmente a sua própria banda sob o nome de Mansion’s Cellar. Este é um projeto de rock psicadélico que combina inspirações das cenas de psych-garage australiana e californiana (Osees, King Gizzard) com influências da world music (Gilles Le Bigot, Altin Gün). A música deles não se limita ao rock; o projeto inclui saxofone e saz",
+      "url": "https://www.agenda-porto.pt/evento/261119-mansionand39s-cellar/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "May B, da companhia Maguy Marin",
       "area": "Porto",
       "city": "Porto",
@@ -4923,24 +5240,6 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
-      ]
-    },
-    {
-      "name": "O Conceito Inútil",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TeCA — Teatro Carlos Alberto",
-      "type": "Teatro",
-      "start": "2026-11-19",
-      "end": "2026-11-22",
-      "date": "19–22 Nov",
-      "desc": "Durante anos, várias dezenas de pessoas em situação de sem-abrigo viveram na parte exterior das saídas de emergência do Teatro São João. Em parceria com a associação cultural Apuro, o TNSJ procurou imaginar, com elas, outras “saídas de emergência”, integrando-as em diferentes projetos artísticos, de modo a evitar a armadilha da guetização. Entretanto, essas pessoas tiveram de procurar abrigo noutros pontos da cidade. “Ficámos então a olhar para as soleiras vazias do teatro, perguntando a nós mes",
-      "url": "https://www.agenda-porto.pt/evento/teca-o-conceito-inutil/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
       ]
     },
     {
@@ -5041,6 +5340,24 @@
       "date": "20 Nov",
       "desc": "Concerto duplo",
       "url": "https://www.agenda-porto.pt/evento/rca-redoma-chek1/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Tropiku",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "A Tropicáustica e a Kebraku unem universos, ritmos, corpos, urgências e espírito crítico para criar a Tropiku: uma celebração onde música, comunidade, dissidência, consciência, luta e pista ocupam o mesmo espaço.",
+      "url": "https://www.agenda-porto.pt/evento/261120-tropiku-tropicaustica-kebraku/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -5200,6 +5517,22 @@
       "quality_reasons": [
         "exposição"
       ]
+    },
+    {
+      "name": "Corpo de Barrar",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Evento",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "A feira que te crava a pele e onde não existem devoluções. Mais uma edição da Corpo de Barrar, uma feira de tatuagens que nasceu em parceria entre a Birra e a Neura Studio onde tatuadores e colectivos poderão mostrar e demonstrar os seus trabalhos pelos corredores do quarto andar. Um encontro onde não só podes tatuar como levar trabalhos físicos, encher a tua galeria lá por casa, ou conhecer uma nova vaga de tatuadores da cidade e arredores, sem deixar de fora os clássicos que toda a gente conhe",
+      "url": "https://www.agenda-porto.pt/evento/261121-corpo-de-barrar/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "David Fonseca",
@@ -5429,6 +5762,24 @@
       ]
     },
     {
+      "name": "Shuggah Lickurs",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Se o Maus Hábitos fossem um conto de fadas normativo, as nossas Shuggah seriam príncipe, princesa, dragão e até o raio do castelo.",
+      "url": "https://www.agenda-porto.pt/evento/261121-shuggah-lickurs/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Sinfonia Órgão",
       "area": "Porto",
       "city": "Porto",
@@ -5495,76 +5846,6 @@
       "quality_reasons": [
         "experiência especial",
         "espetáculo familiar"
-      ]
-    },
-    {
-      "name": "Paisagem",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Parque de Serralves",
-      "type": "Família",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "A oficina convida a uma descoberta ativa das paisagens do parque, a partir da observação direta, da escuta atenta e da interpretação criativa dos espaços. Propõe-se olhar com tempo, registar o que habitualmente passa despercebido e descobrir as múltiplas camadas, naturais, humanas, históricas e sensoriais, que constroem o lugar.",
-      "url": "https://www.agenda-porto.pt/evento/2211-oficina-de-familias-or-paisagem/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Singspiele, de Maguy Marin",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "«A história de cada pessoa faz-se através da sua necessidade ilimitada de ser reconhecida; a amizade designa essa capacidade infinita de reconhecimento. Imaginar que essa necessidade constante seja a do outro, que o outro, tal como nós próprios, esteja à mercê dessa exigência e empenhado em obter resposta, que se devore a si próprio e que fique como um animal se a resposta não vier, é a isso que nos devemos obrigar e é esse o inferno da vida quando lhe falhamos. O caminho do reconhecimento é o i",
-      "url": "https://www.agenda-porto.pt/evento/2211-singspiele/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Solistas da Orquestra Sinfónica",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "O oboé assume o protagonismo em mais um recital do ciclo Café com Nata. O programa abre com uma partitura de Mozart escrita para o maior oboísta da sua época, Friedrich Ramm. Desta vez, o desafio é entregue a Roberto Henriques, que é também solista numa exigente obra de Britten onde se recupera uma forma do século XVI, a fantasia.",
-      "url": "https://www.agenda-porto.pt/evento/cdm-solistas-da-orquestra-sinfonica/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Vincent Peirani",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "Vincent Peirani é um dos acordeonistas mais inovadores da Europa. Compositor e improvisador, o músico francês cruza jazz, música clássica, contemporânea e rock numa linguagem criativa e singular. Galardoado com os Victoires du Jazz em 2014 (“Revelação”) e 2015 (“Artista do Ano”), destacou-se tanto pelos projetos próprios como por colaborações com artistas como Daniel Humair, Michel Portal ou Sanseverino, além do trabalho para cinema. Neste concerto apresenta \"Time Reflections\", o quarto capítulo",
-      "url": "https://www.agenda-porto.pt/evento/cdm-vincent-peirani/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
