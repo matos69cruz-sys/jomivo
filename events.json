@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "events": [
     {
       "name": "50 Anos de Pensamento em Nutrição",
@@ -388,40 +388,6 @@
       ]
     },
     {
-      "name": "A Poesia Adora Andar Descalça",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca de Poesia Eugénio de Andrade",
-      "type": "Evento",
-      "start": "2026-10-07",
-      "end": "2026-10-28",
-      "date": "7–28 Out",
-      "desc": "A Poesia Adora Andar Descalça é um projeto de continuidade, com periodicidade semanal, dedicado à promoção da palavra e da poesia nas suas vertentes escrita, lida e escutada. O Clube encontra o seu fôlego na coleção da Biblioteca de Poesia Eugénio de Andrade, disponibilizando o seu acervo para consulta gratuita e fruição de todos os visitantes. Sob o mote de Eugénio de Andrade, A Poesia Adora Andar Descalça, inicia-se o Clube de Poesia da Biblioteca Poética Eugénio de Andrade. O clube pretende s",
-      "url": "https://www.agenda-porto.pt/evento/clube-de-poesia-a-poesia-adora-andar-descalca-1788257916803/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Balfolk",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Orfeão do Porto",
-      "type": "Dança",
-      "start": "2026-10-07",
-      "end": "2026-10-28",
-      "date": "7–28 Out",
-      "desc": "Gostas de dançar? Já conheces o Balfolk? O Balfolk nasceu nos anos 70 de um movimento revivalista francês, que pretendeu adaptar as suas danças tradicionais para que fossem dançadas e tocadas por toda a gente e não apenas por grupos folclóricos. O movimento foi crescendo, acabando por atravessar as fronteiras francesas. Hoje em dia, as músicas são mais actuais misturando desde o jazz ao contemporâneo, ancorando-se em ritmos e modos musicais tradicionais. O Balfolk encontra-se em diversos países",
-      "url": "https://www.agenda-porto.pt/evento/balfolk-nivel-aberto-out/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
       "name": "Treat or Treat, de KIKA",
       "area": "Porto",
       "city": "Porto",
@@ -494,22 +460,6 @@
       ]
     },
     {
-      "name": "Feira dos 28",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Festas & Cultura",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "A Feira dos 28 reúne dezenas de feirantes. Vestuário, calçado, materiais de construção e para a agricultura, utensílios domésticos e produtos ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/feira-dos-28",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Mercadinho de Outono",
       "area": "Aveiro",
       "city": "Aveiro",
@@ -518,59 +468,9 @@
       "start": "2026-10-28",
       "end": "2026-11-01",
       "date": "28 Out – 1 Nov",
-      "desc": "Atividades Pinturas Faciais Atividades sensoriais Expressão plástica Jogos Arco e teologia Jogo das latas Macaca Corrida de sacos Corrida ...",
+      "desc": "Atividades Pinturas Faciais Atividades sensoriais Expressão plástica Jogos Arco e flecha Jogo das latas Macaca Corrida de sacos Corrida ...",
       "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/mercadinho-de-outono",
       "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "A Lemonade Stand-up Comedy",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "A Fábrica da Picaria",
-      "type": "Teatro",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Comédia stand-up em inglês n'A Fábrica da Picaria! Junta-te a nós no dia 28 de outubro para uma noite de stand-up internacional, piadas novas, opiniões questionáveis e comediantes a tentarem conquistar o público.",
-      "url": "https://www.agenda-porto.pt/evento/a-lemonade-stand-up-comedy-2810/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Antes da Palavra, de Viriato Morais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "FLUP — Faculdade de Letras da U.Porto",
-      "type": "Evento",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Antes da Palavra explora aquilo que acontece antes de comunicarmos: a forma como o corpo responde, para onde dirigimos a atenção e a intenção com que entramos em relação com os outros. Partindo da experiência de Viriato Morais no teatro e na formação, o livro propõe uma reflexão sobre presença, voz e comunicação, especialmente nos momentos em que a pressão põe à prova aquilo que julgávamos saber dizer.",
-      "url": "https://www.agenda-porto.pt/evento/antes-da-palavra-2810/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Encontro de Professores",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Evento",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Despertador é o tema que dá continuidade ao ciclo educativo iniciado em Serralves em 2025 e que nos convida a despertar o olhar, a curiosidade e a vontade de agir sobre o mundo que habitamos. A Fundação de Serralves convida todos os Professores para um encontro de apresentação do Programa Educativo Escolas 2026/2027, pensado para reforçar e renovar a relação entre Serralves, a comunidade escolar e as instituições educativas. Um programa que procura responder aos desafios do presente através de u",
-      "url": "https://www.agenda-porto.pt/evento/2810-encontro-professores/",
-      "source": "https://www.agenda-porto.pt/",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
@@ -591,197 +491,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
-      ]
-    },
-    {
-      "name": "Hora de Ponta",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fonoteca Municipal do Porto",
-      "type": "Evento",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "A Hora de Ponta desta tarde é sobre o Outono. Numa sessão em tons de castanho, a Fonoteca Municipal do Porto propõe explorar interpretações e descrições acerca desta época do ano que para muitos é de melancolia e introspeção. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar este espaço, para a escuta conjunta de uma seleção de discos com base num determinado tema.",
-      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-2810/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Iniciação ao Ukulele",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Cultural Jubilant",
-      "type": "Família",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Queres começar a tocar ukulele? Duas sessões independentes, que podes fazer em separado ou em conjunto: 21/10 → quatro acordes básicos + primeiras músicas 28 /10 → mais acordes + ritmos + músicas completas Não precisas de experiência! Não tens ukulele? Temos alguns disponíveis. Donativo mínimo: 10€ por sessão. Vagas limitadas! Inscrições por mensagem. O workshop realiza-se com um mínimo de três inscrições. Vem aprender, tocar e divertir-te connosco!",
-      "url": "https://www.agenda-porto.pt/evento/iniciacao-ao-ukulele-2810/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Mannara",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "VJ Akira",
-      "url": "https://www.agenda-porto.pt/evento/mannara/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Mercado dos Monstros",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "FBAUP — Faculdade de Belas Artes da U.Porto",
-      "type": "Exposição",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Essa quarta-feira, das 15h às 18h, contamos com a vossa presença nos jardins da Faculdade para mais uma feirinha de artistas! Teremos também dois workshops durante a tarde! (inscrições no link na bio no Instagram @aefbaup) Às 16h00, venham fazer máscaras spooky para o Halloween e para a Acampada do Porto, com Martim Freestyle. Vamos ocupar as ruas de criatividade, humor e resistência, e mostrar ao Porto que os polícias não são os únicos a andar mascarados! Logo a seguir, às 17h30, estão convidad",
-      "url": "https://www.agenda-porto.pt/evento/mercado-dos-monstros/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Mia Morgado",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mercado do Bolhão",
-      "type": "Música",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo da fadista Mia Morgado.",
-      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-2810/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Montes + Alga",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
-      "type": "Música",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Depois de terem atuado na Piscina no passado mês de julho, Arianna Casellas (Melífluo) e Kauê Gindri estreiam-se no Estúdio Zero. Vindos de Caracas e Porto Alegre, respetivamente, encontraram na cidade do Porto um ponto de convergência e o berço para Montes , a dupla que formam juntos desde 2020. No ano seguinte, surgiu a estreia em disco pela mão da Lovers & Lollypops, com Vozes Antenas Fragas , um trabalho dividido em quatro partes contínuas ao longo de uma hora, que vai reproduzindo passagens",
-      "url": "https://www.agenda-porto.pt/evento/montes-alga/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "O Nome da Rosa, de Umberto Eco",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa Comum",
-      "type": "Evento",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Sessão especial do clube de leitura italiano, realizado em colaboração com a Universidade do Porto, dedicada a O Nome da Rosa de Umberto Eco, livro de estreia do escritor e vencedor do Prémio Strega em 1981. Uma oportunidade para regressar a um dos livros mais marcantes da literatura do séc. XX, que ainda hoje irradia um fascínio intemporal, pela qualidade da escrita e pela conjugação de registos e múltiplas camadas, numa fusão de humor, erudição, intriga, filosofia e História. As sessões do clu",
-      "url": "https://www.agenda-porto.pt/evento/bl-o-nome-da-rosa/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Orquestra Sinfónica da ESMAE",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Família",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "A Orquestra Sinfónica da ESMAE, dirigida pelo maestro Jan Wierzba, apresenta a 28 de outubro, às 21h30, na Casa da Música, um programa dedicado a Antonín Dvořák e Piotr Ilitch Tchaikovsky. O programa abre com a sinfonia ‘A Bruxa do Meio Dia’, Op. 108, de Antonín Dvořák, uma obra inspirada num poema de Karel Jaromír Erben e marcada por uma forte dimensão narrativa. A composição integra o ciclo Kytice, em que Dvořák transforma motivos da tradição popular checa em música sinfónica. Segue-se a Sinfo",
-      "url": "https://www.agenda-porto.pt/evento/cdm-orquestra-sinfonica-da-esmae-2810/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Petiscos e Rabiscos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "ACASO atelier criativo",
-      "type": "Exposição",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Uma mesa. Vários petiscos. Algumas provocações. E tu, no meio disto tudo, a escolher por onde começar. O desafio parece simples: escolher. À tua frente vais encontrar um pequeno menu de propostas exploratórias que nasceram no atelier do ACASO. São temas, gestos, matérias e possibilidades que já nos fizeram parar, experimentar, insistir, mudar de direção. Agora voltam à mesa para serem descobertos outra vez — por ti. Não vais fazer tudo. Vais escolher. E escolher, quando se trata de criação, já é",
-      "url": "https://www.agenda-porto.pt/evento/petiscos-e-rabiscos/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "UPTEC NON-STOP",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "UPTEC Asprela I",
-      "type": "Evento",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "No dia 28 de outubro, a UPTEC vai organizar mais uma edição do NON-STOP, um evento em que abrimos as nossas portas e partilhamos com o mundo o que a UPTEC representa! O UPTEC NON-STOP é o momento ideal para descobrir as startups e as ideias de negócio mais inovadoras que estão a surgir do nosso ecossistema – um evento destinado a novos criadores, líderes do setor, investidores, à comunidade científica, aos meios de comunicação social e a todos os curiosos Esta edição terá início com uma visita g",
-      "url": "https://www.agenda-porto.pt/evento/uptec-non-stop/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Viviane",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "date": "28 Out",
-      "desc": "Uma homenagem à voz feminina na música portuguesa – eis a definição genérica de Ela por Elas , novo e oitavo álbum de Viviane, onde a artista luso-francesa, co-fundadora dos saudosos Entre Aspas, revisita canções de bandas célebres originalmente interpretadas por mulheres carismáticas como Natália Casanova (Diva), Anabela Duarte (Mler Ife Dada), Lena d’Água (Salada de Frutas) ou Teresa Salgueiro (Madredeus). Assente numa estética de fado mediterrânico contemporâneo, o disco cruza tradição e rein",
-      "url": "https://www.agenda-porto.pt/evento/cdm-viviane/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -885,6 +594,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "New Biz Talks",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Founders Founders",
+      "type": "Evento",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "date": "29 Out",
+      "desc": "New Biz Talks é um evento noturno de grande valor, liderado por profissionais do setor, concebido para testar ideias, aperfeiçoar projetos e resolver desafios reais. Quer tenha um esboço inicial, um projeto em curso ou um produto já no mercado, traga o seu desafio atual e tire partido da sabedoria coletiva da comunidade de empreendedores do Porto.",
+      "url": "https://www.agenda-porto.pt/evento/new-biz-talks/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "O Meu Primeiro FITEI",
@@ -1134,6 +859,24 @@
       ]
     },
     {
+      "name": "Digging up my way down, de Diana Geiroto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Ocupa",
+      "type": "Exposição",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "Na próxima sexta-feira, dia 30 de outubro, às 18h30 temos visita à exposição Digging up my way down , de Diana Geiroto Apareçam! Esta exposição conta com o apoio da Direção-Geral das Artes, da Escola Superior de Educação do Porto, da Junta de Freguesia do Bonfim e do MIRA Galerias.",
+      "url": "https://www.agenda-porto.pt/evento/digging-up-my-way-down-visita/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Dr Love",
       "area": "Porto",
       "city": "Porto",
@@ -1144,6 +887,24 @@
       "date": "30 Out",
       "desc": "The Matchmaker Party",
       "url": "https://www.agenda-porto.pt/evento/261030-dr-love-the-matchmaker-party/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Focus Sax Quartet",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa Comum",
+      "type": "Música",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "date": "30 Out",
+      "desc": "O Focus Sax Quartet apresenta-se na Casa Comum no dia 30 de outubro de 2026, às 18h30, com um programa que revisita o álbum que gravaram há dois anos, intitulado Limiar. Este quarteto de saxofones – com Gonçalo Baião no soprano, Miguel Maia no alto, Margarida Ferreira no tenor e Miguel Jesus no barítono – dirige-se resolutamente para a divulgação de peças de compositores contemporâneos, tendo-se afirmado como uma das formações camerísticas mais promissoras do panorama musical português.",
+      "url": "https://www.agenda-porto.pt/evento/focus-sax-quartet/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2348,6 +2109,24 @@
       ]
     },
     {
+      "name": "Vozes em Roda",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Yoga sobre o Porto",
+      "type": "Música",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "date": "3 Nov",
+      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
+      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-1793178595924/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Dr. Love",
       "area": "Porto",
       "city": "Porto",
@@ -3268,6 +3047,24 @@
       ]
     },
     {
+      "name": "Saberes que Passam",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bamu Zunta Mon",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "O Laboratório de Choro — Saberes que Passam é uma oficina mensal orientada pelos músicos Chico Bastos e Saulo Giovannini, promovida pelo Clube do Choro — Porto, dedicada à descoberta e ao aprofundamento da linguagem do choro brasileiro. Inspirado na tradição oral desta música, o laboratório privilegia a aprendizagem através da escuta, da observação e da prática coletiva, recuperando a transmissão de saberes de músico para músico. Ao longo das sessões, serão explorados ritmos como o maxixe, a pol",
+      "url": "https://www.agenda-porto.pt/evento/bzm-saberes-que-passam-nov/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "The Fountain, de Ivan Cheng",
       "area": "Porto",
       "city": "Porto",
@@ -4097,6 +3894,24 @@
       ]
     },
     {
+      "name": "José Cid & Septeto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hard Club",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Uma noite lendária com uma das maiores figuras da música portuguesa! No dia 13 de novembro, às 21h00, José Cid sobe ao palco da Sala 01 do Hard Club, acompanhado pelo seu Septeto, para um concerto absolutamente imperdível! Com mais de seis décadas de carreira, José Cid é uma verdadeira lenda viva da música portuguesa. Cantor, compositor e multi-instrumentista, marcou gerações com clássicos intemporais como 20 Anos , Um Grande, Grande Amor , A Cabana Junto à Praia e Ontem, Hoje e Amanhã . Entre o",
+      "url": "https://www.agenda-porto.pt/evento/jose-cid-andamp-septeto/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "miaw",
       "area": "Porto",
       "city": "Porto",
@@ -4392,6 +4207,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Band’Uke — Orquestra de Ukuleles",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bamu Zunta Mon",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "A Band’Uke — Orquestra de Ukuleles está de regresso ao Bamu Zunta Mon para mais um ciclo de encontros musicais, orientados pela música e formadora Patrícia Lestre. Uma orquestra aberta a todas as idades e níveis de experiência, onde o ukulele é o ponto de partida para aprender, experimentar, criar e fazer música em conjunto. Através da escuta, da prática coletiva e da partilha de conhecimentos, cada participante é convidado a descobrir novas possibilidades musicais ao seu próprio ritmo, num ambi",
+      "url": "https://www.agenda-porto.pt/evento/bzm-banduke-orquestra-de-ukuleles-nov/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Benjamim",
@@ -4734,6 +4567,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Recordings on ECM, de Steve Reich",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Quarto Mundo",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Para comemorar o seu 90.º aniversário, celebrado em outubro passado, o Music on Music tem o prazer de apresentar uma sessão de audição da caixa recém-lançada de Steve Reich, “Recordings on ECM” (produzido inteiramente em analógico a partir das fitas magnéticas originais), em parceria com a ECM, o Quarto Mundo, a 8mm Records e a Distrijazz. O evento terá lugar no Quarto Mundo/Lugar Comum (Rua de Santa Catarina, 771, Porto, Portugal) no dia 14 de novembro de 2026, às 20h00, tirando partido do sist",
+      "url": "https://www.agenda-porto.pt/evento/recordings-on-ecm/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Screwed",
@@ -5726,6 +5577,25 @@
       ]
     },
     {
+      "name": "Iniciação à Pintura com Textura",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "ACASO atelier criativo",
+      "type": "Exposição",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Neste workshop presencial vamos aprender as bases da pintura com textura: dos materiais às técnicas, sairá do workshop com duas telas feitas por si. Mesmo que nunca tenha pegado num pincel!",
+      "url": "https://www.agenda-porto.pt/evento/iniciacao-a-pintura-com-textura/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "exposição",
+        "atividade prática"
+      ]
+    },
+    {
       "name": "Jasmin",
       "area": "Porto",
       "city": "Porto",
@@ -5778,25 +5648,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
-      ]
-    },
-    {
-      "name": "Phil Kay",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maria Pistolas",
-      "type": "Teatro",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "date": "21 Nov",
-      "desc": "Mais uma aventura cómica antes do fim do ano! Porto, está na hora de nos tornarmos um pouco excêntricos. Preparem-se para uma viagem alucinante de histórias loucas, comédia física e loucura espontânea no Maria Pistolas! Para a nossa última digressão do ano, trazemos-vos um verdadeiro original da comédia: Phil Kay, o lendário contador de histórias escocês, mestre da alegria improvisada e um dos artistas mais gloriosamente imprevisíveis do circuito da comédia. Descrito pelo The Scotsman como «imba",
-      "url": "https://www.agenda-porto.pt/evento/phil-kay/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "teatro",
-        "experiência especial"
       ]
     },
     {
@@ -5981,6 +5832,57 @@
       "source": "https://www.teatroaveirense.pt/pt/programacao/",
       "type": "Música",
       "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Carolina Deslandes Voz, Guitarra & Violoncelo",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "url": "https://www.teatroaveirense.pt/pt/evento/carolina-deslandes/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Música",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "area": "Braga",
+      "city": "Braga",
+      "name": "Contraponto: Caterina Barbieri & Éliane Radigue",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "url": "https://theatrocirco.com/event/contraponto-caterina-barbieri-eliane-radigue/",
+      "source": "https://theatrocirco.com/programa/",
+      "type": "Música",
+      "venue": "Theatro Circo",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "area": "Braga",
+      "city": "Braga",
+      "name": "Oru Kami",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "url": "https://theatrocirco.com/event/oru-kami-garibambi-nov2026/",
+      "source": "https://theatrocirco.com/programa/",
+      "type": "Música",
+      "venue": "Theatro Circo",
       "desc": "",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
