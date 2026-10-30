@@ -1,24 +1,6 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "events": [
-    {
-      "name": "50 Anos de Pensamento em Nutrição",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "FCNAUP — Faculdade de Ciências da Nutrição e Alimentação da U.Porto",
-      "type": "Exposição",
-      "start": "2026-06-01",
-      "end": "2026-10-30",
-      "date": "1 Jun – 30 Out",
-      "desc": "Dividida por cinco décadas (1970/2020), a exposição acompanha a evolução das Ciências da Nutrição e Alimentação no nosso país através de 76 obras – um número que faz a ponte com o ano da criação do curso – entre livros pioneiros, artigos científicos e patentes, selecionadas e produzidas por docentes, antigos docentes e diretores da FCNAUP. Entre as obras, destacam-se publicações de médicos fundadores da FCNAUP (como Emílio Peres, Norberto Teixeira Santos ou Gonçalves Ferreira); as atualizações d",
-      "url": "https://www.agenda-porto.pt/evento/exposicao-50-anos-de-pensamento-em-nutricao/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
     {
       "name": "Brasil Moderno: Uma Nova Perspectiva",
       "area": "Porto",
@@ -70,24 +52,6 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "Performative TV",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Exposição",
-      "start": "2026-09-04",
-      "end": "2026-10-29",
-      "date": "4 Set – 29 Out",
-      "desc": "O projecto “Performative TV”, de Beatriz Albuquerque, teve início em 2014, em Nova Iorque, e explora as margens entre performance, media, corpo e género em ambientes televisivos construídos. Conceptualmente, a obra inspira-se nas experiências televisivas de Andy Warhol e no legado da Pop Art, particularmente na sua relação com a cultura de massas, a celebridade e a repetição. Nesta série em desenvolvimento, Beatriz Albuquerque realiza breves performances em cenários de televisão, transformando e",
-      "url": "https://www.agenda-porto.pt/evento/260904-performative-tv-1788370084676/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
     },
     {
       "name": "Sobretudo, de Nuno Félix da Costa",
@@ -304,22 +268,6 @@
       "quality_reasons": []
     },
     {
-      "name": "Mercado do Sol",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Praça de Gomes Teixeira",
-      "type": "Evento",
-      "start": "2026-10-01",
-      "end": "2026-10-29",
-      "date": "1–29 Out",
-      "desc": "O Mercado do Sol é um mercado urbano de carácter temático e destina-se à venda de objetos artesanais e semi-industriais, os quais poderão ter caraterísticas tradicionais ou contemporâneas. Decorre na Praça Parada Leitão, designação que já correspondeu à atual Praça Gomes Teixeira, que o Porto conhece também como Praça dos Leões- é também aqui que se situa o famoso “Café Piolho”, oficialmente Café Âncora D’Ouro.",
-      "url": "https://www.agenda-porto.pt/evento/mercado-do-sol-out26/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "A(r)riscar, com Luísa Jorge",
       "area": "Porto",
       "city": "Porto",
@@ -494,54 +442,6 @@
       ]
     },
     {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-89",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "A Língua Descalça — Poesia para Comer",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca de Poesia Eugénio de Andrade",
-      "type": "Evento",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "Quinzenalmente, a Biblioteca Poética Eugénio de Andrade recebe Gabriela Relvas e Renato Filipe Cardoso para sessões de podcast gravadas ao vivo, num ambiente próximo e descontraído. Entre conversas sobre temas atuais, sugestões literárias e culturais da cidade e momentos de leituras poéticas, cada encontro convida o público a ouvir, descobrir e participar. Uma experiência que cruza palavra dita e partilhada – ao vivo e sem filtros. Um convite para desfrutar a poesia com proximidade! Cada episódi",
-      "url": "https://www.agenda-porto.pt/evento/podcast-a-lingua-descalca-poesia-para-comer/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "A Mudar (a Imagem de) uma Cidade",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Evento",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "Nuno Artur Silva à conversa com Guta Moura Guedes (Experimenta), Carlos Martins (indústrias criativas), João Paulo Velez (Diretor de comunicação da Expo 98) e Jorge Sobrado (Vereador da Cultura do Porto) sobre como se muda a imagem de uma cidade, elevando o seu posicionamento. As ideias de quem pensa e trabalha cultura, comunicação e indústrias criativas e seus olhares cruzados sobre o Porto, 25 anos depois da Capital Europeia da Cultura.",
-      "url": "https://www.agenda-porto.pt/evento/a-mudar-a-imagem-de-uma-cidade-1793095308856/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Atlas, mapeamento poético",
       "area": "Porto",
       "city": "Porto",
@@ -560,58 +460,6 @@
       ]
     },
     {
-      "name": "Heavy Ocean + Awaiting The Vulture",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "Os Awaiting The Vultures são uma banda de Évora que explora territórios entre o post-rock e o post-metal, combinando peso, dinâmica e atmosferas densas e imersivas. Ao longo do seu percurso, a banda tem vindo a construir uma identidade muito própria, onde a música se cruza com uma forte componente visual, através da luz e da imagem. Depois de vários lançamentos e de mais de uma década de atividade, os Awaiting The Vultures apresentam-se agora numa nova fase, com uma formação renovada e a integra",
-      "url": "https://www.agenda-porto.pt/evento/261029-aspirina-heavy-ocean-awaiting-the-vulture/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Kialtera",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "KIALTERA é uma banda proveniente de Vila Nova de Famalicão, criada em 2024. Tem como referência diversos projetos e tendências, sobretudo do cenário Indie Rock/Rock Alternativo dos anos 2000, sendo, porém, muito independente dos mesmos. Em terra de Camões são o olho direito, em terra de Amália são os Beatles. São o que fazia falta na dieta sonora portuguesa. O primeiro EP da banda, que estará disponível brevemente, comprime em 5 faixas todas as facetas e dramas de um relacionamento, servindo-se",
-      "url": "https://www.agenda-porto.pt/evento/kialtera/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "New Biz Talks",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Founders Founders",
-      "type": "Evento",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "New Biz Talks é um evento noturno de grande valor, liderado por profissionais do setor, concebido para testar ideias, aperfeiçoar projetos e resolver desafios reais. Quer tenha um esboço inicial, um projeto em curso ou um produto já no mercado, traga o seu desafio atual e tire partido da sabedoria coletiva da comunidade de empreendedores do Porto.",
-      "url": "https://www.agenda-porto.pt/evento/new-biz-talks/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "O Meu Primeiro FITEI",
       "area": "Porto",
       "city": "Porto",
@@ -628,79 +476,6 @@
       "quality_reasons": [
         "experiência especial",
         "espetáculo familiar"
-      ]
-    },
-    {
-      "name": "Porto Comedy Room",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Pinguim Café",
-      "type": "Teatro",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "O Porto Comedy Room é a noite certa para quem gosta de rir sem pedir licença. Um palco dedicado à comédia ao vivo, onde novos talentos se cruzam com nomes já conhecidos da comédia nacional. Em cada edição, o cartaz muda: estilos diferentes, piadas novas e comédia da boa. É stand-up comedy sem filtros, sem formalidades e com rasgo. Traz os amigos, o date ou vem sozinho — alguém vai rir contigo!",
-      "url": "https://www.agenda-porto.pt/evento/porto-comedy-room-2910/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Rigoletto, de Giuseppe Verdi",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Música",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "O Coliseu estreia uma nova produção de Rigoletto , um dos mais poderosos dramas do repertório operático. Obra-prima de Giuseppe Verdi, Rigoletto guia-nos por um mundo de poder, sedução e vingança. Na corte dissoluta do Duque de Mântua, o bufão ri, insulta e humilha por ofício. Mas por detrás da máscara do escárnio vive um pai que ama a filha Gilda com uma ternura quase desesperada, escondendo-a do mundo como quem guarda o último tesouro num palácio de vícios. É precisamente esse amor cego, posse",
-      "url": "https://www.agenda-porto.pt/evento/rigoletto/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Tertúlia Folk 5.ª Quinta",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "A Beneficência Familiar",
-      "type": "Música",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "A Coreto volta a dar carta branca a João Valente para nos surpreender nesta tertúlia especial de Halloween. Traz a tua roupa mais assustadora, se te apetecer! Jam session (ao final da noite) para os músicos que se quiserem juntar a nós. Evento de Coreto - Associação para a Promoção de Artes e Culturas Tradicionais TERTÚLIA FOLK • Todas as quintas-feiras (21h30-00h00) • A Beneficência Familiar, Rua Formosa, 349 - 1.º (em frente ao Bolhão, Porto). - 4€ para público geral / 3€ para associados da Co",
-      "url": "https://www.agenda-porto.pt/evento/tertulia-folk-halloween/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Trivial",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Look Sharp Café",
-      "type": "Música",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "date": "29 Out",
-      "desc": "Junta-te a nós para uma noite de quiz divertida e arrepiante! As perguntas, a apresentação e toda a dinâmica do quiz serão em inglês. Uma noite de quiz em equipa, divertida e cheia de energia, apresentada pelo deliciosamente caótico Darren - onde conhecimentos gerais (e não tão gerais) se encontram com novas ligações e muita diversão. Como funciona? As equipas de 3–4 pessoas são formadas aleatoriamente na noite do evento, para incentivar novas ligações e evitar equipas previamente combinadas. Pr",
-      "url": "https://www.agenda-porto.pt/evento/trivial-look-sharp-1790069431905/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -1318,6 +1093,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Bone Foam, de Maria Oliveira",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Térmita",
+      "type": "Exposição",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Apresentação e lançamento do livro editado pela XYZ, pela autora Maria Oliveira, em conversa com Eduarda Neves. “There is a pagan and earthly dimension that hovers over all things and cannot be ignored. The earth is touched by the whole body. By invoking my ancestry, familial, physical, spiritual - the place from where we start - I […]",
+      "url": "https://www.agenda-porto.pt/evento/bone-foam/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Cabaret: New Xperience",
       "area": "Porto",
       "city": "Porto",
@@ -1366,6 +1159,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Conversa com Paulo Rangel",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "Vexation of Spirit. The Duerckheim Collection x Serralves [Aflição de espírito. A Coleção Duerckheim x Serralves] é o título da exposição dedicada à primeira apresentação em Serralves da coleção de arte contemporânea formada pelo colecionador Conde Duerckheim e recentemente depositada na Fundação. Reunida ao longo de quatro décadas, esta coleção inclui obras de alguns dos artistas mais importantes do final do século XX e do início do século XXI. Considerada uma das coleções privadas mais signifi",
+      "url": "https://www.agenda-porto.pt/evento/3110-conversa-com-paulo-rangel/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
     },
     {
       "name": "Dentro da Pele, de Ana Si",
@@ -2765,6 +2576,22 @@
       ]
     },
     {
+      "name": "Contos no Jardim do Marquês",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Popular de Pedro Ivo",
+      "type": "Família",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Histórias para ouvir, mãos para criar. Os pequenos leitores são os nossos melhores ouvintes. Sabem como ninguém desarrumar as ideias, fazer perguntas sem resposta e soltar os bichos-carpinteiros pelas salas de leitura. No final, das suas mãos, saem histórias sem fim. No alto de um velho carvalho vive a Lia, uma pequeníssima menina folhinha que adora brincar com os seus amigos da floresta. Mas o frio chega e a árvore começa a ficar em silêncio. A estação está a mudar… e a Lia não está preparada.",
+      "url": "https://www.agenda-porto.pt/evento/contos-no-jardim-do-marques-1793196750388/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Dia Internacional One Health",
       "area": "Porto",
       "city": "Porto",
@@ -3230,7 +3057,7 @@
       "name": "Bruno Pernadas",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Local a anunciar",
+      "venue": "Auditório da Escola Secundária Garcia de Orta",
       "type": "Música",
       "start": "2026-11-08",
       "end": "2026-11-08",
@@ -3577,6 +3404,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Quando Menos Se Espera",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teatro Sá da Bandeira",
+      "type": "Teatro",
+      "start": "2026-11-11",
+      "end": "2026-11-22",
+      "date": "11–22 Nov",
+      "desc": "Quando menos se espera… tudo pode acontecer! Este é o ponto de partida para uma das maiores comédias dos próximos tempos! Adalberto Mascarenhas, dono de um grande escritório de contabilidade, às voltas com o casamento da filha e os gastos excessivos da sua mulher, vê a sua vida de pernas quando se prepara para ministrar uma importante palestra. Ele só precisa de sossego, mas o dia escolhido é precisamente aquele em que tudo desmorona: a filha recusa-se a casar. A vizinha, sensual e extravagante,",
+      "url": "https://www.agenda-porto.pt/evento/tsb-quando-menos-se-espera/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
       ]
     },
     {
@@ -4537,6 +4382,25 @@
       ]
     },
     {
+      "name": "Pensando a Imagem, Olhando o Texto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Exposição",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Partindo da interpretação e análise de obras que rompem com a linearidade textual, convidam-se os participantes a criar texto-imagem com gramáticas visuais e espaciais próprias: anagramas, caligramas, tipogramas; diagramas; constelações. Nesta oficina, Estela Rodrigues pretende promover um momento de fruição e experimentação poética inspirada em autores de poesia visual e concreta, como Ana Hatherly, Ernesto Melo e Castro e Salette Tavares, com recurso a diferentes técnicas que expressam a disso",
+      "url": "https://www.agenda-porto.pt/evento/oficina-de-poesia-visual-pensando-a-imagem-olhando-o-texto/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "exposição",
+        "atividade prática"
+      ]
+    },
+    {
       "name": "Rabiscar o Porto",
       "area": "Porto",
       "city": "Porto",
@@ -4938,13 +4802,13 @@
       "name": "Ópera para Bebés!",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Espaço QC",
+      "venue": "Clube Fenianos Portuenses",
       "type": "Família",
       "start": "2026-11-15",
       "end": "2026-11-15",
       "date": "15 Nov",
       "desc": "Com quantas camadas se constrói uma voz? E é feita de quê? Com que material revestimos as paredes da nossa fala, do nosso som? Pode a ausência de voz dizer mais do que muitas palavras? Neste espetáculo para famílias iremos tentar perceber tudo isto, observar a voz nas suas várias dimensões e descobrir se esta é só som ou se pode carregar histórias, dor, alegria, autoridade, doçura ou até memórias. Ouvimos também dizer que a voz pode ser a nossa profissão, o nosso dom, será verdade? De canção em",
-      "url": "https://www.agenda-porto.pt/evento/fiato-opera-para-bebes-espaco-qc/",
+      "url": "https://www.agenda-porto.pt/evento/fiato-opera-para-bebes-1511/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 5,
       "quality_level": "PREMIUM",
@@ -5200,6 +5064,24 @@
       ]
     },
     {
+      "name": "O Conceito Inútil",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TeCA — Teatro Carlos Alberto",
+      "type": "Teatro",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "date": "19–22 Nov",
+      "desc": "Durante anos, várias dezenas de pessoas em situação de sem-abrigo viveram na parte exterior das saídas de emergência do Teatro São João. Em parceria com a associação cultural Apuro, o TNSJ procurou imaginar, com elas, outras “saídas de emergência”, integrando-as em diferentes projetos artísticos, de modo a evitar a armadilha da guetização. Entretanto, essas pessoas tiveram de procurar abrigo noutros pontos da cidade. “Ficámos então a olhar para as soleiras vazias do teatro, perguntando a nós mes",
+      "url": "https://www.agenda-porto.pt/evento/teca-o-conceito-inutil/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Rubel",
       "area": "Porto",
       "city": "Porto",
@@ -5281,6 +5163,22 @@
       "date": "20 Nov",
       "desc": "O roteiro literário «O Rasto da Maresia» convida a caminhar pelos cenários que inspiraram alguns dos maiores vultos da literatura portuguesa, transformando as ruas, os jardins e os faróis da Foz numa biblioteca a céu aberto. Ao ritmo dos passos e da leitura de excertos no local exato da sua criação — da envolvência romântica do Jardim do Passeio Alegre à imponência atlântica da Pérgola, não esquecendo a Cantareira—, o participante é desafiado a ler a paisagem e a escutar o eco das vozes que, par",
       "url": "https://www.agenda-porto.pt/evento/bibliotecas-do-porto-percursos-literarios-o-rasto-da-maresia-20nov/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Olhar Atento — Fotografia de Rua",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "FUJIFILM House of Photography",
+      "type": "Evento",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "No dia 20 de novembro, entre as 19h00 e as 20h30, a FUJIFILM House of Photography recebe Olhar Atento — Uma Talk sobre Fotografia de Rua . A conversa reúne Luís Filipe Catarino, Arlindo Camacho e Clara Azevedo, com moderação de Sara Dias Oliveira, para uma reflexão sobre a fotografia de rua, a observação do quotidiano e a capacidade de encontrar histórias e imagens nos espaços que habitamos. A sessão convida a olhar para a cidade com maior atenção, reconhecendo o potencial fotográfico dos moment",
+      "url": "https://www.agenda-porto.pt/evento/fujifilm-olhar-atento/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
@@ -5651,6 +5549,25 @@
       ]
     },
     {
+      "name": "Phil Kay",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maria Pistolas",
+      "type": "Teatro",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Mais uma aventura cómica antes do fim do ano! Porto, está na hora de nos tornarmos um pouco excêntricos. Preparem-se para uma viagem alucinante de histórias loucas, comédia física e loucura espontânea no Maria Pistolas! Para a nossa última digressão do ano, trazemos-vos um verdadeiro original da comédia: Phil Kay, o lendário contador de histórias escocês, mestre da alegria improvisada e um dos artistas mais gloriosamente imprevisíveis do circuito da comédia. Descrito pelo The Scotsman como «imba",
+      "url": "https://www.agenda-porto.pt/evento/phil-kay/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "teatro",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Psicanálise em Tempos Disfóricos",
       "area": "Porto",
       "city": "Porto",
@@ -5796,13 +5713,47 @@
       "end": "2026-11-21",
       "date": "21 Nov",
       "desc": "Com quantas camadas se constrói uma voz? E é feita de quê? Com que material revestimos as paredes da nossa fala, do nosso som? Pode a ausência de voz dizer mais do que muitas palavras? Neste espetáculo para famílias iremos tentar perceber tudo isto, observar a voz nas suas várias dimensões e descobrir se esta é só som ou se pode carregar histórias, dor, alegria, autoridade, doçura ou até memórias. Ouvimos também dizer que a voz pode ser a nossa profissão, o nosso dom, será verdade? De canção em",
-      "url": "https://www.agenda-porto.pt/evento/fiato-opera-para-bebes-fenianos/",
+      "url": "https://www.agenda-porto.pt/evento/fiato-opera-para-bebes-2111/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 5,
       "quality_level": "PREMIUM",
       "quality_reasons": [
         "experiência especial",
         "espetáculo familiar"
+      ]
+    },
+    {
+      "name": "Paisagem",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Parque de Serralves",
+      "type": "Família",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "A oficina convida a uma descoberta ativa das paisagens do parque, a partir da observação direta, da escuta atenta e da interpretação criativa dos espaços. Propõe-se olhar com tempo, registar o que habitualmente passa despercebido e descobrir as múltiplas camadas, naturais, humanas, históricas e sensoriais, que constroem o lugar.",
+      "url": "https://www.agenda-porto.pt/evento/2211-oficina-de-familias-or-paisagem/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Solistas da Orquestra Sinfónica",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "O oboé assume o protagonismo em mais um recital do ciclo Café com Nata. O programa abre com uma partitura de Mozart escrita para o maior oboísta da sua época, Friedrich Ramm. Desta vez, o desafio é entregue a Roberto Henriques, que é também solista numa exigente obra de Britten onde se recupera uma forma do século XVI, a fantasia.",
+      "url": "https://www.agenda-porto.pt/evento/cdm-solistas-da-orquestra-sinfonica/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
