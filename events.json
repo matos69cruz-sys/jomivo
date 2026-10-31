@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "events": [
+    {
+      "name": "Call of the West, de Victor Torpedo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa do Infante — Gabinete do Tempo",
+      "type": "Exposição",
+      "start": "2026-05-22",
+      "end": "2026-11-22",
+      "date": "22 Mai – 22 Nov",
+      "desc": "Call of the West é uma história reencontrada. Esta exposição, a realizar-se na Casa do Infante, integra o programa da KISMIF Conference 2026. Trata uma narrativa longínqua de uma viagem, de uma amizade e de um momento irrepetível da cultura underground portuguesa. Estes registos fotográficos – feitos por Victor Torpedo em 1997 (com edição e tratamento de negativos de 35mm por Pedro Medeiros) – narram a primeira viagem dos Tédio Boys aos EUA. Era o augúrio de um mundo que se encontrava (e encontr",
+      "url": "https://www.agenda-porto.pt/evento/call-of-the-west-1779183717356/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
     {
       "name": "Brasil Moderno: Uma Nova Perspectiva",
       "area": "Porto",
@@ -180,24 +198,6 @@
       ]
     },
     {
-      "name": "Off The Wall, de Kilos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Cooperativa de Lordelo do Ouro",
-      "type": "Exposição",
-      "start": "2026-09-19",
-      "end": "2026-10-30",
-      "date": "19 Set – 30 Out",
-      "desc": "Kilos nasceu em 1998, no Porto. Interessado por lettering desde cedo, descobriu o graffiti na adolescência e, em 2015, levou os seus esboços do papel para os muros da cidade. O seu trabalho combina precisão técnica e crítica contemporânea, explorando temas como o abuso de poder e o racismo, cruzados com referências do graffiti e do hip-hop. Através de um estilo realista, marcado pela sátira e irreverência, Kilos confronta verdades incómodas com humor e provocação.",
-      "url": "https://www.agenda-porto.pt/evento/off-the-wall-de-kilos/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
       "name": "Sublimis, de Fiumani",
       "area": "Porto",
       "city": "Porto",
@@ -226,24 +226,6 @@
       "date": "19 Set – 7 Nov",
       "desc": "No grego antigo não existia uma palavra única que correspondesse ao conceito moderno de \"azul\". Existiam, sim, termos para tonalidades específicas — como kýanos (azul-escuro e profundo) ou glaukós (azul-claro, acinzentado ou esverdeado) —, mas estes descritores captavam a cor menos como uma categoria cromática abstrata e mais como uma experiência percetiva, moldada pela variação da luz e da textura. Em vez de nomear tonalidades fixas, a língua recorria a um conjunto de termos que exprimiam quali",
       "url": "https://www.agenda-porto.pt/evento/wine-dark-sea/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Digging up my way down, de Diana Geiroto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Ocupa",
-      "type": "Exposição",
-      "start": "2026-09-26",
-      "end": "2026-10-30",
-      "date": "26 Set – 30 Out",
-      "desc": "No isolamento à porta fechada, o corpo móbil transpira anseios claustrofóbicos de evasão, que nem sempre consegue materializar. Os pensamentos minam, como infestações, esses caminhos: fobias reacendem, elefantes crescem para lá da escala do lugar, vultos inexistentes emanam em neblinas, como formas outras de congelamento. Há algo que não bate certo, de ridículo até, nesta desproporção. O conflito interno entre sucumbir ao medo e manter a presença de espírito, na dúvida latente entre o perigo e o",
-      "url": "https://www.agenda-porto.pt/evento/digging-up-my-way-down/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -408,6 +390,24 @@
       ]
     },
     {
+      "name": "Caligrafia Rotunda e Iluminura",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Exposição",
+      "start": "2026-10-27",
+      "end": "2026-11-24",
+      "date": "27 Out – 24 Nov",
+      "desc": "A Gótica Rotunda é uma das mais marcantes escritas da tradição caligráfica portuguesa. De formas arredondadas e elegantes, teve particular importância em Portugal, sendo utilizada em documentos régios e de chancelaria, manuscritos religiosos e outros documentos solenes. É também no contexto da reforma manuelina que encontramos esta escrita em documentos como o Foral da Cidade do Porto. Ao longo de cinco sessões, vamos descobrir e praticar a Gótica Rotunda, explorando a construção das letras minú",
+      "url": "https://www.agenda-porto.pt/evento/oficinas-de-caligrafia-rotunda-e-iluminura/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Mercadinho de Outono",
       "area": "Aveiro",
       "city": "Aveiro",
@@ -442,24 +442,6 @@
       ]
     },
     {
-      "name": "Atlas, mapeamento poético",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TMP — Campo Alegre",
-      "type": "Dança",
-      "start": "2026-10-29",
-      "end": "2026-10-30",
-      "date": "29–30 Out",
-      "desc": "Atlas, mapeamento poético desenha-se como um projeto coreográfico, partindo do texto poético, configurado como denúncia, manifesto, arma, desejo de sobrevivência ou confronto. Com origem num mapeamento da poesia do mundo enquanto manifesto simultaneamente humano e humanista, Atlas, mapeamento poético propõe o encontro entre a vivência da imigração em Portugal e o universo poético de diferentes lugares do mundo. A nossa coexistência com a imigração em Portugal, num espaço de proximidade geográfic",
-      "url": "https://www.agenda-porto.pt/evento/tmp-atlas-mapeamento-poetico/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
       "name": "O Meu Primeiro FITEI",
       "area": "Porto",
       "city": "Porto",
@@ -476,486 +458,6 @@
       "quality_reasons": [
         "experiência especial",
         "espetáculo familiar"
-      ]
-    },
-    {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "Woyzeck a partir de Georg Büchner",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "url": "https://www.teatroaveirense.pt/pt/evento/woyzeck/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Teatro",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "area": "Braga",
-      "city": "Braga",
-      "name": "Absoluto",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "url": "https://theatrocirco.com/event/absoluto-mariana-leite-soares/",
-      "source": "https://theatrocirco.com/programa/",
-      "type": "Evento",
-      "venue": "Theatro Circo",
-      "desc": "",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "programação de sala cultural oficial"
-      ]
-    },
-    {
-      "name": "Absoluto Mariana Leite Soares",
-      "area": "Braga",
-      "city": "Braga",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "ABSOLUTO, de Mariana Leite Soares, explora o ouvido absoluto e desafia as normas da música clássica através da escuta e da técnica.",
-      "url": "https://visitbraga.travel/event/1248-absoluto-mariana-leite-soares",
-      "source": "https://visitbraga.travel/agenda-braga/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "1000A + ØTNIP + MAQWEEN (Berlin)",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "CARACTER #4 1000A ØTNIP MAQWEEN (Berlin)",
-      "url": "https://www.agenda-porto.pt/evento/caracter-4/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "CarneViva + Este Carro Não Tem 6ª",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Real República dos LyS.O.S.",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Na última sexta-feira do mês de outubro, a Real República dos LyS.O.S. traz a estreia de CarneViva (Death/Thrash), acompanhada pela nova formação de Este Carro Não Tem 6ª (Groove/Jungle). Programação por Rafael FERMENTO.",
-      "url": "https://www.agenda-porto.pt/evento/carneviva-este-carro-nao-tem-6a/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Catarse — Histórias Reais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Cultural Jubilant",
-      "type": "Evento",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "O CATARSE - Histórias Reais do mês de outubro será especial de Halloween, com o tema MEDO. Venham contar uma história sobre medos de infância, da fase adulta, superação, ou aquela história que deu um frio na barriga, mas no final deu tudo certo. Não têm uma história? Então venham prestigiar essa noite arrepiante (muahahaha). O evento tem como objetivo incentivar a partilha de histórias reais, em formato de apresentação em palco, num ambiente seguro e acolhedor. COMO FUNCIONA? 1) Contaremos com u",
-      "url": "https://www.agenda-porto.pt/evento/catarse-3010/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Cerâmica de Halloween",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Ateliê Oca",
-      "type": "Família",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Neste workshop, você vai criar sua própria peça de cerâmica inspirada no universo do Halloween. Pode ser um personagem monstruosamente divertido, uma abóbora decorativa, um porta-velas, uma caneca temática ou qualquer outra ideia que a sua imaginação trouxer. Com orientação durante todo o processo, você vai modelar e pintar sua criação, explorando formas, cores e detalhes para dar vida à sua ideia. Não precisa ter experiência com cerâmica, basta vir com vontade de criar! Todos os materiais e as",
-      "url": "https://www.agenda-porto.pt/evento/ceramica-de-halloween/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Contas Feitas 2026",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Palácio da Bolsa",
-      "type": "Evento",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "O maior evento de literacia financeira da região está de volta ao Palácio da Bolsa. Na sessão matinal, o Contas Feitas é dirigido às empresas e tem, como tema de fundo, o private equity: as oportunidades e os desafios deste instrumento de capitalização e financiamento serão debatidos, na presença de profissionais e consultoras de referência no setor financeiro. Durante a tarde, as conferências centram-se nas finanças pessoais e numa das matérias de maior atualidade: o impacto da Inteligência Art",
-      "url": "https://www.agenda-porto.pt/evento/contas-feitas-2026/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Daniel Knox",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bar Bar",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Daniel Knox chega ao BarBar para um concerto intimista onde o piano e a profundidade da sua voz criam uma atmosfera singular, entre o estranho, o onírico e o cinematográfico. Uma oportunidade para descobrir de perto um dos artistas mais singulares da música contemporânea norte-americana. No dia do concerto, estará também disponível uma edição limitada em vinil de Mercado 48 , o mais recente álbum de Daniel Knox.",
-      "url": "https://www.agenda-porto.pt/evento/daniel-knox/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Digging up my way down, de Diana Geiroto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Ocupa",
-      "type": "Exposição",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Na próxima sexta-feira, dia 30 de outubro, às 18h30 temos visita à exposição Digging up my way down , de Diana Geiroto Apareçam! Esta exposição conta com o apoio da Direção-Geral das Artes, da Escola Superior de Educação do Porto, da Junta de Freguesia do Bonfim e do MIRA Galerias.",
-      "url": "https://www.agenda-porto.pt/evento/digging-up-my-way-down-visita/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Dr Love",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "The Matchmaker Party",
-      "url": "https://www.agenda-porto.pt/evento/261030-dr-love-the-matchmaker-party/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Focus Sax Quartet",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa Comum",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "O Focus Sax Quartet apresenta-se na Casa Comum no dia 30 de outubro de 2026, às 18h30, com um programa que revisita o álbum que gravaram há dois anos, intitulado Limiar. Este quarteto de saxofones – com Gonçalo Baião no soprano, Miguel Maia no alto, Margarida Ferreira no tenor e Miguel Jesus no barítono – dirige-se resolutamente para a divulgação de peças de compositores contemporâneos, tendo-se afirmado como uma das formações camerísticas mais promissoras do panorama musical português.",
-      "url": "https://www.agenda-porto.pt/evento/focus-sax-quartet/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Humana Taranja",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Humana Taranja aconteceram por acaso e mantiveram-se de propósito. Existem entre pop melódico e rock emotivo, no meio de uma sonoridade quase palpável que se agiganta com os nervos à flor da pele.",
-      "url": "https://www.agenda-porto.pt/evento/261030-humana-taranja/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Jam Session Porta-Jazz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Porta-Jazz",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Sextas-feiras à noite, pelas 21:30, é dia de perpetuar a tradição jazzística com um ritual fundamental - a jam session. Todas as semanas as portas estarão abertas a todos os músicos que queiram participar neste ritual tão importante para a história do jazz, proporcionando também ao público a oportunidade de experienciar um ambiente espontâneo e descomprometido. Estas noites são sempre antecipadas por um concerto cujo líder será o anfitrião da jam session que se segue. Miguel Meirinhos - Piano Pe",
-      "url": "https://www.agenda-porto.pt/evento/jam-session-porta-jazz-joao-alves/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": -2,
-      "quality_level": "ROTINA",
-      "quality_reasons": [
-        "música",
-        "atividade rotineira"
-      ]
-    },
-    {
-      "name": "James Malikey",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Auditório Francisco de Assis",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "James dará um concerto no Porto (Portugal) para apresentar o seu novo álbum, \"Lost Within the Aether\", e interpretar ao vivo uma seleção de composições deste trabalho. Além disso, apresentará as suas interpretações de algumas peças musicais icónicas e amplamente reconhecidas. Combinando emoção profunda, virtuosismo ao piano e um espetáculo de luzes envolvente, esta atuação promete proporcionar uma experiência única e imersiva ao público. Reconhecido como um dos mais destacados jovens compositore",
-      "url": "https://www.agenda-porto.pt/evento/james-malikey/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Jazz Sessions + The Wallpapers",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez em Paris",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Concerto e DJ set",
-      "url": "https://www.agenda-porto.pt/evento/jazz-sessions-the-wallpapers-1792657367645/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "KHORROREEE!",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "FBAUP — Faculdade de Belas Artes da U.Porto",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "ATENÇÃO! O HallowQueer está de voltaaaa! Sexta-feira, dia 30 de outubro, a partir das 23h59, os portões da FBAUP darão entrada para uma noite de morrer!! Para começar as travessuras contamos com um concerto de arrepiar dos TRASGO às 00h30! A partir das 02h00 preparem-se para DJ sets de outro mundo para animar a pista das profanações! Um agradecimento à AEFBAUP e ao JUP por fazerem essa festa acontecer connosco.",
-      "url": "https://www.agenda-porto.pt/evento/hallowqueer-1792656846981/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Kodakino",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Citynizer Plaza",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "A banda post-punk do Porto vai atuar no STOP Blizzard 26, no Citynizer Plaza.",
-      "url": "https://www.agenda-porto.pt/evento/kodakino-1793006781438/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Lucas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bar of Soap",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "DJ set",
-      "url": "https://www.agenda-porto.pt/evento/dj-lucas/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Porto Comedy Room",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Pinguim Café",
-      "type": "Teatro",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "O Porto Comedy Room é a noite certa para quem gosta de rir sem pedir licença. Um palco dedicado à comédia ao vivo, onde novos talentos se cruzam com nomes já conhecidos da comédia nacional. Em cada edição, o cartaz muda: estilos diferentes, piadas novas e comédia da boa. É stand-up comedy sem filtros, sem formalidades e com rasgo. Traz os amigos, o date ou vem sozinho — alguém vai rir contigo!",
-      "url": "https://www.agenda-porto.pt/evento/porto-comedy-room-3010/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Recital de piano de António Oliveira",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fundação Eng. António de Almeida",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "A Fundação Eng. António de Almeida apresenta António Oliveira num recital de piano que reúne obras de Wolfgang Amadeus Mozart, António Fragoso, Heitor Villa-Lobos e Robert Schumann. O programa cruza diferentes períodos e linguagens do repertório pianístico, incluindo a música de António Fragoso, um dos mais importantes compositores portugueses do início do século XX. A entrada é livre, sujeita à lotação da sala.",
-      "url": "https://www.agenda-porto.pt/evento/recital-de-piano-de-antonio-oliveira/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Repair Café",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mercado do Bolhão",
-      "type": "Família",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "No dia 30 de outubro, o Mercado do Bolhão acolhe este evento, em parceria com a LIPOR, onde vão ser disponibilizadas ferramentas e materiais para dar uma nova vida a pequenos eletrodomésticos, computadores, entre outros. A inciativa é gratuita e realizada de acordo com a disponibilidade de voluntários com experiência em reparações.",
-      "url": "https://www.agenda-porto.pt/evento/repair-cafe-1792164412504/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Rodrigo Correia",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Alameda Shop & Spot",
-      "type": "Teatro",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Depois das férias, há um novo motivo para sorrir! Entre os meses de setembro e novembro o Alameda Shop&Spot vai transformar-se num verdadeiro palco de comédia ao apresentar o Alameda Comedy Club. Um ciclo de seis noites de stand-up obrigatórias para todos os amantes de humor, que prometem fazer com que o regresso à rotina seja mais leve e divertido. O melhor de tudo, é que a entrada é gratuita! O line-up reúne alguns dos maiores nomes do stand-up nacional, garantindo uma programação diversificad",
-      "url": "https://www.agenda-porto.pt/evento/alameda-rodrigo-correia/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Rô Rosa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mouco",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Rô Rosa, artista natural de São José dos Campos, apresenta-se no Porto com uma identidade musical marcada por MPB, lo-fi, trap, rap, samba e pop. Inspirado por nomes como Criolo, Liniker, Sabotage, Black Alien e Gal Costa, leva à Sala M.Ou.Co. uma escrita ligada ao amor, à saudade e ao quotidiano.",
-      "url": "https://www.agenda-porto.pt/evento/mouco-ro-rosa/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Schubert e Strauss",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Richard Strauss entregou ao oboé algumas das suas mais belas melodias, mas apenas aos 80 anos decidiu dedicar-lhe um concerto completo. A ideia ficou-lhe na mente depois de uma conversa com um militar e oboísta norte-americano, no pós-Segunda Guerra Mundial. Assim nasceu uma das obras essenciais do instrumento, raramente apresentada pela exigência técnica que impõe, obrigando o solista a tocar quase ininterruptamente. Para enfrentar este desafio, a Sinfónica conta com Lucas Macís, oboísta de car",
-      "url": "https://www.agenda-porto.pt/evento/cdm-schubert-e-strauss/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Something Soft, de Britu Tränkler",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "The LAB.yrinth",
-      "type": "Teatro",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Something Soft é uma reflexão sobre o luto através do movimento — pensar e sentir com o corpo. Inspira-se no livro Flight Ways , de Thom van Dooren, que acompanha cinco espécies de aves à beira da extinção e explora o que significa viver e morrer juntos neste mundo partilhado. Neste solo, o foco recai particularmente nos corvos, cujos comportamentos sociais incluem respostas coletivas à morte. Baseando-se nos textos de Van Dooren, a peça questiona como poderemos aprender a fazer o luto em conjun",
-      "url": "https://www.agenda-porto.pt/evento/something-soft-de-britu-trankler/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Tō Yō",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TMP — Rivoli",
-      "type": "Música",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "date": "30 Out",
-      "desc": "Nascidos da cena underground de Tóquio, os Tō Yō são um quarteto de rock psicadélico que cruza o legado da psicadelia japonesa com a sensibilidade da vida urbana contemporânea. Assente na experimentação, o seu som em constante evolução percorre paisagens densas e sombrias, bem como grooves hipnóticos inspirados no krautrock, com influências de Far East Family Band, J. A. Seazer e Jimi Hendrix. Após digressões europeias em 2024 e 2025, com passagens pelo SonicBlast Fest e Freak Valley Festival, a",
-      "url": "https://www.agenda-porto.pt/evento/tmp-to-yo/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
       ]
     },
     {
@@ -1500,6 +1002,22 @@
       ]
     },
     {
+      "name": "O Sol, a nossa Estrela",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Planetário do Porto — Centro Ciência Viva",
+      "type": "Família",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "O Sol iluminou a Terra nos últimos quatro mil e seiscentos milhões de anos e o seu calor, que hoje nos aquece a pele, foi igualmente sentido por todos os seres humanos que alguma vez viveram. É a estrela que nos é mais próxima, a fonte de energia que gera os ventos, as condições meteorológicas e sustenta a vida tal como a conhecemos. Descubra os segredos de nossa estrela, com imagens nunca vistas da turbulenta superfície do Sol, numa experiência única de cinema imersivo. A sessão completa de pla",
+      "url": "https://www.agenda-porto.pt/evento/o-sol-a-nossa-estrela-3110/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "One Star Donuts Halloween Birthday Party",
       "area": "Porto",
       "city": "Porto",
@@ -1667,6 +1185,22 @@
       "date": "31 Out – 1 Nov",
       "desc": "Vamos, Obi! é uma aventura musical baseada nos manuais escolares e na importância de saber ler! Transforma a aprendizagem do alfabeto numa viagem divertida e emocionante para toda a família.",
       "url": "https://www.agenda-porto.pt/evento/tsb-vamos-obi/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Vitor e Sofia vão à Lua",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Planetário do Porto — Centro Ciência Viva",
+      "type": "Família",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "date": "31 Out",
+      "desc": "O Vítor e a Sofia foram com o pai ao parque, para ver um Eclipse Total do Sol. Depois do Eclipse, os três decidiram dormir uma sesta à sombra de uma árvore, até que a Sofia acorda o Vítor, para juntos partirem numa fascinante aventura até à Lua. Estás pronto para ires com eles? Calça as tuas botas, veste o teu fato espacial… e não te esqueças do protetor solar! Nesta sessão imersiva 360°, produzida inteiramente pelo e para o Planetário do Porto – CCV, vais perceber que andar com a cabeça na Lua",
+      "url": "https://www.agenda-porto.pt/evento/vitor-e-sofia-vao-a-lua-3110/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
@@ -1847,6 +1381,23 @@
       "desc": "Se pensarmos bem, toda a carreira de Sega Bodega tem sido uma grande colaboração. Desde que, em 2017, se aliou oficialmente a Oklou, Shygirl e Coucou Chloe no coletivo NUXXE, este produtor irlandês de raízes chilenas não tem parado de estabelecer ligações com outras artistas, ao mesmo tempo que vai redefinindo os limites da pop eletrónica. Björk, FKA twigs, Caroline Polachek, Dorian Electra, Eartheater, Judeline ou Rose Gray já quiseram trabalhar com ele, atraídas pela sua capacidade de invocar",
       "url": "https://www.agenda-porto.pt/evento/kiss-facility/",
       "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Três Andares Os Filmes das Nossas Terças / Ciclo O Problema da Habitação",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "url": "https://www.teatroaveirense.pt/pt/evento/tres-andares/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Música",
+      "venue": "Teatro Aveirense",
+      "desc": "",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -2163,6 +1714,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Pintura em Azulejos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "doBarro",
+      "type": "Família",
+      "start": "2026-11-05",
+      "end": "2026-11-23",
+      "date": "5–23 Nov",
+      "desc": "Nesta oficina, cada participante cria um pequeno mural composto por quatro azulejos. Partimos do desenho das ideias e da sua transferência para os azulejos. Podes trazer referências dos teus passeios pelo Porto, padrões, fachadas ou detalhes que te tenham ficado na memória, e usá-las como ponto de partida para o teu projeto. Ao longo da sessão, podes optar por desenhar diretamente, usar papel vegetal, trabalhar com moldes e stencils ou uma mistura de todos. A oficina é pensada para tornar o proc",
+      "url": "https://www.agenda-porto.pt/evento/db-pintura-em-azulejos-1791898446296/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Poison Ruïn",
@@ -2953,8 +2520,8 @@
       "venue": "Serralves",
       "type": "Exposição",
       "start": "2026-11-07",
-      "end": "2026-11-07",
-      "date": "7 Nov",
+      "end": "2026-11-08",
+      "date": "7–8 Nov",
       "desc": "\"Vorace (tradução italiana de voraz) é um solo para um corpo na sua arena, suportado pela capacidade pulmonar da performer e muitos pompoms, aliados da reverberação do ritmo que constrói a voracidade deste corpo. Vorace é uma arena de dicotomias, um desejo de estabilidade que se consome só por o desejar. Uma tentativa de emancipação num corpo que ativa outros corpos. Uma ode à insistência que surge nas raízes e vem saboreada na boca.\" \"Em Vorace quero resgatar o meu corpo. Corpo ensopado de ball",
       "url": "https://www.agenda-porto.pt/evento/0711-sofia-kafol-vorace/",
       "source": "https://www.agenda-porto.pt/",
@@ -3057,7 +2624,7 @@
       "name": "Bruno Pernadas",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Auditório da Escola Secundária Garcia de Orta",
+      "venue": "Escola Secundária Garcia de Orta",
       "type": "Música",
       "start": "2026-11-08",
       "end": "2026-11-08",
@@ -3226,6 +2793,23 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Memórias do Cárcere Os Filmes das Nossas Terças",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "url": "https://www.teatroaveirense.pt/pt/evento/memorias-do-carcere/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Música",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -3794,22 +3378,6 @@
       ]
     },
     {
-      "name": "Quanto vales em ópera?",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Vários locais",
-      "type": "Família",
-      "start": "2026-11-13",
-      "end": "2026-11-21",
-      "date": "13–21 Nov",
-      "desc": "O Operómetro é um dispositivo artístico-pedagógico de mediação cultural que propõe a avaliação simbólica e interativa da “capacidade operática” dos participantes, funcionando como uma ferramenta de aproximação à ópera orientada para a acessibilidade, visibilidade e captação de novos públicos. Partindo da questão “Quanto vales em ópera?”, o projeto utiliza uma abordagem lúdica e participativa para estimular o interesse, o envolvimento ativo e a curiosidade em torno do universo operático. Desenvol",
-      "url": "https://www.agenda-porto.pt/evento/operometro/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Superfan",
       "area": "Porto",
       "city": "Porto",
@@ -3845,6 +3413,22 @@
         "música",
         "experiência especial"
       ]
+    },
+    {
+      "name": "Óperometro",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Vários locais",
+      "type": "Família",
+      "start": "2026-11-13",
+      "end": "2026-11-21",
+      "date": "13–21 Nov",
+      "desc": "O Operómetro é um dispositivo artístico-pedagógico de mediação cultural que propõe a avaliação simbólica e interativa da “capacidade operática” dos participantes, funcionando como uma ferramenta de aproximação à ópera orientada para a acessibilidade, visibilidade e captação de novos públicos. Partindo da questão “Quanto vales em ópera?”, o projeto utiliza uma abordagem lúdica e participativa para estimular o interesse, o envolvimento ativo e a curiosidade em torno do universo operático. Desenvol",
+      "url": "https://www.agenda-porto.pt/evento/operometro/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "area": "Aveiro",
@@ -4799,7 +4383,7 @@
       ]
     },
     {
-      "name": "Ópera para Bebés!",
+      "name": "Ópera para Bebés",
       "area": "Porto",
       "city": "Porto",
       "venue": "Clube Fenianos Portuenses",
@@ -4816,6 +4400,22 @@
         "experiência especial",
         "espetáculo familiar"
       ]
+    },
+    {
+      "name": "Encontro Direito à Diferença",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria da Biodiversidade",
+      "type": "Evento",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "date": "16 Nov",
+      "desc": "O Encontro Direito à Diferença reúne diferentes perspetivas e experiências para refletir sobre a saúde mental, os direitos humanos e a forma como olhamos para a diferença. O Encontro organiza-se em torno de três grandes eixos temáticos: Direitos Humanos na Saúde Mental, Para Lá da Medicalização e Criatividade na Diferença, que serão explorados em três painéis. No final decorre um debate geral, que partirá das principais questões e ideias suscitadas ao longo dos três painéis e recolhidas por uma",
+      "url": "https://www.agenda-porto.pt/evento/encontro-direito-a-diferenca/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Luísa Sobral",
@@ -4888,6 +4488,22 @@
       ]
     },
     {
+      "name": "From Specialist to Founder",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "UPTEC Asprela I",
+      "type": "Evento",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "De especialista a fundador: a transição psicológica para a qual ninguém nos prepara. A maioria dos fundadores passa anos a tornar-se excecional na criação de produtos, na resolução de problemas ou no desenvolvimento de conhecimentos especializados. Muito poucos estão preparados para o que acontece quando o sucesso exige um processo diferente: tornar-se um líder. Um comunicador. Um decisor. Alguém cujo maior desafio já não é técnico, mas sim psicológico. Nesta Power Hour interativa vamos explorar",
+      "url": "https://www.agenda-porto.pt/evento/power-hour-27-from-specialist-to-founder/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Hora de Ponta",
       "area": "Porto",
       "city": "Porto",
@@ -4924,7 +4540,7 @@
       ]
     },
     {
-      "name": "La Voix humaine, de Poulenc",
+      "name": "La Voix Humaine",
       "area": "Porto",
       "city": "Porto",
       "venue": "Palácio do Bolhão",
@@ -4978,7 +4594,7 @@
       "name": "FIATO em Vinil",
       "area": "Porto",
       "city": "Porto",
-      "venue": "",
+      "venue": "Casa Comum",
       "type": "Família",
       "start": "2026-11-19",
       "end": "2026-11-19",
@@ -5494,6 +5110,24 @@
       ]
     },
     {
+      "name": "Jantar de Encerramento FIATO",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Clube Fenianos Portuenses",
+      "type": "Evento",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Depois de nove dias, o FIATO despede-se à mesa, como bem se faz no norte. A 21 de novembro, às 21h00, o Clube dos Fenianos Portuenses junta artistas, equipas, parceiros e público para celebrar o festival. O FIATO termina de portas abertas num local onde não há lugares marcados, e qualquer pessoa se pode juntar à mesa com a equipa do festival. Às 23h00 abre-se ao Open Microphone, e quem quiser pode levantar-se da mesa e cantar ópera. Todas as vozes são bem-vindas, cantem em palco ou cantem no chu",
+      "url": "https://www.agenda-porto.pt/evento/jantar-de-encerramento-fiato/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Jasmin",
       "area": "Porto",
       "city": "Porto",
@@ -5739,6 +5373,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Singspiele, de Maguy Marin",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "«A história de cada pessoa faz-se através da sua necessidade ilimitada de ser reconhecida; a amizade designa essa capacidade infinita de reconhecimento. Imaginar que essa necessidade constante seja a do outro, que o outro, tal como nós próprios, esteja à mercê dessa exigência e empenhado em obter resposta, que se devore a si próprio e que fique como um animal se a resposta não vier, é a isso que nos devemos obrigar e é esse o inferno da vida quando lhe falhamos. O caminho do reconhecimento é o i",
+      "url": "https://www.agenda-porto.pt/evento/2211-singspiele/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Solistas da Orquestra Sinfónica",
       "area": "Porto",
       "city": "Porto",
@@ -5754,6 +5406,57 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Vincent Peirani",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "Vincent Peirani é um dos acordeonistas mais inovadores da Europa. Compositor e improvisador, o músico francês cruza jazz, música clássica, contemporânea e rock numa linguagem criativa e singular. Galardoado com os Victoires du Jazz em 2014 (“Revelação”) e 2015 (“Artista do Ano”), destacou-se tanto pelos projetos próprios como por colaborações com artistas como Daniel Humair, Michel Portal ou Sanseverino, além do trabalho para cinema. Neste concerto apresenta \"Time Reflections\", o quarto capítulo",
+      "url": "https://www.agenda-porto.pt/evento/cdm-vincent-peirani/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Wallow — Gospel de Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hard Club",
+      "type": "Família",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "Neste Natal, o Mercado Ferreira Borges transforma-se num lugar de encontro, música e celebração! Prepara-te para viver um momento especial, onde a música se cruza com o espírito natalício e cada voz celebra aquilo que torna esta época tão única: Música, emoção e espírito de Natal. Um ambiente especial para partilhar com amigos, família e toda a comunidade. Uma celebração aberta a todos, porque a magia do Natal é ainda maior quando é partilhada. Vem sentir a energia, celebrar a época mais mágica",
+      "url": "https://www.agenda-porto.pt/evento/wallow-gospel-de-natal/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Siza Vieira, o Arquitecto e a Cidade Velha Os Filmes das Nossas Terças / Ciclo O Problema da Habitação",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "url": "https://www.teatroaveirense.pt/pt/evento/siza-vieira-o-arquitecto-e-a-cidade-velha/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Teatro",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
       ]
     },
     {
