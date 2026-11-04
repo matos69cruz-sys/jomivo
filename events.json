@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -270,91 +270,6 @@
       ]
     },
     {
-      "name": "Café República",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Macaréu — Associação Cultural",
-      "type": "Evento",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "O Café República é o local onde, desde a juventude, se reúne um grupo de amigos numa tertúlia cultural. Pretende homenagear esses locais já quase inexistentes, que eram um lugar de abrigo de amizades, ideias e ideais. O Café República é um dos resistentes por força da vontade dos seus frequentadores que nunca quiseram perder esse elo de convívio e, por isso, cá está, ao fim de tantos anos. Inspirado nos ambientes dos anos sessenta e setenta do século passado, o Café República tenta reproduzir o",
-      "url": "https://www.agenda-porto.pt/evento/cafe-republica/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Festa de Abertura do Queer Porto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bar of Soap",
-      "type": "Música",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "International Queer Film Festival",
-      "url": "https://www.agenda-porto.pt/evento/festa-de-abertura-do-queer-porto/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Os Escritores de Massarelos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Museu do Carro Eléctrico",
-      "type": "Evento",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "Que escritores nos falam de Massarelos? Quem são eles e como é que a sua vida se cruza com este território? Vamos conhecê-los percorrendo o território e ouvindo histórias sobre eles. Orientação: Carla Teixeira e Adelaide Silva (Bibliotecas do Porto)",
-      "url": "https://www.agenda-porto.pt/evento/os-escritores-de-massarelos/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Porto de Letras — Sophia",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca de Autores Portuenses",
-      "type": "Evento",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "Sophia de Mello Breyner Andresen (1919–2004) permanece como uma das vozes mais sublimes e marcantes da literatura portuguesa do século XX. A sua escrita, dotada de uma clareza e musicalidade únicas, é atravessada por uma busca incessante pela justiça, pela pureza da luz, pelo fascínio da Grécia Antiga e pela paixão pelo mar. Em 1999, fez história ao tornar-se a primeira mulher a ser distinguida com o Prémio Camões, o galardão máximo da Língua Portuguesa. A vasta e extraordinária bibliografia de",
-      "url": "https://www.agenda-porto.pt/evento/porto-de-letras-clube-de-leitura-sophia/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Qué Vaina — Open Mic",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Nope Bar",
-      "type": "Família",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "Depois de tudo o que vivemos com o Festival Qué Vaina, chega uma nova etapa: nova casa, novos artistas e uma noite que não queremos desvendar-te na íntegra. Desta vez, o Qué Vaina Comedy Club apresenta um Open Mic muito especial, com comediantes latino-americanos, artistas internacionais, convidados surpresa e muito material que provavelmente nunca ouviste. No palco estarão o Oso, o Paulo, o Roberto, a Feña e o Nicolás Guzmán, juntamente com outros talentos que se irão juntando a esta noite. O f",
-      "url": "https://www.agenda-porto.pt/evento/que-vaina/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "experiência especial"
-      ]
-    },
-    {
       "name": "SeriTerças",
       "area": "Porto",
       "city": "Porto",
@@ -371,60 +286,6 @@
       "quality_reasons": [
         "exposição",
         "atividade prática"
-      ]
-    },
-    {
-      "name": "Sessão de Desenho #49",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Workin",
-      "type": "Exposição",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "Juntem-se a nós para partilhar duas horas e meia de desenho de modelo vivo no maravilhoso espaço do Workin, no Edifício Transparente. Fornecemos todos os tipos de materiais para desenho (podem também trazer os vossos materiais preferidos) e boa música. Todos os níveis de habilidade e de experiência são bem-vindos. Isto não é uma aula de arte mas sim uma oportunidade divertida e amigável para praticar e simplesmente usufruir de desenhar em boa companhia, com o vosso entusiasmo, a vossa curiosidad",
-      "url": "https://www.agenda-porto.pt/evento/sessao-de-desenho-0311/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Sessões de escuta À La Carte",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lola Hi-Fi",
-      "type": "Música",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "Rubrica semanal onde marcamos encontro com o arquivista sonoro Armando Sousa, para explorar os caminhos que levam à música. Todas as terças-feiras escolhemos um tema, que também será um ponto de partida para, durante uma hora, ir ao encontro não só de relações improváveis e de novas descobertas, mas também de reencontros com memórias à espera de serem reavivadas.",
-      "url": "https://www.agenda-porto.pt/evento/sessoes-de-escuta-a-la-carte-1793628052622/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Vozes em Roda",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Yoga sobre o Porto",
-      "type": "Música",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "date": "3 Nov",
-      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
-      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-1793178595924/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -499,6 +360,22 @@
       ]
     },
     {
+      "name": "Competição Curtas Portuguesas 1",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Batalha Centro de Cinema",
+      "type": "Cinema",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "date": "4 Nov",
+      "desc": "Monstro Nuno Baltazar (Portugal, Egito, 2026, 22’) · Fic. VO portuguesa, leg. em inglês. M/16 Uma onda de calor varre Lisboa. Alex, um rapaz de 12 anos, vê o seu melhor amigo ser agredido, mas um segredo íntimo impede-o de falar sobre o que aconteceu. No Azul Penumbra Tomás Basílio (Portugal, 2025, 15’) · Fic. VO portuguesa, leg. em inglês. M/16 Na quietude de uma pequena aldeia, Miguel vê a sua vida abalada pela partida da irmã. O vazio deixado por ela transforma-se numa viagem interior, conduz",
+      "url": "https://www.agenda-porto.pt/evento/competicao-curtas-portuguesas-1/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Dr. Love",
       "area": "Porto",
       "city": "Porto",
@@ -565,22 +442,6 @@
       "quality_reasons": [
         "música"
       ]
-    },
-    {
-      "name": "Mercado da Alegria (Batalha)",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Praça da Batalha",
-      "type": "Evento",
-      "start": "2026-11-04",
-      "end": "2026-11-28",
-      "date": "4–28 Nov",
-      "desc": "O Mercado da Alegria é um mercado urbano com atividades de venda dinamizadas por um grupo de artesãos. Neste espaço, são comercializados produtos de vestuário, bijuteria, acessórios de moda, e ainda, produtos alimentares frescos e produtos gastronómicos regionais.",
-      "url": "https://www.agenda-porto.pt/evento/mercado-da-alegria-batalha-nov26/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
     },
     {
       "name": "TPC: Frei Luís de Sousaaa",
@@ -902,7 +763,7 @@
       ]
     },
     {
-      "name": "Ação escultórico-performativa",
+      "name": "Ação Escultórica e Performativa",
       "area": "Porto",
       "city": "Porto",
       "venue": "Café Ceuta",
@@ -918,6 +779,40 @@
       "quality_reasons": [
         "teatro"
       ]
+    },
+    {
+      "name": "Casting para um milagre",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teatro Helena Sá e Costa",
+      "type": "Teatro",
+      "start": "2026-11-06",
+      "end": "2026-11-07",
+      "date": "6–7 Nov",
+      "desc": "Casting para um milagre é uma matrioska dramatúrgica com teatro dentro do teatro dentro do teatro. Um encenador hiper-famoso decide encenar A Gaivota , de Tchékhov. Este será o seu último espectáculo. O seu canto do cisne. Quer dizer...da Gaivota! O elenco já está todo escolhido. Só lhe falta encontrar a pessoa que vai interpretar a personagem Nina. O encenador decide organizar um casting que tem um único desafio para os candidatos: fazê-lo chorar. Há muitos anos que ele não chora, vai-se lá sab",
+      "url": "https://www.agenda-porto.pt/evento/casting-para-um-milagre/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
+      "name": "Competição Curtas Portuguesas 2",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Batalha Centro de Cinema",
+      "type": "Cinema",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Unruhe Carlos Pereira (Alemanha, 2026, 12’) · Fic. Exp. S/ diálogos, leg. em inglês. M/16 Ultimamente, tem havido uma estranha epidemia a espalhar-se entre o povo, de tal forma que muitas pessoas, na sua loucura, começaram a dançar, e continuaram a fazê-lo dia e noite, sem interrupção, até caírem inconscientes. Muitas pessoas morreram por causa disso. O Meu Amor do Rancho Miguel De (Portugal, 2026, 18’) · Fic. VO portuguesa, leg. em inglês. M/16 “Quando olho para o meu amor, ele olha para o rapa",
+      "url": "https://www.agenda-porto.pt/evento/competicao-curtas-portuguesas-2/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Equilíbrios, de Pedro Matias",
@@ -989,6 +884,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Jam Drawing Session",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "ACASO atelier criativo",
+      "type": "Exposição",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Uma jam session de desenho é como uma improvisação musical, mas feita de traços, cores e gestos. É um encontro aberto, descontraído e cheio de energia criativa, onde cada pessoa traz o seu olhar, a sua presença e a sua forma de estar, para criar livremente, em conjunto. Não é uma aula. Não há técnica obrigatória, nem certo ou errado. Há espaço para experimentar, escutar, arriscar, partilhar e deixar o gesto conduzir. Tal como na música, o que acontece nasce no momento: os traços fluem, cruzam-se",
+      "url": "https://www.agenda-porto.pt/evento/jam-drawing-session-1793726265790/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
     },
     {
       "name": "Max Cooper",
@@ -1154,6 +1067,43 @@
       ]
     },
     {
+      "name": "Descentrar BRAGA FORA",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Mais de 80 mulheres dão voz a polifonias tradicionais e cantigas de intervenção, num concerto acompanhado por acordeão e bateria.",
+      "url": "https://visitbraga.travel/event/1253-descentrar-braga-fora",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Descentrar CONCORDANÇAS",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Uma mãe e os seus três filhos partem à descoberta de novos caminhos, num espetáculo comunitário que junta teatro físico, dança e música ao vivo.",
+      "url": "https://visitbraga.travel/event/1252-descentrar-concordancas",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "area": "Braga",
       "city": "Braga",
       "name": "Manuel Bellesa",
@@ -1164,7 +1114,6 @@
       "type": "Música",
       "venue": "Theatro Circo",
       "desc": "",
-      "date": "7 Nov",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -1182,7 +1131,6 @@
       "type": "Dança",
       "venue": "Theatro Circo",
       "desc": "",
-      "date": "7 Nov",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
@@ -1261,6 +1209,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Cinema-Mentira: Perna Curta",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Família",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "CINEMA-MENTIRA É o contrário de cinema-verdade que mostra filmes que representam a realidade, que é o contrário do que queremos fazer nesta oficina. Cinema-mentira é um espaço de exploração da ficção no cinema para famílias de todas as idades. O cinema-mentira de novembro tem “Perna Curta”. Por vezes, com o passar do tempo, os sonhos que temos enquanto dormimos misturam-se com a realidade. Dá-nos então a sensação de os termos vivido antes, num dia qualquer há muito tempo, de que já não nos lembr",
+      "url": "https://www.agenda-porto.pt/evento/0711-oficina-para-familias-or-cinema-mentira-perna-curta/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Contos no Jardim do Marquês",
@@ -1349,20 +1313,23 @@
       ]
     },
     {
-      "name": "Feira da Vandoma",
+      "name": "Festa de Encerramento do Queer Porto",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Praça Vandoma",
-      "type": "Evento",
+      "venue": "Pérola Negra Club",
+      "type": "Música",
       "start": "2026-11-07",
-      "end": "2026-11-28",
-      "date": "7–28 Nov",
-      "desc": "Criada nos anos 70 por jovens estudantes que vendiam livros e roupas usadas, a Feira da Vandoma é ponto de encontro para quem procura pechinchas e objetos usados: roupas, louças, mobiliário e artigos decorativos, discos, livros, ferramentas, aparelhos elétricos eletrónicos e utensílios domésticos. Acontece todos os sábados.",
-      "url": "https://www.agenda-porto.pt/evento/feira-vandoma-nov26/",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Encerramos a duodécima edição do Queer Porto com uma noite de despedida que aterra pela primeira vez no lendário Pérola Negra. A julgar pelo sucesso das festas de encerramento do festival em anos anteriores, o público prevê-se mais do que animado. E se olharmos para quem estará a agitar a cabine, a noite promete mesmo: Phephz, DIDI e DJ Princesa são os nomes que sonhamos para um programa de djs perfeito, e, porque os sonhos se tornam realidade, lá estarão! Não vais querer perder esta festa. Pala",
+      "url": "https://www.agenda-porto.pt/evento/festa-de-encerramento-do-queer-porto/",
       "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
     },
     {
       "name": "Homem do Robe",
@@ -1610,24 +1577,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "exposição"
-      ]
-    },
-    {
-      "name": "Trilha",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Associação de Moradores da Lomba",
-      "type": "Música",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "date": "7 Nov",
-      "desc": "Onde as crianças ensinam e os mais velhos redescobrem, em som, o bairro que foi. Trilha começa numa instalação interativa que converte desenhos feitos à mão em composições musicais em tempo real. O ponto de partida conceptual é o percurso quotidiano e a memória territorial. O projeto convoca três temporalidades sobrepostas do mesmo bairro: o presente real — os elementos dos caminhos que as crianças fazem todos os dias; o presente imaginário — os elementos que gostariam que existissem nesses perc",
-      "url": "https://www.agenda-porto.pt/evento/trilha-0110/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -2143,6 +2092,22 @@
       ]
     },
     {
+      "name": "Músicas de Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Família",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "date": "11 Nov",
+      "desc": "Vamos tocar alguns dos clássicos natalícios! Os iniciantes ficam com os ritmos e os mais avançados podem aventurar-se nos solos. Vai ser uma festa!",
+      "url": "https://www.agenda-porto.pt/evento/musicas-de-natal-ukulele/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Quando Menos Se Espera",
       "area": "Porto",
       "city": "Porto",
@@ -2311,7 +2276,6 @@
       "type": "Dança",
       "venue": "Theatro Circo",
       "desc": "",
-      "date": "13 Nov",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
@@ -2637,6 +2601,40 @@
       ]
     },
     {
+      "name": "Descentrar CIRCUITO ECO HISTÓRICO DE SANTA LUCRÉCIA DE ALGERIZ E DE NAVARRA",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Trilho pedestre de 7 km por Santa Lucrécia de Algeriz e Navarra, entre paisagens verdes, património rural e memórias históricas.",
+      "url": "https://visitbraga.travel/event/1254-descentrar-circuito-eco-historico-de-santa-lucrecia-de-algeriz-e-de-navarra",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Descentrar Concerto Mozart 270 anos Orquestra Filarmónica de Braga",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Concerto comemorativo dos 270 anos de Mozart, pela Orquestra Filarmónica de Braga, com obras emblemáticas do compositor.",
+      "url": "https://visitbraga.travel/event/1255-descentrar-concerto-mozart-270-anos-orquestra-filarmonica-de-braga",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "area": "Braga",
       "city": "Braga",
       "name": "Kyle Dixon & Michael Stein",
@@ -2647,7 +2645,6 @@
       "type": "Música",
       "venue": "Theatro Circo",
       "desc": "",
-      "date": "14 Nov",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -3961,6 +3958,24 @@
       ]
     },
     {
+      "name": "corte",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria PLATO",
+      "type": "Exposição",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "O que nos é oferecido é sobretudo o reflexo de um lugar mental e ficcional, criado a partir da intimidade. A familiaridade com o território é usada de forma produtiva e permite-nos aceder a uma realidade transformada em algo novo. Um espaço onírico que nos instiga a abandonar o real e a viajar até um outro lugar, fruto da imaginação da artista.",
+      "url": "https://www.agenda-porto.pt/evento/inauguracao-plato-corte/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Dança / Artes Cénicas",
       "area": "Porto",
       "city": "Porto",
@@ -4127,7 +4142,24 @@
       "type": "Música",
       "venue": "Theatro Circo",
       "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Descentrar Concerto Jorge Cruz",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
       "date": "21 Nov",
+      "desc": "Jorge Cruz apresenta um concerto de inspiração rural que cruza a música de raiz portuguesa com sonoridades folk, num regresso às suas origens.",
+      "url": "https://visitbraga.travel/event/1258-descentrar-concerto-jorge-cruz",
+      "source": "https://visitbraga.travel/agenda-braga/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -4145,7 +4177,6 @@
       "type": "Evento",
       "venue": "Theatro Circo",
       "desc": "",
-      "date": "21 Nov",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
@@ -4865,6 +4896,22 @@
       ]
     },
     {
+      "name": "Ritmos e Batidas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Família",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "date": "25 Nov",
+      "desc": "Vamos explorar ritmos mais complexos, novas batidas e técnicas como o chunk , praticando tudo em conjunto!",
+      "url": "https://www.agenda-porto.pt/evento/ritmos-e-batidas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "A Língua Descalça — Luxo",
       "area": "Porto",
       "city": "Porto",
@@ -5139,7 +5186,6 @@
       "type": "Música",
       "venue": "Theatro Circo",
       "desc": "",
-      "date": "28 Nov",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -5157,43 +5203,6 @@
       "type": "Música",
       "venue": "Theatro Circo",
       "desc": "",
-      "date": "28 Nov",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "João Tavares Sexteto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Porta-Jazz",
-      "type": "Música",
-      "start": "2026-11-28",
-      "end": "2026-11-28",
-      "date": "28 Nov",
-      "desc": "João Tavares Sexteto é um projeto de jazz liderado pelo saxofonista tenor João Tavares, que atualmente estuda na The New School, em Nova Iorque. Inspirado pelo fascínio pelo cosmos e pelo espaço, o sexteto explora diferentes sonoridades através da improvisação, da criatividade e do diálogo entre os músicos. O grupo apresenta composições originais que refletem uma abordagem contemporânea ao jazz, destacando-se Universe, distinguida com o prémio de Melhor Composição Original no 6.º Concurso Intern",
-      "url": "https://www.agenda-porto.pt/evento/joao-tavares-sexteto/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Máquina Culona",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-28",
-      "end": "2026-11-28",
-      "date": "28 Nov",
-      "desc": "Máquina Culona nasce para preencher uma lacuna na noite do Porto: a celebração do movimento emergente de música urbana e avant-pop espanhola.",
-      "url": "https://www.agenda-porto.pt/evento/261128-maquina-culona/",
-      "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -5215,6 +5224,23 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "dança"
+      ]
+    },
+    {
+      "area": "Braga",
+      "city": "Braga",
+      "name": "Contraponto: Pierre Boulez & Frank Zappa",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "url": "https://theatrocirco.com/event/contraponto-pierre-boulez-frank-zappa/",
+      "source": "https://theatrocirco.com/programa/",
+      "type": "Música",
+      "venue": "Theatro Circo",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     }
   ]
