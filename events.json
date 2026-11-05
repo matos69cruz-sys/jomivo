@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -162,24 +162,6 @@
       ]
     },
     {
-      "name": "Vizinhos, de Sara Felgueiras",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Cor Própria",
-      "type": "Exposição",
-      "start": "2026-10-03",
-      "end": "2026-11-04",
-      "date": "3 Out – 4 Nov",
-      "desc": "Um olhar sobre os nossos vizinhos mais cuscos. Aqueles ali que estão sempre à janela, que nunca perdem as últimas encrencas da rua, que apanham todas as interações da esplanada do café, que observam a brisa leve nas árvores, que acompanham todos os voos sobre a cidade, dos aviões e dos pássaros, e que a eles resmungam como se os fossem ouvir. Curiosos são estes vizinhos, mas eu ainda sou mais. Eu, que quero observá-los a eles e descobrir o que escondem nas suas casas, que vidas levam, porque esp",
-      "url": "https://www.agenda-porto.pt/evento/vizinhos-1789120743254/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
       "name": "Círculo, de David Barnes",
       "area": "Porto",
       "city": "Porto",
@@ -289,40 +271,6 @@
       ]
     },
     {
-      "name": "A Lemonade Stand-up Comedy",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Look Sharp Café",
-      "type": "Teatro",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "date": "4 Nov",
-      "desc": "Piadas afiadas como facas (talvez de sobremesa) no Looksharp Café, com café, comida e bebidas de aspeto apelativo e, talvez, comediantes com aspeto não tão apelativo, mas que tentam apelar. Venham ver, venham rir, bora lá!",
-      "url": "https://www.agenda-porto.pt/evento/a-lemonade-stand-up-comedy-0411/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "A Poesia Adora Andar Descalça",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca de Poesia Eugénio de Andrade",
-      "type": "Evento",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "date": "4 Nov",
-      "desc": "«A Poesia Adora Andar Descalça» é um projeto de continuidade, com periodicidade semanal, dedicado à promoção da palavra e da poesia nas suas vertentes escrita, lida e escutada. O Clube encontra o seu fôlego na coleção da Biblioteca de Poesia Eugénio de Andrade, disponibilizando o seu acervo para consulta gratuita e fruição de todos os visitantes. Sob o mote de Eugénio de Andrade, A Poesia Adora Andar Descalça, inicia-se o Clube de Poesia da Biblioteca Poética Eugénio de Andrade. O clube pretende",
-      "url": "https://www.agenda-porto.pt/evento/clube-de-poesia-a-poesia-adora-andar-descalca-1791993331972/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Balfolk — Nível Aberto",
       "area": "Porto",
       "city": "Porto",
@@ -357,90 +305,6 @@
       "quality_reasons": [
         "exposição",
         "atividade prática"
-      ]
-    },
-    {
-      "name": "Competição Curtas Portuguesas 1",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Cinema",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "date": "4 Nov",
-      "desc": "Monstro Nuno Baltazar (Portugal, Egito, 2026, 22’) · Fic. VO portuguesa, leg. em inglês. M/16 Uma onda de calor varre Lisboa. Alex, um rapaz de 12 anos, vê o seu melhor amigo ser agredido, mas um segredo íntimo impede-o de falar sobre o que aconteceu. No Azul Penumbra Tomás Basílio (Portugal, 2025, 15’) · Fic. VO portuguesa, leg. em inglês. M/16 Na quietude de uma pequena aldeia, Miguel vê a sua vida abalada pela partida da irmã. O vazio deixado por ela transforma-se numa viagem interior, conduz",
-      "url": "https://www.agenda-porto.pt/evento/competicao-curtas-portuguesas-1/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Dr. Love",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Evento",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "date": "4 Nov",
-      "desc": "Então? Diz lá que fetiche é que te subiu à cabeça desta vez no jantar de Natal da tua empresa ou naquela esquina bem regada na noite da passagem de ano? O que te aflige? Que medos ou bloqueios esperas ver ultrapassados? Sejam quais forem os anjos e/ou demónios que te sussurrem o que o Dr. Love traduz ao microfone, o nosso especialista tem no conselho o elixir da cura que tu precisas. À pala e à pinha. Entrada livre* *reserva de mesa sujeita a serviço de jantar.",
-      "url": "https://www.agenda-porto.pt/evento/261104-dr-love/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Geologist",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lovers & Lollypops",
-      "type": "Música",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "date": "4 Nov",
-      "desc": "Geologist, alter ego de Brian Weitz e membro fundador dos Animal Collective, apresenta o seu primeiro álbum a solo, “Can I Get a Pack of Camel Lights?”. Construído em torno da hurdy-gurdy, um singular instrumento medieval de cordas, o disco conduz-nos por uma paisagem onde drone, folk, eletrónica, minimalismo, krautrock e improvisação convergem num fluxo contínuo. Texturas acústicas e estados quase rituais dissolvem-se numa linguagem profundamente pessoal, revelando uma nova dimensão da prática",
-      "url": "https://www.agenda-porto.pt/evento/geologist-animal-collective/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Hora de Ponta",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fonoteca Municipal do Porto",
-      "type": "Evento",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "date": "4 Nov",
-      "desc": "Jorge Palma deixou-nos há pouco mais de um mês, mas o seu legado continua e vai continuar presente. Durante a Hora de Ponta desta tarde, a Fonoteca propõe explorar a discografia deste cantautor, tentando, em jeito de homenagem, reconstruir a sua carreira e perceber a marca indelével que deixou na música portuguesa. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar este espaço, para a escuta conju",
-      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-0411/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Há Fado no Mercado",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mercado do Bolhão",
-      "type": "Música",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "date": "4 Nov",
-      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo da fadista Sandra Cristina. Programação: 20h00 l Nelson dos Leitões - Original da Bairrada 21h00 l Culto ao Bacalhau",
-      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-0411/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -1049,6 +913,24 @@
       ]
     },
     {
+      "name": "Trem Bão Forró com DJ Allanbique",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Música",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Dia 6 de novembro tem mais uma noite de muito forró, encontros e dança do bão! E dessa vez temos um convidado especial: DJ Allanbique! Conhecido pela malta do Porto, Allanbique traz uma grande bagagem e um vasto conhecimento do universo do forró, das músicas aos artistas. E, claro, é também um excelente DJ, que chega para dividir a pista e a discotecagem com a gente! E claro, nosso querido professor Beto Walbert a ensinar os fundamentos e bases do forró no nosso workshop antes do baile! Prepara",
+      "url": "https://www.agenda-porto.pt/evento/trem-bao-forro-1793786065185/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Festival da Música da Ria 2026",
       "area": "Aveiro",
       "city": "Aveiro",
@@ -1211,6 +1093,22 @@
       ]
     },
     {
+      "name": "Café com Filosofia Budista",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Shopping Cidade do Porto",
+      "type": "Evento",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "No CAFÉ COM FILOSOFIA BUDISTA - Aula Experimental sobre o livro Objetivo da vida , o professor Mauro M. Nakamura explicará os conteúdos e os ensinamentos do livro, com foco na parábola budista da verdadeira natureza do ser humano, que descreve como todos nós somos por dentro, desde os nossos sentimentos até as nossas ações mentais conscientes e inconscientes. O livro Objetivo da vida , um best-seller do Japão que já vendeu mais de 250 mil exemplares, foi publicado em Portugal pela Escolar Editor",
+      "url": "https://www.agenda-porto.pt/evento/cafe-com-filosofia-budista-1793814369556/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Cinema-Mentira: Perna Curta",
       "area": "Porto",
       "city": "Porto",
@@ -1295,6 +1193,24 @@
       ]
     },
     {
+      "name": "Entre a Liberdade e a Violência",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Ponto de partida: o corpo enquanto lugar de memória, resistência e transformação. Convocamos para esta conversa aquilo que nos leva a transformar, entre a liberdade e a violência, e que narrativas albergamos nos corpos para contarmos algo para o amanhã. O corpo ativa a memória, inscreve e reconfigura. As imagens vividas tornam-se imagens sobreviventes, transformando-se no cruzamento entre memórias e não-memórias, entre diferentes olhares e experiências. Neste movimento, aquilo que se entende por",
+      "url": "https://www.agenda-porto.pt/evento/0711-entre-a-liberdade-e-a-violencia/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Estepe, de Lacortei",
       "area": "Porto",
       "city": "Porto",
@@ -1347,6 +1263,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Homicídio no Circo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Look Sharp Café",
+      "type": "Evento",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "O circo chegou à cidade, mas um crime sinistro espreita por trás da cortina! Junte-se a nós para um jantar interativo de mistério e homicídio, onde cada convidado interpreta uma personagem para ajudar a resolver o crime antes do espetáculo terminar. Perfeito para quem vem sozinho ou em grupo! O que está incluído: Três horas de mistério guiado: completo com pistas, guiões de personagens e reviravoltas (final totalmente novo para quem já participou antes!). Jantar de três pratos e bebida; Disfarce",
+      "url": "https://www.agenda-porto.pt/evento/homicidio-no-circo/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
       ]
     },
     {
@@ -1423,7 +1357,7 @@
       "name": "Magusto Melancólico com a Sonoscopia",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Associação de Moradores da Lomba",
+      "venue": "Casa Sindical de Campanhã",
       "type": "Evento",
       "start": "2026-11-07",
       "end": "2026-11-07",
@@ -1793,7 +1727,7 @@
       "quality_reasons": []
     },
     {
-      "name": "Equinóceos e Solstícios",
+      "name": "Equinócios e Solstícios",
       "area": "Porto",
       "city": "Porto",
       "venue": "Museu Romântico",
@@ -3711,6 +3645,24 @@
       ]
     },
     {
+      "name": "Where the Flowers Bloom, de Laura Palma",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "date": "17 Nov",
+      "desc": "Laura Palma, o nome da jovem fotógrafa vencedora da edição de 2026 do prémio novobanco Revelação, é praticamente homófono do nome da personagem que dá o título a uma série de televisão do realizador norte-americano David Lynch, estreada em 1991, e que se tornou um fenómeno cultural que perdura até hoje (são inúmeras as referências, principalmente na música pop e rock, ao nome da personagem que, embora ausente na maioria dos episódios, é o grande motor da trama de Twin Peaks). Digamos que a artis",
+      "url": "https://www.agenda-porto.pt/evento/serralves-laura-palma-where-the-flowers-bloom-inauguracao-1793787010629/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Fado com Miguel Bandeirinha",
       "area": "Porto",
       "city": "Porto",
@@ -3813,6 +3765,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Vergonha: O Medo de Ser Visto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Look Sharp Café",
+      "type": "Evento",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Junte-se à anfitriã Chandni no LOOK.Sharp Cafe para uma exploração interativa sobre a vergonha, a vulnerabilidade e o porquê de temermos o julgamento. Um espaço acolhedor para uma reflexão profunda, curiosidade e conversas honestas - participe tanto ou tão pouco quanto desejar. Billetes: 3€ (entrada + bebida) | 15€ (entrada + jantar & bebida)",
+      "url": "https://www.agenda-porto.pt/evento/vergonha-o-medo-de-ser-visto/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "area": "Aveiro",
@@ -3955,6 +3923,24 @@
       "quality_reasons": [
         "música",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Todos Contam",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TMP — Campo Alegre",
+      "type": "Teatro",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Fernando Alvim leva ao palco histórias reais, contadas na primeira pessoa, sem filtros e sem rede. Uma noite de humor, emoção e inesperado, com convidados especiais. Porque todos temos uma história para contar. E, nesta noite, todos contam. A primeira edição do Todos Contam no Porto leva a palco Beatriz Gosta, Lena D'Água, Vítor Rua e Pedro Paixão.",
+      "url": "https://www.agenda-porto.pt/evento/todos-contam/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
       ]
     },
     {
@@ -4774,6 +4760,25 @@
       ]
     },
     {
+      "name": "tédio fc",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Passos Manuel",
+      "type": "Música",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "date": "23 Nov",
+      "desc": "Os tédio fc são uma banda de rock porque tocam guitarra. O seu som já foi descrito como rock alternativo, post-post-grunge com eletrónica barata e outras coisas também. Editaram o EP de estreia, \"entrada a medo\", em abril de 2025 e preparam-se para expandir o seu catálogo em outubro de 2026. Trazem aos concertos uma energia descomprometida, alternando entre momentos de intensidade e introspeção, num ambiente perfeito para exorcizar demónios.",
+      "url": "https://www.agenda-porto.pt/evento/ppd-tedio-fc/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Siza Vieira, o Arquitecto e a Cidade Velha Os Filmes das Nossas Terças / Ciclo O Problema da Habitação",
@@ -4788,6 +4793,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Bastonada",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Passos Manuel",
+      "type": "Música",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "date": "24 Nov",
+      "desc": "Bastonada é uma banda electropunk do Porto, formada em 2025. O projeto combina sintetizadores analógicos, batidas pulsantes, guitarras elétricas distorcidas e letras urgentes e satíricas. Em palco, os concertos são intensos e diretos, com uma energia que provoca o público a sentir a crueza e rebeldia do punk. A banda resulta da união de elementos com backgrounds musicais distintos, culminando numa fusão de música eletrónica, punk, prog e noise. Os Bastonada são Alexandre Sequeira (“THOVEN”), Gui",
+      "url": "https://www.agenda-porto.pt/evento/ppd-bastonada/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -4896,6 +4919,24 @@
       ]
     },
     {
+      "name": "Manga Cava",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Passos Manuel",
+      "type": "Música",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "date": "25 Nov",
+      "desc": "As Manga Cava surgem algures num dia fresco de primavera, à espera do verão. Entre sombra e mato, vão-se arranhando nas silvas e inventando melodias que tanto podem ser sussurradas como gritadas. Há nelas algo impulsivo, tonto e agridoce, como uma tarde sem planos. Fazem música para quem não se leva demasiado a sério e gosta de andar de braços ao léu - entre sestas a meio da tarde e corridas só para gastar energia. Tocam algo que apenas pode ser descrito como “girly indie pop punk rock tuga do m",
+      "url": "https://www.agenda-porto.pt/evento/ppd-manga-cava/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Ritmos e Batidas",
       "area": "Porto",
       "city": "Porto",
@@ -4946,16 +4987,16 @@
       ]
     },
     {
-      "name": "Libra Concerto",
+      "name": "FUCK IT",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Plano B",
+      "venue": "Passos Manuel",
       "type": "Música",
       "start": "2026-11-26",
       "end": "2026-11-26",
       "date": "26 Nov",
-      "desc": "Libra (Concerto) LIBRA é uma artista de Sintra que funde Hip-Hop consciente, R&B alternativo e soul experimental numa linguagem íntima, politizada e intensamente emocional. Estreou-se em 2025 com Everyone’s First Breath, um disco-manifesto que transforma a dor em afirmação e vulnerabilidade em força coletiva. A sua escrita é crua, poética e sem concessões, dando voz a experiências femininas com uma honestidade rara. Em palco, entrega atuações catárticas e magnéticas, onde cada silêncio pesa tant",
-      "url": "https://www.agenda-porto.pt/evento/planob-libra/",
+      "desc": "Nascidos na Rua de Cedofeita, no Porto, os FUCK IT cruzam D-beat ruidoso e hardcore punk minimalista numa descarga feroz contra o elitismo e o conformismo. Com músicos de longa história no underground nacional, o trio mantém uma ética DIY sem concessões. Depois de percorrer palcos portugueses e britânicos, levou o seu crust punk ao Japão na Anti-Guerra Tour 2026, ao lado de Besthöven.",
+      "url": "https://www.agenda-porto.pt/evento/ppd-fuck-it/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -5012,150 +5053,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
-      ]
-    },
-    {
-      "name": "GANSO",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hard Club",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A tour dos 10 anos de carreira dos Ganso continua, depois de celebrarem, no passado mês de março, uma festa de mais de duas horas de música, convidados especiais e muita cantoria em uníssono num Coliseu dos Recreios cheio. No seguimento de atuarem numa das salas mais emblemáticas do país - naquele que foi o maior concerto dos Ganso em nome próprio até à data - o grupo prepara-se para repetir a dose, apontando a trajetória de voo para Norte. A 27 de novembro os Ganso pousam no Hard Club, no Porto",
-      "url": "https://www.agenda-porto.pt/evento/hard-club-ganso/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Hollaback",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Quando a música vem do PA ou daquele retrovisor que nos espelha o início dos anos 2000. A festa que reúne o Peter Castro (Pyrats - Beyoncé Fest e Batidão Baile Funk) e Slimcutz (Monster Jinx - PCGC e Purple Hazin´), com as respectivas hordas de seguidores, em torno do hip hop e r´n´b que marcou a última mudança de milénio.",
-      "url": "https://www.agenda-porto.pt/evento/261127-hollaback/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Manel Rosa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Alameda Shop & Spot",
-      "type": "Teatro",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Depois das férias, há um novo motivo para sorrir! Entre os meses de setembro e novembro o Alameda Shop&Spot vai transformar-se num verdadeiro palco de comédia ao apresentar o Alameda Comedy Club. Um ciclo de seis noites de stand-up obrigatórias para todos os amantes de humor, que prometem fazer com que o regresso à rotina seja mais leve e divertido. O melhor de tudo, é que a entrada é gratuita! O line-up reúne alguns dos maiores nomes do stand-up nacional, garantindo uma programação diversificad",
-      "url": "https://www.agenda-porto.pt/evento/alameda-manel-rosa/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "O Lago dos Cisnes",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Dança",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A Imperial Heritage Ballet apresenta O Lago dos Cisnes , um clássico intemporal que continua a emocionar públicos de todas as gerações. Entre amor, encantamento e destino, este bailado transporta-nos para o universo poético de Odette, princesa transformada em cisne por uma força misteriosa. Entre a delicadeza de Odette e o fascínio de Odile, a realidade dá lugar a um mundo de beleza, ilusão e emoção. Com música de Tchaikovsky, O Lago dos Cisnes é uma celebração do grande ballet clássico, unindo",
-      "url": "https://www.agenda-porto.pt/evento/coliseu-o-lago-dos-cisnes-1791382844321/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
-      "name": "PCR",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/261127-pcr/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Pizarro interpreta Britten",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A Casa da Música assinala os 50 anos da morte de Benjamin Britten apresentando o seu Concerto para piano, uma obra pouco presente nas salas de concerto tradicionais mas cada vez mais valorizada por grandes intérpretes, fascinados pela sua energia e originalidade.",
-      "url": "https://www.agenda-porto.pt/evento/cdm-pizarro-interpreta-britten/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Surface, Otherwise (after STA XLII)",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Para a inauguração de Fallen Vision , a primeira exposição individual de Anri Sala em Portugal, o ensemble vocal EXAUDI interpreta Surface, Otherwise (after STA XLII) , uma nova composição criada especificamente para a exposição. Em colaboração com o compositor Jack Sheen, Sala parte dos processos materiais e temporais da sua prática recente de pintura a fresco para criar uma partitura vocal, integrando a pintura na sua longa investigação sobre o som e o tempo. Patente ao longo da exposição sob",
-      "url": "https://www.agenda-porto.pt/evento/2711-surface-otherwise-after-sta-xlii/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Temáticas Intemporais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Museu Nacional Soares dos Reis",
-      "type": "Exposição",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Nesta visita atravessamos as exposições para selecionar obras e saborear temáticas intemporais, escritas, pintadas, esculpidas. Cruzamos literatura e artes plásticas em obras que são janelas para o mistério da vida: amor, morte, beleza, sonho, conhecido, desconhecido, transcendência, fraquezas e forças da condição humana… temas chave universais tratados de forma única.",
-      "url": "https://www.agenda-porto.pt/evento/mnsr-tematicas-intemporais-2711/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
       ]
     },
     {
