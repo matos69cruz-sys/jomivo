@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -324,114 +324,6 @@
       "quality_reasons": []
     },
     {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "Ensemble Inverspace [ESTREIA NACIONAL] Tubo de Ensaio #14",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "url": "https://www.teatroaveirense.pt/pt/evento/ensemble-inverspace-estreia-nacional/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Música",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-77",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Accordia",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "No próximo dia 5 de novembro, às 18h30, a Livraria de Serralves acolhe a apresentação da Accordia , uma nova editora portuguesa dedicada à criação e edição de livros de arte. A estreia faz-se com o lançamento de 23 títulos, numa coleção que reúne nomes incontornáveis da arte contemporânea portuguesa, como Graça Morais, Rui Chafes, Pedro Calapez, Jorge Molder, Cristina Ataíde, João Louro, Noé Sendas, Avelino Sá e Mónica de Miranda, entre muitos outros. O encontro registará a presença de vários ar",
-      "url": "https://www.agenda-porto.pt/evento/0511-apresentacao-da-accordia/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 4,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "exposição",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Black Bombaim & Isaiah Mitchell",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lovers & Lollypops",
-      "type": "Música",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "Dez anos depois do encontro no Milhões de Festa, os Black Bombaim reencontram-se com Isaiah Mitchell (Earthless). Gravado ao vivo a 23 de maio de 2025, na Lovers & Lollypops, no Porto, o novo disco capta o segundo concerto desta colaboração, agora num contexto diferente, mas com a mesma entrega à improvisação e ao risco. Entre o peso do stoner, a expansão do rock psicadélico e a liberdade da criação em tempo real, Black Bombaim e Isaiah Mitchell voltaram a transformar o palco num território de e",
-      "url": "https://www.agenda-porto.pt/evento/black-bombaim-andamp-isaiah-mitchell/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Hunky Jesus",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bar of Soap",
-      "type": "Música",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "No âmbito do festival Queer Porto, o Bar of Soap acolhe \"Bingo Night with the Sisters\". Entrada livre.",
-      "url": "https://www.agenda-porto.pt/evento/bar-of-soap-hunky-jesus/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Irmãos Jussen",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "Estão entre os duos de pianistas mais requisitados da atualidade e têm o condão de encher salas com público invulgarmente jovem. Os neerlandeses Lucas e Arthur Jussen tornaram-se os músicos mais novos a assinar contrato com a prestigiada Deutsche Grammophon e ainda andavam na escola primária quando se estrearam no Concertgebouw de Amesterdão. Em 2005, começaram a ter aulas com Maria João Pires, que lhes ensinou “a importância da respiração e de nunca haver uma separação entre técnica e musicalid",
-      "url": "https://www.agenda-porto.pt/evento/cdm-irmaos-jussen/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "LitoQuintas",
       "area": "Porto",
       "city": "Porto",
@@ -451,78 +343,6 @@
       ]
     },
     {
-      "name": "Mike Vhiles",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "Mike Vhiles versam sobre más decisões acumuladas que rebentam em e com o palco, numa série de erupções sónicas repletas de fuzz e distorção gutural a fazer lembrar uma data de filmes apocalípticos. São de Coimbra mas não ligam ao pedigree da Sofia cidade. Preferem desacatos, quezílias e o apuro de quem vive com o sangue na guelra. Bilhetes",
-      "url": "https://www.agenda-porto.pt/evento/261105-mike-vhiles/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "O que Pode um Museu?",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "O que pode um museu? Artistas, curadores e investigadores em diálogo sobre performance e artes vivas em contexto de instituições de arte contemporânea. Com Ana Bigotte Vieira, André e. Teodósio, André Guedes, Paula Parente Pinto e moderação de Rita Castro Neves. Esta mesa-redonda dedicada reúne quatro participantes com percursos ligados à investigação, à criação artística e à curadoria. Ana Bigotte Vieira é investigadora, curadora e dramaturga, com trabalho nas áreas da história e teoria das art",
-      "url": "https://www.agenda-porto.pt/evento/0511-o-que-pode-um-museu/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Objeto para um corpo / Corpo como objeto",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "CRL — Central Elétrica, CACE Cultural",
-      "type": "Teatro",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "Na vida quotidiana, os objetos são geralmente definidos através da linguagem e da sua função; classificamo-los como ferramentas, mobiliário, dispositivos de comunicação ou bens de consumo. No entanto, esta clareza funcional contrasta com a sua presença nos sonhos, onde os objetos surgem instáveis, simbólicos e frequentemente irracionais. Este projeto investiga a tensão entre estes dois estados: o mundo racional da utilização e da classificação e o mundo opaco e fluido dos sonhos. Através da expe",
-      "url": "https://www.agenda-porto.pt/evento/objeto-para-um-corpo-corpo-como-objeto-1792587162398/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Penelope Isles + Silentide",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
-      "type": "Música",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "Concerto duplo",
-      "url": "https://www.agenda-porto.pt/evento/rca-penelope-isles-silentide/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Pintura em Azulejos",
       "area": "Porto",
       "city": "Porto",
@@ -537,24 +357,6 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "Poison Ruïn",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Woodstock 69 Rock Bar",
-      "type": "Música",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "date": "5 Nov",
-      "desc": "Dia 5 de novembro recebemos os Poison Ruin no Woodstock 69, numa noite que marca o início da colaboração entre Mondo Negro e Produções do Diabo — e há mais a caminho. O punk da banda de Filadélfia parece existir algures entre dois tempos. Há a urgência e a crueza do presente, mas também um mundo povoado por servos, ruínas, correntes, espíritos e outras figuras saídas de um passado imaginado. Em Poison Ruin, essa linguagem nunca serve apenas de cenário: é uma forma de falar sobre poder, alienação",
-      "url": "https://www.agenda-porto.pt/evento/poison-ruin-1792743389657/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
     },
     {
       "area": "Aveiro",
@@ -750,6 +552,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Glady's + Tech Noir",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Raise",
+      "url": "https://www.agenda-porto.pt/evento/gladyand39s-tech-noir/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Jam Drawing Session",
       "area": "Porto",
       "city": "Porto",
@@ -768,6 +588,25 @@
       ]
     },
     {
+      "name": "Kutin + Nerve",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Sonoscopia Associação",
+      "type": "Família",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "KUTIN link | http://kutin.xzy Peter Kutin trabalha com o som e as suas possibilidades interdisciplinares. O seu trabalho caracterizam-se pela fusão da música com a imagem, a escultura, a luz, cinética e vídeo. Uma exploração aprofundada da forma como o som e os estímulos visuais se interdependem e interagem, expandindo o seu território artístico muito para além da música e, resultando em filmes experimentais, objectos multimédia, esculturas cinéticas e espetáculos teatrais. Em 2026, está previst",
+      "url": "https://www.agenda-porto.pt/evento/kutin-nerve/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "experiência especial",
+        "espetáculo familiar"
+      ]
+    },
+    {
       "name": "Max Cooper",
       "area": "Porto",
       "city": "Porto",
@@ -778,6 +617,24 @@
       "date": "6 Nov",
       "desc": "Embora seja sabido que a ciência e as vertentes mais cerebrais da música eletrónica se vêm refletindo mutuamente há não menos de três décadas, como dois espelhos colocados um de frente para o outro – especialmente a partir do nascimento de editoras como a Rephlex e a Kompakt –, a metáfora ganha outra dimensão na figura de Max Cooper, produtor norte-irlandês que estudou bioinformática e que chegou inclusive a desenvolver uma carreira científica centrada no estudo da evolução e da regulação genéti",
       "url": "https://www.agenda-porto.pt/evento/max-cooper/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Mortal Kombat + Música",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Real República dos LyS.O.S.",
+      "type": "Música",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "date": "6 Nov",
+      "desc": "Lysada, na próxima sexta-feira o Scorpion do Mortal Kombat vai estar na nossa cave todo musculado e com um barril de cerveja que ficou do nosso último concerto por acabar. Requisitamos a ajuda de toda a comunidade para podermos terminar esta jola sem prejuízo e, no processo, fazermos um torneio na maior amizade. O prémio é diversão e mérito. (Não há guito pra mais, desculpem lá) LIMITAÇÃO DE 100 PESSOAS NO ESPAÇO",
+      "url": "https://www.agenda-porto.pt/evento/mortal-kombat-musica/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -1157,24 +1014,6 @@
       "quality_reasons": []
     },
     {
-      "name": "Display Title",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "date": "7 Nov",
-      "desc": "No dia 7 de novembro, regressamos ao Era Uma Vez no Porto para uma noite dedicada às sonoridades mais profundas e psicadélicas da música eletrónica. Uma viagem entre twilight, forest e psychedelic, conduzida por três artistas nacionais que partilham a mesma ligação à pista, mas com identidades próprias. ⚡️ KENDOWN - Live Set KENDOWN traz um Live Set de 2h centrado nas sonoridades tão próprias do Twilight. Entre atmosferas densas, texturas orgânicas e ritmos envolventes, prepara-se para conduzir",
-      "url": "https://www.agenda-porto.pt/evento/shadow-groove/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Elogio ao Fio, de Guga Szabzon",
       "area": "Porto",
       "city": "Porto",
@@ -1284,6 +1123,25 @@
       ]
     },
     {
+      "name": "Immerse Fest",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Escola Normal — Casa Cultural",
+      "type": "Exposição",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "\"O Immerse Fest é um festival de um dia criado por artistas para artistas. Onde o mundo de cada artista se juntam e formam um universo de Arte! Com artistas em bancas, exposições, instalações e residências artísticas e com um line up de músicos e poesia! Junta-te a nós dia 7 de Novembro das 15h à meia noite!\"",
+      "url": "https://www.agenda-porto.pt/evento/immerse-fest/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 4,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "exposição",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Iniciação ao Tricot à Máquina",
       "area": "Porto",
       "city": "Porto",
@@ -1312,6 +1170,42 @@
       "date": "7 Nov",
       "desc": "KATANA é um manifesto biónico, ergue uma distopia apocalíptica ao construir paisagens sónicas electropop futuristas, povoadas por uma voz que declara em mantra letras ousadas como íntimas, sem travões linguísticos. A meta paisagem convoca imediatamente os cenários provocadores do electroclash, como grito de fúria e revolução. É stripped na pista! É o culminar da própria identidade AURORA.",
       "url": "https://www.agenda-porto.pt/evento/katana/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Kendown (live) + Bl4ck0ut + Zandria",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "Multiverse Events apresenta Shadow Grave",
+      "url": "https://www.agenda-porto.pt/evento/kendown-bl4ck0ut-zandria/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Kendown + Bl4ck0ut + zandria",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "date": "7 Nov",
+      "desc": "No dia 7 de novembro, regressamos ao Era Uma Vez no Porto para uma noite dedicada às sonoridades mais profundas e psicadélicas da música eletrónica. Uma viagem entre twilight, forest e psychedelic, conduzida por três artistas nacionais que partilham a mesma ligação à pista, mas com identidades próprias. ⚡️ KENDOWN - Live Set KENDOWN traz um Live Set de 2h centrado nas sonoridades tão próprias do Twilight. Entre atmosferas densas, texturas orgânicas e ritmos envolventes, prepara-se para conduzir",
+      "url": "https://www.agenda-porto.pt/evento/shadow-groove/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -1815,6 +1709,24 @@
       ]
     },
     {
+      "name": "ZDM + Zoe + Bonus Bass",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "date": "8 Nov",
+      "desc": "Prestige Invictus",
+      "url": "https://www.agenda-porto.pt/evento/zdm-zoe-bonus-bass/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "2.ª Edição Mercado Allure",
       "area": "Porto",
       "city": "Porto",
@@ -1826,6 +1738,22 @@
       "desc": "\"De 9 a 14 de novembro, a Galeria do Mercado do Bolhão, no Porto, recebe uma nova edição do Mercado Allure, um mercado dedicado à valorização do artesanato e da produção nacional. Ao longo de seis dias, cerca de 40 marcas reúnem-se numa seleção que celebra a criatividade, o saber-fazer e a diversidade da produção nacional. Entre peças artesanais, acessórios, joalharia, arte e outras propostas originais, o Mercado Allure dá a conhecer projetos que valorizam o trabalho manual, a identidade e a ate",
       "url": "https://www.agenda-porto.pt/evento/mercado-allure-nov26/",
       "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Gastronomia | Conversas d’Alguidar",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "date": "10 Nov",
+      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
@@ -1917,6 +1845,24 @@
       "quality_reasons": [
         "música",
         "experiência especial"
+      ]
+    },
+    {
+      "name": "Vozes em Roda",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Yoga sobre o Porto",
+      "type": "Música",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "date": "10 Nov",
+      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
+      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-1793876638118/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -2075,6 +2021,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Gastronomia | Conversas d’Alguidar",
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
+      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-50",
+      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "A Lemonade Stand-up Comedy",
@@ -3124,6 +3086,24 @@
       ]
     },
     {
+      "name": "Pietro Frigato",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Sonoscopia Associação",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Entrada Livre | Estúdio analógico da Sonoscopia Espaço limitado a 15 pessoas! RESERVAS POR EMAIL - Sonoscopia@gmail.com * Apresentação de residência do artista Pietro Frigato. Pietro Frigato: https://pietrofrigato.com/ Esta residência resulta de uma colaboração entre Worm (Espaço/colectivo de Rotterdam ) e a Sonoscopia. * A Sonoscopia é uma estrutura financiada pela República Portuguesa - Cultura, Juventude e Desporto/Direção-Geral das Artes.",
+      "url": "https://www.agenda-porto.pt/evento/pietro-frigato/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Rabiscar o Porto",
       "area": "Porto",
       "city": "Porto",
@@ -3329,6 +3309,24 @@
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
+      ]
+    },
+    {
+      "name": "Voyager a 1 dia-luz de ‘casa’",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Planetário do Porto — Centro Ciência Viva",
+      "type": "Família",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "O Planetário do Porto – Centro Ciência Viva promove um evento temático, sábado, 14 de novembro de 2026, aberto à comunidade para celebrar dois marcos significativos: • ﻿o 30.º aniversário da Ciência Viva celebrando-se com o Festival Geração Ciência; • a efeméride tecnológica da sonda Voyager 1, que se prepara (a 18 de novembro) para atingir a marca simbólica de 1 dia-luz de distância da Terra. Embarque connosco nesta reflexão sobre o conhecimento do nosso lugar no Universo, deixe uma mensagem pa",
+      "url": "https://www.agenda-porto.pt/evento/voyager-a-1-dia-luz-de-casa/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "experiência especial"
       ]
@@ -4044,6 +4042,24 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Pulp, de Sébastien Pauwels",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria PLATO",
+      "type": "Exposição",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "A polpa é matéria no seu estado mais essencial. Algo em bruto, maleável e cheio de possibilidades, suspenso entre a fragilidade e a resistência, a transformação e a reinvenção. Nas mãos de Pauwels, o cartão torna-se uma matéria de infinitas possibilidades. Por ocasião da sua primeira exposição individual na Plato, Sébastien Pauwels reúne os media fundamentais da sua prática artística: o desenho, a pintura e a escultura. Através de um processo instintivo e lúdico, o quotidiano ganha formas inespe",
+      "url": "https://www.agenda-porto.pt/evento/pulp-de-sebastien-pauwels-inauguracao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
     },
     {
       "name": "Puto Bacoco",
@@ -4969,7 +4985,7 @@
       "quality_reasons": []
     },
     {
-      "name": "Besta + Equaleft",
+      "name": "Besta + Nihility",
       "area": "Porto",
       "city": "Porto",
       "venue": "Maus Hábitos",
@@ -4978,7 +4994,7 @@
       "end": "2026-11-26",
       "date": "26 Nov",
       "desc": "Lisboa, Portugal, junho de 2012, nasce a BESTA . Com 12 lançamentos cruciais incluindo três álbuns e vários EPs e Splits, e já com Paulo Rui como vocalista a banda construiu uma sólida reputação em solo nacional e também internacional com aparições em solo europeu e sul-americano, festivais como Obscene Extreme na Rep. Checa, Masters Of Grind na Bélgica, Resurrection Fest em Espanha, Exhale The Sound no Brasil e shows ao lado de bandas como Carcass, Crowbar, Eyehategod, Napalm Death, Brujeria, C",
-      "url": "https://www.agenda-porto.pt/evento/261126-aspirina-besta-equaleft/",
+      "url": "https://www.agenda-porto.pt/evento/261126-aspirina-besta-nihility/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -4997,6 +5013,24 @@
       "date": "26 Nov",
       "desc": "Nascidos na Rua de Cedofeita, no Porto, os FUCK IT cruzam D-beat ruidoso e hardcore punk minimalista numa descarga feroz contra o elitismo e o conformismo. Com músicos de longa história no underground nacional, o trio mantém uma ética DIY sem concessões. Depois de percorrer palcos portugueses e britânicos, levou o seu crust punk ao Japão na Anti-Guerra Tour 2026, ao lado de Besthöven.",
       "url": "https://www.agenda-porto.pt/evento/ppd-fuck-it/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Libra Concerto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Plano B",
+      "type": "Música",
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "date": "26 Nov",
+      "desc": "Libra (Concerto) LIBRA é uma artista de Sintra que funde Hip-Hop consciente, R&B alternativo e soul experimental numa linguagem íntima, politizada e intensamente emocional. Estreou-se em 2025 com Everyone’s First Breath, um disco-manifesto que transforma a dor em afirmação e vulnerabilidade em força coletiva. A sua escrita é crua, poética e sem concessões, dando voz a experiências femininas com uma honestidade rara. Em palco, entrega atuações catárticas e magnéticas, onde cada silêncio pesa tant",
+      "url": "https://www.agenda-porto.pt/evento/planob-libra/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -5053,6 +5087,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Surface, Otherwise (after STA XLII)",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "date": "27 Nov",
+      "desc": "Para a inauguração de Fallen Vision , a primeira exposição individual de Anri Sala em Portugal, o ensemble vocal EXAUDI interpreta Surface, Otherwise (after STA XLII) , uma nova composição criada especificamente para a exposição. Em colaboração com o compositor Jack Sheen, Sala parte dos processos materiais e temporais da sua prática recente de pintura a fresco para criar uma partitura vocal, integrando a pintura na sua longa investigação sobre o som e o tempo. Patente ao longo da exposição sob",
+      "url": "https://www.agenda-porto.pt/evento/2711-surface-otherwise-after-sta-xlii/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
       ]
     },
     {
