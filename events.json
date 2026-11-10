@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -12,24 +12,6 @@
       "date": "22 Mai – 22 Nov",
       "desc": "Call of the West é uma história reencontrada. Esta exposição, a realizar-se na Casa do Infante, integra o programa da KISMIF Conference 2026. Trata uma narrativa longínqua de uma viagem, de uma amizade e de um momento irrepetível da cultura underground portuguesa. Estes registos fotográficos – feitos por Victor Torpedo em 1997 (com edição e tratamento de negativos de 35mm por Pedro Medeiros) – narram a primeira viagem dos Tédio Boys aos EUA. Era o augúrio de um mundo que se encontrava (e encontr",
       "url": "https://www.agenda-porto.pt/evento/call-of-the-west-1779183717356/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Afterglow, de Francesca Cecamore",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Tincal lab",
-      "type": "Exposição",
-      "start": "2026-09-19",
-      "end": "2026-11-09",
-      "date": "19 Set – 9 Nov",
-      "desc": "O Tincal lab celebra o próximo evento de Inaugurações Simultâneas em Miguel Bombarda no dia 19 de Setembro, Sábado, com a apresentação da exposição individual de Francesca Cecamore: Afterglow . Visitem na loja 3 do CCBombarda, contaremos com a presença da autora, entre as 16h00 e as 20h00. Francesca Cecamore foi a vencedora do Prémio Selecção do Público (votação online) do Desafio Tincal lab 2025 Joalharia e Celebração. Para visitar até 9 de Novembro. STATEMENT Afterglow A colecção Afterglow des",
-      "url": "https://www.agenda-porto.pt/evento/francesca-cecamore/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -858,6 +840,25 @@
       ]
     },
     {
+      "name": "Karaoke & Quizz",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar of Soap",
+      "type": "Música",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "Queernic",
+      "url": "https://www.agenda-porto.pt/evento/queernic-karaoke-andamp-quizz/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "música",
+        "atividade rotineira"
+      ]
+    },
+    {
       "name": "Keiyaa",
       "area": "Porto",
       "city": "Porto",
@@ -873,25 +874,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
-      ]
-    },
-    {
-      "name": "Queernic Karaoke & Quizz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bar of Soap",
-      "type": "Música",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/queernic-karaoke-andamp-quizz/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": -2,
-      "quality_level": "ROTINA",
-      "quality_reasons": [
-        "música",
-        "atividade rotineira"
       ]
     },
     {
@@ -1230,6 +1212,22 @@
       ]
     },
     {
+      "name": "Light in Practice: from natural to flash",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Temporada Social Club",
+      "type": "Evento",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "De que forma é que a luz influencia a maneira como vemos, compreendemos e contamos histórias através da fotografia? Junte-se a nós numa palestra com o fotógrafo Stefano Gennaro, na qual exploraremos o papel essencial da luz em diferentes géneros fotográficos — desde retratos e eventos até à fotografia de rua, de produto e documental. Através de insights práticos e exemplos, vamos descobrir como interpretar, compreender e direcionar a luz, explorar equipamentos e técnicas úteis e aprender como a",
+      "url": "https://www.agenda-porto.pt/evento/light-in-practice-from-natural-to-flash/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "miaw",
       "area": "Porto",
       "city": "Porto",
@@ -1408,16 +1406,35 @@
       ]
     },
     {
+      "name": "KYLE DIXON & MICHAEL STEIN",
       "area": "Braga",
       "city": "Braga",
-      "name": "Kyle Dixon & Michael Stein",
+      "venue": "",
+      "type": "Música",
       "start": "2026-11-14",
       "end": "2026-11-14",
-      "url": "https://theatrocirco.com/event/kyle-dixon-michael-stein/",
-      "source": "https://theatrocirco.com/programa/",
+      "date": "14 Nov",
+      "desc": "Kyle Dixon e Michael Stein revisitam as cinco temporadas de «Stranger Things» num concerto imersivo que combina música, luz e efeitos visuais.",
+      "url": "https://visitbraga.travel/event/1283-kyle-dixon-michael-stein",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Música De Câmara 2026: TRÊS ÉPOCAS, TRÊS VOZES",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
       "type": "Música",
-      "venue": "Theatro Circo",
-      "desc": "",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Concerto que percorre três séculos de música, de Bach e Haydn a Shostakovich, com a Orquestra Jovem da Música de Câmara e Telmo Rocha na trompa.",
+      "url": "https://visitbraga.travel/event/1282-musica-de-camara-2026-tres-epocas-tres-vozes",
+      "source": "https://visitbraga.travel/agenda-braga/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
@@ -1704,6 +1721,24 @@
       ]
     },
     {
+      "name": "Chegada do Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Marcolino",
+      "type": "Evento",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Há tradições que anunciam a chegada do Natal. No Porto, uma delas tem uma assinatura incontornável: a Marcolino. Este sábado, dia 14 de novembro, às 18h, a histórica loja da Rua de Santa Catarina volta a transformar-se num dos grandes palcos da quadra natalícia, com uma produção de dimensão excecional que promete fazer da cidade um verdadeiro espetáculo de luz. Mais de 200 mil luzes, 20 quilómetros de fios luminosos, 50 profissionais envolvidos na produção e 20 artistas em palco dão forma à ediç",
+      "url": "https://www.agenda-porto.pt/evento/chegada-do-natal-marcolino/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Da Impermanência, de Evelina Oliveira",
       "area": "Porto",
       "city": "Porto",
@@ -1930,6 +1965,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Instalação Akathemi",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "SCAR-ID",
+      "type": "Exposição",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "No próximo Sábado 14, a partir das 16h, dia de Inaugurações em Bombarda, a SCAR-ID apresenta Displaced , a colecção inaugural de joalharia da Akathemi, que \"parte daquilo que acontece quando mudamos de lugar - no espaço, no pensamento ou na relação com o próprio corpo. Entre o que deixamos e o que ainda estamos a aprender a habitar, interroga os processos de transformação e pertença. A colecção dá forma a estas questões através de geometrias, vazios e desalinhamentos. Criadas a partir de desperd",
+      "url": "https://www.agenda-porto.pt/evento/instalacao-akathemi/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Introdução à Serigrafia",
       "area": "Porto",
       "city": "Porto",
@@ -2095,6 +2148,24 @@
       "date": "14 Nov",
       "desc": "Para comemorar o seu 90.º aniversário, celebrado em outubro passado, o Music on Music tem o prazer de apresentar uma sessão de audição da caixa recém-lançada de Steve Reich, “Recordings on ECM” (produzido inteiramente em analógico a partir das fitas magnéticas originais), em parceria com a ECM, o Quarto Mundo, a 8mm Records e a Distrijazz. O evento terá lugar no Quarto Mundo/Lugar Comum (Rua de Santa Catarina, 771, Porto, Portugal) no dia 14 de novembro de 2026, às 20h00, tirando partido do sist",
       "url": "https://www.agenda-porto.pt/evento/recordings-on-ecm/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Ressoa em Mim",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Igreja da Lapa",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "\"Há uma felicidade discreta em acompanhar a evolução de um compositor que nos é próximo. De obra em obra, vamos percebendo, dobra sobre dobra, o afinar da sua sensibilidade: aquilo que o chama, aquilo em que se demora, aquilo que lhe pede forma. Aprendemos a reconhecer uma maneira de escutar o mundo. E, nessa companhia, também alguma coisa em nós se afina. A partida inesperada do Rodrigo Pinto interrompeu esse caminho quando tanto estava ainda por vir. Da música de câmara à orquestral, este conc",
+      "url": "https://www.agenda-porto.pt/evento/ressoa-em-mim/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2781,6 +2852,24 @@
       ]
     },
     {
+      "name": "Braga Blues Concerto CHRIS JAGGER",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Chris Jagger apresenta um concerto que cruza rock, blues e folk, numa sonoridade acústica com influências das raízes do rock tradicional.",
+      "url": "https://visitbraga.travel/event/1284-braga-blues-concerto-chris-jagger",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "FIATO em Vinil",
       "area": "Porto",
       "city": "Porto",
@@ -2907,6 +2996,25 @@
       ]
     },
     {
+      "name": "The Sleeves",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "JAM Porto",
+      "type": "Música",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Os The Sleeves vêm ao JAM Porto no dia 19 de novembro para apresentar o seu álbum de estreia homónimo. Os The Sleeves são a dupla formada por Jack Cooper e Tara Cunningham, conhecidos como metade dos Modern Nature. Na sequência de um lançamento totalmente instrumental pela Mossy Tapes em novembro passado, Cooper e Cunningham gravaram 10 novas canções que destacam a interação entre as vozes e as guitarras, com apenas os mais ténues ecos dos seus trabalhos anteriores (individuais ou em conjunto),",
+      "url": "https://www.agenda-porto.pt/evento/the-sleeves/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Todos Contam",
       "area": "Porto",
       "city": "Porto",
@@ -2922,6 +3030,25 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Braga Blues Concerto KOKO JEAN & THE TONICS",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "Koko Jean & The Tonics encerram o Festival Nova Arcada Braga Blues com um concerto energético que combina soul, blues, rhythm and blues e rock’n’roll.",
+      "url": "https://visitbraga.travel/event/1286-braga-blues-concerto-koko-jean-the-tonics",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     },
     {
@@ -3152,6 +3279,42 @@
       ]
     },
     {
+      "name": "Concerto BUDDA GUEDES E TATANKA - PORTUGUESE BLUES REUNION",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Budda Guedes e Tatanka juntam-se para celebrar o blues português, num concerto que cruza blues, soul e funk em interpretações cheias de energia.",
+      "url": "https://visitbraga.travel/event/1285-concerto-budda-guedes-e-tatanka-portuguese-blues-reunion",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Concerto Park Jiha",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Park Jiha apresenta «All Living Things» (2025), num concerto que combina tradição e improvisação através de instrumentos ancestrais coreanos.",
+      "url": "https://visitbraga.travel/event/1287-concerto-park-jiha",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Descentrar Concerto Jorge Cruz",
       "area": "Braga",
       "city": "Braga",
@@ -3162,6 +3325,24 @@
       "date": "21 Nov",
       "desc": "Jorge Cruz apresenta um concerto de inspiração rural que cruza a música de raiz portuguesa com sonoridades folk, num regresso às suas origens.",
       "url": "https://visitbraga.travel/event/1258-descentrar-concerto-jorge-cruz",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Música de Câmara HOMENAGEM A MANUEL DE FALLA",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Eliot e Jill Lawson interpretam obras de Mozart, Manuel de Falla e César Franck, num recital que explora o diálogo entre violino e piano.",
+      "url": "https://visitbraga.travel/event/1288-musica-de-camara-homenagem-a-manuel-de-falla",
       "source": "https://visitbraga.travel/agenda-braga/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -4565,6 +4746,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Noite de Tunas IV",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Escola Superior de Saúde do Porto",
+      "type": "Música",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "O Noite de Tunas, é um evento imperdível, organizado pela Tuna TS de dois em dois anos, na altura do seu aniversário. Realizado na Escola Superior de Saúde do Porto, este encontro especial tem como principal objetivo aproximar os estudantes da tradição tuneril, proporcionando uma experiência única de cultura académica e espírito festivo. Com um ambiente vibrante e recheado de alegria, o Noite de Tunas reúne várias tunas convidadas que trazem consigo o melhor da sua arte musical e boa disposição.",
+      "url": "https://www.agenda-porto.pt/evento/noite-de-tunas-iv/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "O Diabo em Mim, do Visões Úteis",
       "area": "Porto",
       "city": "Porto",
@@ -4689,22 +4888,6 @@
       ]
     },
     {
-      "name": "Vinhos no Mercado: Especial de Natal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mercado Ferreira Borges",
-      "type": "Evento",
-      "start": "2026-11-28",
-      "end": "2026-11-29",
-      "date": "28–29 Nov",
-      "desc": "O Vinhos no Mercado está de volta para a sua segunda edição! Nos dias 28 e 29 de novembro, reunimos mais de 30 produtores, de 10 regiões diferentes de Portugal, num evento pensado para descobrir, provar e celebrar a diversidade e a personalidade dos vinhos nacionais. Durante o evento, poderá provar os vinhos dos produtores presentes, conhecer as histórias por detrás de cada garrafa e comprar os seus favoritos. O teu bilhete inclui um copo exclusivo Vinhos no Mercado, tanto na opção de 1 dia como",
-      "url": "https://www.agenda-porto.pt/evento/vinhos-no-mercado-1790872171702/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Wine & Clay",
       "area": "Porto",
       "city": "Porto",
@@ -4755,42 +4938,6 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "A Lemonade Stand-up Comedy",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Pinguim Café",
-      "type": "Teatro",
-      "start": "2026-11-29",
-      "end": "2026-11-29",
-      "date": "29 Nov",
-      "desc": "Mais uma incrível, porreirinha, nada mal, okay, vá, noite de stand-up comedy em inglês para todos os gostos e falta deles. Junta-te a nós e vem-te partir a rir, ou vá, rir muito, ok, bastante, assim-assim, pronto.",
-      "url": "https://www.agenda-porto.pt/evento/a-lemonade-stand-up-comedy-2911/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Al Di Meola",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-29",
-      "end": "2026-11-29",
-      "date": "29 Nov",
-      "desc": "Um dos mais talentosos e influentes guitarristas da história do jazz, género cujos horizontes foi expandindo, ao longo de uma carreira de mais de quatro décadas, em diálogos fecundos com estilos como o flamenco, o tango e diferentes correntes da música brasileira, africana e do Médio Oriente, Al Di Meola está de regresso ao Porto para nos proporcionar um concerto muito especial. Entre composições icónicas e temas novos, o multipremiado instrumentista promete uma noite de cheia de emotividade, on",
-      "url": "https://www.agenda-porto.pt/evento/cdm-al-di-meola/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
     },
     {
       "name": "Brahms, a Segunda Sinfonia",
@@ -4846,25 +4993,6 @@
       "quality_reasons": []
     },
     {
-      "name": "PAUS",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-29",
-      "end": "2026-11-29",
-      "date": "29 Nov",
-      "desc": "Os PAUS despedem-se dos palcos, ao fim de 18 anos de carreira, com um espetáculo único e irrepetível. Integrado na tour final de “Enterro”, este momento de adeus cruza a intensidade distintiva da banda lisboeta, em cuja sonoridade se misturam estilos e influências como math rock, krautrock, rock progressivo e música africana, com imagens e sons da sua história e ainda um coro de vozes. “Especial” é pouco para adjetivar a última oportunidade de presenciarmos ao vivo um dos projetos mais singulare",
-      "url": "https://www.agenda-porto.pt/evento/misty-fest-paus/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
       "name": "Som de Cá e de Lá",
       "area": "Porto",
       "city": "Porto",
@@ -4911,24 +5039,6 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "REGI D",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Big Bad Bank Bar",
-      "type": "Música",
-      "start": "2026-11-30",
-      "end": "2026-11-30",
-      "date": "30 Nov",
-      "desc": "ZERO motivos para não dançar! REGI D traz ao Zero Box Lodge uma viagem sonora entre o Minimal, Progressive House e Tech House. Batidas hipnóticas, ritmos envolventes e uma energia crescente para manter a pista viva até às 2h00. A entrada é gratuita.",
-      "url": "https://www.agenda-porto.pt/evento/regi-d-1793634047159/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
     },
     {
       "area": "Aveiro",
@@ -4988,6 +5098,40 @@
       "start": "2026-12-09",
       "end": "2026-12-09",
       "url": "https://www.teatroaveirense.pt/pt/evento/as-mais-belas/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Teatro",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Baleia Baleia Baleia Novas Quintas",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "url": "https://www.teatroaveirense.pt/pt/evento/baleia-baleia-baleia/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Música",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Espaço público: uma casa para todos Ciclo O Problema da Habitação",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "url": "https://www.teatroaveirense.pt/pt/evento/espaco-publico-uma-casa-para-todos/",
       "source": "https://www.teatroaveirense.pt/pt/programacao/",
       "type": "Teatro",
       "venue": "Teatro Aveirense",
