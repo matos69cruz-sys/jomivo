@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -419,130 +419,6 @@
       "quality_reasons": []
     },
     {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "date": "10 Nov",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Monstro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lovers & Lollypops",
-      "type": "Música",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "date": "10 Nov",
-      "desc": "Entre o pop rock dos anos 60 e uma psicadelia subtil, MONSTRO cruzam harmonias clássicas, nostalgia analógica e uma escrita marcada pela vulnerabilidade. Formado por Gonçalo Ferreira e Isaac Oliveira, o duo explora melodias que oscilam entre a delicadeza e a inquietação, num universo onde sonho e desilusão se encontram. O álbum de estreia, \"Unborn Love\", chega a 28 de novembro com dez canções sobre afetos, perdas e recomeços. Em palco, o projeto expande-se para uma formação de cinco músicos, com",
-      "url": "https://www.agenda-porto.pt/evento/ll-monstro/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Nini e Simão: A Aventura da Alimentação",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca Municipal Almeida Garrett",
-      "type": "Evento",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "date": "10 Nov",
-      "desc": "No âmbito das celebrações do Dia Universal dos Direitos da Criança, esta sessão convida os mais novos a embarcar numa viagem pelo universo da alimentação saudável através da leitura de uma história especialmente dirigida a crianças dos 5 aos 9 anos. A partir das aventuras das personagens, serão explorados temas como a descoberta de novos alimentos, a valorização de hábitos alimentares saudáveis e a importância de uma relação positiva com a comida. Pretende-se, ainda, promover a reflexão sobre os",
-      "url": "https://www.agenda-porto.pt/evento/clube-da-saude-nini-e-simao-a-aventura-da-alimentacao/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Noite de comédia",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez em Paris",
-      "type": "Teatro",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "date": "10 Nov",
-      "desc": "Stand-up",
-      "url": "https://www.agenda-porto.pt/evento/noite-de-comedia-1794216734169/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Regresso ao Barroco",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "date": "10 Nov",
-      "desc": "Um drama de Pier Paolo Pasolini encontra-se com a Paixão Segundo São João neste concerto partilhado entre a Orquestra Barroca e o Remix Ensemble. Pela primeira vez, os dois agrupamentos interpretam a mesma partitura: uma obra inspirada no texto homónimo de Pasolini, que denuncia uma sociedade hipócrita e cruel, opressiva para todos aqueles que ousam viver à margem das normas impostas por um sistema burguês e capitalista. O Compositor em Residência na Casa da Música, Hèctor Parra, descreve a part",
-      "url": "https://www.agenda-porto.pt/evento/cdm-regresso-ao-barroco/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Rodrigo Cuevas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "date": "10 Nov",
-      "desc": "Na última década, Rodrigo Cuevas afirmou-se como uma das vozes mais singulares das artes performativas ibéricas. O seu trabalho move-se entre o concerto, o teatro e a celebração popular, cruzando canção tradicional, eletrónica, humor e uma presença magnética em palco. Agora, o multifacetado artista asturiano apresenta o espetáculo \"La Belleza\", uma criação contemporânea que reinventa o folclore através da música e da performance. Baseado no repertório do álbum Manual de Belleza, o concerto prome",
-      "url": "https://www.agenda-porto.pt/evento/misty-fest-rodrigo-cuevas/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Vozes em Roda",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Yoga sobre o Porto",
-      "type": "Música",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "date": "10 Nov",
-      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
-      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-1793876638118/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Cabarex",
       "area": "Porto",
       "city": "Porto",
@@ -580,41 +456,6 @@
       ]
     },
     {
-      "name": "Excepção Fatal, de David Ole",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Batalha Centro de Cinema",
-      "type": "Música",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "Se a mestria técnica dos instrumentistas de hoje atinge, com admirável constância, culminâncias de sublime perfeição mecânica, tanto a criação como a práxis musical acham-se ainda reféns do culto sentimentalista da expressão individual. Para romper definitivamente com esta contradição, o compositor e maestro David Ole apresenta no Batalha um programa de audácia sem par intitulado Excepção Fatal . O concerto compreende três composições em estreia absoluta escritas para a Criptobanda Musical de Pa",
-      "url": "https://www.agenda-porto.pt/evento/excepcao-fatal-david-ole-1784290860841/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Hora de Ponta",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fonoteca Municipal do Porto",
-      "type": "Evento",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "A adesão de Portugal à CEE, o desastre de Chernobyl ou o Mundial no México foram alguns dos acontecimentos mais relevantes de 1986. Na música também os houve e nesta Hora de Ponta, o público é convidado a recuar 40 anos no tempo para relembrar alguns deles. Hora de Ponta é uma atividade semanal da Fonoteca Municipal do Porto. Todas as quartas-feiras, entre as 18h00 e 19h00, o público é convidado a visitar este espaço, para a escuta conjunta de uma seleção de discos com base num determinado tema.",
-      "url": "https://www.agenda-porto.pt/evento/hora-de-ponta-1111/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Há Fado no Mercado",
       "area": "Porto",
       "city": "Porto",
@@ -643,40 +484,6 @@
       "date": "11 Nov",
       "desc": "Nesta oficina, exploramos a relação entre desenho e cerâmica, trazendo o teu traço diretamente para o barro. Ao longo da sessão, vais criar a tua própria peça e experimentar diferentes formas de marcar, imprimir e transferir desenhos para a superfície, explorando como imagem, textura e forma se combinam. Em vez de técnicas de pintura mais tradicionais, o foco está na impressão e na incorporação do desenho diretamente no material. Podes trabalhar a partir de desenhos próprios ou simplesmente expe",
       "url": "https://www.agenda-porto.pt/evento/db-impressao-em-ceramica/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Linda Martini",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Música",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "Os Linda Martini celebram 20 anos do seu primeiro longa-duração, “Olhos de Mongol”, com um concerto a 11 de novembro, no Coliseu Box, o novo formato intimista do Coliseu. Neste concerto, integrado no ciclo SON Estrella Galicia, a banda toca na íntegra um álbum que reconfigurou o rock alternativo português. Foi em 2006 que os Linda Martini se aventuraram no primeiro disco. Após o EP homónimo de 2004, o grupo arrancou para uma aventura de estúdio com um alinhamento de nove músicas que ainda hoje c",
-      "url": "https://www.agenda-porto.pt/evento/coliseu-linda-martini/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Músicas de Natal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Cultural Jubilant",
-      "type": "Família",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "Vamos tocar alguns dos clássicos natalícios! Os iniciantes ficam com os ritmos e os mais avançados podem aventurar-se nos solos. Vai ser uma festa!",
-      "url": "https://www.agenda-porto.pt/evento/musicas-de-natal-ukulele/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
@@ -913,6 +720,24 @@
       ]
     },
     {
+      "name": "Tributo a Raul Seixas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Embaixada Bar Porto",
+      "type": "Música",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "",
+      "url": "https://www.agenda-porto.pt/evento/tributo-a-raul-seixas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Sondre Lerche Apresentação do disco 'Acrobat'",
@@ -979,6 +804,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Ainda não olhes",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço AL859",
+      "type": "Exposição",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Nem tudo o que é pessoal queremos tornar visível. Por vezes escondemos aquilo que nos magoa. outras vezes, escondemos aquilo de que temos vergonha, mesmo sem sabermos porquê. receamos dizer a coisa errada, sentir o que achamos que não devíamos sentir, ocupar demasiado ou mostrar um trabalho antes de estar «suficientemente bom». Convidamos-vos para a inauguração desta exposição coletiva de artistas da Ucrânia e Portugal, com curadoria de Ksenia Fokina.",
+      "url": "https://www.agenda-porto.pt/evento/ainda-nao-olhes/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
     },
     {
       "name": "AQ3 + Puto",
@@ -2679,6 +2522,40 @@
       "quality_reasons": []
     },
     {
+      "name": "Nini e Simão: A Aventura da Alimentação",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Evento",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "date": "17 Nov",
+      "desc": "No âmbito das celebrações do Dia Universal dos Direitos da Criança, esta sessão convida os mais novos a embarcar numa viagem pelo universo da alimentação saudável através da leitura de uma história especialmente dirigida a crianças dos 5 aos 9 anos. A partir das aventuras das personagens, serão explorados temas como a descoberta de novos alimentos, a valorização de hábitos alimentares saudáveis e a importância de uma relação positiva com a comida. Pretende-se, ainda, promover a reflexão sobre os",
+      "url": "https://www.agenda-porto.pt/evento/clube-da-saude-nini-e-simao-a-aventura-da-alimentacao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Vozes em Roda",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Yoga sobre o Porto",
+      "type": "Música",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "date": "17 Nov",
+      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
+      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-1794394979159/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Vânia Leal",
       "area": "Porto",
       "city": "Porto",
@@ -2712,6 +2589,24 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
+      ]
+    },
+    {
+      "name": "Banana Split",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Associação de Moradores da Bouça",
+      "type": "Teatro",
+      "start": "2026-11-18",
+      "end": "2026-11-29",
+      "date": "18–29 Nov",
+      "desc": "Vivemos num mundo onde se agigantam as dificuldades relativas à habitação e às condições dignas de vida. A necessidade de habitação obriga pessoas a partilhar o mesmo espaço. As personagens de Banana Split esbracejam para lidar com as inevitabilidades a que são expostas. Projetos de vida, princípios e necessidades podem transformar-se em barreiras difíceis de transpor.",
+      "url": "https://www.agenda-porto.pt/evento/banana-split/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
       ]
     },
     {
@@ -2987,25 +2882,6 @@
       "date": "19 Nov",
       "desc": "Após o sucesso dos seus últimos concertos esgotados em Portugal, Rubel regressa com a digressão BELEZA. Rubel e Violão , num formato especial e intimista. Em palco, apenas voz e violão, como no início da sua carreira, para uma experiência única, próxima e profundamente envolvente com o público português. O espetáculo percorre canções marcantes de toda a discografia do artista, incluindo temas do seu mais recente álbum, Beleza . Mas agora a gente faz o que com isso? , que foi destacado na lista d",
       "url": "https://www.agenda-porto.pt/evento/coliseu-rubel/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "The Sleeves",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "JAM Porto",
-      "type": "Música",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Os The Sleeves vêm ao JAM Porto no dia 19 de novembro para apresentar o seu álbum de estreia homónimo. Os The Sleeves são a dupla formada por Jack Cooper e Tara Cunningham, conhecidos como metade dos Modern Nature. Na sequência de um lançamento totalmente instrumental pela Mossy Tapes em novembro passado, Cooper e Cunningham gravaram 10 novas canções que destacam a interação entre as vozes e as guitarras, com apenas os mais ténues ecos dos seus trabalhos anteriores (individuais ou em conjunto),",
-      "url": "https://www.agenda-porto.pt/evento/the-sleeves/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 5,
       "quality_level": "PREMIUM",
@@ -3800,6 +3676,25 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Skinshape",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "JAM Porto",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Há mais de uma década que William Dorey constrói o seu próprio universo musical sob o nome Skinshape. Músico, produtor e membro fundador da banda britânica Palace, Dorey cruza influências de funk, folk, soul, reggae e psicadelismo para criar composições quentes e atmosféricas que desafiam categorizações fáceis. Fundindo géneros e estados de espírito com uma naturalidade rara, a música de Skinshape é simultaneamente envolvente, transportadora e reconfortante. Esta atuação assinala a estreia absol",
+      "url": "https://www.agenda-porto.pt/evento/jam-porto-skinshape/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     },
     {
@@ -4888,6 +4783,22 @@
       ]
     },
     {
+      "name": "Vinhos no Mercado: Especial de Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado Ferreira Borges",
+      "type": "Evento",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "date": "28–29 Nov",
+      "desc": "O Vinhos no Mercado está de volta para a sua segunda edição! Nos dias 28 e 29 de novembro, reunimos mais de 30 produtores, de 10 regiões diferentes de Portugal, num evento pensado para descobrir, provar e celebrar a diversidade e a personalidade dos vinhos nacionais. Durante o evento, poderá provar os vinhos dos produtores presentes, conhecer as histórias por detrás de cada garrafa e comprar os seus favoritos. O teu bilhete inclui um copo exclusivo Vinhos no Mercado, tanto na opção de 1 dia como",
+      "url": "https://www.agenda-porto.pt/evento/vinhos-no-mercado-1790872171702/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Wine & Clay",
       "area": "Porto",
       "city": "Porto",
@@ -4938,6 +4849,42 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "A Lemonade Stand-up Comedy",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Pinguim Café",
+      "type": "Teatro",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "date": "29 Nov",
+      "desc": "Mais uma incrível, porreirinha, nada mal, okay, vá, noite de stand-up comedy em inglês para todos os gostos e falta deles. Junta-te a nós e vem-te partir a rir, ou vá, rir muito, ok, bastante, assim-assim, pronto.",
+      "url": "https://www.agenda-porto.pt/evento/a-lemonade-stand-up-comedy-2911/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
+      "name": "Al Di Meola",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "date": "29 Nov",
+      "desc": "Um dos mais talentosos e influentes guitarristas da história do jazz, género cujos horizontes foi expandindo, ao longo de uma carreira de mais de quatro décadas, em diálogos fecundos com estilos como o flamenco, o tango e diferentes correntes da música brasileira, africana e do Médio Oriente, Al Di Meola está de regresso ao Porto para nos proporcionar um concerto muito especial. Entre composições icónicas e temas novos, o multipremiado instrumentista promete uma noite de cheia de emotividade, on",
+      "url": "https://www.agenda-porto.pt/evento/cdm-al-di-meola/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Brahms, a Segunda Sinfonia",
@@ -4993,6 +4940,25 @@
       "quality_reasons": []
     },
     {
+      "name": "PAUS",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "date": "29 Nov",
+      "desc": "Os PAUS despedem-se dos palcos, ao fim de 18 anos de carreira, com um espetáculo único e irrepetível. Integrado na tour final de “Enterro”, este momento de adeus cruza a intensidade distintiva da banda lisboeta, em cuja sonoridade se misturam estilos e influências como math rock, krautrock, rock progressivo e música africana, com imagens e sons da sua história e ainda um coro de vozes. “Especial” é pouco para adjetivar a última oportunidade de presenciarmos ao vivo um dos projetos mais singulare",
+      "url": "https://www.agenda-porto.pt/evento/misty-fest-paus/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Som de Cá e de Lá",
       "area": "Porto",
       "city": "Porto",
@@ -5039,6 +5005,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "REGI D",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Big Bad Bank Bar",
+      "type": "Música",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "date": "30 Nov",
+      "desc": "ZERO motivos para não dançar! REGI D traz ao Zero Box Lodge uma viagem sonora entre o Minimal, Progressive House e Tech House. Batidas hipnóticas, ritmos envolventes e uma energia crescente para manter a pista viva até às 2h00. A entrada é gratuita.",
+      "url": "https://www.agenda-porto.pt/evento/regi-d-1793634047159/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "area": "Aveiro",
@@ -5140,6 +5124,40 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Flamingo Remy Tiburg",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "url": "https://www.teatroaveirense.pt/pt/evento/flamingo/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Dança",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "dança"
+      ]
+    },
+    {
+      "area": "Braga",
+      "city": "Braga",
+      "name": "Nôt",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "url": "https://theatrocirco.com/event/not/",
+      "source": "https://theatrocirco.com/programa/",
+      "type": "Dança",
+      "venue": "Theatro Circo",
+      "desc": "",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "dança"
       ]
     }
   ]
