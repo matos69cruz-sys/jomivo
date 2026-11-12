@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -87,42 +87,6 @@
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Círculo, de David Barnes",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Geraldes da Silva",
-      "type": "Exposição",
-      "start": "2026-10-24",
-      "end": "2026-11-11",
-      "date": "24 Out – 11 Nov",
-      "desc": "A geometria, os padrões e a matemática sempre me fascinaram e servem de base para a minha prática artística. Na Cardiff Art College, criei instalações utilizando redes feitas à mão e sólidos geométricos. Após visitar Marrocos, decidi fazer um mestrado em arte islâmica na The Prince's School of Traditional Art, em Londres. Lá, comecei a experimentar novos desenhos e geometrias depois de aprender a criar padrões com compasso e régua. Nos três anos seguintes, auxiliei no planeamento e na realização",
-      "url": "https://www.agenda-porto.pt/evento/circulo-david-barnes/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Linha de Terra, de Luz Henriques",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria Geraldes da Silva",
-      "type": "Exposição",
-      "start": "2026-10-24",
-      "end": "2026-11-11",
-      "date": "24 Out – 11 Nov",
-      "desc": "A Galeria Geraldes da Silva acolhe Linha de Terra , a nova exposição de pintura da artista plástica portuguesa Luz Henriques. O que acontece quando intercetamos linhas que, no sentido mais profundo e metafórico, significam caminhos, sonhos e projetos? A exposição Linha de Terra convida-nos a entrar num território onde estas intersecções ganham forma e volume. Longe de serem meros traços estáticos, as linhas que aqui habitam são intenções puras, cruzamentos de destinos e geografias emocionais que",
-      "url": "https://www.agenda-porto.pt/evento/linha-de-terra/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "exposição"
       ]
@@ -419,95 +383,6 @@
       "quality_reasons": []
     },
     {
-      "name": "Cabarex",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Teatro",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "Um espetáculo único, como começam os textos promocionais de todos os restantes eventos que não este, que é mesmo único. Os cabarés da Réptil estão de volta ao Maus Hábitos numa residência que, em todas as segundas quartas-feiras do mês, traz o cabaré mais ousado do Porto. Na companhia de uma trupe de artistas de variedades, este espetáculo orientado para um público adulto e de uma curiosidade underground convida os espectadores boémios — e mesmo os puritanos — a uma paródia política e apocalípti",
-      "url": "https://www.agenda-porto.pt/evento/261111-cabarex/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "teatro",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Carlos Regadas convida Offu",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "R4W",
-      "url": "https://www.agenda-porto.pt/evento/carlos-regadas-convida-offu/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Há Fado no Mercado",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Mercado do Bolhão",
-      "type": "Música",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo da fadista Ana Ferreira. Programação: 20h00 l Casa Vegetariana 21h00 l Herdade 1980",
-      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-1111/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Impressão em Cerâmica",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "doBarro",
-      "type": "Família",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
-      "date": "11 Nov",
-      "desc": "Nesta oficina, exploramos a relação entre desenho e cerâmica, trazendo o teu traço diretamente para o barro. Ao longo da sessão, vais criar a tua própria peça e experimentar diferentes formas de marcar, imprimir e transferir desenhos para a superfície, explorando como imagem, textura e forma se combinam. Em vez de técnicas de pintura mais tradicionais, o foco está na impressão e na incorporação do desenho diretamente no material. Podes trabalhar a partir de desenhos próprios ou simplesmente expe",
-      "url": "https://www.agenda-porto.pt/evento/db-impressao-em-ceramica/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Performance na Piscina #06: Periféricas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hotelier",
-      "type": "Dança",
-      "start": "2026-11-11",
-      "end": "2026-11-13",
-      "date": "11–13 Nov",
-      "desc": "A sexta edição das performance na piscina, organizada pela Mariana Tengner Barros da associação A Bela Associação traz à piscina a performance Periféricas , de Márcio Canabarro, Ana Rocha e Mariana Tengner Barros. Sinopse Ana (Portugal) , Mariana (Portugal) e Márcio (Brasil) — três performers e coreógrafos com percursos que atravessam as artes visuais, dança e design, mas também faxinas, bares, discotecas, transportes intermináveis e contratos precários. Entre ensaios, cafés, traduções e limpeza",
-      "url": "https://www.agenda-porto.pt/evento/performance-na-piscina-06/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
       "name": "Quando Menos Se Espera",
       "area": "Porto",
       "city": "Porto",
@@ -717,6 +592,25 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
+      ]
+    },
+    {
+      "name": "Thomé (BR) - Acústico",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Escola Normal — Casa Cultural",
+      "type": "Música",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "date": "12 Nov",
+      "desc": "Thomé na Escola Normal Porto, 12 de Novembro. Portas abrem às 20.30. Acesso donativo. Neste show intimista, Thomé celebra o lançamento de seu terceiro álbum Quero Ser Tudo em uma apresentação que dialoga com a tradição do cancioneiro popular brasileiro. Em formato voz, violão e percussões, o artista revisita sucessos da carreira solo, interpreta obras de Milton Nascimento e clássicos da MPB que atravessam sua história. Entre momentos delicados e pulsantes, o espetáculo revela a força da canção e",
+      "url": "https://www.agenda-porto.pt/evento/escola-normal-thome/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     },
     {
@@ -982,24 +876,6 @@
       ]
     },
     {
-      "name": "Fylhas do Dragão",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Pérola Negra Club",
-      "type": "Música",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "date": "13 Nov",
-      "desc": "\"As Fylhas estão de volta numa sexta-feira 13, vcs sabem que vai ser babado numa pista com muitoooo techno. Pela primeira vez, faremos do Pérola Negra a nossa casa e faremos um collab com as piranhinhas da Balagan, que são TUDO. Aníbal e Djooke estarão representando com seu b2b divinooooo. E diretamente de Berlim, a mana Deepneue vem partilhar suas frequências sonoras conosco — o seu tão esperado retorno ao Porto, num b2b com Onio. E, claro, nossa mami DJ Giovanna sempre lá entregando horrores.\"",
-      "url": "https://www.agenda-porto.pt/evento/fylhas-do-dragao-1793110114241/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Jam Session Porta-Jazz",
       "area": "Porto",
       "city": "Porto",
@@ -1027,13 +903,14 @@
       "start": "2026-11-13",
       "end": "2026-11-13",
       "date": "13 Nov",
-      "desc": "Depois das férias, há um novo motivo para sorrir! Entre os meses de setembro e novembro o Alameda Shop&Spot vai transformar-se num verdadeiro palco de comédia ao apresentar o Alameda Comedy Club. Um ciclo de seis noites de stand-up obrigatórias para todos os amantes de humor, que prometem fazer com que o regresso à rotina seja mais leve e divertido. O melhor de tudo, é que a entrada é gratuita! O line-up reúne alguns dos maiores nomes do stand-up nacional, garantindo uma programação diversificad",
-      "url": "https://www.agenda-porto.pt/evento/alameda-joana-gama/",
+      "desc": "Um espetáculo de stand-up comedy onde não vão faltar gargalhadas e momentos de boa disposição. Uma oportunidade para sair da rotina, reunir os amigos e desfrutar de uma noite diferente, na companhia de Joana Gama.",
+      "url": "https://www.agenda-porto.pt/evento/joana-gama-comedia/",
       "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
       "quality_reasons": [
-        "teatro"
+        "teatro",
+        "experiência especial"
       ]
     },
     {
@@ -1108,6 +985,24 @@
       ]
     },
     {
+      "name": "Performance na Piscina #06: Periféricas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hotelier",
+      "type": "Dança",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "A sexta edição das performance na piscina, organizada pela Mariana Tengner Barros da associação A Bela Associação traz à piscina a performance Periféricas , de Márcio Canabarro, Ana Rocha e Mariana Tengner Barros. Sinopse Ana (Portugal) , Mariana (Portugal) e Márcio (Brasil) — três performers e coreógrafos com percursos que atravessam as artes visuais, dança e design, mas também faxinas, bares, discotecas, transportes intermináveis e contratos precários. Entre ensaios, cafés, traduções e limpeza",
+      "url": "https://www.agenda-porto.pt/evento/performance-na-piscina-06/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "dança"
+      ]
+    },
+    {
       "name": "Sing Out Bingo",
       "area": "Porto",
       "city": "Porto",
@@ -1124,6 +1019,24 @@
       "quality_reasons": [
         "música",
         "atividade rotineira"
+      ]
+    },
+    {
+      "name": "Smells Like Queer Spirit",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar of Soap",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "DJ set",
+      "url": "https://www.agenda-porto.pt/evento/smells-like-queer-spirit-1794474970930/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -1151,8 +1064,8 @@
       "venue": "Vários locais",
       "type": "Música",
       "start": "2026-11-13",
-      "end": "2026-11-13",
-      "date": "13 Nov",
+      "end": "2026-11-21",
+      "date": "13–21 Nov",
       "desc": "Ópera à Moda do Porto leva a ópera diretamente para os recantos mais icónicos da cidade, aproximando este género musical do dia a dia portuense. Com o objetivo de democratizar o acesso à arte, transforma espaços públicos como estações de metro, mercados e shoppings em palcos inesperados. Se tu não vais à ópera, a ópera vai até ti, quebrando barreiras e envolvendo a cidade neste espetáculo único. Em 2026 vamos falar sobre a voz do Porto em seis sketches apresentados ao longo da semana do festival",
       "url": "https://www.agenda-porto.pt/evento/fiato-opera-a-moda-do-porto/",
       "source": "https://www.agenda-porto.pt/",
@@ -1277,6 +1190,42 @@
       "date": "14 Nov",
       "desc": "Concerto que percorre três séculos de música, de Bach e Haydn a Shostakovich, com a Orquestra Jovem da Música de Câmara e Telmo Rocha na trompa.",
       "url": "https://visitbraga.travel/event/1282-musica-de-camara-2026-tres-epocas-tres-vozes",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Utopia 2026 | Sessão de Estórias musicadas com CANTAR-A-LER",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Catarina e Tiago dão voz e música às histórias, numa sessão participativa que convida miúdos e graúdos a ouvir, cantar e imaginar.",
+      "url": "https://visitbraga.travel/event/1299-utopia-2026-sessao-de-estorias-musicadas-com-cantar-a-ler",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Utopia 2026 | Sessão Little Things",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "As Little Things apresentam uma hora do conto participativa, onde leitura, teatro e música dão vida a histórias cheias de surpresas e imaginação.",
+      "url": "https://visitbraga.travel/event/1291-utopia-2026-sessao-little-things",
       "source": "https://visitbraga.travel/agenda-braga/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -1580,6 +1529,22 @@
       "quality_reasons": [
         "experiência especial"
       ]
+    },
+    {
+      "name": "Clube do Conto e da Linha",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "ACASO atelier criativo",
+      "type": "Família",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Cada sessão começa com a partilha de um conto, um momento de escuta, curiosidade e encontro entre gerações. A partir da história, abrimos espaço para a expressão através da arte, convidando pequenos e grandes a dar forma ao que sentiram, viram ou imaginaram. Utilizando linhas, desenhos, pinturas, muito outros materiais, os participantes mergulham num processo criativo livre e intuitivo, onde o gesto se transforma em comunicação, jogo e descoberta. Mais do que uma atividade artística, o Clube do",
+      "url": "https://www.agenda-porto.pt/evento/clube-do-conto-e-da-linha-1411/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Da Impermanência, de Evelina Oliveira",
@@ -2107,6 +2072,25 @@
       ]
     },
     {
+      "name": "The Battle Drag Show",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Bar of Soap",
+      "type": "Música",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "date": "14 Nov",
+      "desc": "Este sábado, vamos organizar um espetáculo de drag queens em homenagem a três artistas lendários, celebrando os seus sucessos icónicos e trazendo todo o ritmo, glamour e vibrações disco para a pista de dança! Não percas!",
+      "url": "https://www.agenda-porto.pt/evento/the-battle-drag-show/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
       "name": "The Twilight Sad",
       "area": "Porto",
       "city": "Porto",
@@ -2472,6 +2456,22 @@
       ]
     },
     {
+      "name": "Concertos na Piscina 129#: EUPNEIA",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hotelier",
+      "type": "Família",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "date": "16 Nov",
+      "desc": "EUPNEA é um ensemble de vozes e flautas liderado pela cantora e compositora Vera Morais. Constituído por cantoras e flautistas oriundas de backgrounds diversos – do avant-jazz europeu à música contemporânea – a sua música celebra as semelhanças entre os dois instrumentos, tais como o timbre, a tessitura e os processos de produção do som. Mais do que um conjunto de músicos atomizados, EUPNEA é um instrumento em si mesmo: um órgão de tubos humano que respira interdependência sónica, resultando num",
+      "url": "https://www.agenda-porto.pt/evento/hotelier-eupneia/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Encontro Direito à Diferença",
       "area": "Porto",
       "city": "Porto",
@@ -2765,6 +2765,24 @@
       ]
     },
     {
+      "name": "Conversa com Kilos e Filipa Loureiro",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Serralves",
+      "type": "Exposição",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Ao longo da sua carreira Jenny Holzer tem trabalhado com outros artistas. Foi membro ativo do grupo nova-iorquino Collaborative Projects e várias das suas primeiras obras foram criadas em colaboração com artistas de graffiti. Nos últimos anos, tem continuado as suas colaborações com artistas de rua, incluindo os artistas de graffiti alemães Moses & Taps e os pioneiros nova iorquinos Lady Pink e Lee Quiñones. Para a exposição WRONG ANSWERS, Holzer convidou o artista de graffiti portuense Kilos pa",
+      "url": "https://www.agenda-porto.pt/evento/1911-conversa-com-kilos-e-filipa-loureiro/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "FIATO em Vinil",
       "area": "Porto",
       "city": "Porto",
@@ -3046,6 +3064,25 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Paisagens Bordadas — Edição de Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "BASE atelier",
+      "type": "Exposição",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "Nesta oficina, vamos desenhar e bordar uma paisagem ou uma imagem inspirada no Natal, em tecido de algodão, usando uma máquina de costura. Cada participante terá a sua própria máquina portátil e um pedaço de tecido para trabalhar — ou, se preferir, pode trazer um pedaço de tecido ou pano seu que queira trabalhar e decorar. Vamos começar por aprender os pontos básicos da máquina e, depois, cada um de vós vai criar um desenho único de inspiração natalícia para bordar. Vou ensinar-vos bordado à mão",
+      "url": "https://www.agenda-porto.pt/evento/paisagens-bordadas-edicao-de-natal/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "exposição",
+        "atividade prática"
+      ]
     },
     {
       "name": "Pulp, de Sébastien Pauwels",
@@ -3359,6 +3396,24 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "COSMIC BLOOM",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "A Multiverse Events regressa ao Era Uma Vez no Porto para mais uma noite de ritmos intensos e vibrações psicadélicas: escolhemos 4 projetos nacionais com a sua identidade e essência, que prometem uma viagem cósmica sem deixar ninguém indiferente. 🪷 FLUFFKIN Natural de Pombal e pertencente à Lysergic Rec., traz-nos um Live Set marcado de melodias e vibrações envolventes tão próprias, que fará a pista do Era Uma Vez no Porto tremer e viajar pelas diferentes dimensões do Multiverso. 🪷 X-HOLLOH Da C",
+      "url": "https://www.agenda-porto.pt/evento/cosmic-bloom/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "David Fonseca",
@@ -3764,6 +3819,24 @@
       "quality_reasons": [
         "experiência especial",
         "espetáculo familiar"
+      ]
+    },
+    {
+      "name": "Nime — Jonas Petry",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hotelier",
+      "type": "Música",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "Jonas Petry, também conhecido por Nime, é músico, curador, gestor de editora discográfica e assistente artístico. O seu trabalho situa-se na intersecção entre a música experimental e a arte sonora, tendo por base Leipzig e Berlim. A sua prática musical centra-se na exploração, transformação e modificação consciente de sonoridades e estruturas rítmicas. O seu repertório abrange bateria preparada, tonbak, daf, piano, gravações de campo (field recordings), bem como objetos encontrados — tanto natur",
+      "url": "https://www.agenda-porto.pt/evento/cloroformio-07/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -4185,6 +4258,24 @@
       ]
     },
     {
+      "name": "Five Minutes Younger, de Polina Borodina",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "A Turma",
+      "type": "Teatro",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "date": "27 Nov",
+      "desc": "No âmbito do InResidence 2026, selecionámos a artista Polina Borodina (Rússia/Alemanha) para desenvolver, ao longo de dois meses, o projeto \"Five Minutes Younger\". Durante a residência, a artista dedicar-se-á à escrita de uma nova peça de longa duração. \"Five Minutes Younger\" acompanha um homem em busca da irmã, desaparecida enquanto percorria o Caminho de Santiago. Para a encontrar, segue o mesmo percurso entre Portugal e Espanha, atravessando as paisagens que ela conheceu e seguindo os vestígi",
+      "url": "https://www.agenda-porto.pt/evento/five-minutes-younger/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "GANSO",
       "area": "Porto",
       "city": "Porto",
@@ -4272,6 +4363,25 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "O Diabo em Mim, do Visões Úteis",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Palácio do Bolhão",
+      "type": "Teatro",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "date": "27–29 Nov",
+      "desc": "O Diabo em Mim é uma nova criação do Visões Úteis, com direção de Carlos Costa. Tudo começou com uma coleção de anúncios de feiticeiros, daqueles que se encontram nos limpa- para -brisas, a que o autor se entregou durante anos; com tanta dedicação, ou se calhar encantamento, que acabou por frequentar um curso de Tarot com Camelia Elias e Bent Sorenson, professores universitários que abandonaram a carreira académica para se dedicarem exclusivamente à cartomancia. O espetáculo lança um olhar sobre",
+      "url": "https://www.agenda-porto.pt/evento/o-diabo-em-mim/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "teatro",
+        "experiência especial"
       ]
     },
     {
@@ -4659,25 +4769,6 @@
       ]
     },
     {
-      "name": "O Diabo em Mim, do Visões Úteis",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Palácio do Bolhão",
-      "type": "Teatro",
-      "start": "2026-11-28",
-      "end": "2026-11-29",
-      "date": "28–29 Nov",
-      "desc": "O Diabo em Mim é uma nova criação do Visões Úteis, com direção de Carlos Costa. Tudo começou com uma coleção de anúncios de feiticeiros, daqueles que se encontram nos limpa- para -brisas, a que o autor se entregou durante anos; com tanta dedicação, ou se calhar encantamento, que acabou por frequentar um curso de Tarot com Camelia Elias e Bent Sorenson, professores universitários que abandonaram a carreira académica para se dedicarem exclusivamente à cartomancia. O espetáculo lança um olhar sobre",
-      "url": "https://www.agenda-porto.pt/evento/o-diabo-em-mim/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "teatro",
-        "experiência especial"
-      ]
-    },
-    {
       "name": "O Quebra-Nozes",
       "area": "Porto",
       "city": "Porto",
@@ -5005,24 +5096,6 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "REGI D",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Big Bad Bank Bar",
-      "type": "Música",
-      "start": "2026-11-30",
-      "end": "2026-11-30",
-      "date": "30 Nov",
-      "desc": "ZERO motivos para não dançar! REGI D traz ao Zero Box Lodge uma viagem sonora entre o Minimal, Progressive House e Tech House. Batidas hipnóticas, ritmos envolventes e uma energia crescente para manter a pista viva até às 2h00. A entrada é gratuita.",
-      "url": "https://www.agenda-porto.pt/evento/regi-d-1793634047159/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
     },
     {
       "area": "Aveiro",
