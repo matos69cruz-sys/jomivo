@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -128,24 +128,6 @@
       ]
     },
     {
-      "name": "Dentro da Pele, de Ana Si",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria CATAPULTA",
-      "type": "Exposição",
-      "start": "2026-10-31",
-      "end": "2026-11-12",
-      "date": "31 Out – 12 Nov",
-      "desc": "Ana Si é uma artista que transforma emoções em matéria, cor e gesto. A sua pintura nasce de um olhar atento sobre o ser humano e sobre aquilo que existe para além da aparência. Rostos, corpos e silêncios tornam-se territórios onde explora a identidade, a vulnerabilidade e as emoções que tantas vezes escapam às palavras. Entre camadas, contrastes e fragmentos, as suas figuras revelam-se e ocultam-se, num diálogo entre o que mostramos e o que guardamos. A sua pintura procura esse lugar íntimo onde",
-      "url": "https://www.agenda-porto.pt/evento/dentro-da-pele/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
       "name": "Mercado da Alegria (Passeio Alegre)",
       "area": "Porto",
       "city": "Porto",
@@ -211,6 +193,22 @@
         "exposição",
         "atividade prática"
       ]
+    },
+    {
+      "name": "A Poesia Adora Andar Descalça",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca de Poesia Eugénio de Andrade",
+      "type": "Evento",
+      "start": "2026-11-04",
+      "end": "2026-11-25",
+      "date": "4–25 Nov",
+      "desc": "«A Poesia Adora Andar Descalça» é um projeto de continuidade, com periodicidade semanal, dedicado à promoção da palavra e da poesia nas suas vertentes escrita, lida e escutada. O Clube encontra o seu fôlego na coleção da Biblioteca de Poesia Eugénio de Andrade, disponibilizando o seu acervo para consulta gratuita e fruição de todos os visitantes. Sob o mote de Eugénio de Andrade, A Poesia Adora Andar Descalça, inicia-se o Clube de Poesia da Biblioteca Poética Eugénio de Andrade. O clube pretende",
+      "url": "https://www.agenda-porto.pt/evento/clube-de-poesia-a-poesia-adora-andar-descalca-1791993331972/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Balfolk — Nível Aberto",
@@ -351,22 +349,6 @@
       "quality_reasons": []
     },
     {
-      "name": "Nerikomi",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "doBarro",
-      "type": "Família",
-      "start": "2026-11-07",
-      "end": "2026-11-17",
-      "date": "7–17 Nov",
-      "desc": "Nesta oficina mergulhamos na técnica japonesa de Nerikomi, onde o barro é tingido e combinado em camadas para criar padrões diretamente no material. Ao longo da sessão, vais dominar a preparação de barro colorido com óxidos e aprender a estruturar padrões únicos, com composições gráficas e orgânicas. Depois, transformamos esses padrões em peças como pequenos pratos, chávenas ou objetos decorativos. Cada peça nasce do processo, tornando-se única e irrepetível. A oficina tem a duração de três hora",
-      "url": "https://www.agenda-porto.pt/evento/db-nerikomi/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "2.ª Edição Mercado Allure",
       "area": "Porto",
       "city": "Porto",
@@ -401,164 +383,6 @@
       ]
     },
     {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "Bastien e Bastienne de W. A. Mozart Uma ópera em marionetas e em português",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "url": "https://www.teatroaveirense.pt/pt/evento/bastien-e-bastienne-escolas/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Ópera",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-50",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "A Lemonade Stand-up Comedy",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Evento Cafe",
-      "type": "Teatro",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Local novo, piadas novas (algumas, vá), e uma nova oportunidade de rir em mais uma, mas não apenas só mais uma, noite de A Lemonade Stand-up Comedy em Inglês na cidade Invicta.",
-      "url": "https://www.agenda-porto.pt/evento/a-lemonade-stand-up-comedy-1211/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "A Língua Descalça — O Futuro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca de Poesia Eugénio de Andrade",
-      "type": "Evento",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "A Biblioteca de Poesia Eugénio de Andrade acolhe, a cada duas semanas, um podcast ao vivo com Gabriela Relvas e Renato Filipe Cardoso. Num ambiente descontraído, estas são sessões abertas ao público em que estes dois dinamizadores trazem a sua paixão pelas artes para o centro do debate e juntos partilham visões sobre a atualidade e sugerem roteiros de poesia que cruzam as suas próprias histórias com a força da palavra falada. Cada podcast é uma tertúlia aberta e espontânea na casa do poeta, que",
-      "url": "https://www.agenda-porto.pt/evento/podcast-a-lingua-descalca-o-futuro/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Bilhetes Há Muitos!",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Museu do Carro Eléctrico",
-      "type": "Exposição",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Partindo da coleção de bilhética do Museu do Carro Eléctrico, a exposição Bilhetes Há Muitos! convida a olhar para estes objetos para além da sua função original. Ao longo de seis núcleos, descobrimos como um bilhete se transforma em objeto museológico, documento histórico, artefacto gráfico, indicador social e lugar de memória.",
-      "url": "https://www.agenda-porto.pt/evento/inauguracao-bilhetes-ha-muitos/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Dirty Sound Magnet",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Com mais de 800 concertos pela Europa, Reino Unido e México, os Dirty Sound Magnet tornaram-se uma das forças mais eletrizantes do rock moderno. Vindos da Suíça, o trio construiu uma reputação pelo seu mundo musical hipnotizante e pelas suas atuações ao vivo intensas e imprevisíveis. Presença de palco hipnótica, carisma de estrela de rock, mestria instrumental, lirismo poético e uma energia implacável — nenhum concerto dos DSM é igual a outro. Bilhetes",
-      "url": "https://www.agenda-porto.pt/evento/261112-dirty-sound-magnet/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Gabii M + Mota 4475 + LMS",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Psy Frequency apresenta noite de hardtechno",
-      "url": "https://www.agenda-porto.pt/evento/psy-frequency-noite-de-hardtechno/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Karaoke & Quizz",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Bar of Soap",
-      "type": "Música",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Queernic",
-      "url": "https://www.agenda-porto.pt/evento/queernic-karaoke-andamp-quizz/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": -2,
-      "quality_level": "ROTINA",
-      "quality_reasons": [
-        "música",
-        "atividade rotineira"
-      ]
-    },
-    {
-      "name": "Keiyaa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
-      "type": "Música",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Concerto",
-      "url": "https://www.agenda-porto.pt/evento/rca-keiyaa/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Siza Talks: Conversas Internacionais",
       "area": "Porto",
       "city": "Porto",
@@ -574,61 +398,6 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
-      ]
-    },
-    {
-      "name": "Temáticas Intemporais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Museu Nacional Soares dos Reis",
-      "type": "Exposição",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Nesta visita atravessamos as exposições para selecionar obras e saborear temáticas intemporais, escritas, pintadas, esculpidas. Cruzamos literatura e artes plásticas em obras que são janelas para o mistério da vida: amor, morte, beleza, sonho, conhecido, desconhecido, transcendência, fraquezas e forças da condição humana… temas chave universais tratados de forma única.",
-      "url": "https://www.agenda-porto.pt/evento/mnsr-tematicas-intemporais-1211/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Thomé (BR) - Acústico",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Escola Normal — Casa Cultural",
-      "type": "Música",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "Thomé na Escola Normal Porto, 12 de Novembro. Portas abrem às 20.30. Acesso donativo. Neste show intimista, Thomé celebra o lançamento de seu terceiro álbum Quero Ser Tudo em uma apresentação que dialoga com a tradição do cancioneiro popular brasileiro. Em formato voz, violão e percussões, o artista revisita sucessos da carreira solo, interpreta obras de Milton Nascimento e clássicos da MPB que atravessam sua história. Entre momentos delicados e pulsantes, o espetáculo revela a força da canção e",
-      "url": "https://www.agenda-porto.pt/evento/escola-normal-thome/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Tributo a Raul Seixas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Embaixada Bar Porto",
-      "type": "Música",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "date": "12 Nov",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/tributo-a-raul-seixas/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -757,7 +526,7 @@
       "name": "BALUARTE",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Vários locais",
+      "venue": "Escola Básica do Sol",
       "type": "Evento",
       "start": "2026-11-13",
       "end": "2026-11-15",
@@ -798,6 +567,24 @@
       "date": "13 Nov",
       "desc": "Durante uma noite, a Casa da Música transforma-se numa grande pista de dança ao ritmo da Amazónia. Das 21:00 às 02:00, vários espaços acolhem uma viagem que vai dos cantos ancestrais à eletrónica das cidades amazónicas. Abre o coletivo Puwewere Puyanawa, com o repertório tradicional de um povo indígena do Acre. Segue-se MIND, o projeto em que o pianista Jean Phi Dary, nascido na Guiana Francesa, cruza jazz, eletrónica e tradições afro-caribenhas. Nos bares, DJ Farofa, Marcelo Damaso e Selecta Al",
       "url": "https://www.agenda-porto.pt/evento/cdm-clubbing-amazonico/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "CRIS",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mr. Bean's Music Club",
+      "type": "Música",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "date": "13 Nov",
+      "desc": "Num tempo em que tudo parece pedir respostas rápidas, CRIS escolhe ficar nas perguntas. Rema contra a própria maré, perde-se nas suas versões, levita entre pensamentos, e é nessa forma inquieta de estar no mundo que surge também a vontade de olhar para fora e procurar compreender o outro e aquilo que o move. Entre o pop alternativo e o neo-soul, essas inquietações ganham corpo em canções íntimas, onde a voz assume o lugar central, sustentada pela expressividade orgânica e riqueza harmónica das g",
+      "url": "https://www.agenda-porto.pt/evento/mr-beans-cris/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2522,6 +2309,22 @@
       "quality_reasons": []
     },
     {
+      "name": "Nerikomi",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "doBarro",
+      "type": "Família",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "date": "17 Nov",
+      "desc": "Nesta oficina mergulhamos na técnica japonesa de Nerikomi, onde o barro é tingido e combinado em camadas para criar padrões diretamente no material. Ao longo da sessão, vais dominar a preparação de barro colorido com óxidos e aprender a estruturar padrões únicos, com composições gráficas e orgânicas. Depois, transformamos esses padrões em peças como pequenos pratos, chávenas ou objetos decorativos. Cada peça nasce do processo, tornando-se única e irrepetível. A oficina tem a duração de três hora",
+      "url": "https://www.agenda-porto.pt/evento/db-nerikomi/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Nini e Simão: A Aventura da Alimentação",
       "area": "Porto",
       "city": "Porto",
@@ -2696,6 +2499,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Pedro Tabuada convida Bikas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "R4W",
+      "url": "https://www.agenda-porto.pt/evento/pedro-tabuada-convida-bikas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Svaneborg Kardyb + Vega Trails",
       "area": "Porto",
       "city": "Porto",
@@ -2762,6 +2583,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "A Lemonade Stand-up Comedy",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Evento Cafe",
+      "type": "Teatro",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Local novo, piadas novas (algumas, vá), e uma nova oportunidade de rir em mais uma, mas não apenas só mais uma, noite de A Lemonade Stand-up Comedy em Inglês na cidade Invicta.",
+      "url": "https://www.agenda-porto.pt/evento/a-lemonade-stand-up-comedy-1911/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
       ]
     },
     {
@@ -2982,6 +2821,24 @@
       ]
     },
     {
+      "name": "Drink & Draw",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Capela Incomum",
+      "type": "Exposição",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "Drink and Draw é um movimento criativo que junta pessoas à volta do desenho e de um copo de vinho (ou de alguns…). A proposta é simples: desenhar sem pressas, sem julgamentos e sem precisares de experiência. Num ambiente descontraído e acolhedor, vais poder criar, experimentar, rir, conversar e deixar-te levar por um tema surpresa, revelado apenas no início da sessão. O foco é o desenho livre, a expressão pessoal e o prazer de desenhar só porque sim. É também uma ótima oportunidade para conhecer",
+      "url": "https://www.agenda-porto.pt/evento/drink-andamp-draw-1794564271900/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "LUCA Mixed Stage Vol. 9",
       "area": "Porto",
       "city": "Porto",
@@ -3131,6 +2988,24 @@
       "date": "20 Nov",
       "desc": "Concerto duplo",
       "url": "https://www.agenda-porto.pt/evento/rca-redoma-chek1/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "The Freddie Freeloader Project + Nuno Sá",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "Concerto + DJ set",
+      "url": "https://www.agenda-porto.pt/evento/the-freddie-freeloader-project-nuno-sa/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3345,6 +3220,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Balleteatrinho",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Balleteatro",
+      "type": "Família",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "O Balleteatrinho é um atelier onde os participantes são convidados a experimentar o movimento e a interpretação de uma obra literária infantil. Trata-se de um atelier de sensibilização e introdução ao mundo da dança, do teatro, do cinema, do circo, das artes plásticas e da música, a partir do estímulo à criatividade e imaginação. No final da sessão, os familiares são convidados a assistir ao resultado do atelier numa pequena peça apresentada pelos participantes. Conceito: Isabel Barros",
+      "url": "https://www.agenda-porto.pt/evento/balleteatrinho-2111/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "espetáculo familiar"
+      ]
+    },
+    {
       "name": "Bosque da Noite, de Leonor Parda",
       "area": "Porto",
       "city": "Porto",
@@ -3499,6 +3392,42 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Fluffkin (live) + X-Holloh + Zandria",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Multiverse Events apresenta Cosmic Bloom",
+      "url": "https://www.agenda-porto.pt/evento/fluffkin-live-x-holloh-zandria/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Ikat Tepi, de Alvin Yong",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Clube Erva Daninha",
+      "type": "Teatro",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "O projeto Ikat Tepi surgiu de uma simples questão do contraste e da oposição em fazer diabolo. Explorando a característica e a relação entre os elementos, quando não se usam para a função para que estão destinados. Este ensaio aberto resulta do programa de residências Ensaios de Circo.",
+      "url": "https://www.agenda-porto.pt/evento/ikat-tepi-de-alvin-yong/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
     },
     {
       "name": "Iniciação ao Tufting",
@@ -3662,6 +3591,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Rike + Márcio Reis",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Concerto + DJ set",
+      "url": "https://www.agenda-porto.pt/evento/rike-marcio-reis-1794564854418/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Rota das Árvores",
       "area": "Porto",
       "city": "Porto",
@@ -3737,7 +3684,7 @@
       "name": "Skinshape",
       "area": "Porto",
       "city": "Porto",
-      "venue": "JAM Porto",
+      "venue": "M.Ou.Co. - JAM Porto",
       "type": "Música",
       "start": "2026-11-21",
       "end": "2026-11-21",
@@ -3854,6 +3801,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "PRESTIGE INVICTUS presents",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "23h59/6h00 PRESTIGE INVICTUS presents 🎧 Rucho Veiga 🎧 Pastkual 🎧 Bonus Bass",
+      "url": "https://www.agenda-porto.pt/evento/prestige-invictus/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Singspiele, de Maguy Marin",
@@ -4593,6 +4558,42 @@
       "quality_reasons": []
     },
     {
+      "name": "Avesso",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "M.Ou.Co. - JAM Porto",
+      "type": "Música",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Os AVESSO são constituídos por Diogo Leite na bateria, Dani Valente na guitarra, Vitor Hugo na guitarra e voz e Paulo Rui no baixo e voz. Exploram, através de rock vocalizado em Português, os domínios do espírito humano, dos seus pântanos aos seus cumes, não se fechando em sonoridades nem em fórmulas de criação ou expressão, trazendo assim uma mistura experimental tanto de melodias como dissonâncias.",
+      "url": "https://www.agenda-porto.pt/evento/jam-porto-avesso/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Club Kitten — 25.º aniversário",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Pérola Negra Club",
+      "type": "Música",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Aniversário dos 25 anos de Club Kitten, noite mítica de João Vieira (DJ Kitten/ X-Wife/ White Haus), originalmente fundado em Londres nos finais dos anos 90. As festas do Club Kitten tornaram-se festas de culto com a explosão do electroclash, começando pelo Triplex em 2001 e rebentando pelas costuras no Teatro de Sá da Bandeira, no Porto, dois anos depois. No início de 2003 havia autênticas peregrinações ao Lux (Lisboa), com pistas assanhadas ao som de electro, pós-punk e new wave. Como DJ, divi",
+      "url": "https://www.agenda-porto.pt/evento/club-kitten/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Danças Tradicionais Moçambicanas",
       "area": "Porto",
       "city": "Porto",
@@ -5098,6 +5099,24 @@
       "quality_reasons": []
     },
     {
+      "name": "REGI D",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Big Bad Bank Bar",
+      "type": "Música",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "date": "30 Nov",
+      "desc": "ZERO motivos para não dançar! REGI D traz ao Zero Box Lodge uma viagem sonora entre o Minimal, Progressive House e Tech House. Batidas hipnóticas, ritmos envolventes e uma energia crescente para manter a pista viva até às 2h00. A entrada é gratuita.",
+      "url": "https://www.agenda-porto.pt/evento/regi-d-1793634047159/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Axiom Casino Jonathan Uliel Saldanha",
@@ -5231,6 +5250,23 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "dança"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "Concerto Coral - Cantar o Natal Conservatório de Música de Aveiro Calouste Gulbenkian",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "url": "https://www.teatroaveirense.pt/pt/evento/concerto-coral-cantar-o-natal/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Música",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     }
   ]
