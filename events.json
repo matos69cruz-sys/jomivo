@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -452,56 +452,6 @@
       "quality_reasons": []
     },
     {
-      "name": "Concertos na Piscina 129#: EUPNEIA",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hotelier",
-      "type": "Família",
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "date": "16 Nov",
-      "desc": "EUPNEA é um ensemble de vozes e flautas liderado pela cantora e compositora Vera Morais. Constituído por cantoras e flautistas oriundas de backgrounds diversos – do avant-jazz europeu à música contemporânea – a sua música celebra as semelhanças entre os dois instrumentos, tais como o timbre, a tessitura e os processos de produção do som. Mais do que um conjunto de músicos atomizados, EUPNEA é um instrumento em si mesmo: um órgão de tubos humano que respira interdependência sónica, resultando num",
-      "url": "https://www.agenda-porto.pt/evento/hotelier-eupneia/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Encontro Direito à Diferença",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Galeria da Biodiversidade",
-      "type": "Evento",
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "date": "16 Nov",
-      "desc": "O Encontro Direito à Diferença reúne diferentes perspetivas e experiências para refletir sobre a saúde mental, os direitos humanos e a forma como olhamos para a diferença. O Encontro organiza-se em torno de três grandes eixos temáticos: Direitos Humanos na Saúde Mental, Para Lá da Medicalização e Criatividade na Diferença, que serão explorados em três painéis. No final decorre um debate geral, que partirá das principais questões e ideias suscitadas ao longo dos três painéis e recolhidas por uma",
-      "url": "https://www.agenda-porto.pt/evento/encontro-direito-a-diferenca/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Luísa Sobral",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "date": "16 Nov",
-      "desc": "Cartas de Desamor é o oitavo álbum de Luísa Sobral e assinala a sua aproximação à música tradicional portuguesa. Explorando novos territórios, este trabalho nasce como um renascimento criativo e emocional após um período de maior introspeção. Sem nunca perder o foco nas letras e na canção de autor, a compositora cruza a sua identidade com os ritmos e as percussões da nossa cultura.",
-      "url": "https://www.agenda-porto.pt/evento/cdm-luisa-sobral/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Leituras no Mosteiro",
       "area": "Porto",
       "city": "Porto",
@@ -544,6 +494,22 @@
       "date": "17 Nov",
       "desc": "No âmbito das celebrações do Dia Universal dos Direitos da Criança, esta sessão convida os mais novos a embarcar numa viagem pelo universo da alimentação saudável através da leitura de uma história especialmente dirigida a crianças dos 5 aos 9 anos. A partir das aventuras das personagens, serão explorados temas como a descoberta de novos alimentos, a valorização de hábitos alimentares saudáveis e a importância de uma relação positiva com a comida. Pretende-se, ainda, promover a reflexão sobre os",
       "url": "https://www.agenda-porto.pt/evento/clube-da-saude-nini-e-simao-a-aventura-da-alimentacao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Quebra-Gelo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Associação Quebra-Dados",
+      "type": "Evento",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "date": "17 Nov",
+      "desc": "\"Terça-feira, 17 de novembro, aparece na Quebra-Dados a partir das 20h00 para jogar jogos de tabuleiro! Com pessoas voluntárias prontas para explicar os jogos e com o espírito dedicado a conhecer novas pessoas, é o momento indicado para te vires divertir e fazer novas amizades. Vemos-te lá?\"",
+      "url": "https://www.agenda-porto.pt/evento/quebra-gelo-1711/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
@@ -778,7 +744,7 @@
     {
       "area": "Aveiro",
       "city": "Aveiro",
-      "name": "Songs of Ascencion Beatriz Moreira, Iris Auguste e Giulia Miceli / Palcos Instáveis - Segunda Casa",
+      "name": "Songs of Ascension Beatriz Moreira, Iris Auguste e Giulia Miceli / Palcos Instáveis - Segunda Casa",
       "start": "2026-11-19",
       "end": "2026-11-19",
       "url": "https://www.teatroaveirense.pt/pt/evento/songs-of-ascencion/",
@@ -826,6 +792,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "All Ages, de Lorenzo Senni",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Fiasco",
+      "type": "Música",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "O Music on Music tem o prazer de apresentar uma listening session de pré-lançamento do novo álbum do artista multidisciplinar e músico eletrónico italiano Lorenzo Senni, All Ages – em parceria com a Warp e a 8mm Records. O evento, com entrada gratuita, terá lugar na quinta-feira, 19 de novembro de 2026 (19h00), no Fiasco (Porto, Portugal), um dia antes do lançamento do álbum. Este evento de pré-lançamento contará ainda com uma entrevista em vídeo pré-gravada com o próprio Lorenzo Senni, que abor",
+      "url": "https://www.agenda-porto.pt/evento/all-ages-de-lorenzo-senni/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -1090,6 +1074,24 @@
       "date": "20 Nov",
       "desc": "Drink and Draw é um movimento criativo que junta pessoas à volta do desenho e de um copo de vinho (ou de alguns…). A proposta é simples: desenhar sem pressas, sem julgamentos e sem precisares de experiência. Num ambiente descontraído e acolhedor, vais poder criar, experimentar, rir, conversar e deixar-te levar por um tema surpresa, revelado apenas no início da sessão. O foco é o desenho livre, a expressão pessoal e o prazer de desenhar só porque sim. É também uma ótima oportunidade para conhecer",
       "url": "https://www.agenda-porto.pt/evento/drink-andamp-draw-1794564271900/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Komplett Kafka, de Nicolas Mahler",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Exposição",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "Komplett Kafka é uma exposição do ilustrador austríaco Nicolas Mahler, criada por ocasião do centenário da morte de Franz Kafka, em 2024. Com o seu traço minimalista e o seu humor característico, Mahler aproxima-se da vida e da obra de Kafka, combinando citações, episódios biográficos e referências aos seus textos. As ilustrações oferecem um olhar divertido e perspicaz sobre vários aspetos da biografia de um dos autores mais importantes da literatura de expressão alemã. FRANZ KAFKA Nasceu em pra",
+      "url": "https://www.agenda-porto.pt/evento/mostra-komplett-kafka-nicolas-mahler-1794906102075/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -2640,6 +2642,24 @@
       ]
     },
     {
+      "name": "Masterclass com o cineasta Jan Ijäs",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Escola das Artes — Católica",
+      "type": "Evento",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "date": "27 Nov",
+      "desc": "A Escola das Artes e o Porto/Post/Doc: Film & Media Festival voltam a colaborar na edição de 2026, com uma programação conjunta que inclui uma masterclass do cineasta Jan Ijäs. Nesta masterclass, acompanhada por excertos das suas curtas-metragens, o cineasta partilha o seu processo de criação: da origem das ideias à escrita do argumento e ao encontro com os lugares de filmagem. A sessão explorará também como as possibilidades e os limites da película transformam as decisões de rodagem e apuram o",
+      "url": "https://www.agenda-porto.pt/evento/masterclass-com-jan-ijas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
+      ]
+    },
+    {
       "name": "Mechita, de Sol Garcia",
       "area": "Porto",
       "city": "Porto",
@@ -3690,8 +3710,8 @@
       "venue": "Vários locais",
       "type": "Exposição",
       "start": "2026-12-02",
-      "end": "2026-12-02",
-      "date": "2 Dez",
+      "end": "2026-12-04",
+      "date": "2–4 Dez",
       "desc": "No âmbito dos 30 anos da atribuição da classificação da UNESCO de Património Cultural da Humanidade ao Centro Histórico do Porto, as crianças são convidadas a aproximarem-se da história, da arte e da memória viva da cidade. Porto. Património de Crianças é uma proposta educativa e cultural concebida especialmente para o público escola. Trata-se de uma experiência imersiva e gratuita (mediante inscrição prévia), que combina visitas guiadas a três monumentos emblemáticos - o MMIPO; a Torre dos Clér",
       "url": "https://www.agenda-porto.pt/evento/malha-porto-patrimonio-de-criancas/",
       "source": "https://www.agenda-porto.pt/",
@@ -4614,24 +4634,6 @@
       ]
     },
     {
-      "name": "Estação Santo António",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Centro Educativo de Santo António",
-      "type": "Teatro",
-      "start": "2026-12-08",
-      "end": "2026-12-08",
-      "date": "8 Dez",
-      "desc": "Estação Santo António é um projeto de intervenção artística que promove o empoderamento, a expressão e a inclusão de jovens do Centro Educativo Santo António, no Porto. Partindo da experiência da Erva Daninha com contextos de institucionalização, o projeto utiliza o circo, o movimento e a música como ferramentas de transformação pessoal e social. Num cenário marcado por desafios emocionais, comportamentais e de saúde mental, estas práticas oferecem aos jovens novas formas de lidar com o stress,",
-      "url": "https://www.agenda-porto.pt/evento/estacao-santo-antonio/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
       "name": "Sara Correia",
       "area": "Porto",
       "city": "Porto",
@@ -4664,24 +4666,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
-      ]
-    },
-    {
-      "name": "Travessia: Dar Voz aos Livros",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Museu Nacional Soares dos Reis",
-      "type": "Exposição",
-      "start": "2026-12-09",
-      "end": "2026-12-09",
-      "date": "9 Dez",
-      "desc": "Visita com a participação dos próprios autores dos livros de artista. Em cada visita contaremos com a presença de dois autores que partilharão as histórias, as escolhas e os sentidos que deram forma a cada livro. É uma oportunidade para escutar quem cria e descobrir, através do diálogo, o que as páginas nem sempre revelam.",
-      "url": "https://www.agenda-porto.pt/evento/mnsr-travessia-dar-voz-aos-livros-0912/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
       ]
     },
     {
