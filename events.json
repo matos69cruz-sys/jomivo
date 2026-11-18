@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -452,122 +452,20 @@
       "quality_reasons": []
     },
     {
-      "name": "Leituras no Mosteiro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TNSJ — Mosteiro de São Bento da Vitória",
-      "type": "Evento",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "As Leituras no Mosteiro estão de volta. De volta ao seu espaço habitual, a sala do Centro de Documentação, reaberta após as obras no Mosteiro de São Bento da Vitória. De volta à Dramaturgia Portuguesa Contemporânea. E de volta ao tema desta temporada, o repertório, neste caso acrescentando-lhe capítulos novos. Entre setembro e dezembro de 2026, quatro dramaturgos do nosso tempo vão partilhar com os leitores peças da sua autoria: João Luís Barreto Guimarães, poeta, tradutor, Prémio Pessoa (2022)",
-      "url": "https://www.agenda-porto.pt/evento/leituras-mosteiro-1711/",
-      "source": "https://www.agenda-porto.pt/",
+      "name": "Utopia 2026 Jantar Literário Fernando Ribeiro",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Jantar Literário Fernando Ribeiro convida-o para um jantar onde os prazeres da gastronomia e da literatura se encontram à mesa.",
+      "url": "https://visitbraga.travel/event/1326-utopia-2026-jantar-literario-fernando-ribeiro",
+      "source": "https://visitbraga.travel/agenda-braga/",
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "Nerikomi",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "doBarro",
-      "type": "Família",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "Nesta oficina mergulhamos na técnica japonesa de Nerikomi, onde o barro é tingido e combinado em camadas para criar padrões diretamente no material. Ao longo da sessão, vais dominar a preparação de barro colorido com óxidos e aprender a estruturar padrões únicos, com composições gráficas e orgânicas. Depois, transformamos esses padrões em peças como pequenos pratos, chávenas ou objetos decorativos. Cada peça nasce do processo, tornando-se única e irrepetível. A oficina tem a duração de três hora",
-      "url": "https://www.agenda-porto.pt/evento/db-nerikomi/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Nini e Simão: A Aventura da Alimentação",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca Municipal Almeida Garrett",
-      "type": "Evento",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "No âmbito das celebrações do Dia Universal dos Direitos da Criança, esta sessão convida os mais novos a embarcar numa viagem pelo universo da alimentação saudável através da leitura de uma história especialmente dirigida a crianças dos 5 aos 9 anos. A partir das aventuras das personagens, serão explorados temas como a descoberta de novos alimentos, a valorização de hábitos alimentares saudáveis e a importância de uma relação positiva com a comida. Pretende-se, ainda, promover a reflexão sobre os",
-      "url": "https://www.agenda-porto.pt/evento/clube-da-saude-nini-e-simao-a-aventura-da-alimentacao/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Quebra-Gelo",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Associação Quebra-Dados",
-      "type": "Evento",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "\"Terça-feira, 17 de novembro, aparece na Quebra-Dados a partir das 20h00 para jogar jogos de tabuleiro! Com pessoas voluntárias prontas para explicar os jogos e com o espírito dedicado a conhecer novas pessoas, é o momento indicado para te vires divertir e fazer novas amizades. Vemos-te lá?\"",
-      "url": "https://www.agenda-porto.pt/evento/quebra-gelo-1711/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Vozes em Roda",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Yoga sobre o Porto",
-      "type": "Música",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "Oficina de canto improvisado em círculo que oferece uma experiência de partilha e co-criação musical para todos, sem a necessidade de experiência prévia. Um ambiente seguro para explorar as possibilidades sonoras e expressivas da voz através do improviso, criando-se um campo de conexão com a autenticidade e a liberdade vocal individual e coletiva. Praticamos a presença, a escuta, a percepção rítmica e a experimentação sonora integrada ao corpo. Utilizo diversas práticas aprendidas e desenvolvida",
-      "url": "https://www.agenda-porto.pt/evento/vozes-em-roda-1794394979159/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Vânia Leal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "Natural de Barcelos, foi numa festa de escola que Vânia Leal cantou fado em público pela primeira vez, mas ao longo da vida não mais deixou de o fazer. Durante anos conciliou o fado com a sua profissão, até que em 2018 a sua profissão passou a ser… o fado. Por essa altura cantava diariamente em casas do Algarve, região para onde se mudara, mas três anos mais tarde regressou à terra natal e começou a atuar num dos locais mais emblemáticos do Porto, o Restaurante Típico O Fado. Vânia sobe agora ao",
-      "url": "https://www.agenda-porto.pt/evento/cdm-vania-leal/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Where the Flowers Bloom, de Laura Palma",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-17",
-      "end": "2026-11-17",
-      "date": "17 Nov",
-      "desc": "Laura Palma, o nome da jovem fotógrafa vencedora da edição de 2026 do prémio novobanco Revelação, é praticamente homófono do nome da personagem que dá o título a uma série de televisão do realizador norte-americano David Lynch, estreada em 1991, e que se tornou um fenómeno cultural que perdura até hoje (são inúmeras as referências, principalmente na música pop e rock, ao nome da personagem que, embora ausente na maioria dos episódios, é o grande motor da trama de Twin Peaks). Digamos que a artis",
-      "url": "https://www.agenda-porto.pt/evento/serralves-laura-palma-where-the-flowers-bloom-inauguracao-1793787010629/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
     },
     {
       "name": "Banana Split",
@@ -580,6 +478,24 @@
       "date": "18–29 Nov",
       "desc": "Vivemos num mundo onde se agigantam as dificuldades relativas à habitação e às condições dignas de vida. A necessidade de habitação obriga pessoas a partilhar o mesmo espaço. As personagens de Banana Split esbracejam para lidar com as inevitabilidades a que são expostas. Projetos de vida, princípios e necessidades podem transformar-se em barreiras difíceis de transpor.",
       "url": "https://www.agenda-porto.pt/evento/banana-split/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
+      "name": "Cabarex",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Maus Hábitos",
+      "type": "Teatro",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "date": "18 Nov",
+      "desc": "Dedicamos este próximo cabaré ao direito à manifestação, à democracia, à liberdade e à música de intervenção. Porque a liberdade não se pede: exerce-se. Porque a democracia não se cala: constrói-se. E porque a música, quando é voz de resistência, também é uma forma de luta. Que este cabaré seja um espaço de encontro, de expressão, de memória e de resistência. Um espectáculo único, como começam os textos promocionais de todos os restantes eventos que não este, que é mesmo único. Os cabarés da Rép",
+      "url": "https://www.agenda-porto.pt/evento/cabarex-1811/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -831,6 +747,22 @@
       ]
     },
     {
+      "name": "Círculo de homens",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Handy Studio",
+      "type": "Evento",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "date": "19 Nov",
+      "desc": "Círculos de homens em inglês — um espaço onde os homens podem falar abertamente sobre os seus problemas, dúvidas, sentimentos, conquistas e tudo o que lhes vai na alma. Um espaço para dar e receber apoio de outros homens e, acima de tudo, para sermos nós próprios, sem a pressão de parecermos fortes, bem-sucedidos ou fixes. Resumindo, é uma excelente forma de cuidar da saúde mental, criar ligações genuínas com outros homens e combater a solidão e o isolamento. Não temos qualquer ligação à cultura",
+      "url": "https://www.agenda-porto.pt/evento/circulo-de-homens/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "FIATO em Vinil",
       "area": "Porto",
       "city": "Porto",
@@ -1012,6 +944,57 @@
       ]
     },
     {
+      "name": "Braga/Post/Doc A Cidade e os Mapas",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "O documentário A Cidade e os Mapas acompanha dois percursos pelo Porto, revelando diferentes formas de conhecer e explorar a cidade através dos mapas.",
+      "url": "https://visitbraga.travel/event/1322-bragapostdoc-a-cidade-e-os-mapas",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Utopia 2026 Casa Alheia",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "A partir do Livro do Desassossego, Francisco Fontes cria um espetáculo entre a ópera e o teatro musicado, inspirado no universo de Bernardo Soares.",
+      "url": "https://visitbraga.travel/event/1329-utopia-2026-casa-alheia",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
+    },
+    {
+      "name": "Utopia 2026 Jantar Literário João Tordo",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Gastronomia",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "João Tordo convida-o para um jantar onde os prazeres da gastronomia e da literatura se encontram à mesa.",
+      "url": "https://visitbraga.travel/event/1327-utopia-2026-jantar-literario-joao-tordo",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "bata",
       "area": "Porto",
       "city": "Porto",
@@ -1074,6 +1057,24 @@
       "date": "20 Nov",
       "desc": "Drink and Draw é um movimento criativo que junta pessoas à volta do desenho e de um copo de vinho (ou de alguns…). A proposta é simples: desenhar sem pressas, sem julgamentos e sem precisares de experiência. Num ambiente descontraído e acolhedor, vais poder criar, experimentar, rir, conversar e deixar-te levar por um tema surpresa, revelado apenas no início da sessão. O foco é o desenho livre, a expressão pessoal e o prazer de desenhar só porque sim. É também uma ótima oportunidade para conhecer",
       "url": "https://www.agenda-porto.pt/evento/drink-andamp-draw-1794564271900/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
+      "name": "Fláchebach, de Diogo Gama",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Teodoro W.",
+      "type": "Exposição",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "date": "20 Nov",
+      "desc": "Teodoro W. apresenta Fláchebach , de Diogo Gama, patente de 20 de novembro a 30 de dezembro. Por ocasião da inauguração de Fláchebach , será lançada uma nova publicação que reúne uma série de respostas à proposta de Diogo Gama.",
+      "url": "https://www.agenda-porto.pt/evento/flachebach-inauguracao/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 2,
       "quality_level": "INTERESSANTE",
@@ -1346,6 +1347,24 @@
       ]
     },
     {
+      "name": "Braga/Post/Doc Nha Balila – Dentu d’Algem",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Aos 92 anos, Nha Balila reencontra a diáspora cabo-verdiana em Portugal, num documentário sobre música, memória e identidade.",
+      "url": "https://visitbraga.travel/event/1323-bragapostdoc-nha-balila-dentu-dalgem",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Concerto BUDDA GUEDES E TATANKA - PORTUGUESE BLUES REUNION",
       "area": "Braga",
       "city": "Braga",
@@ -1435,6 +1454,22 @@
       ]
     },
     {
+      "name": "Utopia 2026 Apresentação do conto e oficina O Peixinho Sábio",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Outros",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "Um conto sobre peixinhos mágicos que procuram descobrir a origem de uma misteriosa mudança na água do rio, acompanhado de oficina.",
+      "url": "https://visitbraga.travel/event/1328-utopia-2026-apresentacao-do-conto-e-oficina-o-peixinho-sabio",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "A Cor está na Rua!",
       "area": "Porto",
       "city": "Porto",
@@ -1479,22 +1514,6 @@
       "url": "https://www.agenda-porto.pt/evento/alquimia-interior/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "As 5 Faces do Perdão",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Ordem dos Contabilistas Certificados",
-      "type": "Evento",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "date": "21 Nov",
-      "desc": "O projeto Alma Talks apresenta Rossandro Klinjey no dia 21 de novembro no auditório da OCC Porto com a palestra \"As 5 Faces do Perdão\". Bilhetes já disponíveis em Alma Tickets. Produção: Onda Produtora. \"O perdão é um dos processos mais desafiadores e transformadores da vida humana. Muitas vezes confundido com esquecimento ou submissão, ele é, na verdade, um ato de libertação. Nesta palestra, Rossandro Klinjey apresenta as cinco faces do perdão, explorando como cada uma delas pode impactar nossa",
-      "url": "https://www.agenda-porto.pt/evento/alma-talks-com-rossandro-klinjey/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
     },
@@ -2064,6 +2083,24 @@
       ]
     },
     {
+      "name": "FIOB Minutos de Órgão",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Música",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "A música de órgão está de volta à Sé de Braga, com Samuel Pinto a interpretar um programa que reúne obras de C. P. E. Bach, C. Seixas e C. Simper.",
+      "url": "https://visitbraga.travel/event/1321-fiob-minutos-de-orgao",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Nime — Jonas Petry",
       "area": "Porto",
       "city": "Porto",
@@ -2552,6 +2589,22 @@
       ]
     },
     {
+      "name": "Braga/Post/Doc Esta Vida de Marinheiro",
+      "area": "Braga",
+      "city": "Braga",
+      "venue": "",
+      "type": "Festas & Cultura",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "date": "27 Nov",
+      "desc": "Um retrato de João Aguardela que revisita o seu percurso e a sua obra, entre a tradição e a experimentação, nos projetos Sitiados, Megafone e A Naifa.",
+      "url": "https://visitbraga.travel/event/1325-bragapostdoc-esta-vida-de-marinheiro",
+      "source": "https://visitbraga.travel/agenda-braga/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Five Minutes Younger, de Polina Borodina",
       "area": "Porto",
       "city": "Porto",
@@ -2598,6 +2651,24 @@
       "date": "27 Nov",
       "desc": "Quando a música vem do PA ou daquele retrovisor que nos espelha o início dos anos 2000. A festa que reúne o Peter Castro (Pyrats - Beyoncé Fest e Batidão Baile Funk) e Slimcutz (Monster Jinx - PCGC e Purple Hazin´), com as respectivas hordas de seguidores, em torno do hip hop e r´n´b que marcou a última mudança de milénio.",
       "url": "https://www.agenda-porto.pt/evento/261127-hollaback/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Los Cubanitos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Porto com Salsa",
+      "type": "Música",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "date": "27 Nov",
+      "desc": "Temos um convite muito especial para ti! Prepara-te para uma noite cheia de ritmo, alegria e sabor cubano, ao som de Los Cubanitos! Vem sentir a energia da música cubana, dançar salsa e viver momentos inesquecíveis numa noite onde a boa disposição não vai faltar! Traz a tua energia, chama os amigos e vem dançar connosco!",
+      "url": "https://www.agenda-porto.pt/evento/los-cubanitos-1794992363421/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3411,6 +3482,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Os Azeitonas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Time Out Market",
+      "type": "Música",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "date": "29 Nov",
+      "desc": "Os Azeitonas chegam ao Time Out Market Porto para um concerto acústico e intimista num palco-mesa, na praça exterior do mercado. Com temas inconformáveis como “Quem és tu, miúda?”, “Café Hollywood”, “Tonto de ti” e “Anda comigo ver os aviões”, prometem trazer muita animação ao mercado, nesta que é o primeiro evento da nova campanha do Time Out Market “À Mesa do Porto”, que celebra a identidade da cidade através das suas pessoas, sabores e histórias à mesa. A entrada é gratuita.",
+      "url": "https://www.agenda-porto.pt/evento/os-azeitonas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "PAUS",
       "area": "Porto",
       "city": "Porto",
@@ -4176,6 +4265,22 @@
       "quality_reasons": []
     },
     {
+      "name": "Mercado de Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Parque de Serralves",
+      "type": "Evento",
+      "start": "2026-12-05",
+      "end": "2026-12-08",
+      "date": "5–8 Dez",
+      "desc": "O Mercado de Natal de Serralves transforma o Parque de Serralves num destino natalício dedicado ao design, à criação contemporânea e ao espírito da época, decorrendo pela primeira vez ao longo de quatro dias, de 5 a 8 de dezembro. Esta edição reúne 55 expositores, o maior número de sempre. Marcas, criadores e produtores apresentam uma seleção de propostas com identidade, que vai do design e da decoração natalícia aos acessórios, vestuário, brinquedos, produtos gourmet e muito mais. Durante estes",
+      "url": "https://www.agenda-porto.pt/evento/0512-mercado-de-natal-de-serralves/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Natal em Azul",
       "area": "Porto",
       "city": "Porto",
@@ -4634,6 +4739,24 @@
       ]
     },
     {
+      "name": "Estação Santo António",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Centro Educativo de Santo António",
+      "type": "Teatro",
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "date": "8 Dez",
+      "desc": "Estação Santo António é um projeto de intervenção artística que promove o empoderamento, a expressão e a inclusão de jovens do Centro Educativo Santo António, no Porto. Partindo da experiência da Erva Daninha com contextos de institucionalização, o projeto utiliza o circo, o movimento e a música como ferramentas de transformação pessoal e social. Num cenário marcado por desafios emocionais, comportamentais e de saúde mental, estas práticas oferecem aos jovens novas formas de lidar com o stress,",
+      "url": "https://www.agenda-porto.pt/evento/estacao-santo-antonio/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Sara Correia",
       "area": "Porto",
       "city": "Porto",
@@ -4666,6 +4789,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Travessia: Dar Voz aos Livros",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Museu Nacional Soares dos Reis",
+      "type": "Exposição",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "date": "9 Dez",
+      "desc": "Visita com a participação dos próprios autores dos livros de artista. Em cada visita contaremos com a presença de dois autores que partilharão as histórias, as escolhas e os sentidos que deram forma a cada livro. É uma oportunidade para escutar quem cria e descobrir, através do diálogo, o que as páginas nem sempre revelam.",
+      "url": "https://www.agenda-porto.pt/evento/mnsr-travessia-dar-voz-aos-livros-0912/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
       ]
     },
     {
