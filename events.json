@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "events": [
     {
       "name": "Call of the West, de Victor Torpedo",
@@ -470,198 +470,6 @@
       ]
     },
     {
-      "name": "Gastronomia | Conversas d’Alguidar",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Gastronomia",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Propõe-se um desafio diferente: ao longo das várias sessões, explorar uma única temática, rica em memórias, tradições e afetos — a gastronomia. ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/gastronomia-conversas-d-alguidar-38",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "Songs of Ascension Beatriz Moreira, Iris Auguste e Giulia Miceli / Palcos Instáveis - Segunda Casa",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "url": "https://www.teatroaveirense.pt/pt/evento/songs-of-ascencion/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Dança",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
-      "name": "A Lemonade Stand-up Comedy",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Evento Cafe",
-      "type": "Teatro",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Local novo, piadas novas (algumas, vá), e uma nova oportunidade de rir em mais uma, mas não apenas só mais uma, noite de A Lemonade Stand-up Comedy em Inglês na cidade Invicta.",
-      "url": "https://www.agenda-porto.pt/evento/a-lemonade-stand-up-comedy-1911/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "All Ages, de Lorenzo Senni",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Fiasco",
-      "type": "Música",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "O Music on Music tem o prazer de apresentar uma listening session de pré-lançamento do novo álbum do artista multidisciplinar e músico eletrónico italiano Lorenzo Senni, All Ages – em parceria com a Warp e a 8mm Records. O evento, com entrada gratuita, terá lugar na quinta-feira, 19 de novembro de 2026 (19h00), no Fiasco (Porto, Portugal), um dia antes do lançamento do álbum. Este evento de pré-lançamento contará ainda com uma entrevista em vídeo pré-gravada com o próprio Lorenzo Senni, que abor",
-      "url": "https://www.agenda-porto.pt/evento/all-ages-de-lorenzo-senni/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Círculo de homens",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Handy Studio",
-      "type": "Evento",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Círculos de homens em inglês — um espaço onde os homens podem falar abertamente sobre os seus problemas, dúvidas, sentimentos, conquistas e tudo o que lhes vai na alma. Um espaço para dar e receber apoio de outros homens e, acima de tudo, para sermos nós próprios, sem a pressão de parecermos fortes, bem-sucedidos ou fixes. Resumindo, é uma excelente forma de cuidar da saúde mental, criar ligações genuínas com outros homens e combater a solidão e o isolamento. Não temos qualquer ligação à cultura",
-      "url": "https://www.agenda-porto.pt/evento/circulo-de-homens/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "FIATO em Vinil",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa Comum",
-      "type": "Família",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Antes de ser espetáculo, a ópera é voz, e às vezes basta ouvi-la. No FIATO em Vinil, o público é convidado a sentar-se e a deixar o tempo abrandar enquanto se dá à escuta. Partindo da temática \"Todas as vozes podem mudar o mundo\", vamos percorrer o espólio da Fonoteca Municipal do Porto, para escutar grandes vozes de outros tempos. É uma sessão de escuta partilhada, sem pressas nem regras, para quem cresceu com estes discos e para quem os descobre pela primeira vez. Uma pausa no meio do festival",
-      "url": "https://www.agenda-porto.pt/evento/fiato-em-vinil/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "experiência especial",
-        "espetáculo familiar"
-      ]
-    },
-    {
-      "name": "Mansion's Cellar",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Após alguns anos a testar as suas ideias no Loco’s Rock, em Douarnenez (Bretanha), e em alguns locais emblemáticos de Rennes, Malo, Louka, Lény, Axel e Thomas formaram naturalmente a sua própria banda sob o nome de Mansion’s Cellar. Este é um projeto de rock psicadélico que combina inspirações das cenas de psych-garage australiana e californiana (Osees, King Gizzard) com influências da world music (Gilles Le Bigot, Altin Gün). A música deles não se limita ao rock; o projeto inclui saxofone e saz",
-      "url": "https://www.agenda-porto.pt/evento/261119-mansionand39s-cellar/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Masterclass de Špela Čadež",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Escola das Artes — Católica",
-      "type": "Evento",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "A Escola das Artes volta a associar-se ao CINANIMA – Festival Internacional de Cinema de Animação de Espinho, com uma programação dedicada à animação contemporânea. No dia 19 de novembro, Špela Čadež apresentará o seu trabalho enquanto realizadora independente de animação e cofundadora da Finta Studio. Falará sobre o seu processo criativo e as técnicas de animação analógica que utiliza para transformar histórias íntimas em narrativas universais. Os seus filmes exploram frequentemente relações hu",
-      "url": "https://www.agenda-porto.pt/evento/masterclass-spela-cadez/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "May B, da companhia Maguy Marin",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Esta peça a partir da obra de Samuel Beckett, cuja gestualidade e atmosfera teatral entram em contradição com a performance física e estética do bailarino, permitiu-nos criar as bases para uma decifração secreta dos nossos gestos mais íntimos, escondidos, menosprezados. Conseguir detectar esses gestos minúsculos ou grandiosos da multidão das vidas quase impercetíveis, banais, nas quais a espera e a imobilidade «não inteiramente» imóvel abrem um vazio, um vasto nada, uma extensão de silêncio chei",
-      "url": "https://www.agenda-porto.pt/evento/1911-may-b/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "no fe-mi-ni-no",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Reitoria da Universidade do Porto",
-      "type": "Família",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "no fe·mi·ni·no é a reflexão artística de Andrea Conangla sobre o papel da mulher na sociedade, na arte e na cultura - uma viagem musical de mais de dois séculos, onde música clássica, música conceptual e cultura pop se cruzam com ativismo, feminismo, música- política e mixed media. O programa, com a duração de uma hora, inicia com uma forte declaração de missão artística ao revisitar a bem-conhecida aria Quando m’en vo da ópera La Bohème à luz da modernidade numa versão para voz, piano, eletróni",
-      "url": "https://www.agenda-porto.pt/evento/fiato-concerto-no-fe-mi-ni-no/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Noite de Apresentações PechaKucha",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "MACS — Multidisciplinary Art and Craft Space",
-      "type": "Exposição",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Quer conectar-se com a comunidade artística do Porto? Tem curiosidade sobre os artistas do MACS? Ou talvez tenha uma obra de arte, uma ideia ou uma inspiração que gostaria de partilhar? A Noite de Apresentações é a sua oportunidade! As apresentações serão ao estilo PechaKucha: 20 diapositivos, 20 segundos cada. Sem discursos longos, apenas imagens e paixão! Apresente o seu trabalho, partilhe um projeto inspirador ou revele o que o motiva. Inscreva-se para apresentar e faça parte de uma noite rep",
-      "url": "https://www.agenda-porto.pt/evento/pechakucha/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
       "name": "O Conceito Inútil",
       "area": "Porto",
       "city": "Porto",
@@ -672,43 +480,6 @@
       "date": "19–22 Nov",
       "desc": "Durante anos, várias dezenas de pessoas em situação de sem-abrigo viveram na parte exterior das saídas de emergência do Teatro São João. Em parceria com a associação cultural Apuro, o TNSJ procurou imaginar, com elas, outras “saídas de emergência”, integrando-as em diferentes projetos artísticos, de modo a evitar a armadilha da guetização. Entretanto, essas pessoas tiveram de procurar abrigo noutros pontos da cidade. “Ficámos então a olhar para as soleiras vazias do teatro, perguntando a nós mes",
       "url": "https://www.agenda-porto.pt/evento/teca-o-conceito-inutil/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Rubel",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Música",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Após o sucesso dos seus últimos concertos esgotados em Portugal, Rubel regressa com a digressão BELEZA. Rubel e Violão , num formato especial e intimista. Em palco, apenas voz e violão, como no início da sua carreira, para uma experiência única, próxima e profundamente envolvente com o público português. O espetáculo percorre canções marcantes de toda a discografia do artista, incluindo temas do seu mais recente álbum, Beleza . Mas agora a gente faz o que com isso? , que foi destacado na lista d",
-      "url": "https://www.agenda-porto.pt/evento/coliseu-rubel/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
-    },
-    {
-      "name": "Todos Contam",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TMP — Campo Alegre",
-      "type": "Teatro",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "date": "19 Nov",
-      "desc": "Fernando Alvim leva ao palco histórias reais, contadas na primeira pessoa, sem filtros e sem rede. Uma noite de humor, emoção e inesperado, com convidados especiais. Porque todos temos uma história para contar. E, nesta noite, todos contam. A primeira edição do Todos Contam no Porto leva a palco Beatriz Gosta, Lena D'Água, Vítor Rua e Pedro Paixão.",
-      "url": "https://www.agenda-porto.pt/evento/todos-contam/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -1067,24 +838,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
-      ]
-    },
-    {
-      "name": "Ξ||||||Ξ, de Pedro Melo Alves",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Canal 180",
-      "type": "Exposição",
-      "start": "2026-11-20",
-      "end": "2026-11-20",
-      "date": "20 Nov",
-      "desc": "Ξ||||||Ξ (lê-se «imm») é uma narrativa sensorial transdisciplinar do compositor Pedro Melo Alves, na intersecção entre a música, a performance tecnológica e as artes digitais. Questionando os fios que ligam a alta cultura, a música pop mainstream e os movimentos urbanos às suas raízes ancestrais, a obra apresenta-se como um palco aberto para o debate ontológico contemporâneo e para a investigação transhumanista e pós-humanista. Para a 180 Media Academy, será exibida uma versão expositiva da peça",
-      "url": "https://www.agenda-porto.pt/evento/3orororororor3-de-pedro-melo-alves-1794583918422/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
       ]
     },
     {
@@ -1630,6 +1383,22 @@
       ]
     },
     {
+      "name": "Mercado Local",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Allmo",
+      "type": "Evento",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "date": "21 Nov",
+      "desc": "No dia 21 de novembro, a partir das 16h, o Mercado Local da Allmo junta uma mistura de segunda mão e arte local, acompanhada de petiscos. Para esta primeira edição, inauguramos também a exposição de Daniela Nunes, «O sonho de ser sem medo. E o buraco onde já esteve tantas vezes». A combinação ideal para uma tarde de arte, mercado e boa companhia. Entrada gratuita!",
+      "url": "https://www.agenda-porto.pt/evento/allmo-mercado-local/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Open Microphone",
       "area": "Porto",
       "city": "Porto",
@@ -1961,6 +1730,25 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Latex",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Allmo",
+      "type": "Exposição",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "date": "22 Nov",
+      "desc": "A Allmotex — a empresa-mãe da Allmo, com armazém no piso inferior do espaço — vai organizar um workshop onde podes criar um top ou saia em látex. Além de fazeres a tua peça, vais conhecer o material e aprender a cuidar dele. O látex tem conquistado cada vez mais espaço na moda. Vem descobrir as possibilidades deste material e experimentar trabalhar com ele. O preço é de 55€, com todos os materiais incluídos. Restam apenas duas vagas! Vamos também ter um pop-up com látex e sobras de material a pr",
+      "url": "https://www.agenda-porto.pt/evento/aprender-a-confecionar-roupa-latex/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "exposição",
+        "atividade prática"
+      ]
     },
     {
       "name": "Nime — Jonas Petry",
@@ -2346,6 +2134,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Rúben Costa convida Megre",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "date": "25 Nov",
+      "desc": "R4W",
+      "url": "https://www.agenda-porto.pt/evento/ruben-costa-convida-megre/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "A Língua Descalça — Luxo",
       "area": "Porto",
       "city": "Porto",
@@ -2434,6 +2240,24 @@
       ]
     },
     {
+      "name": "Panza + Havok + Bonus_Bass",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "date": "26 Nov",
+      "desc": "Panza Havok Bonus_Bass",
+      "url": "https://www.agenda-porto.pt/evento/panza-havok-bonus_bass/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Pinta a tua Cerâmica",
       "area": "Porto",
       "city": "Porto",
@@ -2481,6 +2305,24 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "AQ3 + The Wallpapers",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "date": "27 Nov",
+      "desc": "Concerto + DJ set",
+      "url": "https://www.agenda-porto.pt/evento/aq3-the-wallpapers/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Five Minutes Younger, de Polina Borodina",
@@ -2624,6 +2466,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Nuno Forte + Blast + Rabbit",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "date": "27 Nov",
+      "desc": "Nuno Forte Blast Rabbit",
+      "url": "https://www.agenda-porto.pt/evento/nuno-forte-blast-rabbit/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -3012,6 +2872,24 @@
       ]
     },
     {
+      "name": "Lumberjacks21 + Bong + Saken",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Lumberjacks21 (live) Bong Saken",
+      "url": "https://www.agenda-porto.pt/evento/lumberjacks21-bong-saken/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Memória Emprestada",
       "area": "Porto",
       "city": "Porto",
@@ -3187,6 +3065,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Rike + Márcio Reis",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Concerto + DJ set",
+      "url": "https://www.agenda-porto.pt/evento/rike-marcio-reis-1795164866534/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Tecelagem",
       "area": "Porto",
       "city": "Porto",
@@ -3290,6 +3186,22 @@
         "música",
         "experiência especial"
       ]
+    },
+    {
+      "name": "A Arte do Pincel",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Ponte da China — Escola de Mandarim do Porto",
+      "type": "Família",
+      "start": "2026-11-29",
+      "end": "2026-12-06",
+      "date": "29 Nov – 6 Dez",
+      "desc": "Na história da China, o pincel (毛笔, máobǐ) ocupa um lugar muito especial, tanto na caligrafia (书法, shūfǎ) como na pintura tradicional chinesa (国画, guóhuà). Embora sejam duas formas de arte distintas, partilham princípios comuns, como o movimento da mão, o ritmo, a harmonia e a expressividade de cada traço. Neste workshop, dividido em duas sessões, os participantes terão a oportunidade de explorar a ligação entre estas duas artes tradicionais chinesas e, no final, criar os seus próprios marcadore",
+      "url": "https://www.agenda-porto.pt/evento/a-arte-do-pincel/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "A Lemonade Stand-up Comedy",
@@ -3434,6 +3346,24 @@
       ]
     },
     {
+      "name": "Rossy + Xinês + Ricardo Ribeiro + Smile",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez no Porto",
+      "type": "Música",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "date": "29 Nov",
+      "desc": "Rossy Xinês Ricardo Ribeiro Smile",
+      "url": "https://www.agenda-porto.pt/evento/rossy-xines-ricardo-ribeiro-smile/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Som de Cá e de Lá",
       "area": "Porto",
       "city": "Porto",
@@ -3492,6 +3422,24 @@
       "date": "30 Nov",
       "desc": "Mammal Hands Combinando jazz, clássica contemporânea, eletrónica, folk e minimalismo, os Mammal Hands estão na vanguarda de uma nova vaga de artistas britânicos que desafiam fronteiras entre géneros. O trio oriundo de Norwich, formado por Jordan Smart (saxofone), Nick Smart (piano) e Rob Turner (bateria, ex-GoGo Penguin), cedo caiu nas graças de músicos tão reputados como Bonobo ou Jamie Cullum, fruto da sua abordagem criativa. Concertos intensos e hipnóticos são a imagem de marca de um projeto",
       "url": "https://www.agenda-porto.pt/evento/eliana-glass-mammal-hands-anne-paceo/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Laura Tozzi + Ineya & Chichorro Mau",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Era uma vez em Paris",
+      "type": "Música",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "date": "30 Nov",
+      "desc": "Concerto + DJ set",
+      "url": "https://www.agenda-porto.pt/evento/laura-tozzi-ineya-andamp-chichorro-mau/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -4392,7 +4340,7 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "Conservatório de Música do Porto",
-      "type": "Teatro",
+      "type": "Música",
       "start": "2026-12-05",
       "end": "2026-12-05",
       "date": "5 Dez",
@@ -4402,7 +4350,7 @@
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
-        "teatro"
+        "música"
       ]
     },
     {
@@ -4812,6 +4760,24 @@
       ]
     },
     {
+      "name": "Imaculada Habitação",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "LINO espaço cultural",
+      "type": "Teatro",
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "date": "8 Dez",
+      "desc": "No dia 8 de dezembro, das 15h00 às 16h30 o Colectivo Casa da Poesia ocupará o LINO Espaço Cultural com poemas e ambientes sonoros, trazendo a espaços abandonados memórias fabricadas daquilo que cada uma dessas habitações terá sido - e quem sabe, volte um dia a ser. Num roteiro distribuído por todo o prédio, os diferentes espaços convidarão à descoberta da casa como espaço de luta e de afectos, através da palavra, afinal tão pertinente quanto a escuta. Os lucros das entradas reverterão a favor do",
+      "url": "https://www.agenda-porto.pt/evento/imaculada-habitacao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Sara Correia",
       "area": "Porto",
       "city": "Porto",
@@ -4863,6 +4829,42 @@
       "quality_reasons": []
     },
     {
+      "name": "Há Fado no Mercado",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado do Bolhão",
+      "type": "Música",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "date": "9 Dez",
+      "desc": "Há Fado no Mercado é uma iniciativa que leva a música portuguesa aos restaurantes do Bolhão. Esta atuação está a cargo da fadista Ana Ferreira. Programação: 20h00 l Peixe no Mercado 21h00 l Culto ao Bacalhau",
+      "url": "https://www.agenda-porto.pt/evento/ha-fado-no-mercado-0912/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Sakamoto 1996",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "date": "9 Dez",
+      "desc": "Um trio de piano, violino e violoncelo mergulha no universo do compositor japonês Ryuichi Sakamoto, falecido em 2023, revisitando o álbum 1996 através das suas partituras originais, raramente interpretadas. Do repertório deste concerto – uma experiência sensorial potenciada por uma forte componente multimédia – fazem parte obras criadas para bandas sonoras de filmes marcantes como O Último Imperador , Babel , Merry Christmas Mr. Lawrence ou O Monte dos Vendavais , que entram em diálogo com temas",
+      "url": "https://www.agenda-porto.pt/evento/cdm-sakamoto-1996/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Travessia: Dar Voz aos Livros",
       "area": "Porto",
       "city": "Porto",
@@ -4912,6 +4914,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "ICARO x PÚRPURA",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "M.Ou.Co. - JAM Porto",
+      "type": "Música",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "date": "10 Dez",
+      "desc": "O que é um Boémio Gentil? O que é o Urbano Popular Português? O que é um Homem Hétero Desconstruído? ICARO traz estas perguntas para o Mouco Jam com \"Boémio Gentil\", o novo projeto em colaboração com Púrpura, apresentado pela primeira vez ao vivo no Porto. Natural de Aveiro, ICARO é um dos nomes que se tem feito notar na nova música portuguesa, com um percurso que passa também pela representação, da televisão ao teatro, cinema e moda. Em 2025 lançou o EP \"DESCULPA QUALQUER COISA\" e tem vindo a a",
+      "url": "https://www.agenda-porto.pt/evento/jam-porto-icaro-x-purpura/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
@@ -4997,6 +5017,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "area": "Aveiro",
+      "city": "Aveiro",
+      "name": "A Poesia das Pequenas Coisas [ESTREIA] Arte no Tempo",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "url": "https://www.teatroaveirense.pt/pt/evento/a-poesia-das-pequenas-coisas-estreia/",
+      "source": "https://www.teatroaveirense.pt/pt/programacao/",
+      "type": "Música",
+      "venue": "Teatro Aveirense",
+      "desc": "",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     }
   ]
