@@ -1,24 +1,6 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "events": [
-    {
-      "name": "Call of the West, de Victor Torpedo",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa do Infante — Gabinete do Tempo",
-      "type": "Exposição",
-      "start": "2026-05-22",
-      "end": "2026-11-22",
-      "date": "22 Mai – 22 Nov",
-      "desc": "Call of the West é uma história reencontrada. Esta exposição, a realizar-se na Casa do Infante, integra o programa da KISMIF Conference 2026. Trata uma narrativa longínqua de uma viagem, de uma amizade e de um momento irrepetível da cultura underground portuguesa. Estes registos fotográficos – feitos por Victor Torpedo em 1997 (com edição e tratamento de negativos de 35mm por Pedro Medeiros) – narram a primeira viagem dos Tédio Boys aos EUA. Era o augúrio de um mundo que se encontrava (e encontr",
-      "url": "https://www.agenda-porto.pt/evento/call-of-the-west-1779183717356/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
     {
       "name": "50 Anos de Pensamento em Nutrição",
       "area": "Porto",
@@ -54,6 +36,22 @@
       "quality_reasons": [
         "espetáculo familiar"
       ]
+    },
+    {
+      "name": "Leituras no Mosteiro",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TNSJ — Mosteiro de São Bento da Vitória",
+      "type": "Evento",
+      "start": "2026-09-15",
+      "end": "2026-12-15",
+      "date": "15 Set – 15 Dez",
+      "desc": "As Leituras no Mosteiro estão de volta. De volta ao seu espaço habitual, a sala do Centro de Documentação, reaberta após as obras no Mosteiro de São Bento da Vitória. De volta à Dramaturgia Portuguesa Contemporânea. E de volta ao tema desta temporada, o repertório, neste caso acrescentando-lhe capítulos novos. Entre setembro e dezembro de 2026, quatro dramaturgos do nosso tempo vão partilhar com os leitores peças da sua autoria: João Luís Barreto Guimarães, poeta, tradutor, Prémio Pessoa (2022)",
+      "url": "https://www.agenda-porto.pt/evento/leituras-mosteiro/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "60%, de Nuno Pinheiro",
@@ -110,6 +108,25 @@
       ]
     },
     {
+      "name": "From Page To The Stage",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "PAZ — Performance Arts Zone",
+      "type": "Família",
+      "start": "2026-10-06",
+      "end": "2026-12-15",
+      "date": "6 Out – 15 Dez",
+      "desc": "As crianças criam o espetáculo. Em From Page to the Stage , um curso de criação artística para crianças dos 6 aos 12 anos na PAZ – Performance Arts Zone, os participantes não decoram um papel — passam por todas as fases da criação teatral: da leitura de uma história à construção de marionetas e cenário, até à noite de estreia. Ao longo de dez sessões semanais (terças-feiras, das 18h30 às 20h00), entre outubro e dezembro, exploram teatro, movimento, artes plásticas e marionetas, culminando num es",
+      "url": "https://www.agenda-porto.pt/evento/from-page-to-the-stage/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "experiência especial",
+        "espetáculo familiar"
+      ]
+    },
+    {
       "name": "Travessia",
       "area": "Porto",
       "city": "Porto",
@@ -143,6 +160,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Volta ao Palco em 80 Horas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TeCA — Teatro Carlos Alberto",
+      "type": "Evento",
+      "start": "2026-10-12",
+      "end": "2026-12-14",
+      "date": "12 Out – 14 Dez",
+      "desc": "Desenvolvida pela Universidade do Porto em parceria com o Teatro Nacional São João, esta unidade curricular optativa pretende aproximar os estudantes universitários da experiência teatral enquanto espaço de criação e de reflexão. Entre outubro e dezembro, os participantes integram as diferentes etapas de construção de um espetáculo, através do acompanhamento de ensaios, do estudo e análise de textos dramáticos, de visitas ao palco e aos bastidores e da experiência do lugar de espectador. Aberta",
+      "url": "https://www.agenda-porto.pt/evento/teca-volta-ao-palco-em-80-horas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
       ]
     },
     {
@@ -403,16 +438,16 @@
       "quality_reasons": []
     },
     {
-      "name": "Quando Menos Se Espera",
+      "name": "Auto da Barca do Inferno, de Gil Vicente",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Teatro Sá da Bandeira",
+      "venue": "TNSJ — Teatro Nacional de São João",
       "type": "Teatro",
-      "start": "2026-11-11",
-      "end": "2026-11-22",
-      "date": "11–22 Nov",
-      "desc": "Quando menos se espera… tudo pode acontecer! Este é o ponto de partida para uma das maiores comédias dos próximos tempos! Adalberto Mascarenhas, dono de um grande escritório de contabilidade, às voltas com o casamento da filha e os gastos excessivos da sua mulher, vê a sua vida de pernas quando se prepara para ministrar uma importante palestra. Ele só precisa de sossego, mas o dia escolhido é precisamente aquele em que tudo desmorona: a filha recusa-se a casar. A vizinha, sensual e extravagante,",
-      "url": "https://www.agenda-porto.pt/evento/tsb-quando-menos-se-espera/",
+      "start": "2026-11-12",
+      "end": "2026-12-13",
+      "date": "12 Nov – 13 Dez",
+      "desc": "Depois de morrerem, um Fidalgo, um Onzeneiro, um Parvo, um Sapateiro, um Frade, uma Alcoviteira, um Corregedor, um Procurador, um Enforcado e quatro Cavaleiros chegam a um cais e encontram um Anjo e um Diabo, que os transportarão ao seu derradeiro destino: o Paraíso ou o Inferno? O que dizem ao Anjo para o convencerem a levá-los para o desejado Paraíso? Como tentam escapar ao Diabo? E o que realmente terão feito em vida para merecerem um ou outro destino? O Teatro Nacional São João convidou Mart",
+      "url": "https://www.agenda-porto.pt/evento/tnsj-auto-da-barca-do-inferno/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -541,231 +576,6 @@
       "quality_reasons": [
         "teatro"
       ]
-    },
-    {
-      "name": "O Conceito Inútil",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "TeCA — Teatro Carlos Alberto",
-      "type": "Teatro",
-      "start": "2026-11-19",
-      "end": "2026-11-22",
-      "date": "19–22 Nov",
-      "desc": "Durante anos, várias dezenas de pessoas em situação de sem-abrigo viveram na parte exterior das saídas de emergência do Teatro São João. Em parceria com a associação cultural Apuro, o TNSJ procurou imaginar, com elas, outras “saídas de emergência”, integrando-as em diferentes projetos artísticos, de modo a evitar a armadilha da guetização. Entretanto, essas pessoas tiveram de procurar abrigo noutros pontos da cidade. “Ficámos então a olhar para as soleiras vazias do teatro, perguntando a nós mes",
-      "url": "https://www.agenda-porto.pt/evento/teca-o-conceito-inutil/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Feira das Velharias",
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "venue": "",
-      "type": "Festas & Cultura",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "Destinada a promover a venda e troca de velharias, antiguidades, artigos colecionáveis e similares [inclui artigos de cerâmica decorativa, móveis ...",
-      "url": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro/evento/feira-das-velharias-83",
-      "source": "https://www.cm-aveiro.pt/visitantes/agenda-aveiro",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "FIOB Minutos de Órgão",
-      "area": "Braga",
-      "city": "Braga",
-      "venue": "",
-      "type": "Música",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "A música de órgão está de volta à Sé de Braga, com Samuel Pinto a interpretar um programa que reúne obras de C. P. E. Bach, C. Seixas e C. Simper.",
-      "url": "https://visitbraga.travel/event/1321-fiob-minutos-de-orgao",
-      "source": "https://visitbraga.travel/agenda-braga/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Fórum Serpentina",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "GUR x It's a Book",
-      "type": "Família",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "Bora brincar na rua? O primeiro Fórum Serpentina vai desenrolar-se ao longo de quatro encontros teórico-práticos, dedicados a aprofundar os temas e os lugares que sustentam a nossa visão de uma Cidade Brincável. Uma vez por mês, ao domingo, juntamos famílias, moradores e todas as pessoas interessadas para partilhar ideias, trocar experiências e experimentar formas de apropriação e transformação do espaço público. Haverá instalações para brincar, sessões de filmes e conversas com especialistas co",
-      "url": "https://www.agenda-porto.pt/evento/forum-serpentina-2211/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Latex",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Allmo",
-      "type": "Exposição",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "A Allmotex — a empresa-mãe da Allmo, com armazém no piso inferior do espaço — vai organizar um workshop onde podes criar um top ou saia em látex. Além de fazeres a tua peça, vais conhecer o material e aprender a cuidar dele. O látex tem conquistado cada vez mais espaço na moda. Vem descobrir as possibilidades deste material e experimentar trabalhar com ele. O preço é de 55€, com todos os materiais incluídos. Restam apenas duas vagas! Vamos também ter um pop-up com látex e sobras de material a pr",
-      "url": "https://www.agenda-porto.pt/evento/aprender-a-confecionar-roupa-latex/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": -2,
-      "quality_level": "ROTINA",
-      "quality_reasons": [
-        "exposição",
-        "atividade prática"
-      ]
-    },
-    {
-      "name": "Nime — Jonas Petry",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hotelier",
-      "type": "Música",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "Jonas Petry, também conhecido por Nime, é músico, curador, gestor de editora discográfica e assistente artístico. O seu trabalho situa-se na intersecção entre a música experimental e a arte sonora, tendo por base Leipzig e Berlim. A sua prática musical centra-se na exploração, transformação e modificação consciente de sonoridades e estruturas rítmicas. O seu repertório abrange bateria preparada, tonbak, daf, piano, gravações de campo (field recordings), bem como objetos encontrados — tanto natur",
-      "url": "https://www.agenda-porto.pt/evento/cloroformio-07/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Paisagem",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Parque de Serralves",
-      "type": "Família",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "A oficina convida a uma descoberta ativa das paisagens do parque, a partir da observação direta, da escuta atenta e da interpretação criativa dos espaços. Propõe-se olhar com tempo, registar o que habitualmente passa despercebido e descobrir as múltiplas camadas, naturais, humanas, históricas e sensoriais, que constroem o lugar.",
-      "url": "https://www.agenda-porto.pt/evento/2211-oficina-de-familias-or-paisagem/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Rucho Veiga + Pastkual + Bonus Bass",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "23h59/6h00 PRESTIGE INVICTUS presents 🎧 Rucho Veiga 🎧 Pastkual 🎧 Bonus Bass",
-      "url": "https://www.agenda-porto.pt/evento/prestige-invictus/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Singspiele, de Maguy Marin",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "«A história de cada pessoa faz-se através da sua necessidade ilimitada de ser reconhecida; a amizade designa essa capacidade infinita de reconhecimento. Imaginar que essa necessidade constante seja a do outro, que o outro, tal como nós próprios, esteja à mercê dessa exigência e empenhado em obter resposta, que se devore a si próprio e que fique como um animal se a resposta não vier, é a isso que nos devemos obrigar e é esse o inferno da vida quando lhe falhamos. O caminho do reconhecimento é o i",
-      "url": "https://www.agenda-porto.pt/evento/2211-singspiele/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Solistas da Orquestra Sinfónica",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "O oboé assume o protagonismo em mais um recital do ciclo Café com Nata. O programa abre com uma partitura de Mozart escrita para o maior oboísta da sua época, Friedrich Ramm. Desta vez, o desafio é entregue a Roberto Henriques, que é também solista numa exigente obra de Britten onde se recupera uma forma do século XVI, a fantasia.",
-      "url": "https://www.agenda-porto.pt/evento/cdm-solistas-da-orquestra-sinfonica/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Vincent Peirani",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "Vincent Peirani é um dos acordeonistas mais inovadores da Europa. Compositor e improvisador, o músico francês cruza jazz, música clássica, contemporânea e rock numa linguagem criativa e singular. Galardoado com os Victoires du Jazz em 2014 (“Revelação”) e 2015 (“Artista do Ano”), destacou-se tanto pelos projetos próprios como por colaborações com artistas como Daniel Humair, Michel Portal ou Sanseverino, além do trabalho para cinema. Neste concerto apresenta \"Time Reflections\", o quarto capítulo",
-      "url": "https://www.agenda-porto.pt/evento/cdm-vincent-peirani/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Wallow — Gospel de Natal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hard Club",
-      "type": "Família",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "Neste Natal, o Mercado Ferreira Borges transforma-se num lugar de encontro, música e celebração! Prepara-te para viver um momento especial, onde a música se cruza com o espírito natalício e cada voz celebra aquilo que torna esta época tão única: Música, emoção e espírito de Natal. Um ambiente especial para partilhar com amigos, família e toda a comunidade. Uma celebração aberta a todos, porque a magia do Natal é ainda maior quando é partilhada. Vem sentir a energia, celebrar a época mais mágica",
-      "url": "https://www.agenda-porto.pt/evento/wallow-gospel-de-natal/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Árvores Luminosas",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Matérica",
-      "type": "Família",
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "date": "22 Nov",
-      "desc": "É Natal, vamos fazê-lo original? Preparamos para famílias, crianças e adultos, um ciclo de oficinas específicas para a época. Procuramos recriar, montar e desmontar o tema de época, com especial atenção às matérias e processos envolvidos por forma a criarmos um futuro mais equilibrado. Árvores Luminosas é uma oficina de cerâmica onde podemos construir uma peça tridimensional, uma árvore de Natal que no final irá emitir a verdadeira Luz deste Natal. Esperamos que se divirtam, temos muitas sessões",
-      "url": "https://www.agenda-porto.pt/evento/arvores-luminosas-1794831187588/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
     },
     {
       "name": "Rodrigo Leão",
@@ -928,6 +738,22 @@
       ]
     },
     {
+      "name": "Diálogos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Universidade Portucalense Infante D. Henrique",
+      "type": "Evento",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "date": "25 Nov",
+      "desc": "A Universidade Portucalense assinala esta quarta-feira, dia 25 de novembro, o Dia Internacional para a Eliminação da Violência contra as Mulheres com a primeira edição dos “Diálogos”, uma iniciativa que pretende sensibilizar para a prevenção e o combate à violência contra as mulheres. A violência contra as mulheres continua a ser um problema social que exige atenção, prevenção e respostas. Nas relações de intimidade, pode assumir diferentes formas e evoluir para situações de extrema gravidade, t",
+      "url": "https://www.agenda-porto.pt/evento/dia-internacional-para-a-eliminacao-da-violencia-contra-as-mulheres/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Hora de Ponta",
       "area": "Porto",
       "city": "Porto",
@@ -1082,7 +908,7 @@
       ]
     },
     {
-      "name": "Libra Concerto",
+      "name": "Libra",
       "area": "Porto",
       "city": "Porto",
       "venue": "Plano B",
@@ -1615,6 +1441,22 @@
       "quality_reasons": []
     },
     {
+      "name": "A Influência Inglesa no Porto",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Palácio da Bolsa",
+      "type": "Evento",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Com Paulo Rangel (Ministro dos Negócios Estrangeiros), Paul Symington (Symington Family Estates), Clara Ferreira Alves (jornalista e escritora) e Ignacio Peyró (autor da obra e diretor do Instituto Cervantes em Roma) A relação entre Portugal e Inglaterra, marcada por séculos de aliança, comércio e intercâmbio cultural, deixou marcas profundas na história e na identidade do Porto. Do comércio do vinho à arquitetura, da Feitoria Inglesa ao chá e ao desporto, a presença britânica faz parte da histó",
+      "url": "https://www.agenda-porto.pt/evento/a-iinfluencia-inglesa-no-porto/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "A Lã — Da Ovelha ao Fio",
       "area": "Porto",
       "city": "Porto",
@@ -1696,6 +1538,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Criação de Coroas de Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "MACS — Multidisciplinary Art and Craft Space",
+      "type": "Exposição",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Chegou a altura! O Natal está quase a chegar e aquele entusiasmo mágico que todos sentíamos em crianças merece regressar! A cala_concept e a Macs juntaram-se para vos trazer um pouco de magia festiva! Juntem-se a nós num workshop de Natal divertido e criativo, onde poderão explorar belas decorações natalícias, criar a vossa própria coroa de Natal e levá-la para casa para dar um toque pessoal à vossa época festiva. Querem tornar tudo ainda mais especial? Sintam-se à vontade para trazer um pequeno",
+      "url": "https://www.agenda-porto.pt/evento/criacao-de-coroas-de-natal/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
       ]
     },
     {
@@ -2014,6 +1874,22 @@
       ]
     },
     {
+      "name": "Sunflower Gathering",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Healing House",
+      "type": "Evento",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Todas as doações revertem diretamente para a Angels of the Trinity, Patronage Services, que apoia famílias e crianças ucranianas. O evento será composto por duas partes maravilhosas. Sinta-se à vontade para participar apenas numa das partes ou para ficar durante todo o evento. PARTE 1 - Jornada de Cura e Som 15h45-19h00 | Com base em doações | 25-45 € | Limitado a 12 pessoas 15j45 - Chegada e boas-vindas 16h00 - Discurso de boas-vindas 16h10 - Prática suave centrada no corpo com Kathrin, psicólo",
+      "url": "https://www.agenda-porto.pt/evento/sunflower-gathering/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Tecelagem",
       "area": "Porto",
       "city": "Porto",
@@ -2046,6 +1922,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Tradições de Natal (Ou Não)",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Almada 13",
+      "type": "Exposição",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "Há histórias que cabem num selo. Memórias que atravessam gerações, sabores que nos levam à infância e tradições que nos fazem sentir em casa. Este Natal, 25 artistas dão vida a 25 selos ilustrados, inspirados em tudo aquilo que faz parte do nosso imaginário português! Do Natal às tradições de sempre, dos pequenos rituais às memórias mais inesperadas. Porque Portugal também se conta através daquilo que guardamos no coração. Um calendário de advento diferente, com 25 histórias para descobrir, um s",
+      "url": "https://www.agenda-porto.pt/evento/tradicoes-de-natal-ou-nao-1795425152586/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
     },
     {
       "name": "Vinhos no Mercado: Especial de Natal",
@@ -2375,6 +2269,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Vasco Lé & Bruna de Moura",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hotelier",
+      "type": "Música",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "date": "29 Nov",
+      "desc": "Vasco Lé & Bruna de Moura // som quadrifónico // Clorofórmio é uma extensão do Cloro, onde continuamos a explorar a musica ambiente, e não só, mas em quadrifonia. Esta oitava e especial edição – com o apoio da Galeria Municipal do Porto e Pláka, da Ágora – Cultura e Desporto do Porto, E.M., S.A., traz-nos à piscina Vasco Lé E Bruna de Moura. A entrada é gratuita, mediante reserva, e o jantar (7.50 euros) será servido após o concerto apenas para quem quiser. Vamos pedir que retirem os sapatos ant",
+      "url": "https://www.agenda-porto.pt/evento/vasco-le-andamp-bruna-de-moura/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Eliana Glass +Mammal Hands + Anne Paceo",
@@ -3007,6 +2919,22 @@
       ]
     },
     {
+      "name": "A Arca de Noémia, de Laborinho Lúcio",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Evento",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "date": "5 Dez",
+      "desc": "As Bibliotecas Municipais do Porto, em resposta ao convite da «Associação Todos. E Ninguém», recentemente constituída para honrar o legado de Laborinho Lúcio, promovem, em sua homenagem, uma leitura coletiva de excertos do romance póstumo, «A arca de Noémia», agora chegado às livrarias. Este momento simbólico pretende evocar o percurso de um autor cuja obra, pensamento e intervenção pública se pautaram pela defesa de valores éticos e democráticos. A sessão contará com a presença de Raquel Patria",
+      "url": "https://www.agenda-porto.pt/evento/leitura-coletiva-a-arca-de-noemia-romance-postumo-de-laborinho-lucio/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "A Carrinha, de Eloy Calvo",
       "area": "Porto",
       "city": "Porto",
@@ -3223,6 +3151,22 @@
       "date": "5 Dez",
       "desc": "Este Natal, convidamos-te a explorar uma forma diferente de criar os teus próprios ornamentos natalícios, combinando a cerâmica com a magia da cianotipia. Nesta oficina, vamos experimentar esta técnica fotográfica alternativa que utiliza a luz para criar imagens em diferentes tons de azul, explorando a impressão de elementos naturais, fotografias, desenhos e outras imagens através da criação de fotolitos. Cada participante poderá trazer as suas próprias imagens ou pequenas memórias que queira et",
       "url": "https://www.agenda-porto.pt/evento/natal-em-azul/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "O Meu Jarro é Maior que o Teu",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "BASE atelier",
+      "type": "Família",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "date": "5 Dez",
+      "desc": "Neste workshop vamos fazer uma jarra ou jarro e aprender as técnicas de modelagem tradicionais. Iremos decorar com texturas e no final serão pintadas com engobes coloridos. O nosso objetivo é proporcionar-te uma experiência divertida, independentemente do teu nível de conhecimento prévio sobre cerâmica.",
+      "url": "https://www.agenda-porto.pt/evento/o-meu-jarro-e-maior-que-o-teu-1795425293563/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
@@ -4627,6 +4571,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Reset Revolução",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Salão Paroquial do Bonfim",
+      "type": "Teatro",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "date": "12–13 Dez",
+      "desc": "Pode um grupo de teatro ser uma comunidade? Reset Revolução nasce desta pergunta e da vontade de pensar a democracia como uma prática diária de encontro, conflito e construção coletiva. Numa assembleia impossível onde se encontram todas as revoluções falhadas, chocam sonhos interrompidos, lutas inacabadas e futuros que nunca vão acontecer. O Grupo de Teatro Comunitário do Bonfim reúne-se para imaginar novas formas de decisão entre desacordos e possibilidades, num movimento de vozes que se cruzam",
+      "url": "https://www.agenda-porto.pt/evento/reset-revolucao-1312/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Rodrigo Ferreira",
       "area": "Porto",
       "city": "Porto",
@@ -4780,6 +4742,40 @@
       ]
     },
     {
+      "name": "Contact Improvisation Jam",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Agra",
+      "type": "Dança",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "A Jam é um encontro de movimento aberto, baseado nos princípios da contact improvisation — uma forma de dança que explora o contacto físico, o equilíbrio partilhado e a improvisação em tempo real. Começamos juntos com um aquecimento facilitado antes de entrar na dança livre. Sem coreografia, sem julgamento, com muito contacto e escuta. Aberta a toda a gente, independentemente da experiência.",
+      "url": "https://www.agenda-porto.pt/evento/contact-improvisation-jam-1312/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "dança"
+      ]
+    },
+    {
+      "name": "Free Style Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "É Natal, vamos fazê-lo original? Preparamos para famílias, crianças e adultos, um Ciclo de Oficinas específicas para a época. Procuramos recriar, montar e desmontar o tema de época, com especial atenção às matérias e processos envolvidos por forma a criarmos um futuro mais equilibrado. Em FREE STYLE CHRISTMAS podemos dar largas à nossa imaginação, criando ao nosso próprio estilo a nossa própria peça Natalícia em Cerâmica. Uma peça que poderá ser aquele presente para alguém bem especial ou então",
+      "url": "https://www.agenda-porto.pt/evento/free-style-natal/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "Fórum Serpentina",
       "area": "Porto",
       "city": "Porto",
@@ -4794,6 +4790,42 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Glenn Miller Orchestra",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "Criada em 1956, a Glenn Miller Orchestra é hoje uma das big bands mais populares e requisitadas do mundo. Dirigida pelo maestro Ray McVay, está de regresso à Sala Suggia para um concerto especial de Natal que promete encantar o público com êxitos intemporais saídos da pena de Glenn Miller, a exemplo de “Moonlight Serenade”, “In The Mood”, “Tuxedo Junction” e “Chattanooga Choo Choo”, entre muitos outros, e clássicos natalícios como “Santa Claus is coming to town” ou “Jingle Bells”. Um convite irr",
+      "url": "https://www.agenda-porto.pt/evento/cm-glenn-miller-orchestra/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Gwenifer Raymond",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/evento/rca-gwenifer-raymond/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Homenagem a Lopes-Graça",
@@ -4884,6 +4916,38 @@
       "quality_reasons": [
         "exposição"
       ]
+    },
+    {
+      "name": "Estratégias para Lidar com a Mudança",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Evento",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "date": "15 Dez",
+      "desc": "Num período marcado pelo balanço do caminho percorrido e pela perspetiva de novos começos, esta sessão convida à reflexão sobre a forma como encaramos a mudança e os desafios que lhe estão associados. Serão partilhadas estratégias para promover a adaptação, fortalecer a resiliência e desenvolver uma atitude positiva perante a incerteza, reforçando recursos pessoais que contribuam para o bem-estar emocional e para uma transição mais consciente e saudável entre ciclos e etapas da vida. Mafalda Mat",
+      "url": "https://www.agenda-porto.pt/evento/clube-da-saude-estrategias-para-lidar-com-a-mudanca/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Leituras no Mosteiro",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TNSJ — Mosteiro de São Bento da Vitória",
+      "type": "Evento",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "date": "15 Dez",
+      "desc": "As Leituras no Mosteiro estão de volta. De volta ao seu espaço habitual, a sala do Centro de Documentação, reaberta após as obras no Mosteiro de São Bento da Vitória. De volta à Dramaturgia Portuguesa Contemporânea. E de volta ao tema desta temporada, o repertório, neste caso acrescentando-lhe capítulos novos. Entre setembro e dezembro de 2026, quatro dramaturgos do nosso tempo vão partilhar com os leitores peças da sua autoria: João Luís Barreto Guimarães, poeta, tradutor, Prémio Pessoa (2022)",
+      "url": "https://www.agenda-porto.pt/evento/leituras-mosteiro-1512/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "area": "Aveiro",
