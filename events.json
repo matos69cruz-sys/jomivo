@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "events": [
     {
       "name": "50 Anos de Pensamento em Nutrição",
@@ -74,24 +74,6 @@
       ]
     },
     {
-      "name": "Caligrafia Rotunda e Iluminura",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Biblioteca Municipal Almeida Garrett",
-      "type": "Exposição",
-      "start": "2026-10-27",
-      "end": "2026-11-24",
-      "date": "27 Out – 24 Nov",
-      "desc": "A Gótica Rotunda é uma das mais marcantes escritas da tradição caligráfica portuguesa. De formas arredondadas e elegantes, teve particular importância em Portugal, sendo utilizada em documentos régios e de chancelaria, manuscritos religiosos e outros documentos solenes. É também no contexto da reforma manuelina que encontramos esta escrita em documentos como o Foral da Cidade do Porto. Ao longo de cinco sessões, vamos descobrir e praticar a Gótica Rotunda, explorando a construção das letras minú",
-      "url": "https://www.agenda-porto.pt/evento/oficinas-de-caligrafia-rotunda-e-iluminura/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
       "name": "Mercado da Alegria (Passeio Alegre)",
       "area": "Porto",
       "city": "Porto",
@@ -138,25 +120,6 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "SeriTerças",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Oficina Mescla",
-      "type": "Exposição",
-      "start": "2026-11-03",
-      "end": "2026-11-24",
-      "date": "3–24 Nov",
-      "desc": "As SeriTerças funcionam como formação contínua e têm duração de um mês. Dividem-se em sessões de 3 horas, às terças-feiras das 18h às 21h. É um curso de nível II, orientado para que já sabe fazer e/ou participou no nível I. Esta opção é ideal para os que querem aproveitar a nossa ajuda e material para criar 2 edições de serigrafia a 2 ou 3 cores cada! Mais informações: oficinamescla.com Inscrições: oficinamescla@gmail.com",
-      "url": "https://www.agenda-porto.pt/evento/seritercas-nov/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": -2,
-      "quality_level": "ROTINA",
-      "quality_reasons": [
-        "exposição",
-        "atividade prática"
-      ]
     },
     {
       "name": "A Poesia Adora Andar Descalça",
@@ -331,6 +294,24 @@
       "quality_reasons": []
     },
     {
+      "name": "A(r)riscar",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca de Arqueologia / Reservatório — Museu do Porto",
+      "type": "Exposição",
+      "start": "2026-11-14",
+      "end": "2026-12-12",
+      "date": "14 Nov – 12 Dez",
+      "desc": "Partindo da coleção da Biblioteca de Arqueologia e das obras reunidas em “O Jardim de Camões”, Luísa Jorge continua o Ciclo A(r)riscar orientando oficinas onde o desenho de observação serve como ponto de partida para explorar e reinterpretar vestígios, formas e narrativas. Entre o olhar atento e a palavra poética, o traço torna-se uma ferramenta de descoberta, num percurso onde a Ilustração Científica se constrói em equilíbrio entre rigor e imaginação.",
+      "url": "https://www.agenda-porto.pt/evento/arriscar-ciclo-de-ilustracao-cientifica-oficinas-de-ilustracao-cientifica-1793014959428/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Attention Deficit, de Nick Austin",
       "area": "Porto",
       "city": "Porto",
@@ -416,76 +397,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
-      ]
-    },
-    {
-      "name": "Rodrigo Leão",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-23",
-      "end": "2026-11-24",
-      "date": "23–24 Nov",
-      "desc": "Assinalando o 26.º aniversário de \"Alma Mater\", Rodrigo Leão dedica este concerto ao álbum que insuflou na sua música de raiz erudita e cinematográfica uma respiração pop direta – de que os temas “A Casa” (Adriana Calcanhoto) e “Pasion” (Lula Pena) são claros exemplos. Em palco, um ensemble instrumental, um coro e convidados especiais recriam a arquitetura de contrastes do disco: do lirismo contido à tensão quase dramática. É a reposição viva de uma obra que redefiniu a música portuguesa contemp",
-      "url": "https://www.agenda-porto.pt/evento/misty-fest-rodrigo-leao-1777882532409/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Bastonada",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Passos Manuel",
-      "type": "Música",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "date": "24 Nov",
-      "desc": "Bastonada é uma banda electropunk do Porto, formada em 2025. O projeto combina sintetizadores analógicos, batidas pulsantes, guitarras elétricas distorcidas e letras urgentes e satíricas. Em palco, os concertos são intensos e diretos, com uma energia que provoca o público a sentir a crueza e rebeldia do punk. A banda resulta da união de elementos com backgrounds musicais distintos, culminando numa fusão de música eletrónica, punk, prog e noise. Os Bastonada são Alexandre Sequeira (“THOVEN”), Gui",
-      "url": "https://www.agenda-porto.pt/evento/ppd-bastonada/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Precisamos da Religião?",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço Agra",
-      "type": "Evento",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "date": "24 Nov",
-      "desc": "Os Cafés Filosóficos são encontros que devolvem o palco da discussão aos participantes. É no Espaço Agra que o grupo debate temas do universo filosófico, numa conversa informal onde todos têm a oportunidade de expressar uma opinião. Cada sessão dura cerca de 1h30/2h e tem o custo de 4 euros. Moderação: Maria Eduarda Leite, Fundadora do Coletivo Tagarela O Coletivo Tagarela pertence aos que fazem demasiadas perguntas, aos que nunca saíram da fase dos porquês, aos que não dormem a pensar nas grand",
-      "url": "https://www.agenda-porto.pt/evento/precisamos-da-religiao/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Sessões de escuta À La Carte",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Lola Hi-Fi",
-      "type": "Música",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "date": "24 Nov",
-      "desc": "Esta semana, o À la Carte leva-nos até à Argentina, onde a melancolia tem ritmo, as guitarras têm história e as canções raramente passam despercebidas. A partir do jazz, do rock e das suas fusões e mutações, iremos ao encontro do carácter mais revolucionário de um país que nunca teve medo de se ouvir com o volume no máximo.",
-      "url": "https://www.agenda-porto.pt/evento/sessoes-de-escuta-a-la-carte-argentina/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -610,6 +521,24 @@
       ]
     },
     {
+      "name": "Petiscos e Rabiscos",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "ACASO atelier criativo",
+      "type": "Exposição",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "date": "25 Nov",
+      "desc": "\"O que vamos fazer? Uma mesa. Vários petiscos. Algumas provocações. E tu, no meio disto tudo, a escolher por onde começar. O desafio parece simples: escolher. À tua frente vais encontrar um pequeno menu de propostas exploratórias que nasceram no atelier do ACASO. São temas, gestos, matérias e possibilidades que já nos fizeram parar, experimentar, insistir, mudar de direção. Agora voltam à mesa para serem descobertos outra vez — por ti. Não vais fazer tudo. Vais escolher. E escolher, quando se tr",
+      "url": "https://www.agenda-porto.pt/evento/acaso-atelier-petiscos-e-rabiscos/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Ritmos e Batidas",
       "area": "Porto",
       "city": "Porto",
@@ -725,6 +654,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "música"
+      ]
+    },
+    {
+      "name": "Laboratório de Exploração Artística",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "ACASO atelier criativo",
+      "type": "Exposição",
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "date": "26 Nov",
+      "desc": "Para qualquer pessoa que queira experimentar e explorar a sua criatividade. Não precisas de experiência prévia, só de curiosidade, presença e vontade de te deixares levar pelo processo. No Laboratório de Exploração Artística, o foco está na exploração e no ato de criar, mais do que num resultado final. Criamos juntos um espaço vivo, onde o gesto, a cor, o movimento e a intuição têm valor, e onde cada participante é convidado a descobrir, experimentar e expressar-se de forma autêntica, sem julgam",
+      "url": "https://www.agenda-porto.pt/evento/laboratorio-de-exploracao-artistica-2611/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
       ]
     },
     {
@@ -2147,16 +2094,18 @@
       "area": "Porto",
       "city": "Porto",
       "venue": "Largo do Amor de Perdição",
-      "type": "Família",
+      "type": "Música",
       "start": "2026-11-29",
       "end": "2026-11-29",
       "date": "29 Nov",
       "desc": "Cremalheira do Apocalipse é uma máquina que cria música incatalogável que lhes apetece, em conjunto e com um objectivo claramente indefinido. Armados de baterias, teclados, guitarras, bidons e baldes, sem nunca se baldarem, emancipam-se com este álbum de mensagem ácida e profética. Para quem se apazigua com rótulos diz ser entre punk, rock ou indie. A programação de Natal do Porto conta com uma Sala de Regulação Sensorial, destinada a pessoas neurodivergentes ou mais sensíveis ao ruído.",
       "url": "https://www.agenda-porto.pt/evento/2911-cremalheira-do-apocalipse/",
       "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
     },
     {
       "name": "Flogging",
@@ -2226,6 +2175,22 @@
         "experiência especial",
         "espetáculo familiar"
       ]
+    },
+    {
+      "name": "Labareda",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Cultural Jubilant",
+      "type": "Família",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "date": "29 Nov",
+      "desc": "A LABAREDA está de volta! Já quase terminou o outono e vem aí dezembro e as suas festas! Assim que é momento de vir a LABAREDA e fazer as tuas prendas! Nesta edição temos artistxs e projetos novos, desde ilustração, croché, bordado, escultura, joalheira, macramé, cosmética artesanal, instrumentos musicais e outras artes! O espaço será uma das casas mais aconchegantes da Invicta: o Jubilant, onde não só poderás compras aos artistas, mas também terá comes e bebes da casa e um espaço de sala-bar-co",
+      "url": "https://www.agenda-porto.pt/evento/labareda-1795599708595/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Natal em Movimento",
@@ -2401,23 +2366,7 @@
       ]
     },
     {
-      "name": "Coros pela cidade",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Largo do Amor de Perdição",
-      "type": "Família",
-      "start": "2026-11-30",
-      "end": "2026-11-30",
-      "date": "30 Nov",
-      "desc": "Este Natal, a música de diferentes coros vai percorrer vários locais da cidade do Porto.",
-      "url": "https://www.agenda-porto.pt/evento/3011-coros-pela-cidade/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
-      "name": "Eliana Glass +Mammal Hands + Anne Paceo",
+      "name": "Eliana Glass + Mammal Hands + Anne Paceo",
       "area": "Porto",
       "city": "Porto",
       "venue": "Casa da Música",
@@ -3444,13 +3393,13 @@
       "name": "Coro 8x4",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Hospital São João",
+      "venue": "Centro Hospitalar Conde de Ferreira",
       "type": "Música",
       "start": "2026-12-05",
       "end": "2026-12-05",
       "date": "5 Dez",
-      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música a vários hospitais da cidade.",
-      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4-1795019584260/",
+      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música ao Centro Hospitalar Conde Ferreira.",
+      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3462,13 +3411,13 @@
       "name": "Coro 8x4",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Centro Hospitalar Conde de Ferreira",
+      "venue": "Hospital São João",
       "type": "Música",
       "start": "2026-12-05",
       "end": "2026-12-05",
       "date": "5 Dez",
-      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música ao Centro Hospitalar Conde Ferreira.",
-      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4/",
+      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música a vários hospitais da cidade.",
+      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4-1795019584260/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3728,6 +3677,22 @@
       "date": "5 Dez",
       "desc": "Neste workshop vamos fazer uma jarra ou jarro e aprender as técnicas de modelagem tradicionais. Iremos decorar com texturas e no final serão pintadas com engobes coloridos. O nosso objetivo é proporcionar-te uma experiência divertida, independentemente do teu nível de conhecimento prévio sobre cerâmica.",
       "url": "https://www.agenda-porto.pt/evento/o-meu-jarro-e-maior-que-o-teu-1795425293563/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "O Quebra Nozes",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "EMARA — Escola de Música",
+      "type": "Família",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "date": "5 Dez",
+      "desc": "Imagine um lugar mágico cheio de sons divertidos e canções alegres, especialmente feito para os mais novos! É exatamente nesse lugar onde irão acontecer as sessões de Música em Família da EMARA, em parceria com o Projeto Gira Sol! Num ambiente pensado exclusivamente para os mais pequenos, focadas nos estímulos sensoriais e no desenvolvimento musical desde os primeiros meses de vida, as sessões de Música em Família têm como principal objetivo a exploração dos sentidos, onde as crianças podem ouvi",
+      "url": "https://www.agenda-porto.pt/evento/o-quebra-nozes/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
@@ -4242,7 +4207,7 @@
       "name": "Voga Chamber Orchestra",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Igreja Corpo Santo de Massarelos",
+      "venue": "Igreja Corpo Santos de Massarelos",
       "type": "Música",
       "start": "2026-12-06",
       "end": "2026-12-06",
@@ -5024,6 +4989,22 @@
       ]
     },
     {
+      "name": "Abraçar o Mundo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Quarteirão de Miguel Bombarda",
+      "type": "Família",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "A artista plástica Joana Valente, residente no Porto, amiga e entusiasta do Quarteirão Cultural Miguel Bombarda, colabora com projetos de apoio a crianças com trissomia 21, é cofundadora da “Eu Sou Eu – Associação para a Inclusão Social de Crianças e Jovens”. Expõe e colabora com regularidade nas Inaugurações Simultâneas desde 2019. No dia 12 de dezembro apresenta o seu projeto individual \"Abraçar o Mundo\" e desenvolve uma atividade de artes plásticas para crianças. Para todas as idades. Não req",
+      "url": "https://www.agenda-porto.pt/evento/bombarda-abracar-o-mundo-1791910412371/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
       "name": "APUROS 16 (4.º aniversário)",
       "area": "Porto",
       "city": "Porto",
@@ -5089,6 +5070,24 @@
       "date": "12 Dez",
       "desc": "Diogo Silva, Nuno Fulgêncio e Rui Martins formam colectivamente os Bardino . A música que criam tem sido descrita e/ou categorizada como o resultado de uma mistura inventiva de eletrónica, rock, jazz e algo mais, quase sempre forçando aqueles que enfrentam essa tarefa a recorrer a expressões como \"krautrock\", \"fusion jazz\" ou \"ambient electronica\" para tentar mapear o seu som. O facto de ser necessária uma tal profusão de descritores para traçar o seu perfil já é um sinal de que, de facto, o que",
       "url": "https://www.agenda-porto.pt/evento/rca-bardino-brian-blaker/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Beatriz Abrunhosa + Pedro Oliveira",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TMP — Rivoli",
+      "type": "Música",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "Beatriz Abrunhosa iniciou os seus estudos de guitarra aos dez anos na Escola de Música Óscar da Silva, onde estudou com o professor Pedro Correia, acabando o 5º grau com nota máxima. Em 2023, foi admitida no Conservatório de Música do Porto, na classe do professor Paulo Peres, terminando igualmente com nota máxima na Prova de Aptidão Artística. Participou em masterclasses dirigidas por Dejan Ivanovich, Aires Pinheiro, Paulo Peres, Nuno Cachada, Danijel Cerovic, Artur Caldeira, Ricardo Abreu, And",
+      "url": "https://www.agenda-porto.pt/evento/tmp-beatriz-abrunhosa-pedro-oliveira/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -5185,6 +5184,24 @@
       ]
     },
     {
+      "name": "Dog Life Drawing",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Hakko",
+      "type": "Exposição",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "Uma sessão de desenho com cães como modelos ao vivo: entre movimentos inesperados e diferentes poses, os participantes são convidados a experimentar técnicas e a criar desenhos rápidos e divertidos. A atividade é aberta a todas as idades e níveis de experiência. Os materiais estão incluídos e a sessão decorre em português e inglês. 12 de dezembro de 2026, das 16h30 às 18h, no Hakko, Rua do Rosário, 313, Porto. Participação: 12 €. Crianças gratuitas quando acompanhadas por um adulto. Lugares limi",
+      "url": "https://www.agenda-porto.pt/evento/dog-life-drawing/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Espelho Meu, Espelho Teu",
       "area": "Porto",
       "city": "Porto",
@@ -5239,6 +5256,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Mercado de natal MACS",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "MACS — Multidisciplinary Art and Craft Space",
+      "type": "Exposição",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "O nosso mercado de Natal anual da MACS está repleto de joias, cerâmica, ilustrações, pinturas, têxteis e objetos artesanais. Para além dos nossos belíssimos expositores, teremos a nossa incrível TOMBOLA! Nela, terá a hipótese de ganhar peças dos nossos artistas. Fique atento ao nosso Instagram para mais detalhes! 📅 Sábado, 12 de dezembro de 2026 📍 MACS 🕚 11:00–19:00",
+      "url": "https://www.agenda-porto.pt/evento/macs-mercado-de-natal/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "Movimento, com Victor Hugo Pontes",
       "area": "Porto",
       "city": "Porto",
@@ -5273,6 +5308,22 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Natal Criativo",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Quarteirão de Miguel Bombarda",
+      "type": "Família",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "O Porto celebra o espírito natalício com uma tarde dedicada à criatividade, à arte e à participação cultural. No sábado, 12 de dezembro, entre as 15h00 e as 19h00, o Natal Criativo convida o público a participar no programa gratuito de animação cultural, integrado na programação de Natal do Município do Porto e promovido pela Ágora. A iniciativa reúne uma mostra de criativos, oficinas artísticas, escrita criativa e música, proporcionando ao público uma tarde de experimentação, partilha e descobe",
+      "url": "https://www.agenda-porto.pt/evento/bombarda-natal-criativo/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Natal de Bolso",
@@ -5408,6 +5459,25 @@
       "quality_reasons": []
     },
     {
+      "name": "Postais de Natal #2",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca de Poesia Eugénio de Andrade",
+      "type": "Exposição",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "Partindo da utilização de aparo e tinta, nesta oficina orientada pelo calígrafo João Fonseca, vamos criar um postal de Natal com base numa letra ornamentada, uma moldura e elementos decorativos. O desafio é que cada participante experimente uma técnica diferente e possa desenhar e executar manualmente uma letra ornamentada convertida num cartão-postal original, para guardar ou dar, como manda a tradição no Natal. Para maiores de 16 anos",
+      "url": "https://www.agenda-porto.pt/evento/oficina-postais-de-natal-2/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": -2,
+      "quality_level": "ROTINA",
+      "quality_reasons": [
+        "exposição",
+        "atividade prática"
+      ]
+    },
+    {
       "name": "Rodrigo Ferreira",
       "area": "Porto",
       "city": "Porto",
@@ -5478,6 +5548,38 @@
       "quality_reasons": [
         "música"
       ]
+    },
+    {
+      "name": "Um Natal Português: Vamos Pintar?",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Galeria Cor Própria",
+      "type": "Família",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "Desta vez, o workshop é aberto a todos! Clientes, artistas ou simplesmente curiosos, estão todos convidados a dar asas à criatividade e a pintar símbolos da tradição portuguesa em peças de cerâmica: Galos de Barcelos, andorinhas e sardinhas! A ideia é simples: criar peças únicas, ao teu gosto e com a tua assinatura. Para oferecer a alguém especial, para decorar a tua árvore de Natal, a tua parede, a tua estante ou simplesmente para ficares com ela. Porque este Natal, o melhor presente pode muito",
+      "url": "https://www.agenda-porto.pt/evento/um-natal-portugues-vamos-pintar-1212/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Visita Sazonal de Outono",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Parque de Serralves",
+      "type": "Família",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "O outono transforma o Parque de Serralves numa paisagem de cores, texturas e aromas singulares. Entre folhas que se desprendem com árvores que se preparam para o inverno, esta visita convida a descobrir os ritmos e as curiosidades da natureza nesta estação. Um percurso de exploração e contemplação que desperta os sentidos e revela a beleza das mudanças que atravessam o Parque.",
+      "url": "https://www.agenda-porto.pt/evento/1212-visita-sazonal-de-outono/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
     },
     {
       "name": "Volta ao Mundo numa Hora",
@@ -5568,7 +5670,7 @@
     {
       "area": "Aveiro",
       "city": "Aveiro",
-      "name": "Começar tudo outra vez Tonan Quito",
+      "name": "Começar tudo outra vez Tonan Quito e Raquel André",
       "start": "2026-12-19",
       "end": "2026-12-19",
       "url": "https://www.teatroaveirense.pt/pt/evento/comecar-tudo-outra-vez/",
