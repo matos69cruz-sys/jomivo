@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "events": [
     {
       "name": "50 Anos de Pensamento em Nutrição",
@@ -35,6 +35,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "espetáculo familiar"
+      ]
+    },
+    {
+      "name": "60%, de Nuno Pinheiro",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Centro Português de Fotografia",
+      "type": "Exposição",
+      "start": "2026-09-19",
+      "end": "2026-12-13",
+      "date": "19 Set – 13 Dez",
+      "desc": "60% é a percentagem de sobreviventes de cancro ao fim de cinco anos — um dado estatístico que serve de ponto de partida para a exposição autobiográfica de Nuno Pinheiro. Reunindo 60 imagens produzidas desde o final da década de 1970 até à atualidade, esta mostra propõe um percurso visual sobre a construção da identidade e o crescimento pessoal. Através da fotografia, o autor revisita experiências de sobrevivência, questiona as diferenças na educação de meninas e meninos, reflete sobre o papel do",
+      "url": "https://www.agenda-porto.pt/evento/60percent/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
       ]
     },
     {
@@ -74,6 +92,24 @@
       ]
     },
     {
+      "name": "Travessia",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Museu Nacional Soares dos Reis",
+      "type": "Exposição",
+      "start": "2026-10-09",
+      "end": "2026-12-13",
+      "date": "9 Out – 13 Dez",
+      "desc": "Travessia é uma mostra coletiva que reúne livros de artista criados por pessoas com experiência de doença mental, no âmbito do Programa Arte e Saúde. A exposição é fruto do trabalho desenvolvido ao longo de 2026 entre o MNSR, a Unidade Local de Saúde de Santo António (ULSSA), através do Serviço de Reabilitação Psicossocial do Hospital de Magalhães Lemos, e a Unidade Local de Saúde de São João (ULSSJ), através da Unidade de Ação para o Desenvolvimento e Integração (UADI). A integração da ULSSJ co",
+      "url": "https://www.agenda-porto.pt/evento/mnsr-travessia/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "exposição"
+      ]
+    },
+    {
       "name": "A Ferida Técnica",
       "area": "Porto",
       "city": "Porto",
@@ -89,6 +125,24 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
+      ]
+    },
+    {
+      "name": "Volta ao Palco em 80 Horas",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TeCA — Teatro Carlos Alberto",
+      "type": "Evento",
+      "start": "2026-10-12",
+      "end": "2026-12-14",
+      "date": "12 Out – 14 Dez",
+      "desc": "Desenvolvida pela Universidade do Porto em parceria com o Teatro Nacional São João, esta unidade curricular optativa pretende aproximar os estudantes universitários da experiência teatral enquanto espaço de criação e de reflexão. Entre outubro e dezembro, os participantes integram as diferentes etapas de construção de um espetáculo, através do acompanhamento de ensaios, do estudo e análise de textos dramáticos, de visitas ao palco e aos bastidores e da experiência do lugar de espectador. Aberta",
+      "url": "https://www.agenda-porto.pt/evento/teca-volta-ao-palco-em-80-horas/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "experiência especial"
       ]
     },
     {
@@ -224,6 +278,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Auto da Barca do Inferno, de Gil Vicente",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "TNSJ — Teatro Nacional de São João",
+      "type": "Teatro",
+      "start": "2026-11-12",
+      "end": "2026-12-13",
+      "date": "12 Nov – 13 Dez",
+      "desc": "Depois de morrerem, um Fidalgo, um Onzeneiro, um Parvo, um Sapateiro, um Frade, uma Alcoviteira, um Corregedor, um Procurador, um Enforcado e quatro Cavaleiros chegam a um cais e encontram um Anjo e um Diabo, que os transportarão ao seu derradeiro destino: o Paraíso ou o Inferno? O que dizem ao Anjo para o convencerem a levá-los para o desejado Paraíso? Como tentam escapar ao Diabo? E o que realmente terão feito em vida para merecerem um ou outro destino? O Teatro Nacional São João convidou Mart",
+      "url": "https://www.agenda-porto.pt/evento/tnsj-auto-da-barca-do-inferno/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
+    },
+    {
       "name": "Não Há Condições!",
       "area": "Porto",
       "city": "Porto",
@@ -310,39 +382,6 @@
       ]
     },
     {
-      "area": "Aveiro",
-      "city": "Aveiro",
-      "name": "O Som da Água: Música em estado líquido Concerto de encerramento dos Festivais de Outono 2026",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "url": "https://www.teatroaveirense.pt/pt/evento/o-som-da-agua-musica-em-estado-liquido/",
-      "source": "https://www.teatroaveirense.pt/pt/programacao/",
-      "type": "Música",
-      "venue": "Teatro Aveirense",
-      "desc": "",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Braga/Post/Doc Esta Vida de Marinheiro",
-      "area": "Braga",
-      "city": "Braga",
-      "venue": "",
-      "type": "Festas & Cultura",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Um retrato de João Aguardela que revisita o seu percurso e a sua obra, entre a tradição e a experimentação, nos projetos Sitiados, Megafone e A Naifa.",
-      "url": "https://visitbraga.travel/event/1325-bragapostdoc-esta-vida-de-marinheiro",
-      "source": "https://visitbraga.travel/agenda-braga/",
-      "quality_score": 0,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "A Presença da Palavra na Dança",
       "area": "Porto",
       "city": "Porto",
@@ -357,133 +396,6 @@
       "quality_score": 0,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "AQ3 + The Wallpapers",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez em Paris",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Concerto + DJ set",
-      "url": "https://www.agenda-porto.pt/evento/aq3-the-wallpapers/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Five Minutes Younger, de Polina Borodina",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "A Turma",
-      "type": "Teatro",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "No âmbito do InResidence 2026, selecionámos a artista Polina Borodina (Rússia/Alemanha) para desenvolver, ao longo de dois meses, o projeto \"Five Minutes Younger\". Durante a residência, a artista dedicar-se-á à escrita de uma nova peça de longa duração. \"Five Minutes Younger\" acompanha um homem em busca da irmã, desaparecida enquanto percorria o Caminho de Santiago. Para a encontrar, segue o mesmo percurso entre Portugal e Espanha, atravessando as paisagens que ela conheceu e seguindo os vestígi",
-      "url": "https://www.agenda-porto.pt/evento/five-minutes-younger/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
-    },
-    {
-      "name": "Folgosa Cadafaz + Esquizofonia + Morfose",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Espaço AL859",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A Última Nau apresenta: Folgosa Cadafaz, Esquizofonia e Morfose.",
-      "url": "https://www.agenda-porto.pt/evento/folgosa-cadafaz-esquizofonia-morfose/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": -2,
-      "quality_level": "ROTINA",
-      "quality_reasons": [
-        "música",
-        "atividade rotineira"
-      ]
-    },
-    {
-      "name": "GANSO",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Hard Club",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A tour dos 10 anos de carreira dos Ganso continua, depois de celebrarem, no passado mês de março, uma festa de mais de duas horas de música, convidados especiais e muita cantoria em uníssono num Coliseu dos Recreios cheio. No seguimento de atuarem numa das salas mais emblemáticas do país - naquele que foi o maior concerto dos Ganso em nome próprio até à data - o grupo prepara-se para repetir a dose, apontando a trajetória de voo para Norte. A 27 de novembro os Ganso pousam no Hard Club, no Porto",
-      "url": "https://www.agenda-porto.pt/evento/hard-club-ganso/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Hollaback",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Quando a música vem do PA ou daquele retrovisor que nos espelha o início dos anos 2000. A festa que reúne o Peter Castro (Pyrats - Beyoncé Fest e Batidão Baile Funk) e Slimcutz (Monster Jinx - PCGC e Purple Hazin´), com as respectivas hordas de seguidores, em torno do hip hop e r´n´b que marcou a última mudança de milénio.",
-      "url": "https://www.agenda-porto.pt/evento/261127-hollaback/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Los Cubanitos",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Porto com Salsa",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Temos um convite muito especial para ti! Prepara-te para uma noite cheia de ritmo, alegria e sabor cubano, ao som de Los Cubanitos! Vem sentir a energia da música cubana, dançar salsa e viver momentos inesquecíveis numa noite onde a boa disposição não vai faltar! Traz a tua energia, chama os amigos e vem dançar connosco!",
-      "url": "https://www.agenda-porto.pt/evento/los-cubanitos-1794992363421/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Manel Rosa",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Alameda Shop & Spot",
-      "type": "Teatro",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Depois das férias, há um novo motivo para sorrir! Entre os meses de setembro e novembro o Alameda Shop&Spot vai transformar-se num verdadeiro palco de comédia ao apresentar o Alameda Comedy Club. Um ciclo de seis noites de stand-up obrigatórias para todos os amantes de humor, que prometem fazer com que o regresso à rotina seja mais leve e divertido. O melhor de tudo, é que a entrada é gratuita! O line-up reúne alguns dos maiores nomes do stand-up nacional, garantindo uma programação diversificad",
-      "url": "https://www.agenda-porto.pt/evento/alameda-manel-rosa/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "teatro"
-      ]
     },
     {
       "name": "MANUAL DE DEFESA, de Júlio Cerdeira",
@@ -504,24 +416,6 @@
       ]
     },
     {
-      "name": "Masterclass com o cineasta Jan Ijäs",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Escola das Artes — Católica",
-      "type": "Evento",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A Escola das Artes e o Porto/Post/Doc: Film & Media Festival voltam a colaborar na edição de 2026, com uma programação conjunta que inclui uma masterclass do cineasta Jan Ijäs. Nesta masterclass, acompanhada por excertos das suas curtas-metragens, o cineasta partilha o seu processo de criação: da origem das ideias à escrita do argumento e ao encontro com os lugares de filmagem. A sessão explorará também como as possibilidades e os limites da película transformam as decisões de rodagem e apuram o",
-      "url": "https://www.agenda-porto.pt/evento/masterclass-com-jan-ijas/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "experiência especial"
-      ]
-    },
-    {
       "name": "Mechita, de Sol Garcia",
       "area": "Porto",
       "city": "Porto",
@@ -537,24 +431,6 @@
       "quality_level": "RECOMENDADO",
       "quality_reasons": [
         "teatro"
-      ]
-    },
-    {
-      "name": "Nuno Forte + Blast + Rabbit",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Era uma vez no Porto",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Nuno Forte Blast Rabbit",
-      "url": "https://www.agenda-porto.pt/evento/nuno-forte-blast-rabbit/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -577,78 +453,6 @@
       ]
     },
     {
-      "name": "O Lago dos Cisnes",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Coliseu Porto Ageas",
-      "type": "Dança",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A Imperial Heritage Ballet apresenta O Lago dos Cisnes , um clássico intemporal que continua a emocionar públicos de todas as gerações. Entre amor, encantamento e destino, este bailado transporta-nos para o universo poético de Odette, princesa transformada em cisne por uma força misteriosa. Entre a delicadeza de Odette e o fascínio de Odile, a realidade dá lugar a um mundo de beleza, ilusão e emoção. Com música de Tchaikovsky, O Lago dos Cisnes é uma celebração do grande ballet clássico, unindo",
-      "url": "https://www.agenda-porto.pt/evento/coliseu-o-lago-dos-cisnes-1791382844321/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "dança"
-      ]
-    },
-    {
-      "name": "PCR",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Maus Hábitos",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "",
-      "url": "https://www.agenda-porto.pt/evento/261127-pcr/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Pindorama Popi",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Real República dos LyS.O.S.",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "baile~punk~mambo~rock~disco~trash~pop~manouche \"O Pindorama Popi nasce do encontro de um vocalista, compositor e letrista chileno que viveu no Brasil durante 30 anos, com dois músicos e compositores portugueses, misturando vivências latino-americanas, de África (Cabo Verde) e forte influência da música eletrônica europeia e também do Rock anglo saxónico; o mul culturalismo deste projeto está na própria pluralidade das experiências ar s cas e de vida dos seus integrantes e criadores. Para além da",
-      "url": "https://www.agenda-porto.pt/evento/pindorama-popi/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
-      "name": "Pizarro interpreta Britten",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Casa da Música",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "A Casa da Música assinala os 50 anos da morte de Benjamin Britten apresentando o seu Concerto para piano, uma obra pouco presente nas salas de concerto tradicionais mas cada vez mais valorizada por grandes intérpretes, fascinados pela sua energia e originalidade.",
-      "url": "https://www.agenda-porto.pt/evento/cdm-pizarro-interpreta-britten/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Post Punk Strikes Back Again",
       "area": "Porto",
       "city": "Porto",
@@ -665,60 +469,6 @@
       "quality_reasons": [
         "música",
         "experiência especial"
-      ]
-    },
-    {
-      "name": "Surface, Otherwise (after STA XLII)",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Serralves",
-      "type": "Exposição",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Para a inauguração de Fallen Vision , a primeira exposição individual de Anri Sala em Portugal, o ensemble vocal EXAUDI interpreta Surface, Otherwise (after STA XLII) , uma nova composição criada especificamente para a exposição. Em colaboração com o compositor Jack Sheen, Sala parte dos processos materiais e temporais da sua prática recente de pintura a fresco para criar uma partitura vocal, integrando a pintura na sua longa investigação sobre o som e o tempo. Patente ao longo da exposição sob",
-      "url": "https://www.agenda-porto.pt/evento/2711-surface-otherwise-after-sta-xlii/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Temáticas Intemporais",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Museu Nacional Soares dos Reis",
-      "type": "Exposição",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Nesta visita atravessamos as exposições para selecionar obras e saborear temáticas intemporais, escritas, pintadas, esculpidas. Cruzamos literatura e artes plásticas em obras que são janelas para o mistério da vida: amor, morte, beleza, sonho, conhecido, desconhecido, transcendência, fraquezas e forças da condição humana… temas chave universais tratados de forma única.",
-      "url": "https://www.agenda-porto.pt/evento/mnsr-tematicas-intemporais-2711/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 2,
-      "quality_level": "INTERESSANTE",
-      "quality_reasons": [
-        "exposição"
-      ]
-    },
-    {
-      "name": "Yo Diablo + Liza Tron",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Ferro Bar",
-      "type": "Música",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "date": "27 Nov",
-      "desc": "Concerto e DJ set",
-      "url": "https://www.agenda-porto.pt/evento/yo-diablo-liza-tron/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
       ]
     },
     {
@@ -819,6 +569,25 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Aurea e Ricardo Ribeiro",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Avenida dos Aliados",
+      "type": "Música",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "date": "28 Nov",
+      "desc": "A inauguração das luzes e da Árvore de Natal está marcada para 28 de novembro, às 18h00, na Avenida dos Aliados. O espetáculo combina música, dança, luz e pirotecnia e conta com as atuações de Áurea, Ricardo Ribeiro e da soprano Marina Pacheco, bem como com a Orquestra Portuguesa de Guitarras e Bandolins e o maestro Hélder Magalhães. Os concertos de Natal na Avenida dos Aliados terão interpretação em Língua Gestual Portuguesa e os recintos contarão com rampas de acesso para pessoas com mobilidad",
+      "url": "https://www.agenda-porto.pt/evento/2811-inauguracao-luzes-natal-aurea/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
+      ]
     },
     {
       "name": "Avesso",
@@ -1442,25 +1211,6 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
-    },
-    {
-      "name": "Áurea e Ricardo Ribeiro",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Avenida dos Aliados",
-      "type": "Música",
-      "start": "2026-11-28",
-      "end": "2026-11-28",
-      "date": "28 Nov",
-      "desc": "A inauguração das luzes e da Árvore de Natal está marcada para 28 de novembro, às 18h00, na Avenida dos Aliados. O espetáculo combina música, dança, luz e pirotecnia e conta com as atuações de Áurea, Ricardo Ribeiro e da soprano Marina Pacheco, bem como com a Orquestra Portuguesa de Guitarras e Bandolins e o maestro Hélder Magalhães. Os concertos de Natal na Avenida dos Aliados terão interpretação em Língua Gestual Portuguesa e os recintos contarão com rampas de acesso para pessoas com mobilidad",
-      "url": "https://www.agenda-porto.pt/evento/2811-inauguracao-luzes-natal-aurea/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 5,
-      "quality_level": "PREMIUM",
-      "quality_reasons": [
-        "música",
-        "experiência especial"
-      ]
     },
     {
       "name": "Ópera de Bolso",
@@ -2715,22 +2465,6 @@
       "quality_reasons": []
     },
     {
-      "name": "Coros pela cidade",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Praça da Batalha",
-      "type": "Família",
-      "start": "2026-12-04",
-      "end": "2026-12-04",
-      "date": "4 Dez",
-      "desc": "Este Natal, a música de diferentes coros vai percorrer vários locais da cidade do Porto.",
-      "url": "https://www.agenda-porto.pt/evento/0412-coros-pela-cidade/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Desenhar Depois de Crescer",
       "area": "Porto",
       "city": "Porto",
@@ -2802,7 +2536,7 @@
       ]
     },
     {
-      "name": "Provocal Ensemble",
+      "name": "ProVocal Ensemble",
       "area": "Porto",
       "city": "Porto",
       "venue": "Praça da Batalha",
@@ -2810,8 +2544,8 @@
       "start": "2026-12-04",
       "end": "2026-12-04",
       "date": "4 Dez",
-      "desc": "O ProVocal Ensemble apresenta neste Natal um concerto que percorre a espiritualidade da música sacra e a expressividade das obras de compositores da atualidade, sem esquecer os mais belos clássicos de Natal. Este será um encontro de vozes e de emoções e onde a magia da quadra natalícia se revelará através da beleza intemporal da música coral.",
-      "url": "https://www.agenda-porto.pt/evento/0412-provocal-ensemble/",
+      "desc": "Este Natal, a música de diferentes coros vai percorrer vários locais da cidade do Porto.",
+      "url": "https://www.agenda-porto.pt/evento/0412-coros-pela-cidade/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -2997,13 +2731,13 @@
       "name": "Coro 8x4",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Hospital São João",
+      "venue": "Centro Hospitalar Conde de Ferreira",
       "type": "Música",
       "start": "2026-12-05",
       "end": "2026-12-05",
       "date": "5 Dez",
-      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música a vários hospitais da cidade.",
-      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4-1795019584260/",
+      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música ao Centro Hospitalar Conde Ferreira.",
+      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3033,13 +2767,13 @@
       "name": "Coro 8x4",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Centro Hospitalar Conde de Ferreira",
+      "venue": "Hospital de Santo António",
       "type": "Música",
       "start": "2026-12-05",
       "end": "2026-12-05",
       "date": "5 Dez",
-      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música ao Centro Hospitalar Conde Ferreira.",
-      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4/",
+      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música ao Hospital de Santo António.",
+      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4-1795020158687/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3051,13 +2785,13 @@
       "name": "Coro 8x4",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Hospital de Santo António",
+      "venue": "Hospital São João",
       "type": "Música",
       "start": "2026-12-05",
       "end": "2026-12-05",
       "date": "5 Dez",
-      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música ao Hospital de Santo António.",
-      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4-1795020158687/",
+      "desc": "Este ano, a programação chega também às freguesias e uniões de freguesia do Porto, com concertos de coros e agrupamentos de música clássica em igrejas, auditórios e hospitais. No dia 5 de dezembro, o grupo 8x4 leva música a vários hospitais da cidade.",
+      "url": "https://www.agenda-porto.pt/evento/0512-coro-8x4-1795019584260/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -3708,6 +3442,24 @@
       ]
     },
     {
+      "name": "Marionete",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Manga Café Porto",
+      "type": "Música",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "date": "6 Dez",
+      "desc": "Mangá Café Porto Intimate Live Session ARTISTA CONVIDADO: Marionete Temos o prazer de anunciar uma atuação ao vivo especial com o artista convidado Marionete! Junta-te a nós para um concerto especial, uma excelente atmosfera e venda de CDs no nosso café. Não percas! [Reservas] Teremos uma bancada de venda de CDs no local! Envia-nos uma DM para reservar o teu lugar! (Vagas limitadas!)",
+      "url": "https://www.agenda-porto.pt/evento/marionete-1795787963224/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "name": "Natal em Movimento",
       "area": "Porto",
       "city": "Porto",
@@ -3812,24 +3564,6 @@
       ]
     },
     {
-      "name": "Pallco",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Largo do Amor de Perdição",
-      "type": "Música",
-      "start": "2026-12-06",
-      "end": "2026-12-06",
-      "date": "6 Dez",
-      "desc": "Música",
-      "url": "https://www.agenda-porto.pt/evento/0612-pallco/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Pequenos Livros, Grandes Histórias",
       "area": "Porto",
       "city": "Porto",
@@ -3855,7 +3589,7 @@
       "end": "2026-12-06",
       "date": "6 Dez",
       "desc": "Três duendes traquinas e hiperativos, membros da equipa de elite de entregas do Pai Natal, decidiram fazer-se à estrada para agilizar a noite mais mágica do ano. Estas criaturas transformam as ruas num autêntico centro logístico da Lapónia em movimento. Entre manobras divertidas, interações diretas com o público e muitas traquinices, os três ajudantes tentam garantir que nenhum presente fica para trás. Uma performance itinerante sobre rodas cheia de ritmo, humor e espírito natalício, que promete",
-      "url": "https://www.agenda-porto.pt/evento/0612-teleduendes/",
+      "url": "https://www.agenda-porto.pt/evento/0612-teleduendes-praca-carlos-alberto/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
@@ -3899,7 +3633,7 @@
       "name": "Voga Chamber Orchestra",
       "area": "Porto",
       "city": "Porto",
-      "venue": "Igreja Corpo Santos de Massarelos",
+      "venue": "Igreja Corpo Santo de Massarelos",
       "type": "Música",
       "start": "2026-12-06",
       "end": "2026-12-06",
@@ -3948,7 +3682,7 @@
       ]
     },
     {
-      "name": "Coros pela cidade",
+      "name": "Coros pela cidade: Coro 8x4",
       "area": "Porto",
       "city": "Porto",
       "venue": "Vários locais",
@@ -4125,22 +3859,6 @@
       ]
     },
     {
-      "name": "Estrelas de Natal",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Largo do Amor de Perdição",
-      "type": "Família",
-      "start": "2026-12-08",
-      "end": "2026-12-08",
-      "date": "8 Dez",
-      "desc": "A oficina de reutilização Estrelas Natalícias, criada e dinamizada por Patrícia Azevedo, para a iniciativa do programa de Natal do Porto, elegem o rolo de papel higiénico como protagonista nesta época natalícia. É um facto que a época natalícia está em volta de muita magia e também em volta de muito consumo e descarte. Quisemos trazer esta magia através da reutilização, onde simples rolos passam a ser lindas estrelas em que os participantes poderão construir, de acordo com a sua idade, ritmo, ca",
-      "url": "https://www.agenda-porto.pt/evento/0812-oficina-de-reutilizacao-estrelas-de-natal/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 1,
-      "quality_level": "POR AVALIAR",
-      "quality_reasons": []
-    },
-    {
       "name": "Estúdio New Project",
       "area": "Porto",
       "city": "Porto",
@@ -4212,13 +3930,29 @@
       "name": "Os Repórteres",
       "area": "Porto",
       "city": "Porto",
+      "venue": "Praça das Cardosas",
+      "type": "Família",
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "date": "8 Dez",
+      "desc": "O Natal está a precisar de publicidade!!! Da boa, de preferência! A Mãe Natal, responsável pela Comunicação&Marketing da Pai Natal Lda, envia para o terreno dois dos seus melhores trabalhadores para captar os momentos que marcam o Natal: as gargalhadas, os encontros, os abraços, a partilha... No entanto, ainda que ambos muito competentes, um não percebe nada de tecnologia e o outro não percebe nada de pessoas. Perguntas inconvenientes, situações caricatas e desafios impossíveis vão marcar as rep",
+      "url": "https://www.agenda-porto.pt/evento/0812-os-reporteres-urban-market/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Os Repórteres",
+      "area": "Porto",
+      "city": "Porto",
       "venue": "Largo do Amor de Perdição",
       "type": "Família",
       "start": "2026-12-08",
       "end": "2026-12-08",
       "date": "8 Dez",
       "desc": "O Natal está a precisar de publicidade!!! Da boa, de preferência! A Mãe Natal, responsável pela Comunicação&Marketing da Pai Natal Lda, envia para o terreno dois dos seus melhores trabalhadores para captar os momentos que marcam o Natal: as gargalhadas, os encontros, os abraços, a partilha... No entanto, ainda que ambos muito competentes, um não percebe nada de tecnologia e o outro não percebe nada de pessoas. Perguntas inconvenientes, situações caricatas e desafios impossíveis vão marcar as rep",
-      "url": "https://www.agenda-porto.pt/evento/0812-os-reporteres/",
+      "url": "https://www.agenda-porto.pt/evento/0812-os-reporteres-natal-no-largo/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
@@ -4607,7 +4341,7 @@
       ]
     },
     {
-      "name": "Coros pela cidade",
+      "name": "Coros pela cidade: Coro Mille Voci",
       "area": "Porto",
       "city": "Porto",
       "venue": "Rua de Alexandre Braga",
@@ -4802,6 +4536,24 @@
       ]
     },
     {
+      "name": "Balleteatrinho",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Balleteatro",
+      "type": "Família",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "O Balleteatrinho é um atelier onde os participantes são convidados a experimentar o movimento e a interpretação de uma obra literária infantil. Trata-se de um atelier de sensibilização e introdução ao mundo da dança, do teatro, do cinema, do circo, das artes plásticas e da música, a partir do estímulo à criatividade e imaginação. No final da sessão, os familiares são convidados a assistir ao resultado do atelier numa pequena peça apresentada pelos participantes. Conceito: Isabel Barros Biografia",
+      "url": "https://www.agenda-porto.pt/evento/balleteatrinho-1212/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "espetáculo familiar"
+      ]
+    },
+    {
       "name": "Band’Uke — Orquestra de Ukuleles",
       "area": "Porto",
       "city": "Porto",
@@ -4940,6 +4692,25 @@
       "quality_reasons": [
         "experiência especial",
         "espetáculo familiar"
+      ]
+    },
+    {
+      "name": "Crashed Recycled [Xmas Edition]",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Mercado do Bolhão",
+      "type": "Música",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "date": "12 Dez",
+      "desc": "\"Recycled XMAS” é a versão itinerante especial de CRASSH que traz ao público toda a sua energia, interação e espírito festivo natalício. Mantendo a irreverência e surpresa características, o espetáculo ganha agora uma nova dimensão melódica com os tubos corrugados CRASSH, que pela primeira vez se juntam à versão itinerante. Entre baldes, capacetes e objetos do quotidiano, surgem arranjos musicais que evocam o imaginário natalício, convidando miúdos e graúdos a mergulhar no imaginário sonoro nata",
+      "url": "https://www.agenda-porto.pt/evento/1212-crashed-recycled-bolhao/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 5,
+      "quality_level": "PREMIUM",
+      "quality_reasons": [
+        "música",
+        "experiência especial"
       ]
     },
     {
@@ -5260,24 +5031,6 @@
       ]
     },
     {
-      "name": "Papi Opus 7",
-      "area": "Porto",
-      "city": "Porto",
-      "venue": "Largo do Amor de Perdição",
-      "type": "Música",
-      "start": "2026-12-12",
-      "end": "2026-12-12",
-      "date": "12 Dez",
-      "desc": "Num jardim de flores sonívoras, as abelhas valsam, o vento murmura e a chuva canta. As estrelas brilham e cintilam em caixas de música; os pássaros passam e param sem pressa. Uma borboleta pousa e diz que esta é a melhor forma de aprender a voar. Um jardineiro floresce e ensina a sua arte a outros cuidadores de plantas. Duração: 60 minutos Faixa Etária: M/3 A programação de Natal do Porto conta com uma Sala de Regulação Sensorial, destinada a pessoas neurodivergentes ou mais sensíveis ao ruído.",
-      "url": "https://www.agenda-porto.pt/evento/1212-papi-opus-7-1795102465226/",
-      "source": "https://www.agenda-porto.pt/",
-      "quality_score": 3,
-      "quality_level": "RECOMENDADO",
-      "quality_reasons": [
-        "música"
-      ]
-    },
-    {
       "name": "Paranhos Collection",
       "area": "Porto",
       "city": "Porto",
@@ -5393,6 +5146,24 @@
       "quality_score": 1,
       "quality_level": "POR AVALIAR",
       "quality_reasons": []
+    },
+    {
+      "name": "Reset Revolução",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Salão Paroquial do Bonfim",
+      "type": "Teatro",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "date": "12–13 Dez",
+      "desc": "Pode um grupo de teatro ser uma comunidade? Reset Revolução nasce desta pergunta e da vontade de pensar a democracia como uma prática diária de encontro, conflito e construção coletiva. Numa assembleia impossível onde se encontram todas as revoluções falhadas, chocam sonhos interrompidos, lutas inacabadas e futuros que nunca vão acontecer. O Grupo de Teatro Comunitário do Bonfim reúne-se para imaginar novas formas de decisão entre desacordos e possibilidades, num movimento de vozes que se cruzam",
+      "url": "https://www.agenda-porto.pt/evento/reset-revolucao-1312/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "teatro"
+      ]
     },
     {
       "name": "Rodrigo Ferreira",
@@ -5617,6 +5388,24 @@
       "quality_reasons": []
     },
     {
+      "name": "Contact Improvisation Jam",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Espaço Agra",
+      "type": "Dança",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "A Jam é um encontro de movimento aberto, baseado nos princípios da contact improvisation — uma forma de dança que explora o contacto físico, o equilíbrio partilhado e a improvisação em tempo real. Começamos juntos com um aquecimento facilitado antes de entrar na dança livre. Sem coreografia, sem julgamento, com muito contacto e escuta. Aberta a toda a gente, independentemente da experiência.",
+      "url": "https://www.agenda-porto.pt/evento/contact-improvisation-jam-1312/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 2,
+      "quality_level": "INTERESSANTE",
+      "quality_reasons": [
+        "dança"
+      ]
+    },
+    {
       "name": "Elfina Patina",
       "area": "Porto",
       "city": "Porto",
@@ -5643,6 +5432,74 @@
       "date": "13 Dez",
       "desc": "Uma das formações da Escola de Música da Freguesia do Bonfim sobe ao palco para um concerto que alia a música à descoberta. Entre interpretações ao vivo e pequenas apresentações sobre o repertório, o público é convidado a conhecer as histórias das músicas e o seu lugar na cultura popular contemporânea. Duração: 60 minutos Faixa Etária: M/3 A programação de Natal do Porto conta com uma Sala de Regulação Sensorial, destinada a pessoas neurodivergentes ou mais sensíveis ao ruído. No mesmo local hav",
       "url": "https://www.agenda-porto.pt/evento/1312-escola-de-musica-da-freguesia-do-bonfim/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Free Style Natal",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Oficina Matérica",
+      "type": "Família",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "É Natal, vamos fazê-lo original? Preparamos para famílias, crianças e adultos, um Ciclo de Oficinas específicas para a época. Procuramos recriar, montar e desmontar o tema de época, com especial atenção às matérias e processos envolvidos por forma a criarmos um futuro mais equilibrado. Em FREE STYLE CHRISTMAS podemos dar largas à nossa imaginação, criando ao nosso próprio estilo a nossa própria peça Natalícia em Cerâmica. Uma peça que poderá ser aquele presente para alguém bem especial ou então",
+      "url": "https://www.agenda-porto.pt/evento/free-style-natal/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Fórum Serpentina",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Largo de Soares dos Reis",
+      "type": "Família",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "Bora brincar na rua? O primeiro Fórum Serpentina vai desenrolar-se ao longo de quatro encontros teórico-práticos, dedicados a aprofundar os temas e os lugares que sustentam a nossa visão de uma Cidade Brincável. Uma vez por mês, ao domingo, juntamos famílias, moradores e todas as pessoas interessadas para partilhar ideias, trocar experiências e experimentar formas de apropriação e transformação do espaço público. Haverá instalações para brincar, sessões de filmes e conversas com especialistas co",
+      "url": "https://www.agenda-porto.pt/evento/forum-serpentina-1312/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Glenn Miller Orchestra",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Casa da Música",
+      "type": "Música",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "Criada em 1956, a Glenn Miller Orchestra é hoje uma das big bands mais populares e requisitadas do mundo. Dirigida pelo maestro Ray McVay, está de regresso à Sala Suggia para um concerto especial de Natal que promete encantar o público com êxitos intemporais saídos da pena de Glenn Miller, a exemplo de “Moonlight Serenade”, “In The Mood”, “Tuxedo Junction” e “Chattanooga Choo Choo”, entre muitos outros, e clássicos natalícios como “Santa Claus is coming to town” ou “Jingle Bells”. Um convite irr",
+      "url": "https://www.agenda-porto.pt/evento/cm-glenn-miller-orchestra/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
+      "name": "Gwenifer Raymond",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "RCA - Radioclube Agramonte / Espaço Agra",
+      "type": "Música",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "date": "13 Dez",
+      "desc": "Concerto",
+      "url": "https://www.agenda-porto.pt/evento/rca-gwenifer-raymond/",
       "source": "https://www.agenda-porto.pt/",
       "quality_score": 3,
       "quality_level": "RECOMENDADO",
@@ -5792,6 +5649,24 @@
       ]
     },
     {
+      "name": "Coro Lira",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Largo do Amor de Perdição",
+      "type": "Música",
+      "start": "2026-12-14",
+      "end": "2026-12-14",
+      "date": "14 Dez",
+      "desc": "Neste concerto, as vozes das crianças do Coro Lira encontram-se para celebrar o Natal como um tempo de encontro, reflexão e esperança. Entre melodias que evocam o imaginário natalício e outras que nos falam de amor, humanidade e da beleza de estarmos juntos, constrói-se uma viagem musical intimista e alegre. Duração: 60 minutos Faixa Etária: M/3 A programação de Natal do Porto conta com uma Sala de Regulação Sensorial, destinada a pessoas neurodivergentes ou mais sensíveis ao ruído. No mesmo loc",
+      "url": "https://www.agenda-porto.pt/evento/1412-coro-lira/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
+      ]
+    },
+    {
       "area": "Aveiro",
       "city": "Aveiro",
       "name": "Arquitetas da Liberdade Ciclo O Problema da Habitação",
@@ -5823,6 +5698,56 @@
       "quality_level": "INTERESSANTE",
       "quality_reasons": [
         "exposição"
+      ]
+    },
+    {
+      "name": "Academia de Música Costa Cabral",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Largo do Amor de Perdição",
+      "type": "Família",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "date": "15 Dez",
+      "desc": "A Academia de Música de Costa Cabral apresenta, no dia 15 de dezembro, pelas 18h30, na Tenda de Natal, situada no Largo do Amor de Perdição, um concerto especialmente dedicado ao espírito natalício. Num ambiente de celebração e harmonia, várias formações camerísticas e o Coro dos alunos do Ensino Secundário irão dar voz e expressão musical a esta quadra tão especial, através de um programa que evoca a magia, a beleza e a tradição do Natal. Mais do que um momento musical, este concerto da Academi",
+      "url": "https://www.agenda-porto.pt/evento/1512-academia-de-musica-costa-cabral/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 1,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Estratégias para Lidar com a Mudança",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Biblioteca Municipal Almeida Garrett",
+      "type": "Evento",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "date": "15 Dez",
+      "desc": "Num período marcado pelo balanço do caminho percorrido e pela perspetiva de novos começos, esta sessão convida à reflexão sobre a forma como encaramos a mudança e os desafios que lhe estão associados. Serão partilhadas estratégias para promover a adaptação, fortalecer a resiliência e desenvolver uma atitude positiva perante a incerteza, reforçando recursos pessoais que contribuam para o bem-estar emocional e para uma transição mais consciente e saudável entre ciclos e etapas da vida. Mafalda Mat",
+      "url": "https://www.agenda-porto.pt/evento/clube-da-saude-estrategias-para-lidar-com-a-mudanca/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 0,
+      "quality_level": "POR AVALIAR",
+      "quality_reasons": []
+    },
+    {
+      "name": "Ranchos pela Cidade",
+      "area": "Porto",
+      "city": "Porto",
+      "venue": "Largo do Amor de Perdição",
+      "type": "Música",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "date": "15 Dez",
+      "desc": "No dia 15 de dezembro, o Rancho Folclórico de Paranhos junta-se à programação de Natal da cidade do Porto.",
+      "url": "https://www.agenda-porto.pt/evento/1512-ranchos-pela-cidade/",
+      "source": "https://www.agenda-porto.pt/",
+      "quality_score": 3,
+      "quality_level": "RECOMENDADO",
+      "quality_reasons": [
+        "música"
       ]
     },
     {
